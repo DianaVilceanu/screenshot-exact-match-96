@@ -7,7 +7,7 @@ import type { ImgKey } from "./images";
  * search engines and the sitemap until a real publication date is set.
  */
 
-export type Category = { slug: string; name: string; description: string };
+export type Category = { id?: string; slug: string; name: string; description: string };
 
 export const categories: Category[] = [
   { slug: "graphic-design", name: "Graphic Design & Branding", description: "Identity, typography and the craft of making brands recognisable." },
@@ -24,6 +24,7 @@ type Block =
 export type Section = { id: string; heading: string; blocks: Block[] };
 
 export type Article = {
+  id?: string;
   slug: string;
   title: string;
   seoTitle?: string;

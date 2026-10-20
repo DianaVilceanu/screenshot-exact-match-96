@@ -6,6 +6,14 @@ import type { Project } from "@/content/projects";
 import { SITE_URL } from "@/content/site";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
 import { seo } from "@/lib/seo";
+import { cn } from "@/lib/utils";
+import camera from "@/assets/hero-camera.webp";
+import laptop from "@/assets/hero-laptop.webp";
+import palette from "@/assets/hero-palette.webp";
+
+const CAMERA = { w: 900, h: 687 };
+const LAPTOP = { w: 1000, h: 691 };
+const PALETTE = { w: 520, h: 836 };
 
 export function homeHead(locale: Locale) {
   const c = content(locale);
@@ -45,17 +53,7 @@ export function HomePage() {
               <em className="text-accent">{h.h1b}</em>
               {h.h1c}
             </h1>
-            <div aria-hidden className="pointer-events-none absolute top-0 right-0 hidden h-full w-[42%] lg:block">
-              <div className="float-slow absolute top-[2%] right-[30%] w-[46%] rotate-[-4deg] shadow-2xl">
-                <Pic k="inklabs-main" alt="" eager sizes="20vw" />
-              </div>
-              <div className="absolute top-[18%] right-0 w-[44%] rotate-[3deg] shadow-2xl">
-                <Pic k="divaz-nails" alt="" eager sizes="20vw" />
-              </div>
-              <div className="float-slow absolute top-[52%] right-[22%] w-[38%] rotate-[2deg] shadow-2xl [animation-delay:-3s]">
-                <Pic k="iq-5" alt="" eager sizes="18vw" />
-              </div>
-            </div>
+            <HeroObjects className="absolute top-0 -right-4 hidden h-full w-[41%] lg:block xl:-right-8" />
           </div>
           <div className="mt-12 grid gap-10 border-t border-border pt-8 md:mt-16 md:grid-cols-12">
             <p className="lede md:col-span-6 lg:col-span-5">{h.lede}</p>
@@ -68,11 +66,7 @@ export function HomePage() {
               </L>
             </div>
           </div>
-          <div className="mt-12 grid grid-cols-3 gap-3 lg:hidden">
-            <Pic k="inklabs-main" alt={h.mobileAlts[0]!} className="aspect-[4/5]" eager sizes="33vw" />
-            <Pic k="divaz-nails" alt={h.mobileAlts[1]!} className="aspect-[4/5]" eager sizes="33vw" />
-            <Pic k="iq-5" alt={h.mobileAlts[2]!} className="aspect-[4/5]" eager sizes="33vw" />
-          </div>
+          <HeroObjects className="relative mx-auto mt-14 aspect-square w-full max-w-[460px] lg:hidden" />
         </div>
         <div className="container-editorial mt-16 flex items-center gap-4 pb-6 md:mt-24">
           <span className="relative block h-12 w-px overflow-hidden bg-border">
@@ -253,6 +247,43 @@ export function HomePage() {
 
       <CtaBand />
     </>
+  );
+}
+
+/** Floating studio props for the hero: laptop, camera and colour-swatch card, plus a few quiet decorations. */
+function HeroObjects({ className }: { className: string }) {
+  const shadow = "drop-shadow-[0_28px_32px_rgb(23_12_46/0.22)]";
+  return (
+    <div aria-hidden className={cn("pointer-events-none select-none", className)}>
+      <div className="absolute top-[10%] left-[12%] aspect-square w-[80%] rounded-full bg-blush" />
+      <div className="absolute top-[3%] left-[5%] aspect-square w-[94%] rounded-full border border-dashed border-coral/45" />
+      <span className="absolute top-[1%] left-[46%] font-display text-3xl text-coral">✶</span>
+      <span className="absolute right-[2%] bottom-[14%] font-display text-xl text-coral">✶</span>
+      <span className="absolute bottom-[4%] left-[8%] font-display text-2xl text-ink/70">✶</span>
+      <span className="absolute top-[30%] left-[2%] size-2.5 rounded-full bg-coral" />
+      <img
+        src={laptop}
+        alt=""
+        width={LAPTOP.w}
+        height={LAPTOP.h}
+        fetchPriority="high"
+        className={cn("float-slow absolute top-[36%] left-[4%] w-[90%] rotate-[-4deg]", shadow)}
+      />
+      <img
+        src={palette}
+        alt=""
+        width={PALETTE.w}
+        height={PALETTE.h}
+        className={cn("float-slow absolute top-[4%] left-[3%] w-[26%] rotate-[-9deg] [animation-delay:-2.5s]", shadow)}
+      />
+      <img
+        src={camera}
+        alt=""
+        width={CAMERA.w}
+        height={CAMERA.h}
+        className={cn("float-slow absolute top-[7%] right-[-3%] w-[54%] rotate-[6deg] [animation-delay:-5s]", shadow)}
+      />
+    </div>
   );
 }
 

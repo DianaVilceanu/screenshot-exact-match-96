@@ -121,7 +121,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           <div className="mt-10 grid gap-10 md:grid-cols-12 md:items-end">
             <div className="md:col-span-7">
               <Eyebrow n="01">Case study · {p.categories.join(" / ")}</Eyebrow>
-              <h1 className="mt-6 text-[clamp(4.5rem,16vw,14rem)] leading-[0.82] font-bold tracking-[-0.06em] uppercase">
+              <h1 className="mt-6 text-[clamp(3.5rem,11vw,10rem)] break-words leading-[0.82] font-bold tracking-[-0.06em] uppercase">
                 {p.name.toLowerCase()}
               </h1>
               <p className="display-md mt-6 text-primary italic">{cs.tagline}</p>

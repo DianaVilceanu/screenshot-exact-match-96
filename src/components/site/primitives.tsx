@@ -107,7 +107,7 @@ export const isPlaceholder = (s: string) => /\[[^\]]+\]/.test(s);
 
 /** Renders text normally, or as a Placeholder when it contains [BRACKETS]. */
 export function MaybePlaceholder({ text, className }: { text: string; className?: string | undefined }) {
-  if (isPlaceholder(text)) return <Placeholder className={className}>{text}</Placeholder>;
+  if (isPlaceholder(text)) return <Placeholder>{text}</Placeholder>;
   return <p className={className}>{text}</p>;
 }
 

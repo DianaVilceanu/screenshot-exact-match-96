@@ -105,9 +105,9 @@ export function HomePage() {
         <Reveal>
           <L to={link(ink)} className="group grid gap-6 md:grid-cols-12 md:items-end">
             <div className="frame-zoom grid grid-cols-3 gap-2 md:col-span-8">
-              <Pic k="inklabs-main" alt={ink.cover!.alt} className="aspect-[4/5]" sizes="25vw" />
-              <Pic k="inklabs-wrapped" alt={h.inkAlts[0]!} className="aspect-[4/5]" sizes="25vw" />
-              <Pic k="inklabs-stop" alt={h.inkAlts[1]!} className="aspect-[4/5]" sizes="25vw" />
+              <Pic k="inklabs-features" alt={h.inkAlts[0]!} className="aspect-[4/5]" sizes="25vw" />
+              <Pic k="inklabs-before" alt={h.inkAlts[1]!} className="aspect-[4/5]" sizes="25vw" />
+              <Pic k="inklabs-stop-scroll" alt={h.inkAlts[2]!} className="aspect-[4/5]" sizes="25vw" />
             </div>
             <FeatureText p={ink} n="01" className="md:col-span-4" />
           </L>

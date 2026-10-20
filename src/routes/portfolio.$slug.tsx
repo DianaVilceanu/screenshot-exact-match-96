@@ -45,9 +45,9 @@ export const Route = createFileRoute("/portfolio/$slug")({
 function ProjectPage() {
   const { slug } = Route.useLoaderData();
   const p = getProject(slug)!;
-  const idx = projects.indexOf(p);
-  const next = projects.filter((x) => !x.draft)[(projects.filter((x) => !x.draft).indexOf(p) + 1) % projects.filter((x) => !x.draft).length] ?? projects[(idx + 1) % projects.length];
-  return p.caseStudy ? <CaseStudy p={p} next={next.slug === p.slug ? projects[0] : next} /> : <StandardProject p={p} next={next} />;
+  const pub = projects.filter((x) => !x.draft);
+  const next = pub[(pub.indexOf(p) + 1) % pub.length];
+  return p.caseStudy ? <CaseStudy p={p} next={next} /> : <StandardProject p={p} next={next} />;
 }
 
 function Meta({ p }: { p: Project }) {

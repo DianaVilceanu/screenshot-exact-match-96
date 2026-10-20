@@ -86,7 +86,7 @@ export function SiteHeader() {
         )}
         aria-hidden={!open}
       >
-        <img src={logoLight.url} alt="DM Studio logo" width={1344} height={1170} className="mb-8 h-12 w-auto" aria-hidden />
+        <img src={logoLight.url} alt="DM Studio logo" width={1344} height={1170} className="mb-8 h-12 w-auto self-start" aria-hidden />
         <nav aria-label="Mobile" className="flex flex-col gap-2">
           {[...nav, { to: "/contact", label: "Contact" } as const].map((n, i) => (
             <Link key={n.to} to={n.to} tabIndex={open ? 0 : -1} className="flex items-baseline gap-4 border-b border-border py-3">

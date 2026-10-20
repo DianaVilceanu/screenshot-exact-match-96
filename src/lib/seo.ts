@@ -15,7 +15,7 @@ type SeoInput = {
 
 /** Builds head(): unique title, description, self canonical, reciprocal hreflang, OG/Twitter, JSON-LD. */
 export function seo({ title, description, path, locale, ref, type = "website", noindex, jsonLd = [] }: SeoInput) {
-  const fullTitle = title.includes(SITE_NAME) ? title : `${title} — ${SITE_NAME}`;
+  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
   const url = absolute(path);
   const alts = alternatesFor(ref);
   const hreflang =
@@ -60,4 +60,4 @@ export function breadcrumbLd(items: { name: string; path: string }[]) {
   };
 }
 
-export const notFoundHead = (title: string) => ({ meta: [{ title: `${title} — ${SITE_NAME}` }, { name: "robots", content: "noindex" }] });
+export const notFoundHead = (title: string) => ({ meta: [{ title: `${title} | ${SITE_NAME}` }, { name: "robots", content: "noindex" }] });

@@ -63,7 +63,7 @@ export function categoryHead(locale: Locale, slug: string | undefined) {
   const ref = { kind: "category", id: idOf(cat) } as const;
   const path = hrefFor(locale, ref);
   return seo({
-    title: `${cat.name} — ${c.t.nav.journal}`,
+    title: `${cat.name} | ${c.t.nav.journal}`,
     description: c.t.journal.catSeo(cat.description),
     path,
     locale,
@@ -248,7 +248,7 @@ export function ArticlePage({ slug }: { slug: string }) {
               <ul>
                 {services.map((s) => (
                   <li key={s.slug}>
-                    <L to={hrefFor(locale, { kind: "service", id: idOf(s) })}>{s.title}</L> — {s.short}
+                    <L to={hrefFor(locale, { kind: "service", id: idOf(s) })}>{s.title}</L>: {s.short}
                   </li>
                 ))}
               </ul>

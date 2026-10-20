@@ -47,7 +47,7 @@ export const articles: Article[] = [
   {
     slug: "how-to-build-a-strong-visual-identity",
     title: "How to Build a Strong Visual Identity for Your Brand",
-    description: "A practical guide to the parts of a visual identity that matter — and how to keep them consistent once you start posting.",
+    description: "A practical guide to the parts of a visual identity that matter, and how to keep them consistent once you start posting.",
     category: "graphic-design",
     publishedAt: null,
     cover: { key: "inklabs-wrapped", alt: "Inklabs yellow typographic post as an example of a strong identity" },
@@ -58,7 +58,7 @@ export const articles: Article[] = [
         heading: "Start with a position, not a palette",
         blocks: [
           p("Before choosing colours, write one sentence about what the brand stands for and who it is talking to. Every later decision should be checked against it. A brand for confident, playful customers will need different shapes and words than one built on calm expertise."),
-          p("Inklabs is a good example: its whole identity hangs on one idea — tattoos don't have to be forever. That idea gives permission to be loud, direct and a bit cheeky."),
+          p("Inklabs is a good example: its whole identity hangs on one idea: tattoos don't have to be forever. That idea gives permission to be loud, direct and a bit cheeky."),
         ],
       },
       {
@@ -80,7 +80,7 @@ export const articles: Article[] = [
         heading: "Turn decisions into a system",
         blocks: [
           p("A system means anyone can make a new post and it still looks like the brand. Write the rules down and build a few templates:"),
-          ul("Two or three layout grids for posts and stories", "Rules for headline length and size", "Where the logo goes — and where it never goes", "Examples of right and wrong use"),
+          ul("Two or three layout grids for posts and stories", "Rules for headline length and size", "Where the logo goes, and where it never goes", "Examples of right and wrong use"),
         ],
       },
       {
@@ -97,7 +97,7 @@ export const articles: Article[] = [
   {
     slug: "why-some-fonts-make-a-brand-look-more-expensive",
     title: "Why Some Fonts Make a Brand Look More Expensive",
-    description: "Contrast, spacing and restraint: the typographic details that make a brand feel premium — and the ones that cheapen it.",
+    description: "Contrast, spacing and restraint: the typographic details that make a brand feel premium, and the ones that cheapen it.",
     category: "graphic-design",
     publishedAt: null,
     cover: { key: "iq-5", alt: "IQ Fashion post with refined serif typography and gold accents" },
@@ -107,7 +107,7 @@ export const articles: Article[] = [
         id: "contrast",
         heading: "Contrast signals craft",
         blocks: [
-          p("High-contrast serifs — thick and thin strokes side by side — come from a long tradition of fashion and editorial printing. Our eyes link them to magazines, luxury packaging and care."),
+          p("High-contrast serifs, with thick and thin strokes side by side, come from a long tradition of fashion and editorial printing. Our eyes link them to magazines, luxury packaging and care."),
           p("You don't need a serif to look premium, but you do need contrast somewhere: between sizes, weights, or between type and empty space."),
         ],
       },
@@ -122,7 +122,7 @@ export const articles: Article[] = [
         id: "restraint",
         heading: "Restraint beats decoration",
         blocks: [
-          ul("Use one or two families, not five", "Limit weights — regular and one bold is often enough", "Avoid effects like outlines, heavy shadows and gradients on text", "Keep headlines short"),
+          ul("Use one or two families, not five", "Limit weights: regular and one bold is often enough", "Avoid effects like outlines, heavy shadows and gradients on text", "Keep headlines short"),
         ],
       },
       {
@@ -148,7 +148,7 @@ export const articles: Article[] = [
         id: "content-pillars",
         heading: "Plan content pillars first",
         blocks: [
-          p("Decide on three to five types of content you'll post regularly — for example: product, education, behind the scenes, offers. Each pillar gets its own template, so people learn to read your posts instantly."),
+          p("Decide on three to five types of content you'll post regularly, for example product, education, behind the scenes, offers. Each pillar gets its own template, so people learn to read your posts instantly."),
         ],
       },
       {
@@ -219,7 +219,7 @@ export const articles: Article[] = [
     category: "social-media",
     publishedAt: null,
     cover: { key: "inklabs-stop", alt: "Inklabs 'Stop scrolling' yellow post" },
-    intro: "On social media, your design has about a second to earn attention. This article covers the techniques that help a post stand out — and why they work.",
+    intro: "On social media, your design has about a second to earn attention. This article covers the techniques that help a post stand out, and why they work.",
     sections: [
       {
         id: "one-message",
@@ -234,7 +234,7 @@ export const articles: Article[] = [
       {
         id: "talk-to-the-viewer",
         heading: "Talk to the viewer",
-        blocks: [p("Headlines that speak directly — a question, a challenge, a playful command — feel like conversation rather than advertising.")],
+        blocks: [p("Headlines that speak directly, through a question, a challenge or a playful command, feel like conversation rather than advertising.")],
       },
       {
         id: "add-motion",
@@ -247,11 +247,11 @@ export const articles: Article[] = [
   {
     slug: "what-makes-a-brand-look-premium",
     title: "What Makes a Brand Look Premium?",
-    description: "Photography, restraint, material and consistency — the visual signals that make a brand feel premium.",
+    description: "Photography, restraint, material and consistency: the visual signals that make a brand feel premium.",
     category: "content-creation",
     publishedAt: null,
     cover: { key: "divaz-gloss35", alt: "Divaz lip gloss styled with berries and ice cream" },
-    intro: "Premium is a feeling built from many small signals. You'll learn what those signals are and how to bring them into your photos, layouts and content — even on a modest budget.",
+    intro: "Premium is a feeling built from many small signals. You'll learn what those signals are and how to bring them into your photos, layouts and content, even on a modest budget.",
     sections: [
       {
         id: "art-direction",
@@ -261,7 +261,7 @@ export const articles: Article[] = [
       {
         id: "material",
         heading: "Material and texture",
-        blocks: [p("Silk, paper, glass, metal — textures that look good to touch make the brand feel tangible and considered.")],
+        blocks: [p("Silk, paper, glass, metal. Textures that look good to touch make the brand feel tangible and considered.")],
       },
       {
         id: "restraint",

@@ -1,4 +1,8 @@
 // Generated from your existing portfolio images (dianamarriedesigns.com).
+import inklabsBefore from "@/assets/inklabs-before.webp";
+import inklabsFeatures from "@/assets/inklabs-features.webp";
+import inklabsStopScroll from "@/assets/inklabs-stop-scroll.webp";
+
 export type Img = { src: string; w: number; h: number };
 export const img = {
   "portrait": { src: "/__l5e/assets-v1/030691fc-fc1c-4368-ba64-eaf83895f87f/portrait.webp", w: 534, h: 799 },
@@ -92,5 +96,8 @@ export const img = {
   "regata-monitor": { src: "/__l5e/assets-v1/b8b1e10a-725c-43fc-a771-4a02ba90f5d6/regata-monitor.webp", w: 799, h: 599 },
   "regata-page": { src: "/__l5e/assets-v1/88601026-b14f-4813-bbaf-0602ab126740/regata-page.webp", w: 799, h: 700 },
   "regata-partners": { src: "/__l5e/assets-v1/4839e8f0-762e-4f38-a351-2b655431df23/regata-partners.webp", w: 800, h: 777 },
+  "inklabs-features": { src: inklabsFeatures, w: 800, h: 1000 },
+  "inklabs-before": { src: inklabsBefore, w: 800, h: 1000 },
+  "inklabs-stop-scroll": { src: inklabsStopScroll, w: 800, h: 1000 },
 } satisfies Record<string, Img>;
 export type ImgKey = keyof typeof img;

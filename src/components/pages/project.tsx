@@ -2,7 +2,7 @@ import { ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Breadcrumbs, Eyebrow, MaybePlaceholder, Pic, Placeholder, Reveal, btn, isPlaceholder } from "@/components/site/primitives";
-import type { Project } from "@/content/projects";
+import type { BrandGuidelines, Project } from "@/content/projects";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
 import { breadcrumbLd, notFoundHead, seo } from "@/lib/seo";
 import { cn } from "@/lib/utils";
@@ -93,13 +93,13 @@ function Crumbs({ p }: { p: Project }) {
 
 const cats = (p: Project, t: ReturnType<typeof useContent>["t"]) => p.categories.map((c) => t.categories[c] ?? c).join(" / ");
 
-function NextProject({ next }: { next: Project }) {
+function NextProject({ next, n = "08" }: { next: Project; n?: string }) {
   const { t, locale } = useContent();
   return (
     <section className="border-t border-border">
       <div className="container-editorial grid gap-10 py-20 md:grid-cols-12 md:items-center md:py-28">
         <div className="md:col-span-6">
-          <Eyebrow n="08">{t.project.next}</Eyebrow>
+          <Eyebrow n={n}>{t.project.next}</Eyebrow>
           <L to={hrefFor(locale, { kind: "project", id: idOf(next) })} className="group mt-5 block">
             <span className="display-lg block transition-colors group-hover:text-accent">{next.name}</span>
             <span className="mt-3 block text-muted-foreground">{next.summary}</span>
@@ -117,6 +117,8 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
   const { t, locale } = useContent();
   const cs = p.caseStudy!;
   const g = p.gallery;
+  // Sections after the optional guidelines section shift down by one.
+  const num = (i: number) => String(i + (cs.guidelines ? 1 : 0)).padStart(2, "0");
   return (
     <div data-theme={cs.theme} className="bg-background text-foreground">
       <section className="container-editorial pt-28 pb-16 md:pt-36">
@@ -220,10 +222,12 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
         </div>
       </section>
 
+      {cs.guidelines && <Guidelines g={cs.guidelines} n="04" />}
+
       <section className="border-t border-border">
         <div className="container-editorial grid gap-10 py-20 md:grid-cols-12 md:py-28">
           <div className="md:col-span-4">
-            <Eyebrow n="04">{t.project.process}</Eyebrow>
+            <Eyebrow n={num(4)}>{t.project.process}</Eyebrow>
           </div>
           <div className="md:col-span-7 md:col-start-6">
             {cs.process.length ? (
@@ -241,7 +245,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
 
       <section className="border-t border-border">
         <div className="container-editorial py-20 md:py-28">
-          <Eyebrow n="05">{t.project.finals}</Eyebrow>
+          <Eyebrow n={num(5)}>{t.project.finals}</Eyebrow>
           {g.length > 3 ? (
             <div className="mt-12 columns-2 gap-3 md:columns-4 [&>*]:mb-3">
               {g.slice(3).map((x, i) => (
@@ -270,7 +274,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
       <section className="border-t border-border">
         <div className="container-editorial grid gap-10 py-20 md:grid-cols-12 md:py-28">
           <div className="md:col-span-4">
-            <Eyebrow n="06">{t.project.results}</Eyebrow>
+            <Eyebrow n={num(6)}>{t.project.results}</Eyebrow>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 md:col-span-7 md:col-start-6">
             {cs.results.map((r) => (
@@ -283,7 +287,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
 
       <section className="border-t border-border">
         <div className="container-editorial py-20 md:py-28">
-          <Eyebrow n="07">{t.project.testimonial}</Eyebrow>
+          <Eyebrow n={num(7)}>{t.project.testimonial}</Eyebrow>
           <figure className="placeholder-block mt-10 p-8 md:p-14">
             <p className="eyebrow mb-6 text-placeholder">{t.placeholder}</p>
             <blockquote className="display-md">“{cs.testimonial.quote}”</blockquote>
@@ -297,9 +301,113 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           </div>
         </div>
       </section>
-      <NextProject next={next} />
+      <NextProject next={next} n={num(8)} />
     </div>
   );
+}
+
+/** The brand guidelines delivered with a case study: overview, slogan, logo, colours, type, photography and voice. */
+function Guidelines({ g, n }: { g: BrandGuidelines; n: string }) {
+  const { t } = useContent();
+  const label = "eyebrow text-muted-foreground";
+  return (
+    <section className="border-t border-border">
+      <div className="container-editorial py-20 md:py-28">
+        <Eyebrow n={n}>{t.project.guidelines}</Eyebrow>
+        <div className="mt-12 grid gap-10 md:grid-cols-12 md:items-end">
+          <div className="md:col-span-7">
+            <p className={label}>{t.project.slogan}</p>
+            <p className="mt-4 text-[clamp(2.5rem,6vw,5.5rem)] leading-[0.9] font-bold tracking-[-0.04em] text-primary">{g.slogan}</p>
+          </div>
+          <div className="md:col-span-5">
+            <p className={label}>{t.project.overview}</p>
+            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">{g.overview}</p>
+          </div>
+        </div>
+
+        <div className="mt-20 grid gap-10 md:grid-cols-12">
+          <Reveal className="md:col-span-7">
+            <p className={label}>{t.project.logo}</p>
+            <div className="mt-4 overflow-hidden border border-border">
+              <Pic k={g.logo.key} alt={g.logo.alt} className="h-auto" sizes="(min-width: 768px) 55vw, 100vw" />
+            </div>
+          </Reveal>
+          <Reveal delay={100} className="md:col-span-5">
+            <p className={label}>{t.project.colors}</p>
+            <ul className="mt-4 grid gap-3">
+              {g.colors.map((c) => (
+                <li key={c.hex} className="flex items-end justify-between border border-border p-5" style={{ backgroundColor: c.hex, color: contrastText(c.hex) }}>
+                  <span className="text-xl font-semibold">{c.name}</span>
+                  <span className="font-mono text-sm tracking-wider uppercase">{c.hex}</span>
+                </li>
+              ))}
+            </ul>
+            <p className={cn(label, "mt-10")}>{t.project.typography}</p>
+            <dl className="mt-4 grid grid-cols-2 gap-3">
+              {(
+                [
+                  [t.project.primaryFont, g.fonts.primary],
+                  [t.project.secondaryFont, g.fonts.secondary],
+                ] as const
+              ).map(([role, names]) => (
+                <div key={role} className="border border-border p-5">
+                  <dt className={label}>{role}</dt>
+                  {names.map((x) => (
+                    <dd key={x} className="mt-2 text-lg font-bold text-primary">
+                      {x}
+                    </dd>
+                  ))}
+                </div>
+              ))}
+            </dl>
+          </Reveal>
+        </div>
+
+        <div className="mt-20">
+          <p className={label}>{t.project.photography}</p>
+          <div className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-4">
+            {g.photography.map((x, i) => (
+              <Reveal key={x.key} delay={i * 80} className="frame-zoom">
+                <Pic k={x.key} alt={x.alt} className="aspect-[4/7]" sizes="(min-width: 768px) 25vw, 50vw" />
+              </Reveal>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-20 grid gap-10 md:grid-cols-12">
+          <div className="md:col-span-5">
+            <p className={label}>{t.project.voice}</p>
+            <p className="display-sm mt-4">{g.voice}</p>
+          </div>
+          <ol className="grid gap-8 md:col-span-6 md:col-start-7">
+            {g.pillars.map((x, i) => (
+              <li key={x.title} className="border-t border-border pt-6">
+                <h3 className="text-xl font-semibold">
+                  <span className="mr-3 text-primary">{String(i + 1).padStart(2, "0")}</span>
+                  {x.title}
+                </h3>
+                <p className="mt-3 leading-relaxed text-muted-foreground">{x.text}</p>
+                <ul aria-label={t.project.keywords} className="mt-4 flex flex-wrap gap-2">
+                  {x.keywords.map((k) => (
+                    <li key={k} className="border border-primary/50 px-3 py-1 text-sm text-primary">
+                      {k}
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/** Black or white text, whichever reads better on the given hex colour. */
+function contrastText(hex: string) {
+  const v = parseInt(hex.slice(1), 16);
+  const lum = 0.299 * (v >> 16) + 0.587 * ((v >> 8) & 255) + 0.114 * (v & 255);
+  return lum > 150 ? "#000000" : "#FFFFFF";
 }
 
 function StandardProject({ p, next }: { p: Project; next: Project }) {

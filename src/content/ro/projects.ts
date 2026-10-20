@@ -27,8 +27,6 @@ export const projects: Project[] = [
       { key: "inklabs-clients", alt: "Postare retrospectivă Inklabs: peste 50.000 de clienți tatuați" },
       { key: "inklabs-soon", alt: "Postare Inklabs cu mesajul „În curând” și datele lansărilor" },
       { key: "inklabs-notes", alt: "Postare de încheiere a retrospectivei Inklabs, pe fundal negru cu semitonuri galbene" },
-      { key: "inklabs-feed-1", alt: "Captură de ecran cu grila de Instagram Inklabs" },
-      { key: "inklabs-feed-2", alt: "Captură de ecran cu grila de Instagram Inklabs, cu postări de campanie" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
@@ -44,14 +42,46 @@ export const projects: Project[] = [
         { title: "Litere groase, compacte", text: "Titlurile cu litere înguste și îngroșate transmit încrederea brandului. Sunt scurte, directe și puțin obraznice." },
         { title: "Piele reală, modele reale", text: "Fotografiile cu tatuaje pe mâini și brațe reale păstrează prezentarea produsului autentică și tangibilă." },
       ],
-      palette: [
-        { name: "Galben electric", className: "bg-primary" },
-        { name: "Negru", className: "bg-background border border-border" },
-        { name: "Alb", className: "bg-foreground" },
-      ],
       process: [],
       results: ["[ADAUGĂ UN REZULTAT VERIFICAT AL PROIECTULUI]", "[ADAUGĂ INDICATORI DE PERFORMANȚĂ]"],
       testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
+      guidelines: {
+        overview:
+          "Inklabs este un brand de lifestyle dinamic, dedicat exprimării de sine prin tatuaje semipermanente de calitate. Între abțibildurile temporare care dispar repede și cerneala permanentă, brandul oferă o alternativă realistă și nedureroasă, care rezistă până la două săptămâni. Identitatea lui pornește de la creativitate, inovație și autenticitate, cu modele create de artiști reali, care se potrivesc stilului fiecărei persoane.",
+        slogan: "Temporary tattoos that change your vibe.",
+        logo: { key: "inklabs-logo-system", alt: "Sistemul de logo Inklabs: logotipul în alb, negru și galben și simbolul „i” cu romb în trei variante de culoare" },
+        colors: [
+          { name: "Alb", hex: "#FFFFFF" },
+          { name: "Galben", hex: "#FFDF01" },
+          { name: "Negru", hex: "#000000" },
+        ],
+        fonts: { primary: ["Campton Black", "Poppins Black"], secondary: ["Oswald", "Poppins Regular"] },
+        photography: [
+          { key: "inklabs-photo-cross", alt: "Tatuaj mic cu o cruce neagră pe antebraț, în lumină caldă" },
+          { key: "inklabs-photo-birds", alt: "Stol de păsări mici tatuat pe claviculă" },
+          { key: "inklabs-photo-compass", alt: "Tatuaj cu busolă și săgeată de-a lungul antebrațului" },
+          { key: "inklabs-photo-caduceus", alt: "Tatuaj cu caduceu înaripat pe antebraț" },
+        ],
+        voice:
+          "Vocea Inklabs îmbină rebeliunea artistică cu seriozitatea modernă. Vorbește ca un prieten care dă tonul trendurilor: te încurajează să riști și să te exprimi, dar rămâne sincer, de încredere și profesionist când vine vorba de detalii.",
+        pillars: [
+          {
+            title: "Încurajator și îndrăzneț",
+            text: "Nu vindem doar „abțibilduri”, ci un mod de a te descoperi. Limbajul nostru e plin de energie și inspirație și pune accent pe libertatea de a te răzgândi și de a-ți schimba look-ul.",
+            keywords: ["Exprimare", "curaj", "canvas", "evoluție", "vibe"],
+          },
+          {
+            title: "Accesibil și apropiat",
+            text: "Vorbim fluent limba generației Z și a millennialilor, dar natural. Evităm jargonul corporatist și formalismul rigid. Folosim un stil de conversație „tu și noi”, care se simte personal și incluziv.",
+            keywords: ["Real", "fără angajamente", "fără efort", "fresh", "mood"],
+          },
+          {
+            title: "Transparent și de încredere",
+            text: "Pentru că produsul nostru îți atinge pielea, trecem la un ton clar, informativ și liniștitor când vorbim despre siguranță și aplicare. Suntem experții, așa că vorbim cu o încredere calmă.",
+            keywords: ["Sigur pentru piele", "pe bază organică", "testat dermatologic", "precizie"],
+          },
+        ],
+      },
     },
   },
   {

@@ -2,6 +2,11 @@
 import inklabsBefore from "@/assets/inklabs-before.webp";
 import inklabsFeatures from "@/assets/inklabs-features.webp";
 import inklabsStopScroll from "@/assets/inklabs-stop-scroll.webp";
+import inklabsLogoSystem from "@/assets/inklabs-logo-system.webp";
+import inklabsPhotoBirds from "@/assets/inklabs-photo-birds.webp";
+import inklabsPhotoCaduceus from "@/assets/inklabs-photo-caduceus.webp";
+import inklabsPhotoCompass from "@/assets/inklabs-photo-compass.webp";
+import inklabsPhotoCross from "@/assets/inklabs-photo-cross.webp";
 
 export type Img = { src: string; w: number; h: number };
 export const img = {
@@ -99,5 +104,10 @@ export const img = {
   "inklabs-features": { src: inklabsFeatures, w: 800, h: 1000 },
   "inklabs-before": { src: inklabsBefore, w: 800, h: 1000 },
   "inklabs-stop-scroll": { src: inklabsStopScroll, w: 800, h: 1000 },
+  "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
+  "inklabs-photo-cross": { src: inklabsPhotoCross, w: 480, h: 840 },
+  "inklabs-photo-birds": { src: inklabsPhotoBirds, w: 480, h: 840 },
+  "inklabs-photo-compass": { src: inklabsPhotoCompass, w: 480, h: 840 },
+  "inklabs-photo-caduceus": { src: inklabsPhotoCaduceus, w: 480, h: 840 },
 } satisfies Record<string, Img>;
 export type ImgKey = keyof typeof img;

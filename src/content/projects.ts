@@ -11,6 +11,17 @@ export type Theme = "inklabs" | "divaz" | "kdt";
 
 export type GalleryItem = { key: ImgKey; alt: string };
 
+export type BrandGuidelines = {
+  overview: string;
+  slogan: string;
+  logo: GalleryItem;
+  colors: { name: string; hex: string }[];
+  fonts: { primary: string[]; secondary: string[] };
+  photography: GalleryItem[];
+  voice: string;
+  pillars: { title: string; text: string; keywords: string[] }[];
+};
+
 export type CaseStudy = {
   theme: Theme;
   tagline: string;
@@ -21,6 +32,8 @@ export type CaseStudy = {
   process: GalleryItem[];
   results: string[];
   testimonial: { quote: string; author: string };
+  /** Brand guidelines delivered for the project, shown as their own section. */
+  guidelines?: BrandGuidelines;
 };
 
 export type Project = {
@@ -69,8 +82,6 @@ export const projects: Project[] = [
       { key: "inklabs-clients", alt: "Inklabs Wrapped post: over 50,000 tattooed customers" },
       { key: "inklabs-soon", alt: "Inklabs 'Coming soon' launch dates post" },
       { key: "inklabs-notes", alt: "Inklabs Wrapped closing post on black with yellow halftone" },
-      { key: "inklabs-feed-1", alt: "Inklabs Instagram grid screenshot" },
-      { key: "inklabs-feed-2", alt: "Inklabs Instagram grid screenshot showing campaign posts" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
@@ -86,14 +97,46 @@ export const projects: Project[] = [
         { title: "Heavy, compact type", text: "Condensed, bold headlines speak with the confidence of the brand: short, direct and a little cheeky." },
         { title: "Real skin, real designs", text: "Photography of the tattoos on real hands and arms keeps the product honest and tangible." },
       ],
-      palette: [
-        { name: "Electric yellow", className: "bg-primary" },
-        { name: "Black", className: "bg-background border border-border" },
-        { name: "White", className: "bg-foreground" },
-      ],
       process: [],
       results: ["[ADD VERIFIED PROJECT OUTCOME]", "[ADD PERFORMANCE METRICS]"],
       testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
+      guidelines: {
+        overview:
+          "Inklabs is a dynamic lifestyle brand dedicated to the art of self-expression through high-quality, semi-permanent tattoos. Bridging the gap between fleeting temporary stickers and permanent ink, the brand offers a realistic, pain-free alternative that lasts up to two weeks. Its identity is rooted in creativity, innovation and authenticity, with designs crafted by real artists that adapt to each wearer's style.",
+        slogan: "Temporary tattoos that change your vibe.",
+        logo: { key: "inklabs-logo-system", alt: "Inklabs logo system: the wordmark in white, black and yellow, and the diamond-dotted i icon in three colourways" },
+        colors: [
+          { name: "White", hex: "#FFFFFF" },
+          { name: "Yellow", hex: "#FFDF01" },
+          { name: "Black", hex: "#000000" },
+        ],
+        fonts: { primary: ["Campton Black", "Poppins Black"], secondary: ["Oswald", "Poppins Regular"] },
+        photography: [
+          { key: "inklabs-photo-cross", alt: "Small black cross tattoo on a forearm in warm light" },
+          { key: "inklabs-photo-birds", alt: "Flock of small birds tattooed across a collarbone" },
+          { key: "inklabs-photo-compass", alt: "Compass and arrow tattoo along a forearm" },
+          { key: "inklabs-photo-caduceus", alt: "Winged caduceus tattoo on a forearm" },
+        ],
+        voice:
+          "The Inklabs voice is the perfect mix of artistic rebellion and modern reliability. It speaks like a trendsetting friend: someone who encourages you to take risks and express yourself, but is also honest, safe and professional when it comes to the details.",
+        pillars: [
+          {
+            title: "Empowering & bold",
+            text: "We don't just sell \"stickers\"; we provide a medium for self-discovery. Our language is high-energy and inspiring, focusing on the freedom to change your mind and your look.",
+            keywords: ["Expression", "fearless", "canvas", "evolution", "vibe"],
+          },
+          {
+            title: "Approachable & relatable",
+            text: "We speak \"Gen Z/Millennial\" fluently but naturally. We avoid corporate jargon and formal stiffness. We use a \"you and us\" conversational style that feels personal and inclusive.",
+            keywords: ["Real", "commitment-free", "effortless", "fresh", "mood"],
+          },
+          {
+            title: "Transparent & trustworthy",
+            text: "Because our product touches your skin, we switch to a clear, informative and reassuring tone when discussing safety and application. We are the experts, so we speak with calm confidence.",
+            keywords: ["Skin-safe", "organic-based", "dermatologically tested", "precision"],
+          },
+        ],
+      },
     },
   },
   {

@@ -6,6 +6,7 @@ import type { ImgKey } from "./images";
  * UX/UI Design, 2D Animation) is kept as its own page.
  */
 export type Service = {
+  id?: string;
   slug: string;
   number: string;
   title: string;

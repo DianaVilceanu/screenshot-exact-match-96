@@ -91,7 +91,7 @@ export function serviceHead(locale: Locale, slug: string | undefined) {
   const ref = { kind: "service", id: idOf(s) } as const;
   const path = hrefFor(locale, ref);
   return seo({
-    title: `${s.title} — ${c.t.service.seoSuffix}`,
+    title: `${s.title} | ${c.t.service.seoSuffix}`,
     description: `${s.short} ${s.intro}`.slice(0, 158),
     path,
     locale,

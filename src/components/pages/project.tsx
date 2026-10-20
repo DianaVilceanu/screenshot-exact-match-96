@@ -14,7 +14,7 @@ export function projectHead(locale: Locale, slug: string | undefined) {
   const ref = { kind: "project", id: idOf(p) } as const;
   const path = hrefFor(locale, ref);
   return seo({
-    title: `${p.name} — ${p.caseStudy ? c.t.project.caseStudy : (c.t.categories[p.categories[0]!] ?? p.categories[0])}`,
+    title: `${p.name} | ${p.caseStudy ? c.t.project.caseStudy : (c.t.categories[p.categories[0]!] ?? p.categories[0])}`,
     description: p.draft ? c.t.project.draftDesc(p.name) : `${p.summary} ${p.description[0]}`.slice(0, 158),
     path,
     locale,
@@ -287,7 +287,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           <figure className="placeholder-block mt-10 p-8 md:p-14">
             <p className="eyebrow mb-6 text-placeholder">{t.placeholder}</p>
             <blockquote className="display-md">“{cs.testimonial.quote}”</blockquote>
-            <figcaption className="mt-6 text-muted-foreground">— {cs.testimonial.author}</figcaption>
+            <figcaption className="mt-6 text-muted-foreground">{cs.testimonial.author}</figcaption>
           </figure>
           <div className="mt-12 flex flex-wrap items-center justify-between gap-6">
             <RelatedServices p={p} />

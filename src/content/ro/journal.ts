@@ -28,7 +28,7 @@ export const articles: Article[] = [
         heading: "Începe cu o poziționare, nu cu o paletă de culori",
         blocks: [
           p("Înainte să alegi culorile, scrie într-o singură propoziție ce reprezintă brandul și cui i se adresează. Verifică fiecare decizie ulterioară în raport cu această idee. Un brand pentru oameni încrezători și jucăuși are nevoie de alte forme și cuvinte decât unul construit în jurul unei expertize care inspiră calm."),
-          p("Inklabs este un exemplu bun: întreaga sa identitate pornește de la o singură idee — tatuajele nu trebuie să fie pentru totdeauna. Această idee îi permite brandului să fie îndrăzneț, direct și puțin obraznic."),
+          p("Inklabs este un exemplu bun: întreaga sa identitate pornește de la o singură idee: tatuajele nu trebuie să fie pentru totdeauna. Această idee îi permite brandului să fie îndrăzneț, direct și puțin obraznic."),
         ],
       },
       {
@@ -113,7 +113,7 @@ export const articles: Article[] = [
       {
         id: "pilonii-de-continut",
         heading: "Planifică mai întâi pilonii de conținut",
-        blocks: [p("Alege între trei și cinci tipuri de conținut pe care le vei publica regulat — de exemplu: produse, conținut educativ, culise și oferte. Fiecare pilon primește propriul șablon, astfel încât oamenii să înțeleagă dintr-o privire ce fel de postare au în față.")],
+        blocks: [p("Alege între trei și cinci tipuri de conținut pe care le vei publica regulat, de exemplu produse, conținut educativ, culise și oferte. Fiecare pilon primește propriul șablon, astfel încât oamenii să înțeleagă dintr-o privire ce fel de postare au în față.")],
       },
       {
         id: "sabloanele",
@@ -194,7 +194,7 @@ export const articles: Article[] = [
       {
         id: "adreseaza-te-privitorului",
         heading: "Adresează-te direct privitorului",
-        blocks: [p("Titlurile care se adresează direct oamenilor — printr-o întrebare, o provocare sau un îndemn jucăuș — par mai degrabă o conversație decât o reclamă.")],
+        blocks: [p("Titlurile care se adresează direct oamenilor, printr-o întrebare, o provocare sau un îndemn jucăuș, par mai degrabă o conversație decât o reclamă.")],
       },
       {
         id: "adauga-miscare",
@@ -208,7 +208,7 @@ export const articles: Article[] = [
     id: "what-makes-a-brand-look-premium",
     slug: "ce-face-un-brand-sa-para-premium",
     title: "Ce face un brand să pară premium?",
-    description: "Fotografie, simplitate, materiale și consecvență — indiciile vizuale care dau unui brand un aer premium.",
+    description: "Fotografia, simplitatea, materialele și consecvența sunt indiciile vizuale care dau unui brand un aer premium.",
     category: "content-creation",
     publishedAt: null,
     cover: { key: "divaz-gloss35", alt: "Luciu de buze Divaz într-o compoziție cu fructe de pădure și înghețată" },
@@ -222,7 +222,7 @@ export const articles: Article[] = [
       {
         id: "materiale-si-texturi",
         heading: "Materiale și texturi",
-        blocks: [p("Mătase, hârtie, sticlă, metal — texturile care îți dau senzația că ar fi plăcute la atingere fac brandul să pară tangibil și atent gândit.")],
+        blocks: [p("Mătase, hârtie, sticlă, metal. Texturile care îți dau senzația că ar fi plăcute la atingere fac brandul să pară tangibil și atent gândit.")],
       },
       {
         id: "simplitatea",

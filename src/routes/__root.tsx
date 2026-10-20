@@ -13,6 +13,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteFooter, SiteHeader } from "@/components/site/chrome";
+import { useLocale, useContent } from "@/lib/i18n";
 
 function NotFoundComponent() {
   return (
@@ -106,8 +107,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  const locale = useLocale();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <HeadContent />
       </head>
@@ -126,7 +128,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-background focus:px-4 focus:py-2">
-        Skip to content
+        <SkipLabel />
       </a>
       <SiteHeader />
       <main id="main">
@@ -135,4 +137,8 @@ function RootComponent() {
       <SiteFooter />
     </QueryClientProvider>
   );
+}
+
+function SkipLabel() {
+  return <>{useContent().t.skip}</>;
 }

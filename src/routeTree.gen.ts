@@ -12,13 +12,29 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as EnIndexRouteImport } from './routes/en.index'
+import { Route as EnContactRouteImport } from './routes/en.contact'
 import { Route as JournalIndexRouteImport } from './routes/journal.index'
 import { Route as JournalSlugRouteImport } from './routes/journal.$slug'
+import { Route as JurnalIndexRouteImport } from './routes/jurnal.index'
+import { Route as JurnalSlugRouteImport } from './routes/jurnal.$slug'
 import { Route as PortfolioIndexRouteImport } from './routes/portfolio.index'
 import { Route as PortfolioSlugRouteImport } from './routes/portfolio.$slug'
+import { Route as PortofoliuIndexRouteImport } from './routes/portofoliu.index'
+import { Route as PortofoliuSlugRouteImport } from './routes/portofoliu.$slug'
 import { Route as ServicesIndexRouteImport } from './routes/services.index'
 import { Route as ServicesSlugRouteImport } from './routes/services.$slug'
+import { Route as ServiciiIndexRouteImport } from './routes/servicii.index'
+import { Route as ServiciiSlugRouteImport } from './routes/servicii.$slug'
+import { Route as EnJournalIndexRouteImport } from './routes/en.journal.index'
+import { Route as EnJournalSlugRouteImport } from './routes/en.journal.$slug'
+import { Route as EnPortfolioIndexRouteImport } from './routes/en.portfolio.index'
+import { Route as EnPortfolioSlugRouteImport } from './routes/en.portfolio.$slug'
+import { Route as EnServicesIndexRouteImport } from './routes/en.services.index'
+import { Route as EnServicesSlugRouteImport } from './routes/en.services.$slug'
 import { Route as JournalCategoryCategoryRouteImport } from './routes/journal.category.$category'
+import { Route as JurnalCategorieCategoryRouteImport } from './routes/jurnal.categorie.$category'
+import { Route as EnJournalCategoryCategoryRouteImport } from './routes/en.journal.category.$category'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -35,6 +51,16 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EnIndexRoute = EnIndexRouteImport.update({
+  id: '/en/',
+  path: '/en/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnContactRoute = EnContactRouteImport.update({
+  id: '/en/contact',
+  path: '/en/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const JournalIndexRoute = JournalIndexRouteImport.update({
   id: '/journal/',
   path: '/journal/',
@@ -43,6 +69,16 @@ const JournalIndexRoute = JournalIndexRouteImport.update({
 const JournalSlugRoute = JournalSlugRouteImport.update({
   id: '/journal/$slug',
   path: '/journal/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JurnalIndexRoute = JurnalIndexRouteImport.update({
+  id: '/jurnal/',
+  path: '/jurnal/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JurnalSlugRoute = JurnalSlugRouteImport.update({
+  id: '/jurnal/$slug',
+  path: '/jurnal/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PortfolioIndexRoute = PortfolioIndexRouteImport.update({
@@ -55,6 +91,16 @@ const PortfolioSlugRoute = PortfolioSlugRouteImport.update({
   path: '/portfolio/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PortofoliuIndexRoute = PortofoliuIndexRouteImport.update({
+  id: '/portofoliu/',
+  path: '/portofoliu/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PortofoliuSlugRoute = PortofoliuSlugRouteImport.update({
+  id: '/portofoliu/$slug',
+  path: '/portofoliu/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesIndexRoute = ServicesIndexRouteImport.update({
   id: '/services/',
   path: '/services/',
@@ -65,48 +111,147 @@ const ServicesSlugRoute = ServicesSlugRouteImport.update({
   path: '/services/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ServiciiIndexRoute = ServiciiIndexRouteImport.update({
+  id: '/servicii/',
+  path: '/servicii/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServiciiSlugRoute = ServiciiSlugRouteImport.update({
+  id: '/servicii/$slug',
+  path: '/servicii/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnJournalIndexRoute = EnJournalIndexRouteImport.update({
+  id: '/en/journal/',
+  path: '/en/journal/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnJournalSlugRoute = EnJournalSlugRouteImport.update({
+  id: '/en/journal/$slug',
+  path: '/en/journal/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnPortfolioIndexRoute = EnPortfolioIndexRouteImport.update({
+  id: '/en/portfolio/',
+  path: '/en/portfolio/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnPortfolioSlugRoute = EnPortfolioSlugRouteImport.update({
+  id: '/en/portfolio/$slug',
+  path: '/en/portfolio/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesIndexRoute = EnServicesIndexRouteImport.update({
+  id: '/en/services/',
+  path: '/en/services/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnServicesSlugRoute = EnServicesSlugRouteImport.update({
+  id: '/en/services/$slug',
+  path: '/en/services/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const JournalCategoryCategoryRoute = JournalCategoryCategoryRouteImport.update({
   id: '/journal/category/$category',
   path: '/journal/category/$category',
   getParentRoute: () => rootRouteImport,
 } as any)
+const JurnalCategorieCategoryRoute = JurnalCategorieCategoryRouteImport.update({
+  id: '/jurnal/categorie/$category',
+  path: '/jurnal/categorie/$category',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EnJournalCategoryCategoryRoute =
+  EnJournalCategoryCategoryRouteImport.update({
+    id: '/en/journal/category/$category',
+    path: '/en/journal/category/$category',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/en/contact': typeof EnContactRoute
   '/journal/$slug': typeof JournalSlugRoute
+  '/jurnal/$slug': typeof JurnalSlugRoute
   '/portfolio/$slug': typeof PortfolioSlugRoute
+  '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/servicii/$slug': typeof ServiciiSlugRoute
+  '/en/': typeof EnIndexRoute
   '/journal/': typeof JournalIndexRoute
+  '/jurnal/': typeof JurnalIndexRoute
   '/portfolio/': typeof PortfolioIndexRoute
+  '/portofoliu/': typeof PortofoliuIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/servicii/': typeof ServiciiIndexRoute
+  '/en/journal/$slug': typeof EnJournalSlugRoute
+  '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
+  '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
+  '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/en/journal/': typeof EnJournalIndexRoute
+  '/en/portfolio/': typeof EnPortfolioIndexRoute
+  '/en/services/': typeof EnServicesIndexRoute
+  '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/en/contact': typeof EnContactRoute
   '/journal/$slug': typeof JournalSlugRoute
+  '/jurnal/$slug': typeof JurnalSlugRoute
   '/portfolio/$slug': typeof PortfolioSlugRoute
+  '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/servicii/$slug': typeof ServiciiSlugRoute
+  '/en': typeof EnIndexRoute
   '/journal': typeof JournalIndexRoute
+  '/jurnal': typeof JurnalIndexRoute
   '/portfolio': typeof PortfolioIndexRoute
+  '/portofoliu': typeof PortofoliuIndexRoute
   '/services': typeof ServicesIndexRoute
+  '/servicii': typeof ServiciiIndexRoute
+  '/en/journal/$slug': typeof EnJournalSlugRoute
+  '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
+  '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
+  '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/en/journal': typeof EnJournalIndexRoute
+  '/en/portfolio': typeof EnPortfolioIndexRoute
+  '/en/services': typeof EnServicesIndexRoute
+  '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/en/contact': typeof EnContactRoute
   '/journal/$slug': typeof JournalSlugRoute
+  '/jurnal/$slug': typeof JurnalSlugRoute
   '/portfolio/$slug': typeof PortfolioSlugRoute
+  '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/servicii/$slug': typeof ServiciiSlugRoute
+  '/en/': typeof EnIndexRoute
   '/journal/': typeof JournalIndexRoute
+  '/jurnal/': typeof JurnalIndexRoute
   '/portfolio/': typeof PortfolioIndexRoute
+  '/portofoliu/': typeof PortofoliuIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/servicii/': typeof ServiciiIndexRoute
+  '/en/journal/$slug': typeof EnJournalSlugRoute
+  '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
+  '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
+  '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/en/journal/': typeof EnJournalIndexRoute
+  '/en/portfolio/': typeof EnPortfolioIndexRoute
+  '/en/services/': typeof EnServicesIndexRoute
+  '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -114,50 +259,114 @@ export interface FileRouteTypes {
     | '/'
     | '/contact'
     | '/sitemap.xml'
+    | '/en/contact'
     | '/journal/$slug'
+    | '/jurnal/$slug'
     | '/portfolio/$slug'
+    | '/portofoliu/$slug'
     | '/services/$slug'
+    | '/servicii/$slug'
+    | '/en/'
     | '/journal/'
+    | '/jurnal/'
     | '/portfolio/'
+    | '/portofoliu/'
     | '/services/'
+    | '/servicii/'
+    | '/en/journal/$slug'
+    | '/en/portfolio/$slug'
+    | '/en/services/$slug'
     | '/journal/category/$category'
+    | '/jurnal/categorie/$category'
+    | '/en/journal/'
+    | '/en/portfolio/'
+    | '/en/services/'
+    | '/en/journal/category/$category'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/contact'
     | '/sitemap.xml'
+    | '/en/contact'
     | '/journal/$slug'
+    | '/jurnal/$slug'
     | '/portfolio/$slug'
+    | '/portofoliu/$slug'
     | '/services/$slug'
+    | '/servicii/$slug'
+    | '/en'
     | '/journal'
+    | '/jurnal'
     | '/portfolio'
+    | '/portofoliu'
     | '/services'
+    | '/servicii'
+    | '/en/journal/$slug'
+    | '/en/portfolio/$slug'
+    | '/en/services/$slug'
     | '/journal/category/$category'
+    | '/jurnal/categorie/$category'
+    | '/en/journal'
+    | '/en/portfolio'
+    | '/en/services'
+    | '/en/journal/category/$category'
   id:
     | '__root__'
     | '/'
     | '/contact'
     | '/sitemap.xml'
+    | '/en/contact'
     | '/journal/$slug'
+    | '/jurnal/$slug'
     | '/portfolio/$slug'
+    | '/portofoliu/$slug'
     | '/services/$slug'
+    | '/servicii/$slug'
+    | '/en/'
     | '/journal/'
+    | '/jurnal/'
     | '/portfolio/'
+    | '/portofoliu/'
     | '/services/'
+    | '/servicii/'
+    | '/en/journal/$slug'
+    | '/en/portfolio/$slug'
+    | '/en/services/$slug'
     | '/journal/category/$category'
+    | '/jurnal/categorie/$category'
+    | '/en/journal/'
+    | '/en/portfolio/'
+    | '/en/services/'
+    | '/en/journal/category/$category'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContactRoute: typeof ContactRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  EnContactRoute: typeof EnContactRoute
   JournalSlugRoute: typeof JournalSlugRoute
+  JurnalSlugRoute: typeof JurnalSlugRoute
   PortfolioSlugRoute: typeof PortfolioSlugRoute
+  PortofoliuSlugRoute: typeof PortofoliuSlugRoute
   ServicesSlugRoute: typeof ServicesSlugRoute
+  ServiciiSlugRoute: typeof ServiciiSlugRoute
+  EnIndexRoute: typeof EnIndexRoute
   JournalIndexRoute: typeof JournalIndexRoute
+  JurnalIndexRoute: typeof JurnalIndexRoute
   PortfolioIndexRoute: typeof PortfolioIndexRoute
+  PortofoliuIndexRoute: typeof PortofoliuIndexRoute
   ServicesIndexRoute: typeof ServicesIndexRoute
+  ServiciiIndexRoute: typeof ServiciiIndexRoute
+  EnJournalSlugRoute: typeof EnJournalSlugRoute
+  EnPortfolioSlugRoute: typeof EnPortfolioSlugRoute
+  EnServicesSlugRoute: typeof EnServicesSlugRoute
   JournalCategoryCategoryRoute: typeof JournalCategoryCategoryRoute
+  JurnalCategorieCategoryRoute: typeof JurnalCategorieCategoryRoute
+  EnJournalIndexRoute: typeof EnJournalIndexRoute
+  EnPortfolioIndexRoute: typeof EnPortfolioIndexRoute
+  EnServicesIndexRoute: typeof EnServicesIndexRoute
+  EnJournalCategoryCategoryRoute: typeof EnJournalCategoryCategoryRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -183,6 +392,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/en/': {
+      id: '/en/'
+      path: '/en'
+      fullPath: '/en/'
+      preLoaderRoute: typeof EnIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/contact': {
+      id: '/en/contact'
+      path: '/en/contact'
+      fullPath: '/en/contact'
+      preLoaderRoute: typeof EnContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/journal/': {
       id: '/journal/'
       path: '/journal'
@@ -195,6 +418,20 @@ declare module '@tanstack/react-router' {
       path: '/journal/$slug'
       fullPath: '/journal/$slug'
       preLoaderRoute: typeof JournalSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jurnal/': {
+      id: '/jurnal/'
+      path: '/jurnal'
+      fullPath: '/jurnal/'
+      preLoaderRoute: typeof JurnalIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jurnal/$slug': {
+      id: '/jurnal/$slug'
+      path: '/jurnal/$slug'
+      fullPath: '/jurnal/$slug'
+      preLoaderRoute: typeof JurnalSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/portfolio/': {
@@ -211,6 +448,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PortfolioSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/portofoliu/': {
+      id: '/portofoliu/'
+      path: '/portofoliu'
+      fullPath: '/portofoliu/'
+      preLoaderRoute: typeof PortofoliuIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/portofoliu/$slug': {
+      id: '/portofoliu/$slug'
+      path: '/portofoliu/$slug'
+      fullPath: '/portofoliu/$slug'
+      preLoaderRoute: typeof PortofoliuSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services/': {
       id: '/services/'
       path: '/services'
@@ -225,11 +476,81 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/servicii/': {
+      id: '/servicii/'
+      path: '/servicii'
+      fullPath: '/servicii/'
+      preLoaderRoute: typeof ServiciiIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/servicii/$slug': {
+      id: '/servicii/$slug'
+      path: '/servicii/$slug'
+      fullPath: '/servicii/$slug'
+      preLoaderRoute: typeof ServiciiSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/journal/': {
+      id: '/en/journal/'
+      path: '/en/journal'
+      fullPath: '/en/journal/'
+      preLoaderRoute: typeof EnJournalIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/journal/$slug': {
+      id: '/en/journal/$slug'
+      path: '/en/journal/$slug'
+      fullPath: '/en/journal/$slug'
+      preLoaderRoute: typeof EnJournalSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/portfolio/': {
+      id: '/en/portfolio/'
+      path: '/en/portfolio'
+      fullPath: '/en/portfolio/'
+      preLoaderRoute: typeof EnPortfolioIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/portfolio/$slug': {
+      id: '/en/portfolio/$slug'
+      path: '/en/portfolio/$slug'
+      fullPath: '/en/portfolio/$slug'
+      preLoaderRoute: typeof EnPortfolioSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/': {
+      id: '/en/services/'
+      path: '/en/services'
+      fullPath: '/en/services/'
+      preLoaderRoute: typeof EnServicesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/services/$slug': {
+      id: '/en/services/$slug'
+      path: '/en/services/$slug'
+      fullPath: '/en/services/$slug'
+      preLoaderRoute: typeof EnServicesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/journal/category/$category': {
       id: '/journal/category/$category'
       path: '/journal/category/$category'
       fullPath: '/journal/category/$category'
       preLoaderRoute: typeof JournalCategoryCategoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jurnal/categorie/$category': {
+      id: '/jurnal/categorie/$category'
+      path: '/jurnal/categorie/$category'
+      fullPath: '/jurnal/categorie/$category'
+      preLoaderRoute: typeof JurnalCategorieCategoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/en/journal/category/$category': {
+      id: '/en/journal/category/$category'
+      path: '/en/journal/category/$category'
+      fullPath: '/en/journal/category/$category'
+      preLoaderRoute: typeof EnJournalCategoryCategoryRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -239,13 +560,29 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContactRoute: ContactRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  EnContactRoute: EnContactRoute,
   JournalSlugRoute: JournalSlugRoute,
+  JurnalSlugRoute: JurnalSlugRoute,
   PortfolioSlugRoute: PortfolioSlugRoute,
+  PortofoliuSlugRoute: PortofoliuSlugRoute,
   ServicesSlugRoute: ServicesSlugRoute,
+  ServiciiSlugRoute: ServiciiSlugRoute,
+  EnIndexRoute: EnIndexRoute,
   JournalIndexRoute: JournalIndexRoute,
+  JurnalIndexRoute: JurnalIndexRoute,
   PortfolioIndexRoute: PortfolioIndexRoute,
+  PortofoliuIndexRoute: PortofoliuIndexRoute,
   ServicesIndexRoute: ServicesIndexRoute,
+  ServiciiIndexRoute: ServiciiIndexRoute,
+  EnJournalSlugRoute: EnJournalSlugRoute,
+  EnPortfolioSlugRoute: EnPortfolioSlugRoute,
+  EnServicesSlugRoute: EnServicesSlugRoute,
   JournalCategoryCategoryRoute: JournalCategoryCategoryRoute,
+  JurnalCategorieCategoryRoute: JurnalCategorieCategoryRoute,
+  EnJournalIndexRoute: EnJournalIndexRoute,
+  EnPortfolioIndexRoute: EnPortfolioIndexRoute,
+  EnServicesIndexRoute: EnServicesIndexRoute,
+  EnJournalCategoryCategoryRoute: EnJournalCategoryCategoryRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

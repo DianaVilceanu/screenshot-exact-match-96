@@ -61,7 +61,7 @@ function Portfolio() {
         <div className="grid gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((p, i) => (
             <Reveal key={p.slug} delay={(i % 3) * 90} className={cn(i % 3 === 1 && "lg:mt-20")}>
-              <ProjectTile p={p} index={i} aspect={aspects[i % aspects.length]} />
+              <ProjectTile p={p} index={i} aspect={aspects[i % aspects.length]!} />
               <p className="mt-2 text-sm text-muted-foreground">{p.summary}</p>
             </Reveal>
           ))}

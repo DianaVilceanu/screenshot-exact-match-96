@@ -27,7 +27,7 @@ export function SiteHeader() {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 border-b transition-all duration-500",
-        scrolled ? "border-border bg-background/90 backdrop-blur-md" : "border-transparent bg-transparent",
+        scrolled ? "border-border bg-background/95 backdrop-blur-md" : "border-transparent bg-background",
       )}
     >
       <div className="container-editorial flex h-16 items-center justify-between md:h-20">

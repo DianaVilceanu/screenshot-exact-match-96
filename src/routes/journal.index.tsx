@@ -38,7 +38,7 @@ function Journal() {
       </section>
 
       <section className="container-editorial border-t border-border py-14" aria-label="Featured article">
-        <ArticleCard a={featured} large />
+        <ArticleCard a={featured!} large />
       </section>
 
       <section className="container-editorial border-t border-border py-16 md:py-24" aria-labelledby="latest-h">

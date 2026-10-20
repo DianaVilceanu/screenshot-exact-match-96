@@ -21,7 +21,7 @@ export const Route = createFileRoute("/portfolio/$slug")({
       title: `${p.name} — ${p.caseStudy ? "Case Study" : p.categories[0]}`,
       description: p.draft ? `${p.name} case study by Diana Vîlceanu — in preparation.` : `${p.summary} ${p.description[0]}`.slice(0, 158),
       path,
-      noindex: p.draft,
+      noindex: !!p.draft,
       jsonLd: [
         breadcrumbLd([
           { name: "Home", path: "/" },
@@ -46,7 +46,7 @@ function ProjectPage() {
   const { slug } = Route.useLoaderData();
   const p = getProject(slug)!;
   const pub = projects.filter((x) => !x.draft);
-  const next = pub[(pub.indexOf(p) + 1) % pub.length];
+  const next = pub[(pub.indexOf(p) + 1) % pub.length] ?? pub[0]!;
   return p.caseStudy ? <CaseStudy p={p} next={next} /> : <StandardProject p={p} next={next} />;
 }
 
@@ -121,7 +121,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           <div className="mt-10 grid gap-10 md:grid-cols-12 md:items-end">
             <div className="md:col-span-7">
               <Eyebrow n="01">Case study · {p.categories.join(" / ")}</Eyebrow>
-              <h1 className="mt-6 text-[clamp(4.5rem,16vw,14rem)] leading-[0.82] font-bold tracking-[-0.06em] uppercase">
+              <h1 className="mt-6 text-[clamp(3.5rem,11vw,10rem)] break-words leading-[0.82] font-bold tracking-[-0.06em] uppercase">
                 {p.name.toLowerCase()}
               </h1>
               <p className="display-md mt-6 text-primary italic">{cs.tagline}</p>
@@ -207,7 +207,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           {g.length > 0 && (
             <div className="mt-16 grid gap-3 md:grid-cols-12">
               <Reveal className="md:col-span-7">
-                <Pic k={g[0].key} alt={g[0].alt} className="aspect-[4/5]" />
+                <Pic k={g[0]!.key} alt={g[0]!.alt} className="aspect-[4/5]" />
               </Reveal>
               <div className="grid gap-3 md:col-span-5">
                 {g.slice(1, 3).map((x) => (

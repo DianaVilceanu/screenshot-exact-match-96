@@ -41,8 +41,8 @@ export function Reveal({ children, className, delay = 0, as: Tag = "div" }: { ch
     if (!el) return;
     const io = new IntersectionObserver(
       ([e]) => {
-        if (e.isIntersecting) {
-          el.dataset.visible = "true";
+        if (e?.isIntersecting) {
+          el.dataset["visible"] = "true";
           io.disconnect();
         }
       },
@@ -94,7 +94,7 @@ export function Eyebrow({ children, className, n }: { children: ReactNode; class
 }
 
 /** Visibly marks content that still needs verified information. */
-export function Placeholder({ children, className }: { children: ReactNode; className?: string }) {
+export function Placeholder({ children, className }: { children: ReactNode; className?: string | undefined }) {
   return (
     <div className={cn("placeholder-block rounded-sm p-5", className)} data-placeholder="true">
       <p className="eyebrow mb-2 text-placeholder">Placeholder — to be replaced</p>
@@ -106,8 +106,8 @@ export function Placeholder({ children, className }: { children: ReactNode; clas
 export const isPlaceholder = (s: string) => /\[[^\]]+\]/.test(s);
 
 /** Renders text normally, or as a Placeholder when it contains [BRACKETS]. */
-export function MaybePlaceholder({ text, className }: { text: string; className?: string }) {
-  if (isPlaceholder(text)) return <Placeholder className={className}>{text}</Placeholder>;
+export function MaybePlaceholder({ text, className }: { text: string; className?: string | undefined }) {
+  if (isPlaceholder(text)) return <Placeholder>{text}</Placeholder>;
   return <p className={className}>{text}</p>;
 }
 

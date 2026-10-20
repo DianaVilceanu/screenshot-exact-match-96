@@ -4,6 +4,8 @@ import { contact, nav, person } from "@/content/site";
 import { services } from "@/content/services";
 import { cn } from "@/lib/utils";
 import { Arrow, btn } from "./primitives";
+import logo from "@/assets/dm-studio-logo.png.asset.json";
+import logoLight from "@/assets/dm-studio-logo-light.png.asset.json";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -31,9 +33,14 @@ export function SiteHeader() {
       )}
     >
       <div className="container-editorial flex h-16 items-center justify-between md:h-20">
-        <Link to="/" className="group flex items-baseline gap-2" aria-label="Diana Marrie Designs — home">
-          <span className="font-display text-2xl leading-none italic md:text-[1.7rem]">Diana Marrie</span>
-          <span className="eyebrow hidden text-muted-foreground sm:inline">Designs</span>
+        <Link to="/" className="group flex items-center" aria-label="Diana Marrie Designs — home">
+          <img
+            src={logo.url}
+            alt="DM Studio logo"
+            width={1344}
+            height={1170}
+            className="h-11 w-auto transition-opacity group-hover:opacity-80 md:h-14"
+          />
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-9 md:flex">
@@ -79,6 +86,7 @@ export function SiteHeader() {
         )}
         aria-hidden={!open}
       >
+        <img src={logoLight.url} alt="DM Studio logo" width={1344} height={1170} className="mb-8 h-12 w-auto" aria-hidden />
         <nav aria-label="Mobile" className="flex flex-col gap-2">
           {[...nav, { to: "/contact", label: "Contact" } as const].map((n, i) => (
             <Link key={n.to} to={n.to} tabIndex={open ? 0 : -1} className="flex items-baseline gap-4 border-b border-border py-3">
@@ -152,7 +160,8 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-20 flex flex-col justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
+        <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
+          <img src={logoLight.url} alt="DM Studio logo" width={1344} height={1170} className="h-10 w-auto" />
           <p>
             © {new Date().getFullYear()} {person.fullName} · {person.handle}
           </p>

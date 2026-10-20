@@ -47,7 +47,7 @@ function Services() {
                   ))}
                 </ul>
                 <Link to="/services/$slug" params={{ slug: s.slug }} className="group link-underline mt-8 inline-flex items-center gap-3 font-medium">
-                  Explore {s.title.split(" ")[0].toLowerCase()} <Arrow />
+                  Explore {s.title.split(" ")[0]!.toLowerCase()} <Arrow />
                 </Link>
               </div>
               <div className={`grid grid-cols-2 gap-3 ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>

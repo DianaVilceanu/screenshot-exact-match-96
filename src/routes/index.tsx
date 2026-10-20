@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
 const selected = ["inklabs", "divaz", "kdt-romania", "iq-fashion", "mos-ilie", "floraria-mariei"].map((s) => getProject(s)!) as Project[];
 
 function Home() {
-  const [ink, divaz, kdt, ...rest] = selected;
+  const [ink, divaz, kdt, ...rest] = selected as [Project, Project, Project, ...Project[]];
   return (
     <>
       {/* 01 — Hero */}
@@ -259,7 +259,7 @@ function Home() {
           </div>
           <div className="grid gap-12 md:grid-cols-12">
             <Reveal className="md:col-span-6">
-              <ArticleCard a={articles[0]} large />
+              <ArticleCard a={articles[0]!} large />
             </Reveal>
             <div className="grid gap-12 md:col-span-5 md:col-start-8">
               {articles.slice(1, 3).map((a, i) => (

@@ -3,6 +3,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { useEffect, useRef, type ReactNode } from "react";
 import { img, type ImgKey } from "@/content/images";
 import { cn } from "@/lib/utils";
+import { useContent } from "@/lib/i18n";
 
 /** Image with intrinsic dimensions to avoid layout shift. */
 export function Pic({
@@ -95,6 +96,7 @@ export function Eyebrow({ children, className, n }: { children: ReactNode; class
 
 /** Visibly marks content that still needs verified information. */
 export function Placeholder({ children, className }: { children: ReactNode; className?: string | undefined }) {
+  const { t } = useContent();
   return (
     <div className={cn("placeholder-block rounded-sm p-5", className)} data-placeholder="true">
       <p className="eyebrow mb-2 text-placeholder">{t.placeholder}</p>
@@ -112,6 +114,7 @@ export function MaybePlaceholder({ text, className }: { text: string; className?
 }
 
 export function Breadcrumbs({ items }: { items: { name: string; to?: string; params?: Record<string, string> }[] }) {
+  const { t } = useContent();
   return (
     <nav aria-label={t.breadcrumb} className="eyebrow text-muted-foreground">
       <ol className="flex flex-wrap items-center gap-2">

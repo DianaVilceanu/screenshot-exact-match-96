@@ -97,7 +97,7 @@ export function Eyebrow({ children, className, n }: { children: ReactNode; class
 export function Placeholder({ children, className }: { children: ReactNode; className?: string | undefined }) {
   return (
     <div className={cn("placeholder-block rounded-sm p-5", className)} data-placeholder="true">
-      <p className="eyebrow mb-2 text-placeholder">Placeholder — to be replaced</p>
+      <p className="eyebrow mb-2 text-placeholder">{t.placeholder}</p>
       <div className="text-sm leading-relaxed">{children}</div>
     </div>
   );
@@ -113,7 +113,7 @@ export function MaybePlaceholder({ text, className }: { text: string; className?
 
 export function Breadcrumbs({ items }: { items: { name: string; to?: string; params?: Record<string, string> }[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="eyebrow text-muted-foreground">
+    <nav aria-label={t.breadcrumb} className="eyebrow text-muted-foreground">
       <ol className="flex flex-wrap items-center gap-2">
         {items.map((it, i) => (
           <li key={i} className="flex items-center gap-2">

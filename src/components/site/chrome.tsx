@@ -5,8 +5,8 @@ import { hrefFor, idOf, LOCALES, refFromPath, useContent, type Locale } from "@/
 import { cn } from "@/lib/utils";
 import { L } from "./llink";
 import { Arrow, btn } from "./primitives";
-import logo from "@/assets/dm-studio-logo.png.asset.json";
-import logoLight from "@/assets/dm-studio-logo-light.png.asset.json";
+import logo from "@/assets/dm-studio-logo.png";
+import logoLight from "@/assets/dm-studio-logo-light.png";
 
 function useNav() {
   const { locale, t } = useContent();
@@ -89,7 +89,7 @@ export function SiteHeader() {
     >
       <div className="container-editorial flex h-16 items-center justify-between md:h-20">
         <L to={home} className="group flex items-center" aria-label={t.homeAria}>
-          <img src={logo.url} alt={t.logoAlt} width={1344} height={1170} className="h-11 w-auto transition-opacity group-hover:opacity-80 md:h-14" />
+          <img src={logo} alt={t.logoAlt} width={672} height={585} className="h-11 w-auto transition-opacity group-hover:opacity-80 md:h-14" />
         </L>
 
         <nav aria-label={t.mainNav} className="hidden items-center gap-8 md:flex">
@@ -130,7 +130,7 @@ export function SiteHeader() {
         )}
         aria-hidden={!open}
       >
-        <img src={logoLight.url} alt={t.logoAlt} width={1344} height={1170} className="mb-8 h-12 w-auto self-start" aria-hidden />
+        <img src={logoLight} alt={t.logoAlt} width={672} height={585} className="mb-8 h-12 w-auto self-start" aria-hidden />
         <nav aria-label={t.mobileNav} className="flex flex-col gap-2">
           {all.map((n, i) => (
             <L key={n.to} to={n.to} tabIndex={open ? 0 : -1} className="flex items-baseline gap-4 border-b border-border py-3">
@@ -209,7 +209,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
-          <img src={logoLight.url} alt={t.logoAlt} width={1344} height={1170} className="h-10 w-auto" />
+          <img src={logoLight} alt={t.logoAlt} width={672} height={585} className="h-10 w-auto" />
           <p>
             © {new Date().getFullYear()} {person.fullName} · {person.handle}
           </p>

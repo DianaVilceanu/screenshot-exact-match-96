@@ -456,8 +456,11 @@ export const projects: Project[] = [
       "Dr. Kurbe Dental & Aesthetic Center is a modern clinic specializing in advanced dental care and aesthetic treatments, known for its high-quality services, state-of-the-art technology, and patient-centered approach.",
       "For Dr. Kurbe, I created a series of printed promotional materials, including discount vouchers and campaign-focused designs. The print concepts were developed to reflect the clinic's elegant and professional identity, ensuring a coherent visual presence across both promotional and patient-facing materials.",
     ],
-    cover: { key: "kurbe-voucher", alt: "Dr. Kurbe gold and black discount vouchers" },
-    gallery: [{ key: "kurbe-card", alt: "Dr. Kurbe business card mockup" }],
+    cover: { key: "kurbe-dental-cover", alt: "Dentist in blue gloves examining a smiling patient with a mirror and probe" },
+    gallery: [
+      { key: "kurbe-voucher", alt: "Dr. Kurbe gold and black discount vouchers" },
+      { key: "kurbe-card", alt: "Dr. Kurbe business card mockup" },
+    ],
     serviceSlugs: ["printed-media"],
   },
   {
@@ -473,8 +476,9 @@ export const projects: Project[] = [
       "Mariei is a custom-built online flower shop designed to offer customers an elegant, seamless and emotionally engaging shopping experience. The platform showcases a wide variety of floral arrangements, gifts and occasion-based bouquets through a clean and intuitive interface.",
       "For this project, I created the complete UX/UI design, focusing on a modern aesthetic that blends warmth, sophistication and user-friendly navigation. The layout, color palette and visual elements were crafted to highlight the beauty of the floral products while ensuring a smooth browsing and purchasing experience across both desktop and mobile.",
     ],
-    cover: { key: "mariei", alt: "Florăria Mariei website on desktop and phone" },
+    cover: { key: "mariei-cover", alt: "Florist in a black apron holding a large wrapped bouquet of roses, lisianthus and hydrangea" },
     gallery: [
+      { key: "mariei", alt: "Florăria Mariei website on desktop and phone" },
       { key: "mariei-page", alt: "Florăria Mariei homepage design" },
       { key: "mariei-product", alt: "Florăria Mariei product page design" },
     ],
@@ -493,8 +497,9 @@ export const projects: Project[] = [
       "Regata Print is a professional printing company offering high-quality services such as large format prints, posters, banners, and personalized promotional materials. To support their brand and improve client communication, I designed a clean and modern presentation website that highlights their services, expertise and technical capabilities.",
       "For this project, I created the full UX/UI design, focusing on clarity, easy navigation and a visually structured layout. The landing page introduces the company's mission and partnerships, while the product pages offer clear, accessible information about printing options, specifications and pricing details.",
     ],
-    cover: { key: "regata-monitor", alt: "Regata Print website shown on a desktop monitor" },
+    cover: { key: "regata-cover", alt: "Overhead view of two designers choosing colours from printed swatch cards over coffee" },
     gallery: [
+      { key: "regata-monitor", alt: "Regata Print website shown on a desktop monitor" },
       { key: "regata-page", alt: "Regata Print posters product page" },
       { key: "regata-partners", alt: "Regata Print about and partners section" },
     ],
@@ -513,8 +518,8 @@ export const projects: Project[] = [
       "Vibrary is a virtual library platform created as my bachelor's thesis project, developed in .NET and designed to offer users a seamless, intuitive reading experience. The platform allows users to explore a digital book collection, generate their own stories, and receive personalized book recommendations powered by artificial intelligence.",
       "For this project, I designed the complete UX/UI system with a minimalist and user-friendly approach, focusing on clarity, accessibility, and an enjoyable reading environment across both mobile and desktop.",
     ],
-    cover: { key: "vibrary", alt: "Vibrary app screens on phone and desktop in sage and blush" },
-    gallery: [],
+    cover: { key: "vibrary-cover", alt: "Stack of red cloth-bound books with gold-embossed spines against a pale wall" },
+    gallery: [{ key: "vibrary", alt: "Vibrary app screens on phone and desktop in sage and blush" }],
     serviceSlugs: ["ux-ui-design"],
   },
 ];

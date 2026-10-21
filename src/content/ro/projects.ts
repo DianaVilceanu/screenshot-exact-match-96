@@ -397,8 +397,11 @@ export const projects: Project[] = [
       "Dr. Kurbe Dental & Aesthetic Center este o clinică modernă specializată în îngrijire stomatologică avansată și tratamente estetice, cunoscută pentru serviciile de înaltă calitate, tehnologia de ultimă generație și abordarea centrată pe pacient.",
       "Pentru Dr. Kurbe, am creat o serie de materiale promoționale tipărite, inclusiv vouchere de reducere și materiale dedicate campaniilor. Conceptele pentru tipar au fost dezvoltate pentru a reflecta identitatea elegantă și profesionistă a clinicii, asigurând o prezență vizuală coerentă atât în materialele promoționale, cât și în cele destinate pacienților.",
     ],
-    cover: { key: "kurbe-voucher", alt: "Vouchere de reducere Dr. Kurbe în auriu și negru" },
-    gallery: [{ key: "kurbe-card", alt: "Machetă a cărții de vizită Dr. Kurbe" }],
+    cover: { key: "kurbe-dental-cover", alt: "Medic stomatolog cu mănuși albastre care examinează o pacientă zâmbitoare cu oglinda și sonda" },
+    gallery: [
+      { key: "kurbe-voucher", alt: "Vouchere de reducere Dr. Kurbe în auriu și negru" },
+      { key: "kurbe-card", alt: "Machetă a cărții de vizită Dr. Kurbe" },
+    ],
     serviceSlugs: ["printed-media"],
   },
   {
@@ -414,8 +417,9 @@ export const projects: Project[] = [
       "Mariei este un magazin online de flori creat la comandă, conceput pentru a le oferi clienților o experiență de cumpărare elegantă, fluidă și cu rezonanță emoțională. Platforma prezintă o varietate de aranjamente florale, cadouri și buchete pentru diferite ocazii, printr-o interfață aerisită și intuitivă.",
       "Pentru acest proiect, am creat designul UX/UI complet, urmărind o estetică modernă care îmbină căldura, rafinamentul și navigarea intuitivă. Compoziția, paleta de culori și elementele vizuale au fost concepute pentru a pune în valoare frumusețea produselor florale și pentru a asigura o experiență fluidă de navigare și cumpărare, atât pe calculator, cât și pe mobil.",
     ],
-    cover: { key: "mariei", alt: "Site-ul Florăria Mariei pe calculator și telefon" },
+    cover: { key: "mariei-cover", alt: "Florăreasă cu șorț negru care ține un buchet mare împachetat, cu trandafiri, lisianthus și hortensie" },
     gallery: [
+      { key: "mariei", alt: "Site-ul Florăria Mariei pe calculator și telefon" },
       { key: "mariei-page", alt: "Designul paginii principale Florăria Mariei" },
       { key: "mariei-product", alt: "Designul paginii de produs Florăria Mariei" },
     ],
@@ -434,8 +438,9 @@ export const projects: Project[] = [
       "Regata Print este o companie de tipărire profesională care oferă servicii de înaltă calitate, precum printuri de mari dimensiuni, afișe, bannere și materiale promoționale personalizate. Pentru a susține brandul și a îmbunătăți comunicarea cu clienții, am creat un site de prezentare aerisit și modern, care evidențiază serviciile, expertiza și capacitățile tehnice ale companiei.",
       "Pentru acest proiect, am creat designul UX/UI complet, punând accent pe claritate, navigare ușoară și o compoziție vizuală bine structurată. Pagina de destinație prezintă misiunea și parteneriatele companiei, iar paginile de produs oferă informații clare și accesibile despre opțiunile de tipărire, specificații și prețuri.",
     ],
-    cover: { key: "regata-monitor", alt: "Site-ul Regata Print afișat pe un monitor de calculator" },
+    cover: { key: "regata-cover", alt: "Doi designeri, văzuți de sus, care aleg culori de pe mostre tipărite, la o cafea" },
     gallery: [
+      { key: "regata-monitor", alt: "Site-ul Regata Print afișat pe un monitor de calculator" },
       { key: "regata-page", alt: "Pagina de produs Regata Print pentru afișe" },
       { key: "regata-partners", alt: "Secțiunea Regata Print despre companie și parteneri" },
     ],
@@ -454,8 +459,8 @@ export const projects: Project[] = [
       "Vibrary este o platformă de bibliotecă virtuală creată ca proiect de licență, dezvoltată în .NET și concepută pentru a le oferi utilizatorilor o experiență de lectură fluidă și intuitivă. Platforma le permite utilizatorilor să exploreze o colecție digitală de cărți, să își genereze propriile povești și să primească recomandări personalizate de lectură cu ajutorul inteligenței artificiale.",
       "Pentru acest proiect, am creat sistemul UX/UI complet, cu o abordare minimalistă și intuitivă, punând accent pe claritate, accesibilitate și un mediu plăcut de lectură, atât pe mobil, cât și pe calculator.",
     ],
-    cover: { key: "vibrary", alt: "Ecrane ale aplicației Vibrary pe telefon și calculator, în verde salvie și roz pudrat" },
-    gallery: [],
+    cover: { key: "vibrary-cover", alt: "Teanc de cărți legate în pânză roșie, cu cotoare aurite, pe un perete deschis la culoare" },
+    gallery: [{ key: "vibrary", alt: "Ecrane ale aplicației Vibrary pe telefon și calculator, în verde salvie și roz pudrat" }],
     serviceSlugs: ["ux-ui-design"],
   },
 ];

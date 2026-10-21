@@ -11,6 +11,20 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import kdtOpenDays1 from "@/assets/kdt/kdt-open-days-1.webp";
+import kdtOpenDays2 from "@/assets/kdt/kdt-open-days-2.webp";
+import kdtPur1 from "@/assets/kdt/kdt-pur-1.webp";
+import kdtPur2 from "@/assets/kdt/kdt-pur-2.webp";
+import kdtPur3 from "@/assets/kdt/kdt-pur-3.webp";
+import kdtWhy1 from "@/assets/kdt/kdt-why-1.webp";
+import kdtWhy2 from "@/assets/kdt/kdt-why-2.webp";
+import kdtWhy3 from "@/assets/kdt/kdt-why-3.webp";
+import kdtPeople from "@/assets/kdt/kdt-people.webp";
+import kdtPerfect from "@/assets/kdt/kdt-perfect.webp";
+import kdtTestimonial from "@/assets/kdt/kdt-testimonial.webp";
+import kdtResults from "@/assets/kdt/kdt-results.webp";
+import kdtMyth from "@/assets/kdt/kdt-myth.webp";
+import kdtMoodboard from "@/assets/kdt/kdt-moodboard.webp";
 import portraitCutout from "@/assets/portrait-cutout.webp";
 import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
 import marieiCover from "@/assets/mariei-cover.webp";
@@ -144,6 +158,20 @@ export const img = {
   "divaz-home-galentine": { src: divazHomeGalentine, w: 800, h: 1000 },
   "divaz-home-manicure": { src: divazHomeManicure, w: 800, h: 1000 },
   "divaz-home-lip-combo": { src: divazHomeLipCombo, w: 800, h: 1000 },
+  "kdt-open-days-1": { src: kdtOpenDays1, w: 800, h: 1000 },
+  "kdt-open-days-2": { src: kdtOpenDays2, w: 800, h: 1000 },
+  "kdt-pur-1": { src: kdtPur1, w: 800, h: 1000 },
+  "kdt-pur-2": { src: kdtPur2, w: 800, h: 1000 },
+  "kdt-pur-3": { src: kdtPur3, w: 800, h: 1000 },
+  "kdt-why-1": { src: kdtWhy1, w: 800, h: 1000 },
+  "kdt-why-2": { src: kdtWhy2, w: 800, h: 1000 },
+  "kdt-why-3": { src: kdtWhy3, w: 800, h: 1000 },
+  "kdt-people": { src: kdtPeople, w: 800, h: 1000 },
+  "kdt-perfect": { src: kdtPerfect, w: 800, h: 1000 },
+  "kdt-testimonial": { src: kdtTestimonial, w: 800, h: 1000 },
+  "kdt-results": { src: kdtResults, w: 800, h: 1000 },
+  "kdt-myth": { src: kdtMyth, w: 800, h: 1000 },
+  "kdt-moodboard": { src: kdtMoodboard, w: 1600, h: 1200 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

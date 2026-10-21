@@ -124,7 +124,7 @@ export function HomePage() {
           </Reveal>
           <Reveal className="md:col-span-5 md:pt-40" delay={120}>
             <ProjectTile p={kdt} aspect="aspect-[4/5]" />
-            <p className="mt-3 text-sm text-muted-foreground">{h.kdtSoon}</p>
+            <p className="mt-3 text-sm text-muted-foreground">{kdt.summary}</p>
           </Reveal>
         </div>
         <div className="mt-20 grid gap-10 sm:grid-cols-2 md:mt-28 md:grid-cols-3">

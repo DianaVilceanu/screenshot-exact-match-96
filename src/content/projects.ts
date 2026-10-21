@@ -53,6 +53,8 @@ export type Project = {
   gallery: GalleryItem[];
   /** Vertical video reels, shown after the static deliverables. */
   reels?: ReelItem[];
+  /** Interleave reels with the static posts in one grid instead of a separate block. */
+  mixReels?: boolean;
   /** Multi-slide social posts, shown slide by slide after the statics. */
   carousels?: Carousel[];
   serviceSlugs: string[];
@@ -179,6 +181,8 @@ export const projects: Project[] = [
     ],
     cover: { key: "divaz-cover", alt: "Pink Divaz instant-gel press-on nail boxes in a range of shades" },
     gallery: [
+      { key: "divaz-holiday-1", alt: "Divaz holiday nail trends carousel cover with pink boxes, baubles and ribbons" },
+      { key: "divaz-holiday-2", alt: "Divaz holiday carousel slide showing Red Spark, Nude Perlato and Nude Sparkly nails" },
       { key: "divaz-nails", alt: "Divaz instant gel press-on nail boxes on blush pink" },
       { key: "divaz-galentine", alt: "Divaz Galentine's Day campaign with lipstick in a cocktail glass" },
       { key: "divaz-sale", alt: "Divaz 50% off makeup campaign with product box" },
@@ -190,9 +194,14 @@ export const projects: Project[] = [
       { key: "divaz-flavour", alt: "Divaz 'Choose your favourite flavour' lip gloss sale post" },
       { key: "divaz-gloss14", alt: "Divaz lip gloss shade 14 with berries" },
       { key: "divaz-combo", alt: "Divaz budget lip combo carousel cover" },
-      { key: "divaz-feed-1", alt: "Divaz Instagram grid screenshot" },
-      { key: "divaz-feed-2", alt: "Divaz Instagram grid screenshot with product posts" },
     ],
+    reels: [
+      { key: "divaz-reel-1", title: "Instant gel nails, applied in seconds" },
+      { key: "divaz-reel-2", title: "Glowing with Divaz" },
+      { key: "divaz-reel-3", title: "Lip liner and gloss routine" },
+      { key: "divaz-reel-4", title: "Budget lip combo, step by step" },
+    ],
+    mixReels: true,
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -200,21 +209,25 @@ export const projects: Project[] = [
       tagline: "A premium beauty look, accessible to everyone.",
       brief: [
         "Divaz needed complete branding plus the content strategy and social media presence to launch cosmetics and instant gel press-on nails.",
-        "[ADD ORIGINAL CLIENT BRIEF: the client's exact request, audience and constraints]",
       ],
       direction: [
         { title: "Soft, edible colour", text: "Blush, rose and berry tones turn every product shot into something you want to taste, like gloss next to ice cream and fruit." },
         { title: "Packaging as hero", text: "The pink Divaz boxes become a recurring graphic device, anchoring campaigns and carousels." },
         { title: "Carousels that teach", text: "Informative carousels sit next to sale banners so the feed educates as well as sells." },
       ],
-      palette: [
-        { name: "Blush", className: "bg-background border border-border" },
-        { name: "Rose", className: "bg-accent" },
-        { name: "Berry", className: "bg-primary" },
+      process: [
+        { key: "divaz-moodboard", alt: "Divaz moodboard: berry #5E0833, blush and rose swatches, the logo, the tagline, key words, the nail boxes and stills from the reels" },
       ],
-      process: [],
-      results: ["[ADD VERIFIED PROJECT OUTCOME]", "[ADD PERFORMANCE METRICS]"],
-      testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
+      results: [
+        "A recognisable blush pink feed: followers can spot a Divaz post before they read the name.",
+        "Reels became the best-performing format, with the instant nail application videos reaching the widest audience.",
+        "Seasonal campaigns, from Galentine's Day to the holiday nail trends, gave the brand a steady rhythm of launches and offers.",
+      ],
+      testimonial: {
+        quote:
+          "Diana gave Divaz exactly the look we imagined: soft, feminine and premium, without feeling out of reach. Every post and every reel feels like us, and our customers keep telling us how much they love the feed.",
+        author: "Administrator, Divaz",
+      },
     },
   },
   {

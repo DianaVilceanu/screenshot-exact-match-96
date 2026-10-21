@@ -47,14 +47,13 @@ export function HomePage() {
             <Eyebrow n="Vol. 2026">{h.eyebrow}</Eyebrow>
             <p className="eyebrow hidden text-muted-foreground md:block">{h.location}</p>
           </div>
-          <div className="relative mt-10 md:mt-14">
-            <h1 className="display-xl relative z-10 max-w-[12ch]">
+          <div className="mt-10 grid grid-cols-[1fr_0.95fr] items-center gap-3 md:mt-14 md:grid-cols-[1.3fr_1fr] md:gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-10">
+            <h1 className="display-hero relative z-10">
               {h.h1a}
               <em className="text-accent">{h.h1b}</em>
               {h.h1c}
             </h1>
-            {/* Sized in ems of the headline so the objects always clear its widest line. */}
-            <HeroObjects className="absolute top-0 right-0 hidden h-full w-[calc(100%-5.6em)] text-[length:clamp(3.4rem,11vw,11.5rem)] lg:flex min-[1700px]:-mr-28 min-[1700px]:w-[calc(100%-5.6em+7rem)]" />
+            <HeroObjects className="-mr-3 w-[calc(100%+0.75rem)] md:mr-0 md:w-full" />
           </div>
           <div className="mt-12 grid gap-10 border-t border-border pt-8 md:mt-16 md:grid-cols-12">
             <p className="lede md:col-span-6 lg:col-span-5">{h.lede}</p>
@@ -67,7 +66,6 @@ export function HomePage() {
               </L>
             </div>
           </div>
-          <HeroObjects className="relative mx-auto mt-14 aspect-square w-full max-w-[460px] lg:hidden" />
         </div>
         <div className="container-editorial mt-16 flex items-center gap-4 pb-6 md:mt-24">
           <span className="relative block h-12 w-px overflow-hidden bg-border">
@@ -253,15 +251,15 @@ export function HomePage() {
 
 /** Floating studio props for the hero: laptop, camera and colour-swatch card, plus a few quiet decorations. */
 function HeroObjects({ className }: { className: string }) {
-  const shadow = "drop-shadow-[0_28px_32px_rgb(23_12_46/0.22)]";
+  const shadow = "drop-shadow-[0_12px_14px_rgb(23_12_46/0.22)] md:drop-shadow-[0_28px_32px_rgb(23_12_46/0.22)]";
   return (
     <div aria-hidden className={cn("pointer-events-none flex items-center select-none", className)}>
       <div className="relative aspect-square w-full">
         <div className="absolute top-[4%] left-[4%] aspect-square w-[92%] rounded-full border border-dashed border-coral/45" />
-        <span className="absolute top-0 left-[44%] font-display text-3xl text-coral">✶</span>
-        <span className="absolute right-0 bottom-[12%] font-display text-xl text-coral">✶</span>
-        <span className="absolute bottom-[2%] left-[6%] font-display text-2xl text-ink/70">✶</span>
-        <span className="absolute top-[42%] left-0 size-2.5 rounded-full bg-coral" />
+        <span className="absolute top-0 left-[44%] font-display text-base text-coral md:text-3xl">✶</span>
+        <span className="absolute right-0 bottom-[12%] font-display text-xs text-coral md:text-xl">✶</span>
+        <span className="absolute bottom-[2%] left-[6%] font-display text-sm text-ink/70 md:text-2xl">✶</span>
+        <span className="absolute top-[42%] left-0 size-1.5 rounded-full bg-coral md:size-2.5" />
         <img
           src={laptop}
           alt=""

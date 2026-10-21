@@ -153,6 +153,14 @@
 }
 
 /* ---------- Typography ---------- */
+/* Home headline: a step smaller than display-xl so it shares the row with the hero objects. */
+@utility display-hero {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+  font-size: clamp(2.5rem, 8.6vw, 8.75rem);
+}
 @utility display-xl {
   font-family: var(--font-display);
   font-weight: 400;

@@ -19,6 +19,7 @@ export const projects: Project[] = [
     gallery: [
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs de retrospectivă pentru 2025, pe fundal galben" },
       { key: "inklabs-stop", alt: "Reclamă Inklabs pe fundal galben, cu mesajul „Oprește derularea pentru tatuaje” și un model de scorpion" },
+      { key: "inklabs-300-designs", alt: "Postare Inklabs pe negru: peste 300 de modele, cu o mascotă taur care face cu ochiul și ține cartonașe cu tatuaje, plus lista de stiluri" },
       { key: "inklabs-launch", alt: "Postare Inklabs cu calendarul lansărilor și o listă de țări europene" },
       { key: "inklabs-forever", alt: "Infografic Inklabs care explică tatuajul semipermanent" },
       { key: "inklabs-offer", alt: "Material grafic Inklabs cu o ofertă de pachet și cartonașe cu tatuaje, pe fundal negru" },
@@ -27,6 +28,12 @@ export const projects: Project[] = [
       { key: "inklabs-clients", alt: "Postare retrospectivă Inklabs: peste 50.000 de clienți tatuați" },
       { key: "inklabs-soon", alt: "Postare Inklabs cu mesajul „În curând” și datele lansărilor" },
       { key: "inklabs-notes", alt: "Postare de încheiere a retrospectivei Inklabs, pe fundal negru cu semitonuri galbene" },
+    ],
+    reels: [
+      { key: "inklabs-reel-1", title: "Rezultatul: un negru intens, natural" },
+      { key: "inklabs-reel-2", title: "Cum funcționează tatuajele Inklabs" },
+      { key: "inklabs-reel-3", title: "De la șablon la tatuajul cu busolă" },
+      { key: "inklabs-reel-4", title: "Tatuaje în locurile riscante" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,

@@ -2,6 +2,7 @@
 import inklabsBefore from "@/assets/inklabs-before.webp";
 import inklabsFeatures from "@/assets/inklabs-features.webp";
 import inklabsStopScroll from "@/assets/inklabs-stop-scroll.webp";
+import inklabs300Designs from "@/assets/inklabs-300-designs.webp";
 import inklabsLogoSystem from "@/assets/inklabs-logo-system.webp";
 import inklabsMoodboard from "@/assets/inklabs-moodboard.webp";
 import inklabsPhotoBirds from "@/assets/inklabs-photo-birds.webp";
@@ -105,6 +106,7 @@ export const img = {
   "inklabs-features": { src: inklabsFeatures, w: 800, h: 1000 },
   "inklabs-before": { src: inklabsBefore, w: 800, h: 1000 },
   "inklabs-stop-scroll": { src: inklabsStopScroll, w: 800, h: 1000 },
+  "inklabs-300-designs": { src: inklabs300Designs, w: 800, h: 1000 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },
   "inklabs-photo-cross": { src: inklabsPhotoCross, w: 480, h: 840 },

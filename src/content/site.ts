@@ -8,7 +8,7 @@ export const person = {
   role: "Graphic Designer & Art Director",
   handle: "@DianaMarrieDesigns",
   languages: ["Romanian (native)", "English (fluent / advanced)"],
-  tools: ["Figma", "CapCut", "Filmora"],
+  tools: ["Adobe Creative Cloud: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects", "Figma, CapCut, Filmora"],
   about: [
     "I'm Diana, an artistic-minded creator who started in graphic design through illustration and branding, later expanding into video editing, animation, and a variety of design niches. With 6 years of experience across digital content creation, I've also built a solid technical foundation through my studies in Economic Informatics.",
     "Recently, my focus has shifted toward social media, where I craft engaging visuals, carousels, and reels. I'm passionate about creating visually appealing, impactful digital experiences.",

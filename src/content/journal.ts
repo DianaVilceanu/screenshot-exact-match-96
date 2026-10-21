@@ -218,7 +218,7 @@ export const articles: Article[] = [
     description: "Practical techniques for social posts that stop the scroll: contrast, a single message, motion and recognisable devices.",
     category: "social-media",
     publishedAt: null,
-    cover: { key: "inklabs-stop", alt: "Inklabs 'Stop scrolling' yellow post" },
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
     intro: "On social media, your design has about a second to earn attention. This article covers the techniques that help a post stand out, and why they work.",
     sections: [
       {
@@ -250,7 +250,7 @@ export const articles: Article[] = [
     description: "Photography, restraint, material and consistency: the visual signals that make a brand feel premium.",
     category: "content-creation",
     publishedAt: null,
-    cover: { key: "divaz-gloss35", alt: "Divaz lip gloss styled with berries and ice cream" },
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
     intro: "Premium is a feeling built from many small signals. You'll learn what those signals are and how to bring them into your photos, layouts and content, even on a modest budget.",
     sections: [
       {

@@ -11,6 +11,8 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import journalPremium from "@/assets/journal/journal-premium.webp";
+import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
 import journalFonts from "@/assets/journal/journal-fonts.webp";
 import journalFeed from "@/assets/journal/journal-feed.webp";
@@ -176,6 +178,8 @@ export const img = {
   "kdt-results": { src: kdtResults, w: 800, h: 1000 },
   "kdt-myth": { src: kdtMyth, w: 800, h: 1000 },
   "kdt-moodboard": { src: kdtMoodboard, w: 1600, h: 1200 },
+  "journal-premium": { src: journalPremium, w: 1400, h: 933 },
+  "journal-stand-out": { src: journalStandOut, w: 1400, h: 933 },
   "journal-identity": { src: journalIdentity, w: 1400, h: 933 },
   "journal-fonts": { src: journalFonts, w: 1400, h: 1050 },
   "journal-feed": { src: journalFeed, w: 1400, h: 933 },

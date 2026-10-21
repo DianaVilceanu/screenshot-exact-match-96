@@ -178,7 +178,7 @@ export const articles: Article[] = [
     description: "Tehnici practice pentru postări care îi fac pe oameni să se oprească din derulat: contrast, un singur mesaj, mișcare și elemente ușor de recunoscut.",
     category: "social-media",
     publishedAt: null,
-    cover: { key: "inklabs-stop", alt: "Postare Inklabs pe fundal galben, cu mesajul „Oprește-te din derulat”" },
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
     intro: "În social media, designul tău are cam o secundă ca să atragă atenția. Acest articol prezintă tehnicile care ajută o postare să iasă în evidență și explică de ce funcționează.",
     sections: [
       {
@@ -211,7 +211,7 @@ export const articles: Article[] = [
     description: "Fotografia, simplitatea, materialele și consecvența sunt indiciile vizuale care dau unui brand un aer premium.",
     category: "content-creation",
     publishedAt: null,
-    cover: { key: "divaz-gloss35", alt: "Luciu de buze Divaz într-o compoziție cu fructe de pădure și înghețată" },
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
     intro: "Impresia de premium se construiește din multe indicii mici. Vei afla care sunt acestea și cum să le integrezi în fotografii, compoziții și conținut, chiar și cu un buget modest.",
     sections: [
       {

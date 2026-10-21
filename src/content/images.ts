@@ -2,7 +2,22 @@
 import inklabsBefore from "@/assets/inklabs-before.webp";
 import inklabsFeatures from "@/assets/inklabs-features.webp";
 import inklabsStopScroll from "@/assets/inklabs-stop-scroll.webp";
+import divazCover from "@/assets/divaz-cover.webp";
 import inklabs300Designs from "@/assets/inklabs-300-designs.webp";
+import inklabsCover from "@/assets/inklabs-cover.webp";
+import ilieCover from "@/assets/ilie-cover.webp";
+import iqCover from "@/assets/iq-cover.webp";
+import kdtCover from "@/assets/kdt-cover.webp";
+import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
+import marieiCover from "@/assets/mariei-cover.webp";
+import regataCover from "@/assets/regata-cover.webp";
+import vibraryCover from "@/assets/vibrary-cover.webp";
+import farmexCover from "@/assets/farmex-cover.webp";
+import kanoiCover from "@/assets/kanoi-cover.webp";
+import adsCover from "@/assets/ads-cover.webp";
+import roboticsCover from "@/assets/robotics-cover.webp";
+import gmhCover from "@/assets/gmh-cover.webp";
+import kurbeClinicCover from "@/assets/kurbe-clinic-cover.webp";
 import inklabsLogoSystem from "@/assets/inklabs-logo-system.webp";
 import inklabsMoodboard from "@/assets/inklabs-moodboard.webp";
 import inklabsPhotoBirds from "@/assets/inklabs-photo-birds.webp";
@@ -107,6 +122,21 @@ export const img = {
   "inklabs-before": { src: inklabsBefore, w: 800, h: 1000 },
   "inklabs-stop-scroll": { src: inklabsStopScroll, w: 800, h: 1000 },
   "inklabs-300-designs": { src: inklabs300Designs, w: 800, h: 1000 },
+  "inklabs-cover": { src: inklabsCover, w: 1400, h: 933 },
+  "divaz-cover": { src: divazCover, w: 1400, h: 933 },
+  "kdt-cover": { src: kdtCover, w: 800, h: 470 },
+  "iq-cover": { src: iqCover, w: 1400, h: 933 },
+  "kurbe-clinic-cover": { src: kurbeClinicCover, w: 1000, h: 1500 },
+  "farmex-cover": { src: farmexCover, w: 1400, h: 934 },
+  "kanoi-cover": { src: kanoiCover, w: 1400, h: 933 },
+  "ads-cover": { src: adsCover, w: 1057, h: 603 },
+  "robotics-cover": { src: roboticsCover, w: 1086, h: 1448 },
+  "gmh-cover": { src: gmhCover, w: 1400, h: 933 },
+  "kurbe-dental-cover": { src: kurbeDentalCover, w: 1400, h: 933 },
+  "mariei-cover": { src: marieiCover, w: 1200, h: 1200 },
+  "regata-cover": { src: regataCover, w: 1400, h: 933 },
+  "vibrary-cover": { src: vibraryCover, w: 1200, h: 1066 },
+  "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },
   "inklabs-photo-cross": { src: inklabsPhotoCross, w: 480, h: 840 },

@@ -7,6 +7,9 @@ import inklabs300Designs from "@/assets/inklabs-300-designs.webp";
 import inklabsCover from "@/assets/inklabs-cover.webp";
 import ilieCover from "@/assets/ilie-cover.webp";
 import iqCover from "@/assets/iq-cover.webp";
+import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
+import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
+import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
 import portraitCutout from "@/assets/portrait-cutout.webp";
 import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
@@ -125,7 +128,7 @@ export const img = {
   "inklabs-300-designs": { src: inklabs300Designs, w: 800, h: 1000 },
   "inklabs-cover": { src: inklabsCover, w: 1400, h: 933 },
   "divaz-cover": { src: divazCover, w: 1400, h: 933 },
-  "kdt-cover": { src: kdtCover, w: 800, h: 470 },
+  "kdt-cover": { src: kdtCover, w: 1037, h: 1516 },
   "iq-cover": { src: iqCover, w: 1400, h: 933 },
   "kurbe-clinic-cover": { src: kurbeClinicCover, w: 1000, h: 1500 },
   "farmex-cover": { src: farmexCover, w: 1400, h: 934 },
@@ -138,6 +141,9 @@ export const img = {
   "regata-cover": { src: regataCover, w: 1400, h: 933 },
   "vibrary-cover": { src: vibraryCover, w: 1200, h: 1066 },
   "portrait-cutout": { src: portraitCutout, w: 1000, h: 1124 },
+  "divaz-home-galentine": { src: divazHomeGalentine, w: 800, h: 1000 },
+  "divaz-home-manicure": { src: divazHomeManicure, w: 800, h: 1000 },
+  "divaz-home-lip-combo": { src: divazHomeLipCombo, w: 800, h: 1000 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

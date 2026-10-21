@@ -114,9 +114,10 @@ export function HomePage() {
         <div className="mt-20 grid gap-14 md:mt-28 md:grid-cols-12">
           <Reveal className="md:col-span-7">
             <L to={link(divaz)} className="group block">
-              <div className="frame-zoom relative aspect-[5/4] bg-blush">
-                <Pic k="divaz-galentine" alt={h.divazAlt} className="absolute inset-y-0 left-0 !w-1/2" sizes="30vw" />
-                <Pic k="divaz-nails" alt={h.divazNailsAlt} className="absolute inset-y-0 right-0 !w-1/2" sizes="30vw" />
+              <div className="frame-zoom grid grid-cols-3 gap-2">
+                {(["divaz-home-galentine", "divaz-home-manicure", "divaz-home-lip-combo"] as const).map((k, i) => (
+                  <Pic key={k} k={k} alt={h.divazAlts[i]!} className="aspect-[4/5]" sizes="(min-width: 768px) 20vw, 33vw" />
+                ))}
               </div>
               <FeatureText p={divaz} n="02" className="mt-6" />
             </L>

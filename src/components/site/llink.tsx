@@ -13,7 +13,7 @@ export function L({
   to: string;
   children?: ReactNode;
   className?: string;
-  tabIndex?: number;
+  tabIndex?: number | undefined;
   onClick?: () => void;
   "aria-label"?: string;
   "aria-current"?: "page" | undefined;

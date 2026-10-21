@@ -53,7 +53,8 @@ export function HomePage() {
               <em className="text-accent">{h.h1b}</em>
               {h.h1c}
             </h1>
-            <HeroObjects className="absolute top-0 -right-4 hidden h-full w-[41%] lg:block xl:-right-8" />
+            {/* Sized in ems of the headline so the objects always clear its widest line. */}
+            <HeroObjects className="absolute top-0 right-0 hidden h-full w-[calc(100%-5.6em)] text-[length:clamp(3.4rem,11vw,11.5rem)] lg:flex min-[1700px]:-mr-28 min-[1700px]:w-[calc(100%-5.6em+7rem)]" />
           </div>
           <div className="mt-12 grid gap-10 border-t border-border pt-8 md:mt-16 md:grid-cols-12">
             <p className="lede md:col-span-6 lg:col-span-5">{h.lede}</p>
@@ -254,35 +255,36 @@ export function HomePage() {
 function HeroObjects({ className }: { className: string }) {
   const shadow = "drop-shadow-[0_28px_32px_rgb(23_12_46/0.22)]";
   return (
-    <div aria-hidden className={cn("pointer-events-none select-none", className)}>
-      <div className="absolute top-[10%] left-[12%] aspect-square w-[80%] rounded-full bg-blush" />
-      <div className="absolute top-[3%] left-[5%] aspect-square w-[94%] rounded-full border border-dashed border-coral/45" />
-      <span className="absolute top-[1%] left-[46%] font-display text-3xl text-coral">✶</span>
-      <span className="absolute right-[2%] bottom-[14%] font-display text-xl text-coral">✶</span>
-      <span className="absolute bottom-[4%] left-[8%] font-display text-2xl text-ink/70">✶</span>
-      <span className="absolute top-[30%] left-[2%] size-2.5 rounded-full bg-coral" />
-      <img
-        src={laptop}
-        alt=""
-        width={LAPTOP.w}
-        height={LAPTOP.h}
-        fetchPriority="high"
-        className={cn("float-slow absolute top-[36%] left-[4%] w-[90%] rotate-[-4deg]", shadow)}
-      />
-      <img
-        src={palette}
-        alt=""
-        width={PALETTE.w}
-        height={PALETTE.h}
-        className={cn("float-slow absolute top-[4%] left-[3%] w-[26%] rotate-[-9deg] [animation-delay:-2.5s]", shadow)}
-      />
-      <img
-        src={camera}
-        alt=""
-        width={CAMERA.w}
-        height={CAMERA.h}
-        className={cn("float-slow absolute top-[7%] right-[-3%] w-[54%] rotate-[6deg] [animation-delay:-5s]", shadow)}
-      />
+    <div aria-hidden className={cn("pointer-events-none flex items-center select-none", className)}>
+      <div className="relative aspect-square w-full">
+        <div className="absolute top-[4%] left-[4%] aspect-square w-[92%] rounded-full border border-dashed border-coral/45" />
+        <span className="absolute top-0 left-[44%] font-display text-3xl text-coral">✶</span>
+        <span className="absolute right-0 bottom-[12%] font-display text-xl text-coral">✶</span>
+        <span className="absolute bottom-[2%] left-[6%] font-display text-2xl text-ink/70">✶</span>
+        <span className="absolute top-[42%] left-0 size-2.5 rounded-full bg-coral" />
+        <img
+          src={laptop}
+          alt=""
+          width={LAPTOP.w}
+          height={LAPTOP.h}
+          fetchPriority="high"
+          className={cn("float-slow absolute top-[34%] left-[4%] w-[92%] rotate-[-4deg]", shadow)}
+        />
+        <img
+          src={palette}
+          alt=""
+          width={PALETTE.w}
+          height={PALETTE.h}
+          className={cn("float-slow absolute top-[8%] left-[6%] w-[26%] rotate-[-8deg] [animation-delay:-2.5s]", shadow)}
+        />
+        <img
+          src={camera}
+          alt=""
+          width={CAMERA.w}
+          height={CAMERA.h}
+          className={cn("float-slow absolute top-[5%] right-[1%] w-[56%] rotate-[6deg] [animation-delay:-5s]", shadow)}
+        />
+      </div>
     </div>
   );
 }

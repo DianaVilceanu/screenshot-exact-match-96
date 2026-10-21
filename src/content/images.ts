@@ -8,6 +8,11 @@ import inklabsCover from "@/assets/inklabs-cover.webp";
 import ilieCover from "@/assets/ilie-cover.webp";
 import iqCover from "@/assets/iq-cover.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import farmexCover from "@/assets/farmex-cover.webp";
+import kanoiCover from "@/assets/kanoi-cover.webp";
+import adsCover from "@/assets/ads-cover.webp";
+import roboticsCover from "@/assets/robotics-cover.webp";
+import gmhCover from "@/assets/gmh-cover.webp";
 import kurbeClinicCover from "@/assets/kurbe-clinic-cover.webp";
 import inklabsLogoSystem from "@/assets/inklabs-logo-system.webp";
 import inklabsMoodboard from "@/assets/inklabs-moodboard.webp";
@@ -118,6 +123,11 @@ export const img = {
   "kdt-cover": { src: kdtCover, w: 800, h: 470 },
   "iq-cover": { src: iqCover, w: 1400, h: 933 },
   "kurbe-clinic-cover": { src: kurbeClinicCover, w: 1000, h: 1500 },
+  "farmex-cover": { src: farmexCover, w: 1400, h: 934 },
+  "kanoi-cover": { src: kanoiCover, w: 1400, h: 933 },
+  "ads-cover": { src: adsCover, w: 1057, h: 603 },
+  "robotics-cover": { src: roboticsCover, w: 1086, h: 1448 },
+  "gmh-cover": { src: gmhCover, w: 1400, h: 933 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

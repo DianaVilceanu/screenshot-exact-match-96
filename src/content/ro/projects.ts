@@ -267,8 +267,9 @@ export const projects: Project[] = [
       "Pentru Farmex, am dezvoltat o gamă largă de conținut pentru rețelele sociale, inclusiv bannere promoționale de produs, postări statice informative despre sănătate și tratamente specifice, precum și clipuri video captivante pentru promovarea produselor și pentru subiecte educative din domeniul farmaceutic.",
       "Prin aceste materiale vizuale, am contribuit la consolidarea prezenței digitale a brandului și la comunicarea informațiilor esențiale despre sănătate într-un mod clar, accesibil și atractiv vizual.",
     ],
-    cover: { key: "farmex-4", alt: "Postare Farmex pe fundal verde, cu sfaturi de nutriție" },
+    cover: { key: "farmex-cover", alt: "Stetoscop lângă blistere și pastile, pe fundal verde salvie" },
     gallery: [
+      { key: "farmex-4", alt: "Postare Farmex pe fundal verde, cu sfaturi de nutriție" },
       { key: "farmex-1", alt: "Postare Farmex despre vitamine pentru iarnă" },
       { key: "farmex-2", alt: "Postare Farmex pentru un concurs cu premii" },
       { key: "farmex-3", alt: "Postare informativă Farmex despre micoza unghiilor" },
@@ -290,8 +291,9 @@ export const projects: Project[] = [
       "Pentru Kanoi, am creat o gamă largă de materiale vizuale statice pentru rețelele sociale, inclusiv bannere promoționale pentru serviciile de curățare, oferte de abonament, campanii sezoniere și postări informative despre îngrijirea încălțămintei.",
       "Munca mea a ajutat brandul să își construiască o identitate digitală aerisită, consecventă și axată pe servicii, care comunică limpede publicului valoarea și expertiza sa.",
     ],
-    cover: { key: "kanoi-2", alt: "Postare Kanoi de Black Friday pentru abonamentul 365" },
+    cover: { key: "kanoi-cover", alt: "Adidași roz lângă o perie pentru încălțăminte în apă cu spumă și un flacon de curățare, pe fundal bleu" },
     gallery: [
+      { key: "kanoi-2", alt: "Postare Kanoi de Black Friday pentru abonamentul 365" },
       { key: "kanoi-1", alt: "Postare Kanoi despre curățarea pantofilor sport" },
       { key: "kanoi-3", alt: "Postare Kanoi cu oferta din 7 noiembrie" },
       { key: "kanoi-4", alt: "Campanie Kanoi de Moș Nicolae, cu ghete" },
@@ -311,8 +313,9 @@ export const projects: Project[] = [
     description: [
       "O selecție de materiale vizuale publicitare și de campanie create pentru diverse branduri: reclame de modă, oferte auto, produse tehnologice, cadouri personalizate, produse de sănătate și servicii energetice.",
     ],
-    cover: { key: "ads-blackfriday", alt: "Reclamă de Black Friday cu o ofertă auto, într-o compoziție roșie și neagră" },
+    cover: { key: "ads-cover", alt: "Trei reclame pentru stories: o canapea teracotă cu un banner promoțional curbat, o siluetă încadrată de forme organice și un ghid de cadouri" },
     gallery: [
+      { key: "ads-blackfriday", alt: "Reclamă de Black Friday cu o ofertă auto, într-o compoziție roșie și neagră" },
       { key: "ads-zaire", alt: "Reclamă de modă Zaire de Black Friday" },
       { key: "ads-cadenzza", alt: "Reclamă Cadenzza pentru pantofi casual" },
       { key: "ads-astrid", alt: "Reclamă Astrid cu o haină de blană din noua colecție" },
@@ -350,8 +353,9 @@ export const projects: Project[] = [
       "Entry Robotics Kit este un set educativ STEM conceput pentru a-i familiariza pe începători cu bazele electronicii, programării și roboticii simple. Le oferă elevilor o modalitate accesibilă de a explora tehnologia și de a-și dezvolta abilitățile de rezolvare a problemelor prin experimente practice.",
       "Pentru acest produs, am creat designul complet al ambalajului tipărit, inclusiv fața, spatele, partea de sus, partea de jos și lateralele cutiei. Designul îmbină compoziții aerisite, elemente educative și materiale vizuale coerente cu identitatea brandului, pentru a prezenta kitul într-un mod profesionist, captivant și ușor de înțeles.",
     ],
-    cover: { key: "robotics-mock", alt: "Machetă a ambalajului Entry Robotics Kit" },
+    cover: { key: "robotics-cover", alt: "Cutii mov Entry Starter Kit de la NextLab.tech, cu o placă de dezvoltare, pe suporturi din acril" },
     gallery: [
+      { key: "robotics-mock", alt: "Machetă a ambalajului Entry Robotics Kit" },
       { key: "robotics-flat", alt: "Desfășurata ambalajului Entry Robotics Kit" },
       { key: "robotics-box", alt: "Randare a cutiei Entry Robotics Kit" },
     ],
@@ -371,8 +375,9 @@ export const projects: Project[] = [
       "Pentru GMH, am creat o serie de materiale promoționale tipărite, de la fluturași și broșuri informative până la afișe promoționale menite să evidențieze serviciile clinicii, capacitățile sale și campaniile sezoniere.",
       "Materialele create au contribuit la comunicarea clară și atractivă vizual a identității profesioniste și premium a GMH, susținând imaginea unui centru medical de încredere, care îmbină tehnologia avansată cu îngrijirea empatică.",
     ],
-    cover: { key: "gmh-coupon", alt: "Cupon GMH de reducere pentru ecografie maternă" },
+    cover: { key: "gmh-cover", alt: "Panoul de control al unui ecograf, cu sondele în suport, într-un cabinet luminos" },
     gallery: [
+      { key: "gmh-coupon", alt: "Cupon GMH de reducere pentru ecografie maternă" },
       { key: "gmh-poster", alt: "Afiș GMH pentru un eveniment dedicat celei de-a doua opinii medicale" },
       { key: "gmh-flyer", alt: "Mână care ține un fluturaș GMH" },
       { key: "gmh-print", alt: "Machetă de tipar pentru un cupon GMH" },

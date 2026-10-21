@@ -326,8 +326,9 @@ export const projects: Project[] = [
       "For Farmex, I developed a wide range of social media content, including promotional product banners, informative static posts about both health topics and specific treatments, as well as engaging video clips for product promotion and educational, pharmacy-related topics.",
       "Through these visuals, I helped strengthen the brand's digital presence and communicate essential health information in a clear, accessible, and visually engaging way.",
     ],
-    cover: { key: "farmex-4", alt: "Farmex green post with nutrition advice" },
+    cover: { key: "farmex-cover", alt: "Stethoscope beside blister packs and pills on a sage green background" },
     gallery: [
+      { key: "farmex-4", alt: "Farmex green post with nutrition advice" },
       { key: "farmex-1", alt: "Farmex winter vitamins post" },
       { key: "farmex-2", alt: "Farmex giveaway post" },
       { key: "farmex-3", alt: "Farmex nail fungus information post" },
@@ -349,8 +350,9 @@ export const projects: Project[] = [
       "For Kanoi, I designed a wide range of static social media visuals, including promotional banners for their cleaning services, subscription offers, seasonal campaigns, and informative posts about footwear care.",
       "My work helped the brand establish a clean, consistent, and service-focused digital identity that clearly communicates value and expertise to its audience.",
     ],
-    cover: { key: "kanoi-2", alt: "Kanoi 365 subscription Black Friday post" },
+    cover: { key: "kanoi-cover", alt: "Pink sneakers next to a shoe brush in soapy water and a cleaning bottle, on pale blue" },
     gallery: [
+      { key: "kanoi-2", alt: "Kanoi 365 subscription Black Friday post" },
       { key: "kanoi-1", alt: "Kanoi sneaker cleaning post" },
       { key: "kanoi-3", alt: "Kanoi 7 November offer post" },
       { key: "kanoi-4", alt: "Kanoi St. Nicholas boots campaign" },
@@ -370,8 +372,9 @@ export const projects: Project[] = [
     description: [
       "A selection of advertising and campaign visuals created for a range of brands: fashion ads, automotive offers, tech products, personalised gifts, health products and energy services.",
     ],
-    cover: { key: "ads-blackfriday", alt: "Black Friday car offer ad with red and black layout" },
+    cover: { key: "ads-cover", alt: "Three story ads: a terracotta sofa with a curved promo banner, a silhouette framed by organic shapes and a gift guide" },
     gallery: [
+      { key: "ads-blackfriday", alt: "Black Friday car offer ad with red and black layout" },
       { key: "ads-zaire", alt: "Zaire Black Friday fashion ad" },
       { key: "ads-cadenzza", alt: "Cadenzza casual shoes ad" },
       { key: "ads-astrid", alt: "Astrid new collection fur coat ad" },
@@ -409,8 +412,9 @@ export const projects: Project[] = [
       "The Entry Robotics Kit is an educational STEM set designed to introduce beginners to the basics of electronics, programming, and simple robotics. It offers students an accessible way to explore technology and develop problem-solving skills through hands-on experimentation.",
       "For this product, I created the full print packaging design for the box, including the front, back, top, bottom, and side panels. The design blends clean layouts, educational elements, and brand-consistent visuals to present the kit in a professional, engaging, and easy-to-understand way.",
     ],
-    cover: { key: "robotics-mock", alt: "Entry Robotics Kit box packaging mockup" },
+    cover: { key: "robotics-cover", alt: "Purple Entry Starter Kit boxes by NextLab.tech with a microcontroller board on acrylic risers" },
     gallery: [
+      { key: "robotics-mock", alt: "Entry Robotics Kit box packaging mockup" },
       { key: "robotics-flat", alt: "Entry Robotics Kit flat packaging panels" },
       { key: "robotics-box", alt: "Entry Robotics Kit box render" },
     ],
@@ -430,8 +434,9 @@ export const projects: Project[] = [
       "For GMH, I created a series of print promotional materials, from informative flyers and brochures to promotional posters aimed at highlighting the clinic's services, capabilities and seasonal campaigns.",
       "My designs helped communicate GMH's professional, high-end identity in a clear and visually appealing way, supporting their image as a trusted medical center combining advanced technology with compassionate care.",
     ],
-    cover: { key: "gmh-coupon", alt: "GMH discount coupon for maternal ultrasound" },
+    cover: { key: "gmh-cover", alt: "Ultrasound machine control panel with transducer probes in a bright clinic" },
     gallery: [
+      { key: "gmh-coupon", alt: "GMH discount coupon for maternal ultrasound" },
       { key: "gmh-poster", alt: "GMH second opinion event poster" },
       { key: "gmh-flyer", alt: "Hand holding GMH flyer" },
       { key: "gmh-print", alt: "GMH coupon print layout" },

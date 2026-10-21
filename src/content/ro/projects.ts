@@ -49,7 +49,11 @@ export const projects: Project[] = [
         "Zero retururi, evidențiate în aceeași retrospectivă de final de an.",
         "Lansări în mai multe țări europene, anunțate pe rețelele sociale cu aceeași identitate galben-negru.",
       ],
-      testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
+      testimonial: {
+        quote:
+          "Diana a înțeles din prima ce vrem să transmitem. Identitatea galben-negru ne face recunoscuți imediat în feed, iar conținutul a ajuns exact la publicul nostru. Colaborarea a fost simplă, rapidă și mereu cu idei noi.",
+        author: "Administrator Inklabs",
+      },
       guidelines: {
         overview:
           "Inklabs este un brand de lifestyle dinamic, dedicat exprimării de sine prin tatuaje semipermanente de calitate. Între abțibildurile temporare care dispar repede și cerneala permanentă, brandul oferă o alternativă realistă și nedureroasă, care rezistă până la două săptămâni. Identitatea lui pornește de la creativitate, inovație și autenticitate, cu modele create de artiști reali, care se potrivesc stilului fiecărei persoane.",

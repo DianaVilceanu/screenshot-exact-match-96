@@ -294,11 +294,18 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
       <section className="border-t border-border">
         <div className="container-editorial py-20 md:py-28">
           <Eyebrow n={num(7)}>{t.project.testimonial}</Eyebrow>
-          <figure className="placeholder-block mt-10 p-8 md:p-14">
-            <p className="eyebrow mb-6 text-placeholder">{t.placeholder}</p>
-            <blockquote className="display-md">“{cs.testimonial.quote}”</blockquote>
-            <figcaption className="mt-6 text-muted-foreground">{cs.testimonial.author}</figcaption>
-          </figure>
+          {isPlaceholder(cs.testimonial.quote) ? (
+            <figure className="placeholder-block mt-10 p-8 md:p-14">
+              <p className="eyebrow mb-6 text-placeholder">{t.placeholder}</p>
+              <blockquote className="display-md">“{cs.testimonial.quote}”</blockquote>
+              <figcaption className="mt-6 text-muted-foreground">{cs.testimonial.author}</figcaption>
+            </figure>
+          ) : (
+            <figure className="mt-10 max-w-5xl border-l-2 border-primary pl-8 md:pl-14">
+              <blockquote className="display-md">“{cs.testimonial.quote}”</blockquote>
+              <figcaption className="eyebrow mt-8 text-muted-foreground">{cs.testimonial.author}</figcaption>
+            </figure>
+          )}
           <div className="mt-12 flex flex-wrap items-center justify-between gap-6">
             <RelatedServices p={p} />
             <L to={hrefFor(locale, { kind: "contact" })} className={btn({ variant: "solid" })}>

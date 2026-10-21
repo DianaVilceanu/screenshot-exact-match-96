@@ -104,7 +104,11 @@ export const projects: Project[] = [
         "Zero returns, highlighted in the same year-end recap.",
         "Launches in several European countries, announced on social media with the same yellow-and-black identity.",
       ],
-      testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
+      testimonial: {
+        quote:
+          "Diana got what we wanted to say right away. The yellow-and-black identity makes us instantly recognisable in the feed, and the content reached exactly the right people. Working together was easy, fast and always full of fresh ideas.",
+        author: "Administrator, Inklabs",
+      },
       guidelines: {
         overview:
           "Inklabs is a dynamic lifestyle brand dedicated to the art of self-expression through high-quality, semi-permanent tattoos. Bridging the gap between fleeting temporary stickers and permanent ink, the brand offers a realistic, pain-free alternative that lasts up to two weeks. Its identity is rooted in creativity, innovation and authenticity, with designs crafted by real artists that adapt to each wearer's style.",

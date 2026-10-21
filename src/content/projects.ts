@@ -12,6 +12,7 @@ export type Theme = "inklabs" | "divaz" | "kdt";
 
 export type GalleryItem = { key: ImgKey; alt: string };
 export type ReelItem = { key: ReelKey; title: string };
+export type Carousel = { title: string; slides: GalleryItem[] };
 
 export type BrandGuidelines = {
   overview: string;
@@ -52,6 +53,8 @@ export type Project = {
   gallery: GalleryItem[];
   /** Vertical video reels, shown after the static deliverables. */
   reels?: ReelItem[];
+  /** Multi-slide social posts, shown slide by slide after the statics. */
+  carousels?: Carousel[];
   serviceSlugs: string[];
   featured?: boolean;
   /** Draft projects are hidden from search engines until real content is added. */
@@ -218,27 +221,70 @@ export const projects: Project[] = [
     slug: "kdt-romania",
     name: "KDT Romania",
     client: "KDT Romania",
-    categories: ["Branding", "Social Media"],
-    industry: "[ADD INDUSTRY]",
-    services: ["[ADD SERVICES PROVIDED]"],
-    deliverables: ["[ADD DELIVERABLES]"],
-    summary: "Case study in preparation.",
-    description: ["[ADD PROJECT INTRODUCTION. KDT Romania does not appear on the current website, so no copy or images have been invented.]"],
+    categories: ["Social Media", "Art Direction"],
+    industry: "Industrial, woodworking machinery",
+    services: ["Social media strategy", "Visual identity for social media", "Content creation", "Video scripting, filming and editing"],
+    deliverables: ["Strategy for Facebook, Instagram, TikTok and YouTube", "Static posts", "Carousels", "Reels and YouTube videos", "Event campaigns"],
+    summary: "Social media built from zero for the Romanian branch of an international machinery brand.",
+    description: [
+      "KDT Romania is the Romanian branch of KDT, an international brand of woodworking machinery for furniture makers, from CNC machines to edgebanders and drilling lines.",
+      "When I started working with them, the Romanian branch had no social media and no visual identity of its own. I took on their whole presence from zero: the strategy for Facebook, Instagram, TikTok and YouTube, scripting, filming and editing video, and premium graphics for every post.",
+      "Because KDT is a franchise, I studied how the brand shows up in other countries and built a local system on the same foundations, so KDT Romania looks like part of the global brand while speaking directly to Romanian furniture makers.",
+    ],
     cover: { key: "kdt-cover", alt: "KDT Drill Tech machine on the KDT Global stand at a trade fair" },
-    gallery: [],
-    serviceSlugs: ["branding", "social-media-design"],
+    gallery: [
+      { key: "kdt-perfect", alt: "KDT post: perfect from the first cut, over a close-up of an edgebanded board" },
+      { key: "kdt-results", alt: "KDT post: we don't just sell machines, we deliver results, over stacked boards" },
+      { key: "kdt-myth", alt: "KDT myth versus reality post about CNC machines, on KDT blue" },
+      { key: "kdt-testimonial", alt: "KDT client testimonial post: productivity up 40%, five stars" },
+      { key: "kdt-people", alt: "KDT post: people give technology its value, with technicians next to a machine" },
+    ],
+    carousels: [
+      {
+        title: "Open days at the new showroom",
+        slides: [
+          { key: "kdt-open-days-1", alt: "Carousel slide: KDT open days at the new Bucharest-Ilfov showroom, 12 to 13 June 2026" },
+          { key: "kdt-open-days-2", alt: "Carousel slide: when and where, with the showroom address and opening hours" },
+        ],
+      },
+      {
+        title: "PUR edgebanding in Sighetu Marmației",
+        slides: [
+          { key: "kdt-pur-1", alt: "Carousel slide: flawless edgebanding, PUR technology brought to Sighetu Marmației" },
+          { key: "kdt-pur-2", alt: "Carousel slide: the KDT KE-710BT installed by the technical team" },
+          { key: "kdt-pur-3", alt: "Carousel slide: perfect finishes with PUR glue" },
+        ],
+      },
+      {
+        title: "Why KDT Romania?",
+        slides: [
+          { key: "kdt-why-1", alt: "Carousel slide: why KDT Romania, under the KDT sign" },
+          { key: "kdt-why-2", alt: "Carousel slide: industrial technology built for heavy use" },
+          { key: "kdt-why-3", alt: "Carousel slide: technical consulting at every step, in the KDT showroom" },
+        ],
+      },
+    ],
+    serviceSlugs: ["social-media-design", "content-creation"],
     featured: true,
-    draft: true,
     caseStudy: {
       theme: "kdt",
-      tagline: "[ADD PROJECT TAGLINE]",
-      brief: ["[ADD ORIGINAL CLIENT BRIEF]", "[ADD ADDITIONAL PROJECT DETAILS]"],
-      direction: [
-        { title: "[ADD CREATIVE DIRECTION]", text: "[Describe the visual concept and rationale.]" },
-        { title: "[ADD DESIGN DECISION]", text: "[Typography, colour and layout choices.]" },
+      tagline: "Results, not just machines.",
+      brief: [
+        "KDT Romania, the local branch of an international woodworking machinery brand, had no social media and no visual identity in Romania. They needed a presence built from zero on Facebook, Instagram, TikTok and YouTube that stayed true to the global brand and spoke clearly to Romanian furniture makers.",
       ],
-      process: [],
-      results: ["[ADD VERIFIED PROJECT OUTCOME]", "[ADD PERFORMANCE METRICS]"],
+      direction: [
+        { title: "Global brand, local voice", text: "The KDT blue, the logo and clean layouts follow the brand's pages in other countries, so the Romanian channels feel part of the same family. The copy is written for Romanian workshops." },
+        { title: "Real machines, real workshops", text: "Photos and videos from installations, the showroom and the team show the machines at work in Romanian factories, not just as catalogue images." },
+        { title: "One clear message per post", text: "Short, bold headlines and a single benefit per post, from myth versus reality to open days, make technical topics easy to follow." },
+      ],
+      process: [
+        { key: "kdt-moodboard", alt: "KDT moodboard: KDT blue #3F62AA, navy and white, the logo, a sample headline, key messages, and photos of the team, showroom and finished boards" },
+      ],
+      results: [
+        "A social media presence launched from zero on Facebook, Instagram, TikTok and YouTube.",
+        "A consistent visual system for the Romanian branch, aligned with KDT's international pages.",
+        "Campaigns for real moments, such as the open days at the new Bucharest-Ilfov showroom and machine installations across Romania.",
+      ],
       testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
     },
   },

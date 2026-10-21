@@ -156,10 +156,20 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           </div>
         )}
         {cs.theme === "kdt" && (
-          <div className="mt-10">
-            <Eyebrow n="01">{t.project.inPrepShort}</Eyebrow>
-            <h1 className="display-xl mt-6">{p.name}</h1>
-            <Placeholder className="mt-10 max-w-2xl">{t.project.kdtNote}</Placeholder>
+          <div className="mt-10 grid gap-10 md:grid-cols-12 md:items-center">
+            <div className="md:col-span-7">
+              <Eyebrow n="01">
+                {t.project.caseStudy} · {cats(p, t)}
+              </Eyebrow>
+              <h1 className="mt-6 text-[clamp(3.25rem,9vw,8.5rem)] leading-[0.88] font-bold tracking-[-0.04em]">{p.name}</h1>
+              <p className="mt-6 inline-block bg-primary px-4 py-2 text-[clamp(1.25rem,2.4vw,2rem)] font-semibold text-primary-foreground">{cs.tagline}</p>
+            </div>
+            <div className="md:col-span-5">
+              <div className="relative">
+                <div aria-hidden className="absolute -right-3 -bottom-3 h-full w-full bg-primary md:-right-5 md:-bottom-5" />
+                <Pic k={p.cover!.key} alt={p.cover!.alt} className="relative aspect-[4/5]" eager sizes="(min-width: 768px) 40vw, 100vw" />
+              </div>
+            </div>
           </div>
         )}
         <div className="mt-14 space-y-4">
@@ -236,8 +246,8 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           <Eyebrow n={num(5)}>{t.project.finals}</Eyebrow>
           {g.length > 0 ? (
             <>
-              {p.reels && <h3 className="eyebrow mt-12 text-muted-foreground">{t.project.statics}</h3>}
-              <div className={cn("columns-2 gap-3 md:columns-4 [&>*]:mb-3", p.reels ? "mt-6" : "mt-12")}>
+              {(p.reels || p.carousels) && <h3 className="eyebrow mt-12 text-muted-foreground">{t.project.statics}</h3>}
+              <div className={cn("columns-2 gap-3 md:columns-4 [&>*]:mb-3", p.reels || p.carousels ? "mt-6" : "mt-12")}>
                 {g.map((x, i) => (
                   <Reveal key={x.key} delay={(i % 4) * 70} className="break-inside-avoid">
                     <div className="frame-zoom">
@@ -249,6 +259,28 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
             </>
           ) : (
             <Placeholder className="mt-10">{t.project.finalsMissing}</Placeholder>
+          )}
+          {p.carousels && (
+            <>
+              <h3 className="eyebrow mt-16 text-muted-foreground">{t.project.carousels}</h3>
+              <div className="mt-6 space-y-10">
+                {p.carousels.map((c) => (
+                  <Reveal key={c.title}>
+                    <p className="text-lg font-semibold">{c.title}</p>
+                    <ol className="mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)] md:overflow-visible">
+                      {c.slides.map((x, i) => (
+                        <li key={x.key} className="relative">
+                          <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 30vw, 70vw" />
+                          <span className="eyebrow absolute top-3 right-3 bg-background/90 px-2 py-1 text-foreground">
+                            {i + 1}/{c.slides.length}
+                          </span>
+                        </li>
+                      ))}
+                    </ol>
+                  </Reveal>
+                ))}
+              </div>
+            </>
           )}
           {p.reels && (
             <>

@@ -134,7 +134,7 @@ export const projects: Project[] = [
     reels: [
       { key: "divaz-reel-1", title: "Unghii cu gel instant, aplicate în câteva secunde" },
       { key: "divaz-reel-2", title: "Glowing with Divaz" },
-      { key: "divaz-reel-3", title: "Rutina cu creion și luciu de buze" },
+      { key: "divaz-reel-3", title: "No hashtags: machiajul Divaz în mână" },
       { key: "divaz-reel-4", title: "Lip combo de buget, pas cu pas" },
     ],
     mixReels: true,

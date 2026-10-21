@@ -198,7 +198,7 @@ export const projects: Project[] = [
     reels: [
       { key: "divaz-reel-1", title: "Instant gel nails, applied in seconds" },
       { key: "divaz-reel-2", title: "Glowing with Divaz" },
-      { key: "divaz-reel-3", title: "Lip liner and gloss routine" },
+      { key: "divaz-reel-3", title: "No hashtags: the Divaz makeup haul" },
       { key: "divaz-reel-4", title: "Budget lip combo, step by step" },
     ],
     mixReels: true,

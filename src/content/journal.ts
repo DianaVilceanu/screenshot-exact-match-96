@@ -50,7 +50,7 @@ export const articles: Article[] = [
     description: "A practical guide to the parts of a visual identity that matter, and how to keep them consistent once you start posting.",
     category: "graphic-design",
     publishedAt: null,
-    cover: { key: "inklabs-wrapped", alt: "Inklabs yellow typographic post as an example of a strong identity" },
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
     intro: "A visual identity is more than a logo. It is the set of decisions that makes people recognise you before they read your name. In this guide you'll learn which decisions come first, how to turn them into a system, and how to protect that system once content starts flowing.",
     sections: [
       {
@@ -100,7 +100,7 @@ export const articles: Article[] = [
     description: "Contrast, spacing and restraint: the typographic details that make a brand feel premium, and the ones that cheapen it.",
     category: "graphic-design",
     publishedAt: null,
-    cover: { key: "iq-5", alt: "IQ Fashion post with refined serif typography and gold accents" },
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
     intro: "People judge the price of a product by its typography long before they see a price tag. This article explains which typographic qualities read as premium, why, and how to apply them without making your brand feel cold.",
     sections: [
       {
@@ -141,7 +141,7 @@ export const articles: Article[] = [
     description: "Templates, colour rhythm and content pillars: a simple method to make your Instagram grid look intentional.",
     category: "social-media",
     publishedAt: null,
-    cover: { key: "divaz-feed-1", alt: "Divaz Instagram grid with a consistent blush pink palette" },
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
     intro: "A consistent feed helps people recognise your posts before they see your name. You'll learn how to plan content pillars, build templates and use colour rhythm so your grid looks intentional without becoming repetitive.",
     sections: [
       {
@@ -181,7 +181,7 @@ export const articles: Article[] = [
     description: "Seven common branding mistakes small businesses make, and simple ways to fix each one.",
     category: "graphic-design",
     publishedAt: null,
-    cover: { key: "kanoi-1", alt: "Kanoi clean service-focused social post" },
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
     intro: "Most brands don't look unprofessional because of one bad decision but because of small inconsistencies that add up. Here are seven of the most common ones and how to fix them.",
     sections: [
       {

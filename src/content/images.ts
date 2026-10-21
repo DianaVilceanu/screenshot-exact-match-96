@@ -11,6 +11,10 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import journalIdentity from "@/assets/journal/journal-identity.webp";
+import journalFonts from "@/assets/journal/journal-fonts.webp";
+import journalFeed from "@/assets/journal/journal-feed.webp";
+import journalMistakes from "@/assets/journal/journal-mistakes.webp";
 import kdtOpenDays1 from "@/assets/kdt/kdt-open-days-1.webp";
 import kdtOpenDays2 from "@/assets/kdt/kdt-open-days-2.webp";
 import kdtPur1 from "@/assets/kdt/kdt-pur-1.webp";
@@ -172,6 +176,10 @@ export const img = {
   "kdt-results": { src: kdtResults, w: 800, h: 1000 },
   "kdt-myth": { src: kdtMyth, w: 800, h: 1000 },
   "kdt-moodboard": { src: kdtMoodboard, w: 1600, h: 1200 },
+  "journal-identity": { src: journalIdentity, w: 1400, h: 933 },
+  "journal-fonts": { src: journalFonts, w: 1400, h: 1050 },
+  "journal-feed": { src: journalFeed, w: 1400, h: 933 },
+  "journal-mistakes": { src: journalMistakes, w: 1400, h: 1050 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

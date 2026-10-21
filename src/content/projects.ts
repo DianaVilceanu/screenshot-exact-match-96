@@ -1,4 +1,5 @@
 import type { ImgKey } from "./images";
+import type { ReelKey } from "./reels";
 
 /**
  * Portfolio content. Descriptions are taken from the original website.
@@ -10,6 +11,7 @@ export type Category = "Branding" | "Social Media" | "Ads & Campaigns" | "Print"
 export type Theme = "inklabs" | "divaz" | "kdt";
 
 export type GalleryItem = { key: ImgKey; alt: string };
+export type ReelItem = { key: ReelKey; title: string };
 
 export type BrandGuidelines = {
   overview: string;
@@ -48,6 +50,8 @@ export type Project = {
   description: string[];
   cover?: GalleryItem;
   gallery: GalleryItem[];
+  /** Vertical video reels, shown after the static deliverables. */
+  reels?: ReelItem[];
   serviceSlugs: string[];
   featured?: boolean;
   /** Draft projects are hidden from search engines until real content is added. */
@@ -74,6 +78,7 @@ export const projects: Project[] = [
     gallery: [
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 yellow typographic post" },
       { key: "inklabs-stop", alt: "Inklabs 'Stop scrolling for tattoos' yellow ad with scorpion design" },
+      { key: "inklabs-300-designs", alt: "Inklabs post on black: over 300 designs, with a winking bull mascot holding tattoo cards and a list of styles" },
       { key: "inklabs-launch", alt: "Inklabs launch calendar post listing European countries" },
       { key: "inklabs-forever", alt: "Inklabs infographic explaining the semi-permanent tattoo" },
       { key: "inklabs-offer", alt: "Inklabs bundle offer graphic on black with tattoo cards" },
@@ -82,6 +87,12 @@ export const projects: Project[] = [
       { key: "inklabs-clients", alt: "Inklabs Wrapped post: over 50,000 tattooed customers" },
       { key: "inklabs-soon", alt: "Inklabs 'Coming soon' launch dates post" },
       { key: "inklabs-notes", alt: "Inklabs Wrapped closing post on black with yellow halftone" },
+    ],
+    reels: [
+      { key: "inklabs-reel-1", title: "The result: a deep, natural black" },
+      { key: "inklabs-reel-2", title: "How Inklabs tattoos work" },
+      { key: "inklabs-reel-3", title: "From stencil to compass tattoo" },
+      { key: "inklabs-reel-4", title: "Tattoos in the riskiest spots" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,

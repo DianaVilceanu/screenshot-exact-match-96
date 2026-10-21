@@ -2,10 +2,12 @@ import { ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Breadcrumbs, Eyebrow, MaybePlaceholder, Pic, Placeholder, Reveal, btn, isPlaceholder } from "@/components/site/primitives";
-import type { BrandGuidelines, Project } from "@/content/projects";
+import type { BrandGuidelines, Project, ReelItem } from "@/content/projects";
+import { reels } from "@/content/reels";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
 import { breadcrumbLd, notFoundHead, seo } from "@/lib/seo";
 import { cn } from "@/lib/utils";
+import { useEffect, useRef, useState } from "react";
 
 export function projectHead(locale: Locale, slug: string | undefined) {
   const c = content(locale);
@@ -205,20 +207,6 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
               ))}
             </div>
           )}
-          {g.length > 0 && (
-            <div className="mt-16 grid gap-3 md:grid-cols-12">
-              <Reveal className="md:col-span-7">
-                <Pic k={g[0]!.key} alt={g[0]!.alt} className="aspect-[4/5]" />
-              </Reveal>
-              <div className="grid gap-3 md:col-span-5">
-                {g.slice(1, 3).map((x) => (
-                  <Reveal key={x.key}>
-                    <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="40vw" />
-                  </Reveal>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
@@ -246,18 +234,33 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
       <section className="border-t border-border">
         <div className="container-editorial py-20 md:py-28">
           <Eyebrow n={num(5)}>{t.project.finals}</Eyebrow>
-          {g.length > 3 ? (
-            <div className="mt-12 columns-2 gap-3 md:columns-4 [&>*]:mb-3">
-              {g.slice(3).map((x, i) => (
-                <Reveal key={x.key} delay={(i % 4) * 70} className="break-inside-avoid">
-                  <div className="frame-zoom">
-                    <Pic k={x.key} alt={x.alt} className="h-auto" sizes="25vw" />
-                  </div>
-                </Reveal>
-              ))}
-            </div>
+          {g.length > 0 ? (
+            <>
+              {p.reels && <h3 className="eyebrow mt-12 text-muted-foreground">{t.project.statics}</h3>}
+              <div className={cn("columns-2 gap-3 md:columns-4 [&>*]:mb-3", p.reels ? "mt-6" : "mt-12")}>
+                {g.map((x, i) => (
+                  <Reveal key={x.key} delay={(i % 4) * 70} className="break-inside-avoid">
+                    <div className="frame-zoom">
+                      <Pic k={x.key} alt={x.alt} className="h-auto" sizes="25vw" />
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            </>
           ) : (
             <Placeholder className="mt-10">{t.project.finalsMissing}</Placeholder>
+          )}
+          {p.reels && (
+            <>
+              <h3 className="eyebrow mt-16 text-muted-foreground">{t.project.reels}</h3>
+              <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-5">
+                {p.reels.map((r, i) => (
+                  <Reveal key={r.key} delay={i * 80}>
+                    <Reel item={r} />
+                  </Reveal>
+                ))}
+              </div>
+            </>
           )}
           {p.description.length > 1 && (
             <div className="mt-14 grid gap-6 md:grid-cols-2">
@@ -413,6 +416,45 @@ function Guidelines({ g, n }: { g: BrandGuidelines; n: string }) {
         </div>
       </div>
     </section>
+  );
+}
+
+/** A muted, looping 9:16 reel that plays while on screen; tap the button for sound. */
+function Reel({ item }: { item: ReelItem }) {
+  const { t } = useContent();
+  const ref = useRef<HTMLVideoElement>(null);
+  const [muted, setMuted] = useState(true);
+  const src = reels[item.key];
+  useEffect(() => {
+    const v = ref.current;
+    if (!v || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const io = new IntersectionObserver(([e]) => (e!.isIntersecting ? v.play().catch(() => {}) : v.pause()), { threshold: 0.5 });
+    io.observe(v);
+    return () => io.disconnect();
+  }, []);
+  return (
+    <figure>
+      <div className="relative aspect-[9/16] overflow-hidden rounded-2xl border border-border bg-card">
+        <video ref={ref} src={src.video} poster={src.poster} muted={muted} loop playsInline preload="none" aria-label={item.title} className="h-full w-full object-cover" />
+        <span className="eyebrow absolute top-3 left-3 bg-primary px-2 py-1 text-primary-foreground">{t.project.reels}</span>
+        <button
+          type="button"
+          onClick={() => {
+            const v = ref.current;
+            setMuted((m) => !m);
+            if (v?.paused) v.play().catch(() => {});
+          }}
+          aria-label={muted ? t.project.soundOn : t.project.soundOff}
+          className="absolute right-3 bottom-3 grid size-10 place-items-center rounded-full bg-background/80 text-foreground backdrop-blur transition-colors hover:bg-primary hover:text-primary-foreground"
+        >
+          <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <path d="M11 5 6 9H3v6h3l5 4z" />
+            {muted ? <path d="m22 9-6 6m0-6 6 6" /> : <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />}
+          </svg>
+        </button>
+      </div>
+      <figcaption className="mt-3 text-sm text-muted-foreground">{item.title}</figcaption>
+    </figure>
   );
 }
 

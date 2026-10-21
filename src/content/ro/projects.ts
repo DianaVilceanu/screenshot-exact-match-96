@@ -165,7 +165,7 @@ export const projects: Project[] = [
     deliverables: ["[ADAUGĂ LIVRABILELE]"],
     summary: "Studiu de caz în pregătire.",
     description: ["[ADAUGĂ INTRODUCEREA PROIECTULUI. KDT Romania nu apare pe site-ul actual, așa că nu au fost inventate texte sau imagini.]"],
-    cover: { key: "kdt-cover", alt: "Linie de producție automatizată KDT, cu un braț robotic, la un târg" },
+    cover: { key: "kdt-cover", alt: "Utilaj KDT Drill Tech pe standul KDT Global, la un târg" },
     gallery: [],
     serviceSlugs: ["branding", "social-media-design"],
     featured: true,

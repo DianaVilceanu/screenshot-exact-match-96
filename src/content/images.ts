@@ -128,7 +128,7 @@ export const img = {
   "inklabs-300-designs": { src: inklabs300Designs, w: 800, h: 1000 },
   "inklabs-cover": { src: inklabsCover, w: 1400, h: 933 },
   "divaz-cover": { src: divazCover, w: 1400, h: 933 },
-  "kdt-cover": { src: kdtCover, w: 1037, h: 1516 },
+  "kdt-cover": { src: kdtCover, w: 942, h: 1669 },
   "iq-cover": { src: iqCover, w: 1400, h: 933 },
   "kurbe-clinic-cover": { src: kurbeClinicCover, w: 1000, h: 1500 },
   "farmex-cover": { src: farmexCover, w: 1400, h: 934 },

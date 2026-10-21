@@ -14,8 +14,16 @@ import kdtReel3 from "@/assets/reels/kdt-reel-3.mp4";
 import kdtPoster3 from "@/assets/reels/kdt-reel-3.webp";
 import kdtReel4 from "@/assets/reels/kdt-reel-4.mp4";
 import kdtPoster4 from "@/assets/reels/kdt-reel-4.webp";
+import divazReel1 from "@/assets/reels/divaz-reel-1.mp4";
+import divazPoster1 from "@/assets/reels/divaz-reel-1.webp";
+import divazReel2 from "@/assets/reels/divaz-reel-2.mp4";
+import divazPoster2 from "@/assets/reels/divaz-reel-2.webp";
+import divazReel3 from "@/assets/reels/divaz-reel-3.mp4";
+import divazPoster3 from "@/assets/reels/divaz-reel-3.webp";
+import divazReel4 from "@/assets/reels/divaz-reel-4.mp4";
+import divazPoster4 from "@/assets/reels/divaz-reel-4.webp";
 
-// Vertical 9:16 reels with a poster frame each (Inklabs at 540×960, KDT at 720×1280).
+// Vertical 9:16 reels with a poster frame each (Inklabs at 540×960, KDT and Divaz at 720×1280).
 export type ReelSrc = { video: string; poster: string };
 export const reels = {
   "inklabs-reel-1": { video: inklabsReel1, poster: inklabsPoster1 },
@@ -26,5 +34,9 @@ export const reels = {
   "kdt-reel-2": { video: kdtReel2, poster: kdtPoster2 },
   "kdt-reel-3": { video: kdtReel3, poster: kdtPoster3 },
   "kdt-reel-4": { video: kdtReel4, poster: kdtPoster4 },
+  "divaz-reel-1": { video: divazReel1, poster: divazPoster1 },
+  "divaz-reel-2": { video: divazReel2, poster: divazPoster2 },
+  "divaz-reel-3": { video: divazReel3, poster: divazPoster3 },
+  "divaz-reel-4": { video: divazReel4, poster: divazPoster4 },
 } satisfies Record<string, ReelSrc>;
 export type ReelKey = keyof typeof reels;

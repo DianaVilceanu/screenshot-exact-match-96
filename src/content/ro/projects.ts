@@ -117,6 +117,8 @@ export const projects: Project[] = [
     ],
     cover: { key: "divaz-cover", alt: "Cutii roz Divaz cu unghii false cu gel instant, în mai multe nuanțe" },
     gallery: [
+      { key: "divaz-holiday-1", alt: "Copertă de carusel Divaz cu trendurile de unghii de sărbători, cutii roz, globuri și funde" },
+      { key: "divaz-holiday-2", alt: "Slide din caruselul Divaz de sărbători cu unghiile Red Spark, Nude Perlato și Nude Sparkly" },
       { key: "divaz-nails", alt: "Cutii Divaz cu unghii cu gel autoadezive, cu aplicare instantanee, pe fundal roz pudrat" },
       { key: "divaz-galentine", alt: "Campanie Divaz de Galentine’s Day, cu un ruj într-un pahar de cocktail" },
       { key: "divaz-sale", alt: "Campanie Divaz cu reducere de 50% la produse de machiaj, cu o cutie de produs" },
@@ -128,9 +130,14 @@ export const projects: Project[] = [
       { key: "divaz-flavour", alt: "Postare Divaz de reduceri la luciu de buze, cu mesajul „Alege aroma preferată”" },
       { key: "divaz-gloss14", alt: "Luciu de buze Divaz în nuanța 14, cu fructe de pădure" },
       { key: "divaz-combo", alt: "Copertă de carusel Divaz cu o combinație accesibilă de produse pentru buze" },
-      { key: "divaz-feed-1", alt: "Captură de ecran cu grila de Instagram Divaz" },
-      { key: "divaz-feed-2", alt: "Captură de ecran cu grila de Instagram Divaz, cu postări despre produse" },
     ],
+    reels: [
+      { key: "divaz-reel-1", title: "Unghii cu gel instant, aplicate în câteva secunde" },
+      { key: "divaz-reel-2", title: "Glowing with Divaz" },
+      { key: "divaz-reel-3", title: "Rutina cu creion și luciu de buze" },
+      { key: "divaz-reel-4", title: "Lip combo de buget, pas cu pas" },
+    ],
+    mixReels: true,
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -138,21 +145,25 @@ export const projects: Project[] = [
       tagline: "Un look de frumusețe premium, accesibil tuturor.",
       brief: [
         "Divaz avea nevoie de o identitate de brand completă, împreună cu strategia de conținut și prezența pe rețelele sociale, pentru lansarea cosmeticelor și a unghiilor cu gel autoadezive, cu aplicare instantanee.",
-        "[ADAUGĂ BRIEFUL ORIGINAL AL CLIENTULUI: cerința exactă a clientului, publicul și constrângerile]",
       ],
       direction: [
         { title: "Culori delicate, apetisante", text: "Nuanțele de roz pudrat, trandafiriu și fructe de pădure transformă fiecare fotografie de produs în ceva ce ai vrea să guști: luciu de buze lângă înghețată și fructe." },
         { title: "Ambalajul în prim-plan", text: "Cutiile roz Divaz devin un element grafic recurent, care oferă coerență campaniilor și caruselelor." },
         { title: "Carusele care informează", text: "Caruselele informative stau alături de bannerele de reduceri, astfel încât fluxul de postări să informeze, nu doar să vândă." },
       ],
-      palette: [
-        { name: "Roz pudrat", className: "bg-background border border-border" },
-        { name: "Trandafiriu", className: "bg-accent" },
-        { name: "Fructe de pădure", className: "bg-primary" },
+      process: [
+        { key: "divaz-moodboard", alt: "Moodboard Divaz: berry #5E0833, nuanțe de roz pudrat și trandafiriu, logoul, sloganul, cuvinte-cheie, cutiile cu unghii și cadre din reels" },
       ],
-      process: [],
-      results: ["[ADAUGĂ UN REZULTAT VERIFICAT AL PROIECTULUI]", "[ADAUGĂ INDICATORI DE PERFORMANȚĂ]"],
-      testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
+      results: [
+        "Un feed în roz pudrat ușor de recunoscut: urmăritorii identifică o postare Divaz înainte să citească numele.",
+        "Reels-urile au devenit cel mai performant format, iar clipurile cu aplicarea instant a unghiilor au ajuns la cel mai larg public.",
+        "Campaniile sezoniere, de la Galentine's Day la trendurile de unghii de sărbători, au dat brandului un ritm constant de lansări și oferte.",
+      ],
+      testimonial: {
+        quote:
+          "Diana i-a dat Divaz exact imaginea pe care ne-o doream: delicată, feminină și premium, dar fără să pară inaccesibilă. Fiecare postare și fiecare reel ne reprezintă, iar clientele ne spun mereu cât de mult le place feedul nostru.",
+        author: "Administrator Divaz",
+      },
     },
   },
   {

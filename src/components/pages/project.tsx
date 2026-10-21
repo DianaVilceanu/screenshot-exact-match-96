@@ -2,7 +2,7 @@ import { ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Breadcrumbs, Eyebrow, MaybePlaceholder, Pic, Placeholder, Reveal, btn, isPlaceholder } from "@/components/site/primitives";
-import type { BrandGuidelines, Project, ReelItem } from "@/content/projects";
+import type { BrandGuidelines, GalleryItem, Project, ReelItem } from "@/content/projects";
 import { reels } from "@/content/reels";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
 import { breadcrumbLd, notFoundHead, seo } from "@/lib/seo";
@@ -244,7 +244,23 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
       <section className="border-t border-border">
         <div className="container-editorial py-20 md:py-28">
           <Eyebrow n={num(5)}>{t.project.finals}</Eyebrow>
-          {g.length > 0 ? (
+          {p.mixReels && p.reels ? (
+            <div className="mt-12 grid grid-flow-dense grid-cols-2 gap-3 md:grid-cols-4">
+              {mixed(g, p.reels).map((x, i) =>
+                "title" in x ? (
+                  <Reveal key={x.key} delay={(i % 4) * 70} className="row-span-2">
+                    <Reel item={x} fill />
+                  </Reveal>
+                ) : (
+                  <Reveal key={x.key} delay={(i % 4) * 70}>
+                    <div className="frame-zoom">
+                      <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 25vw, 50vw" />
+                    </div>
+                  </Reveal>
+                ),
+              )}
+            </div>
+          ) : g.length > 0 ? (
             <>
               {(p.reels || p.carousels) && <h3 className="eyebrow mt-12 text-muted-foreground">{t.project.statics}</h3>}
               <div className={cn("columns-2 gap-3 md:columns-4 [&>*]:mb-3", p.reels || p.carousels ? "mt-6" : "mt-12")}>
@@ -282,7 +298,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
               </div>
             </>
           )}
-          {p.reels && (
+          {p.reels && !p.mixReels && (
             <>
               <h3 className="eyebrow mt-16 text-muted-foreground">{t.project.reels}</h3>
               <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-5">
@@ -451,8 +467,19 @@ function Guidelines({ g, n }: { g: BrandGuidelines; n: string }) {
   );
 }
 
-/** A muted, looping 9:16 reel that plays while on screen; tap the button for sound. */
-function Reel({ item }: { item: ReelItem }) {
+/** Statics with a reel after every third post, so the two formats alternate in one grid. */
+function mixed(statics: GalleryItem[], reels: ReelItem[]): (GalleryItem | ReelItem)[] {
+  const out: (GalleryItem | ReelItem)[] = [];
+  let r = 0;
+  statics.forEach((s, i) => {
+    out.push(s);
+    if (i % 3 === 1 && r < reels.length) out.push(reels[r++]!);
+  });
+  return out.concat(reels.slice(r));
+}
+
+/** A muted, looping 9:16 reel that plays while on screen; tap the button for sound. `fill` stretches it to its grid cell and moves the title onto the video. */
+function Reel({ item, fill }: { item: ReelItem; fill?: boolean }) {
   const { t } = useContent();
   const ref = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
@@ -465,9 +492,12 @@ function Reel({ item }: { item: ReelItem }) {
     return () => io.disconnect();
   }, []);
   return (
-    <figure>
-      <div className="relative aspect-[9/16] overflow-hidden rounded-2xl border border-border bg-card">
+    <figure className={cn(fill && "h-full")}>
+      <div className={cn("relative overflow-hidden rounded-2xl border border-border bg-card", fill ? "h-full" : "aspect-[9/16]")}>
         <video ref={ref} src={src.video} poster={src.poster} muted={muted} loop playsInline preload="none" aria-label={item.title} className="h-full w-full object-cover" />
+        {fill && (
+          <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-4 pr-16 text-sm font-medium text-white">{item.title}</figcaption>
+        )}
         <span className="eyebrow absolute top-3 left-3 bg-primary px-2 py-1 text-primary-foreground">{t.project.reels}</span>
         <button
           type="button"
@@ -485,7 +515,7 @@ function Reel({ item }: { item: ReelItem }) {
           </svg>
         </button>
       </div>
-      <figcaption className="mt-3 text-sm text-muted-foreground">{item.title}</figcaption>
+      {!fill && <figcaption className="mt-3 text-sm text-muted-foreground">{item.title}</figcaption>}
     </figure>
   );
 }

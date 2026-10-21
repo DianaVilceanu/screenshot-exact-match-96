@@ -76,6 +76,7 @@ export const projects: Project[] = [
     ],
     cover: { key: "inklabs-cover", alt: "Woman in a white top with a large bird tattoo on her upper arm, against a yellow background" },
     gallery: [
+      { key: "inklabs-main", alt: "Inklabs social post: tattooed hand on black with 'Made for main character' headline" },
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 yellow typographic post" },
       { key: "inklabs-stop", alt: "Inklabs 'Stop scrolling for tattoos' yellow ad with scorpion design" },
       { key: "inklabs-300-designs", alt: "Inklabs post on black: over 300 designs, with a winking bull mascot holding tattoo cards and a list of styles" },
@@ -175,6 +176,7 @@ export const projects: Project[] = [
     ],
     cover: { key: "divaz-cover", alt: "Pink Divaz instant-gel press-on nail boxes in a range of shades" },
     gallery: [
+      { key: "divaz-nails", alt: "Divaz instant gel press-on nail boxes on blush pink" },
       { key: "divaz-galentine", alt: "Divaz Galentine's Day campaign with lipstick in a cocktail glass" },
       { key: "divaz-sale", alt: "Divaz 50% off makeup campaign with product box" },
       { key: "divaz-gloss35", alt: "Divaz lip gloss with berries and ice cream" },
@@ -254,8 +256,9 @@ export const projects: Project[] = [
       "For IQ Fashion, I created a variety of social media visuals, including stylish static posts and product-focused promotional banners. I also edited video content ranging from catchy, scripted promos to cinematic-style clips that highlight the quality and sophistication of their collections.",
       "My work contributed to elevating the brand's digital presence, bringing a refined, fashion-forward identity to their online platforms.",
     ],
-    cover: { key: "iq-5", alt: "IQ Fashion Black Friday fur coat post with gold accents" },
+    cover: { key: "iq-cover", alt: "Hands holding a blush shirt dress on a hanger beside a rail of terracotta clothes" },
     gallery: [
+      { key: "iq-5", alt: "IQ Fashion Black Friday fur coat post with gold accents" },
       { key: "iq-1", alt: "IQ Fashion Alpaca coat holiday sale post" },
       { key: "iq-2", alt: "IQ Fashion parka holiday post" },
       { key: "iq-3", alt: "IQ Fashion Dalisa tunic product post" },
@@ -278,8 +281,11 @@ export const projects: Project[] = [
       "For the clinic, as well as for Nada Kurbe and Mawada Kurbe's personal brands, I created a wide range of social media content: from informative and promotional banners to TikTok and Instagram reels showcasing treatments, behind-the-scenes moments, and interview-style videos.",
       "My work contributed to building a cohesive, engaging, and visually appealing online presence across all platforms.",
     ],
-    cover: { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
-    gallery: [{ key: "kurbe-1", alt: "Dr. Kurbe social posts shown on phone mockups" }],
+    cover: { key: "kurbe-clinic-cover", alt: "Woman with closed eyes receiving a facial laser treatment" },
+    gallery: [
+      { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
+      { key: "kurbe-1", alt: "Dr. Kurbe social posts shown on phone mockups" },
+    ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },
   {
@@ -296,8 +302,9 @@ export const projects: Project[] = [
       "For the brand, I created a variety of social media visuals, including informative static posts, promotional banners highlighting seasonal and signature products, and TikTok/Instagram reels showcasing both individual items and the brand's story.",
       "My work helped strengthen Moș Ilie's online identity, bringing a warm, nostalgic, and engaging visual presence to their digital platforms.",
     ],
-    cover: { key: "ilie-5", alt: "Moș Ilie 'Tradition and good taste' cookies and jam post" },
+    cover: { key: "ilie-cover", alt: "Smiling baker in black gloves filling a paper bag with cookies from glass jars" },
     gallery: [
+      { key: "ilie-5", alt: "Moș Ilie 'Tradition and good taste' cookies and jam post" },
       { key: "ilie-1", alt: "Moș Ilie Black Friday hamper post" },
       { key: "ilie-2", alt: "Moș Ilie Black Friday jar post" },
       { key: "ilie-3", alt: "Moș Ilie holiday pastries post" },

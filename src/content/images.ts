@@ -5,7 +5,10 @@ import inklabsStopScroll from "@/assets/inklabs-stop-scroll.webp";
 import divazCover from "@/assets/divaz-cover.webp";
 import inklabs300Designs from "@/assets/inklabs-300-designs.webp";
 import inklabsCover from "@/assets/inklabs-cover.webp";
+import ilieCover from "@/assets/ilie-cover.webp";
+import iqCover from "@/assets/iq-cover.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import kurbeClinicCover from "@/assets/kurbe-clinic-cover.webp";
 import inklabsLogoSystem from "@/assets/inklabs-logo-system.webp";
 import inklabsMoodboard from "@/assets/inklabs-moodboard.webp";
 import inklabsPhotoBirds from "@/assets/inklabs-photo-birds.webp";
@@ -113,6 +116,9 @@ export const img = {
   "inklabs-cover": { src: inklabsCover, w: 1400, h: 933 },
   "divaz-cover": { src: divazCover, w: 1400, h: 933 },
   "kdt-cover": { src: kdtCover, w: 800, h: 470 },
+  "iq-cover": { src: iqCover, w: 1400, h: 933 },
+  "kurbe-clinic-cover": { src: kurbeClinicCover, w: 1000, h: 1500 },
+  "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },
   "inklabs-photo-cross": { src: inklabsPhotoCross, w: 480, h: 840 },

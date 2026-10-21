@@ -17,6 +17,7 @@ export const projects: Project[] = [
     ],
     cover: { key: "inklabs-cover", alt: "Femeie într-un maiou alb, cu un tatuaj mare cu o pasăre pe braț, pe fundal galben" },
     gallery: [
+      { key: "inklabs-main", alt: "Postare Inklabs: mână tatuată pe fundal negru, cu titlul „Creat pentru personajul principal”" },
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs de retrospectivă pentru 2025, pe fundal galben" },
       { key: "inklabs-stop", alt: "Reclamă Inklabs pe fundal galben, cu mesajul „Oprește derularea pentru tatuaje” și un model de scorpion" },
       { key: "inklabs-300-designs", alt: "Postare Inklabs pe negru: peste 300 de modele, cu o mascotă taur care face cu ochiul și ține cartonașe cu tatuaje, plus lista de stiluri" },
@@ -116,6 +117,7 @@ export const projects: Project[] = [
     ],
     cover: { key: "divaz-cover", alt: "Cutii roz Divaz cu unghii false cu gel instant, în mai multe nuanțe" },
     gallery: [
+      { key: "divaz-nails", alt: "Cutii Divaz cu unghii cu gel autoadezive, cu aplicare instantanee, pe fundal roz pudrat" },
       { key: "divaz-galentine", alt: "Campanie Divaz de Galentine’s Day, cu un ruj într-un pahar de cocktail" },
       { key: "divaz-sale", alt: "Campanie Divaz cu reducere de 50% la produse de machiaj, cu o cutie de produs" },
       { key: "divaz-gloss35", alt: "Luciu de buze Divaz cu fructe de pădure și înghețată" },
@@ -195,8 +197,9 @@ export const projects: Project[] = [
       "Pentru IQ Fashion, am creat o varietate de materiale vizuale pentru rețelele sociale, inclusiv postări statice elegante și bannere promoționale axate pe produse. Am realizat și montaje video, de la clipuri promoționale captivante, pe bază de scenariu, până la secvențe în stil cinematografic, care evidențiază calitatea și rafinamentul colecțiilor.",
       "Munca mea a contribuit la îmbunătățirea prezenței digitale a brandului, aducând o identitate rafinată, în pas cu moda, pe platformele sale online.",
     ],
-    cover: { key: "iq-5", alt: "Postare IQ Fashion de Black Friday cu o haină de blană și accente aurii" },
+    cover: { key: "iq-cover", alt: "Mâini care țin o rochie-cămașă roz pudrat pe umeraș, lângă un stender cu haine în nuanțe de teracotă" },
     gallery: [
+      { key: "iq-5", alt: "Postare IQ Fashion de Black Friday cu o haină de blană și accente aurii" },
       { key: "iq-1", alt: "Postare IQ Fashion cu reduceri de sărbători la paltoane Alpaca" },
       { key: "iq-2", alt: "Postare IQ Fashion de sărbători cu o geacă parka" },
       { key: "iq-3", alt: "Postare de produs IQ Fashion cu tunica Dalisa" },
@@ -219,8 +222,11 @@ export const projects: Project[] = [
       "Pentru clinică, precum și pentru brandurile personale ale Nada Kurbe și Mawada Kurbe, am creat o gamă largă de conținut pentru rețelele sociale: de la bannere informative și promoționale până la clipuri Reels pentru TikTok și Instagram care prezintă tratamente, momente din culise și videoclipuri de tip interviu.",
       "Munca mea a contribuit la construirea unei prezențe online coerente, captivante și atractive vizual pe toate platformele.",
     ],
-    cover: { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
-    gallery: [{ key: "kurbe-1", alt: "Postări Dr. Kurbe pentru rețelele sociale, prezentate pe machete de telefon" }],
+    cover: { key: "kurbe-clinic-cover", alt: "Femeie cu ochii închiși în timpul unui tratament facial cu laser" },
+    gallery: [
+      { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
+      { key: "kurbe-1", alt: "Postări Dr. Kurbe pentru rețelele sociale, prezentate pe machete de telefon" },
+    ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },
   {
@@ -237,8 +243,9 @@ export const projects: Project[] = [
       "Pentru brand, am creat o varietate de materiale vizuale pentru rețelele sociale, inclusiv postări statice informative, bannere promoționale care pun în valoare produsele sezoniere și emblematice, precum și clipuri Reels pentru TikTok și Instagram care prezintă atât produse individuale, cât și povestea brandului.",
       "Munca mea a contribuit la consolidarea identității online a Moș Ilie, aducând o prezență vizuală caldă, nostalgică și captivantă pe platformele sale digitale.",
     ],
-    cover: { key: "ilie-5", alt: "Postare Moș Ilie cu fursecuri și dulceață, cu mesajul „Tradiție și bun gust”" },
+    cover: { key: "ilie-cover", alt: "Brutăriță zâmbitoare, cu mănuși negre, care pune fursecuri din borcane de sticlă într-o pungă de hârtie" },
     gallery: [
+      { key: "ilie-5", alt: "Postare Moș Ilie cu fursecuri și dulceață, cu mesajul „Tradiție și bun gust”" },
       { key: "ilie-1", alt: "Postare Moș Ilie de Black Friday cu un coș cadou" },
       { key: "ilie-2", alt: "Postare Moș Ilie de Black Friday cu un borcan" },
       { key: "ilie-3", alt: "Postare Moș Ilie cu produse de patiserie pentru sărbători" },

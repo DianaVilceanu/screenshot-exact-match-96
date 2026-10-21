@@ -180,9 +180,7 @@ export function HomePage() {
       <section className="container-editorial py-24 md:py-36" aria-labelledby="about-h">
         <div className="grid gap-12 md:grid-cols-12 md:items-center">
           <Reveal className="relative md:col-span-5">
-            <div className="relative aspect-[2/3] overflow-hidden bg-ink">
-              <Pic k="portrait" alt={h.portraitAlt} sizes="40vw" />
-            </div>
+            <Pic k="portrait-cutout" alt={h.portraitAlt} className="h-auto" sizes="(min-width: 768px) 40vw, 100vw" />
             <p className="font-display absolute -bottom-6 -left-2 text-6xl text-accent italic md:-left-8 md:text-8xl">Diana</p>
           </Reveal>
           <div className="md:col-span-6 md:col-start-7">
@@ -206,7 +204,11 @@ export function HomePage() {
               </div>
               <div>
                 <dt className="eyebrow text-muted-foreground">{h.tools}</dt>
-                <dd className="mt-1">{c.person.tools.join(", ")}</dd>
+                {c.person.tools.map((x) => (
+                  <dd key={x} className="mt-1">
+                    {x}
+                  </dd>
+                ))}
               </div>
             </dl>
           </div>

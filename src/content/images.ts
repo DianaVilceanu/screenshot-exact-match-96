@@ -8,6 +8,7 @@ import inklabsCover from "@/assets/inklabs-cover.webp";
 import ilieCover from "@/assets/ilie-cover.webp";
 import iqCover from "@/assets/iq-cover.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import portraitCutout from "@/assets/portrait-cutout.webp";
 import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
 import marieiCover from "@/assets/mariei-cover.webp";
 import regataCover from "@/assets/regata-cover.webp";
@@ -136,6 +137,7 @@ export const img = {
   "mariei-cover": { src: marieiCover, w: 1200, h: 1200 },
   "regata-cover": { src: regataCover, w: 1400, h: 933 },
   "vibrary-cover": { src: vibraryCover, w: 1200, h: 1066 },
+  "portrait-cutout": { src: portraitCutout, w: 1000, h: 1124 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

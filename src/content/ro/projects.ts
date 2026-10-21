@@ -202,6 +202,12 @@ export const projects: Project[] = [
         ],
       },
     ],
+    reels: [
+      { key: "kdt-reel-1", title: "Scenetă: cumpărarea unui utilaj în showroom" },
+      { key: "kdt-reel-2", title: "Scenetă: de la un telefon la placa finită" },
+      { key: "kdt-reel-3", title: "Întrebări: de ce se dezlipesc canturile?" },
+      { key: "kdt-reel-4", title: "De ce KDT este partenerul potrivit" },
+    ],
     serviceSlugs: ["social-media-design", "content-creation"],
     featured: true,
     caseStudy: {

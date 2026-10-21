@@ -264,6 +264,12 @@ export const projects: Project[] = [
         ],
       },
     ],
+    reels: [
+      { key: "kdt-reel-1", title: "Skit: buying a machine in the showroom" },
+      { key: "kdt-reel-2", title: "Skit: from a phone call to a finished board" },
+      { key: "kdt-reel-3", title: "Q&A: why does edgebanding come off?" },
+      { key: "kdt-reel-4", title: "Why KDT is the right partner" },
+    ],
     serviceSlugs: ["social-media-design", "content-creation"],
     featured: true,
     caseStudy: {

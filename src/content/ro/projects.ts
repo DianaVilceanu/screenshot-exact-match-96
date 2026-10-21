@@ -15,7 +15,7 @@ export const projects: Project[] = [
       "Pentru acest brand, am creat identitatea completă, împreună cu întreaga strategie de conținut și prezența pe rețelele sociale. Am realizat o varietate de materiale vizuale, de la postări statice informative și bannere promoționale de impact până la clipuri Reels captivante pentru TikTok și Instagram, care prezintă atât modele individuale, cât și povestea unică a brandului.",
       "Munca mea a contribuit la construirea și consolidarea identității online îndrăznețe a Inklabs, aducând o prezență vizuală dinamică, autentică și captivantă pe platformele sale digitale și demonstrând, în cele din urmă, că tatuajele nu trebuie să fie „pentru totdeauna”.",
     ],
-    cover: { key: "inklabs-main", alt: "Postare Inklabs: mână tatuată pe fundal negru, cu titlul „Creat pentru personajul principal”" },
+    cover: { key: "inklabs-cover", alt: "Femeie într-un maiou alb, cu un tatuaj mare cu o pasăre pe braț, pe fundal galben" },
     gallery: [
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs de retrospectivă pentru 2025, pe fundal galben" },
       { key: "inklabs-stop", alt: "Reclamă Inklabs pe fundal galben, cu mesajul „Oprește derularea pentru tatuaje” și un model de scorpion" },
@@ -114,7 +114,7 @@ export const projects: Project[] = [
       "Pentru acest brand, am creat identitatea completă, împreună cu întreaga strategie de conținut și prezența pe rețelele sociale. Am realizat o varietate de materiale vizuale captivante, de la carusele statice informative și bannere promoționale de impact pentru campaniile de reduceri până la clipuri Reels atractive pentru TikTok și Instagram.",
       "Munca mea a contribuit la construirea și consolidarea identității online îndrăznețe a Divaz, aducând o prezență vizuală dinamică, vibrantă și interactivă pe platformele sale digitale și demonstrând că un look de frumusețe premium poate fi accesibil tuturor.",
     ],
-    cover: { key: "divaz-nails", alt: "Cutii Divaz cu unghii cu gel autoadezive, cu aplicare instantanee, pe fundal roz pudrat" },
+    cover: { key: "divaz-cover", alt: "Cutii roz Divaz cu unghii false cu gel instant, în mai multe nuanțe" },
     gallery: [
       { key: "divaz-galentine", alt: "Campanie Divaz de Galentine’s Day, cu un ruj într-un pahar de cocktail" },
       { key: "divaz-sale", alt: "Campanie Divaz cu reducere de 50% la produse de machiaj, cu o cutie de produs" },
@@ -163,6 +163,7 @@ export const projects: Project[] = [
     deliverables: ["[ADAUGĂ LIVRABILELE]"],
     summary: "Studiu de caz în pregătire.",
     description: ["[ADAUGĂ INTRODUCEREA PROIECTULUI. KDT Romania nu apare pe site-ul actual, așa că nu au fost inventate texte sau imagini.]"],
+    cover: { key: "kdt-cover", alt: "Linie de producție automatizată KDT, cu un braț robotic, la un târg" },
     gallery: [],
     serviceSlugs: ["branding", "social-media-design"],
     featured: true,

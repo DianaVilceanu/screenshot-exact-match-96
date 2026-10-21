@@ -74,7 +74,7 @@ export const projects: Project[] = [
       "For this brand, I developed the complete branding, alongside the entire content strategy and social media presence. I created a variety of social media visuals, including informative static posts, high-impact promotional banners, and engaging TikTok/Instagram reels showcasing both individual designs and the brand's unique story.",
       "My work helped build and strengthen Inklabs' bold online identity, bringing a dynamic, authentic, and highly engaging visual presence to their digital platforms, ultimately proving that tattoos don't have to be \"forever.\"",
     ],
-    cover: { key: "inklabs-main", alt: "Inklabs social post: tattooed hand on black with 'Made for main character' headline" },
+    cover: { key: "inklabs-cover", alt: "Woman in a white top with a large bird tattoo on her upper arm, against a yellow background" },
     gallery: [
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 yellow typographic post" },
       { key: "inklabs-stop", alt: "Inklabs 'Stop scrolling for tattoos' yellow ad with scorpion design" },
@@ -173,7 +173,7 @@ export const projects: Project[] = [
       "For this brand, I developed the complete branding, alongside the entire content strategy and social media presence. I created a variety of engaging visual assets, including informative static carousels, high-impact promotional banners for sales campaigns, and captivating TikTok/Instagram reels.",
       "My work helped build and strengthen Divaz's bold online identity, bringing a dynamic, vibrant, and highly interactive visual presence to their digital platforms, ultimately proving that a premium beauty look can be accessible to everyone.",
     ],
-    cover: { key: "divaz-nails", alt: "Divaz instant gel press-on nail boxes on blush pink" },
+    cover: { key: "divaz-cover", alt: "Pink Divaz instant-gel press-on nail boxes in a range of shades" },
     gallery: [
       { key: "divaz-galentine", alt: "Divaz Galentine's Day campaign with lipstick in a cocktail glass" },
       { key: "divaz-sale", alt: "Divaz 50% off makeup campaign with product box" },
@@ -222,6 +222,7 @@ export const projects: Project[] = [
     deliverables: ["[ADD DELIVERABLES]"],
     summary: "Case study in preparation.",
     description: ["[ADD PROJECT INTRODUCTION. KDT Romania does not appear on the current website, so no copy or images have been invented.]"],
+    cover: { key: "kdt-cover", alt: "KDT automated production line with a robotic arm at a trade fair" },
     gallery: [],
     serviceSlugs: ["branding", "social-media-design"],
     featured: true,

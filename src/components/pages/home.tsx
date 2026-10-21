@@ -116,7 +116,7 @@ export function HomePage() {
             <L to={link(divaz)} className="group block">
               <div className="frame-zoom relative aspect-[5/4] bg-blush">
                 <Pic k="divaz-galentine" alt={h.divazAlt} className="absolute inset-y-0 left-0 !w-1/2" sizes="30vw" />
-                <Pic k="divaz-nails" alt={divaz.cover!.alt} className="absolute inset-y-0 right-0 !w-1/2" sizes="30vw" />
+                <Pic k="divaz-nails" alt={h.divazNailsAlt} className="absolute inset-y-0 right-0 !w-1/2" sizes="30vw" />
               </div>
               <FeatureText p={divaz} n="02" className="mt-6" />
             </L>

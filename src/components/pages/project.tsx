@@ -231,9 +231,9 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           </div>
           <div className="md:col-span-7 md:col-start-6">
             {cs.process.length ? (
-              <div className="grid grid-cols-2 gap-3">
+              <div className={cn("grid gap-3", cs.process.length > 1 && "grid-cols-2")}>
                 {cs.process.map((x) => (
-                  <Pic key={x.key} k={x.key} alt={x.alt} className="aspect-square" />
+                  <Pic key={x.key} k={x.key} alt={x.alt} className={cs.process.length > 1 ? "aspect-square" : "h-auto"} />
                 ))}
               </div>
             ) : (
@@ -277,10 +277,16 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
             <Eyebrow n={num(6)}>{t.project.results}</Eyebrow>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 md:col-span-7 md:col-start-6">
-            {cs.results.map((r) => (
-              <Placeholder key={r}>{r}</Placeholder>
-            ))}
-            <Placeholder className="sm:col-span-2">{t.project.resultsMissing}</Placeholder>
+            {cs.results.map((r) =>
+              isPlaceholder(r) ? (
+                <Placeholder key={r}>{r}</Placeholder>
+              ) : (
+                <p key={r} className="border-t-2 border-primary pt-5 text-lg leading-relaxed sm:last:col-span-2">
+                  {r}
+                </p>
+              ),
+            )}
+            {cs.results.some(isPlaceholder) && <Placeholder className="sm:col-span-2">{t.project.resultsMissing}</Placeholder>}
           </div>
         </div>
       </section>

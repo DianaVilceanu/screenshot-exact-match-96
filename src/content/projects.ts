@@ -90,15 +90,20 @@ export const projects: Project[] = [
       tagline: "Tattoos don't have to be forever.",
       brief: [
         "Inklabs needed a complete brand and a social presence built from zero: branding, content strategy and the full stream of social content across Instagram and TikTok.",
-        "[ADD ORIGINAL CLIENT BRIEF: the client's exact request, timeline and constraints]",
       ],
       direction: [
         { title: "A two-colour system", text: "Electric yellow and deep black do all the work. The contrast makes posts recognisable in a feed within a fraction of a second." },
         { title: "Heavy, compact type", text: "Condensed, bold headlines speak with the confidence of the brand: short, direct and a little cheeky." },
         { title: "Real skin, real designs", text: "Photography of the tattoos on real hands and arms keeps the product honest and tangible." },
       ],
-      process: [],
-      results: ["[ADD VERIFIED PROJECT OUTCOME]", "[ADD PERFORMANCE METRICS]"],
+      process: [
+        { key: "inklabs-moodboard", alt: "Inklabs moodboard: tattoo photography on real skin, the yellow #FFDF01, the wordmark, the slogan, tone-of-voice keywords and a product post" },
+      ],
+      results: [
+        "Over 50,000 customers have tried Inklabs tattoos, as the brand shared in its Inklabs Wrapped year-in-review.",
+        "Zero returns, highlighted in the same year-end recap.",
+        "Launches in several European countries, announced on social media with the same yellow-and-black identity.",
+      ],
       testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
       guidelines: {
         overview:

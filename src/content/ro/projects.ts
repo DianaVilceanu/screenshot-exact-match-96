@@ -35,15 +35,20 @@ export const projects: Project[] = [
       tagline: "Tatuajele nu trebuie să fie pentru totdeauna.",
       brief: [
         "Inklabs avea nevoie de o identitate de brand completă și de o prezență pe rețelele sociale construită de la zero: identitate, strategie de conținut și întregul flux de conținut pentru Instagram și TikTok.",
-        "[ADAUGĂ BRIEFUL ORIGINAL AL CLIENTULUI: cerința exactă a clientului, calendarul și constrângerile]",
       ],
       direction: [
         { title: "Un sistem în două culori", text: "Galbenul electric și negrul intens fac toată treaba. Contrastul face postările ușor de recunoscut în flux în doar o fracțiune de secundă." },
         { title: "Litere groase, compacte", text: "Titlurile cu litere înguste și îngroșate transmit încrederea brandului. Sunt scurte, directe și puțin obraznice." },
         { title: "Piele reală, modele reale", text: "Fotografiile cu tatuaje pe mâini și brațe reale păstrează prezentarea produsului autentică și tangibilă." },
       ],
-      process: [],
-      results: ["[ADAUGĂ UN REZULTAT VERIFICAT AL PROIECTULUI]", "[ADAUGĂ INDICATORI DE PERFORMANȚĂ]"],
+      process: [
+        { key: "inklabs-moodboard", alt: "Moodboard Inklabs: fotografii cu tatuaje pe piele reală, galbenul #FFDF01, logotipul, sloganul, cuvintele-cheie ale vocii și o postare de produs" },
+      ],
+      results: [
+        "Peste 50.000 de clienți au încercat tatuajele Inklabs, după cum a anunțat brandul în retrospectiva Inklabs Wrapped.",
+        "Zero retururi, evidențiate în aceeași retrospectivă de final de an.",
+        "Lansări în mai multe țări europene, anunțate pe rețelele sociale cu aceeași identitate galben-negru.",
+      ],
       testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
       guidelines: {
         overview:

@@ -224,7 +224,7 @@ export const projects: Project[] = [
     deliverables: ["[ADD DELIVERABLES]"],
     summary: "Case study in preparation.",
     description: ["[ADD PROJECT INTRODUCTION. KDT Romania does not appear on the current website, so no copy or images have been invented.]"],
-    cover: { key: "kdt-cover", alt: "KDT automated production line with a robotic arm at a trade fair" },
+    cover: { key: "kdt-cover", alt: "KDT Drill Tech machine on the KDT Global stand at a trade fair" },
     gallery: [],
     serviceSlugs: ["branding", "social-media-design"],
     featured: true,

@@ -294,7 +294,7 @@ export const projects: Project[] = [
     categories: ["Social Media"],
     industry: "Estetică și stare de bine",
     services: ["Design pentru rețele sociale", "Montaj video"],
-    deliverables: ["Bannere informative și promoționale", "Clipuri Reels pentru TikTok / Instagram", "Videoclipuri de tip interviu"],
+    deliverables: ["Bannere informative și promoționale", "Caruseluri", "Clipuri Reels pentru TikTok / Instagram", "Videoclipuri de tip interviu"],
     summary: "Conținut coerent pentru rețelele sociale ale unei clinici și ale brandurilor personale ale fondatoarelor sale.",
     description: [
       "Dr. Kurbe Clinic este un centru modern de estetică și stare de bine, axat pe îngrijire personalizată și rezultate naturale.",
@@ -303,8 +303,25 @@ export const projects: Project[] = [
     ],
     cover: { key: "kurbe-clinic-cover", alt: "Femeie cu ochii închiși în timpul unui tratament facial cu laser" },
     gallery: [
+      { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
       { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
       { key: "kurbe-1", alt: "Postări Dr. Kurbe pentru rețelele sociale, prezentate pe machete de telefon" },
+    ],
+    carousels: [
+      {
+        title: "Cum funcționează terapia vampir (PRP)?",
+        slides: [
+          { key: "kurbe-prp-1", alt: "Copertă de carusel: cum funcționează terapia vampir (PRP), titlu auriu cu serife și o seringă, pe fundal închis cu model" },
+          { key: "kurbe-prp-2", alt: "Slide din carusel despre PRP: se recoltează sânge, plasma bogată în trombocite este izolată și injectată în zonele feței care au nevoie de revitalizare" },
+        ],
+      },
+      {
+        title: "Proceduri estetice dentare la Dr. Kurbe",
+        slides: [
+          { key: "kurbe-dental-1", alt: "Copertă de carusel: proceduri estetice dentare disponibile la Dr. Kurbe, titlu auriu pe alb, cu instrumente și implanturi dentare" },
+          { key: "kurbe-dental-2", alt: "Slide din carusel cu albirea dentară, înlocuirea plombelor sau coroanelor, gingivoplastia, implanturile și bretelele dentare" },
+        ],
+      },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

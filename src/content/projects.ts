@@ -366,7 +366,7 @@ export const projects: Project[] = [
     categories: ["Social Media"],
     industry: "Aesthetics & wellness",
     services: ["Social media design", "Video editing"],
-    deliverables: ["Informative & promotional banners", "TikTok / Instagram reels", "Interview-style videos"],
+    deliverables: ["Informative & promotional banners", "Carousels", "TikTok / Instagram reels", "Interview-style videos"],
     summary: "Cohesive social content for a clinic and its founders' personal brands.",
     description: [
       "Dr. Kurbe Clinic is a modern aesthetic and wellness center focused on personalized care and natural results.",
@@ -375,8 +375,25 @@ export const projects: Project[] = [
     ],
     cover: { key: "kurbe-clinic-cover", alt: "Woman with closed eyes receiving a facial laser treatment" },
     gallery: [
+      { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
       { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
       { key: "kurbe-1", alt: "Dr. Kurbe social posts shown on phone mockups" },
+    ],
+    carousels: [
+      {
+        title: "How does vampire therapy (PRP) work?",
+        slides: [
+          { key: "kurbe-prp-1", alt: "Carousel cover: how does vampire therapy (PRP) work, gold serif type with a syringe on dark patterned background" },
+          { key: "kurbe-prp-2", alt: "Carousel slide explaining PRP: blood is drawn, platelet-rich plasma is isolated and injected where the face needs revitalising" },
+        ],
+      },
+      {
+        title: "Cosmetic dental procedures at Dr. Kurbe",
+        slides: [
+          { key: "kurbe-dental-1", alt: "Carousel cover: cosmetic dental procedures available at Dr. Kurbe, gold type on white with dental instruments and implants" },
+          { key: "kurbe-dental-2", alt: "Carousel slide listing whitening, replacing fillings or crowns, gum contouring, implants and braces" },
+        ],
+      },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

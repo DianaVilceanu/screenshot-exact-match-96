@@ -2,7 +2,7 @@ import { ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Breadcrumbs, Eyebrow, MaybePlaceholder, Pic, Placeholder, Reveal, btn, isPlaceholder } from "@/components/site/primitives";
-import type { BrandGuidelines, GalleryItem, Project, ReelItem } from "@/content/projects";
+import type { BrandGuidelines, Carousel, GalleryItem, Project, ReelItem } from "@/content/projects";
 import { img } from "@/content/images";
 import { reels } from "@/content/reels";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
@@ -280,23 +280,7 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           {p.carousels && (
             <>
               <h3 className="eyebrow mt-16 text-muted-foreground">{t.project.carousels}</h3>
-              <div className="mt-6 space-y-10">
-                {p.carousels.map((c) => (
-                  <Reveal key={c.title}>
-                    <p className="text-lg font-semibold">{c.title}</p>
-                    <ol className="mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)] md:overflow-visible">
-                      {c.slides.map((x, i) => (
-                        <li key={x.key} className="relative">
-                          <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 30vw, 70vw" />
-                          <span className="eyebrow absolute top-3 right-3 bg-background/90 px-2 py-1 text-foreground">
-                            {i + 1}/{c.slides.length}
-                          </span>
-                        </li>
-                      ))}
-                    </ol>
-                  </Reveal>
-                ))}
-              </div>
+              <CarouselList carousels={p.carousels} />
             </>
           )}
           {p.reels && !p.mixReels && (
@@ -468,6 +452,29 @@ function Guidelines({ g, n }: { g: BrandGuidelines; n: string }) {
   );
 }
 
+/** Multi-slide posts shown slide by slide, with a 1/n counter; they scroll sideways on small screens. */
+function CarouselList({ carousels }: { carousels: Carousel[] }) {
+  return (
+    <div className="mt-6 space-y-10">
+      {carousels.map((c) => (
+        <Reveal key={c.title}>
+          <p className="text-lg font-semibold">{c.title}</p>
+          <ol className="mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)] md:overflow-visible">
+            {c.slides.map((x, i) => (
+              <li key={x.key} className="relative">
+                <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 30vw, 70vw" />
+                <span className="eyebrow absolute top-3 right-3 bg-background/90 px-2 py-1 text-foreground">
+                  {i + 1}/{c.slides.length}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </Reveal>
+      ))}
+    </div>
+  );
+}
+
 /** Statics with a reel after every third post, so the two formats alternate in one grid. */
 function mixed(statics: GalleryItem[], reels: ReelItem[]): (GalleryItem | ReelItem)[] {
   const out: (GalleryItem | ReelItem)[] = [];
@@ -582,7 +589,7 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
       )}
       {p.gallery.length > 0 && (
         <section className="bg-secondary py-16 md:py-24">
-          {(p.reels || p.newsletters) && (
+          {(p.reels || p.newsletters || p.carousels) && (
             <div className="container-editorial mb-8">
               <Eyebrow>{t.project.statics}</Eyebrow>
             </div>
@@ -596,6 +603,12 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
               </Reveal>
             ))}
           </div>
+        </section>
+      )}
+      {p.carousels && (
+        <section className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.carousels}</Eyebrow>
+          <CarouselList carousels={p.carousels} />
         </section>
       )}
       {p.reels && (

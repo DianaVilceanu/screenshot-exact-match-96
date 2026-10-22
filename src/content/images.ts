@@ -11,6 +11,11 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import kurbeBotox from "@/assets/kurbe/kurbe-botox.webp";
+import kurbePrp1 from "@/assets/kurbe/kurbe-prp-1.webp";
+import kurbePrp2 from "@/assets/kurbe/kurbe-prp-2.webp";
+import kurbeDental1 from "@/assets/kurbe/kurbe-dental-1.webp";
+import kurbeDental2 from "@/assets/kurbe/kurbe-dental-2.webp";
 import iqMoodboard from "@/assets/iq/iq-moodboard.webp";
 import iqComingSoon from "@/assets/iq/iq-coming-soon.webp";
 import iqFlyerMockup from "@/assets/iq/iq-flyer-mockup.webp";
@@ -202,6 +207,11 @@ export const img = {
   "iq-coming-soon": { src: iqComingSoon, w: 1000, h: 1000 },
   "iq-site-hero": { src: iqSiteHero, w: 1600, h: 838 },
   "iq-flyer-mockup": { src: iqFlyerMockup, w: 1600, h: 1120 },
+  "kurbe-botox": { src: kurbeBotox, w: 900, h: 900 },
+  "kurbe-prp-1": { src: kurbePrp1, w: 900, h: 1125 },
+  "kurbe-prp-2": { src: kurbePrp2, w: 900, h: 1125 },
+  "kurbe-dental-1": { src: kurbeDental1, w: 900, h: 1125 },
+  "kurbe-dental-2": { src: kurbeDental2, w: 900, h: 1125 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

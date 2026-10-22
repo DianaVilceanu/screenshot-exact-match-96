@@ -59,6 +59,8 @@ export type Project = {
   carousels?: Carousel[];
   /** Visual identity board shown on standard (non case-study) project pages. */
   moodboard?: GalleryItem;
+  /** Vertical 9:16 stories, shown together in their own row. */
+  stories?: GalleryItem[];
   /** Website hero banner, shown in a browser frame. */
   siteHero?: GalleryItem;
   /** Email newsletter designs, shown side by side in their own section. */
@@ -365,8 +367,8 @@ export const projects: Project[] = [
     client: "Dr. Kurbe Clinic, Nada Kurbe & Mawada Kurbe",
     categories: ["Social Media"],
     industry: "Aesthetics & wellness",
-    services: ["Social media design", "Video editing"],
-    deliverables: ["Informative & promotional banners", "Carousels", "TikTok / Instagram reels", "Interview-style videos"],
+    services: ["Visual identity for social media", "Social media design", "Video editing"],
+    deliverables: ["Informative & promotional banners", "Offer stories", "Carousels", "TikTok / Instagram reels", "Interview-style videos"],
     summary: "Cohesive social content for a clinic and its founders' personal brands.",
     description: [
       "Dr. Kurbe Clinic is a modern aesthetic and wellness center focused on personalized care and natural results.",
@@ -376,8 +378,20 @@ export const projects: Project[] = [
     cover: { key: "kurbe-clinic-cover", alt: "Woman with closed eyes receiving a facial laser treatment" },
     gallery: [
       { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
+      { key: "kurbe-habits", alt: "Dr. Mawada Kurbe post: which habits harm dental health, from aggressive brushing to nail biting and teeth grinding" },
       { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
       { key: "kurbe-1", alt: "Dr. Kurbe social posts shown on phone mockups" },
+    ],
+    moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe visual identity: the gold Dr. Kurbe logo on charcoal, gold #D4AF62 with charcoal and cream, the Dedicated to perfection line, an IV drip offer story, the doctor in the dental chair, the clinic and a golden serum" },
+    stories: [
+      { key: "kurbe-story-1", alt: "Dr. Kurbe IV drip offer story: Beach Body Boost, energy, detox and glow, 285 RON, with a smiling woman on a beach" },
+      { key: "kurbe-story-2", alt: "Dr. Kurbe IV drip offer story: Gluta Goddess, glutathione drip for detox and radiance, 450 RON, with a woman in white against a golden sky" },
+      { key: "kurbe-story-3", alt: "Dr. Kurbe IV drip offer story: Vitafusion, vitamin C, B and magnesium drip, 400 RON, with a woman in a sports top" },
+      { key: "kurbe-story-4", alt: "Dr. Kurbe IV drip offer story: Bright Mind Drip, clarity and focus, 200 RON, with a woman meditating in a field" },
+      { key: "kurbe-story-5", alt: "Dr. Kurbe IV drip offer story: The Glow Shot, vitamin C for glow and collagen, 150 RON, with a woman with glowing skin" },
+      { key: "kurbe-story-6", alt: "Dr. Kurbe IV drip offer story: After Party Drip, clarity and focus, 275 RON, with a smiling woman with a cotton pad" },
+      { key: "kurbe-story-7", alt: "Dr. Kurbe IV drip offer story: Pre-Game Drip, ready to party without regrets, 275 RON, with a woman in a sequin top" },
+      { key: "kurbe-story-8", alt: "Dr. Kurbe IV drip offer story: Iron Revival, iron drip for energy and strength, 350 RON, with a woman stretching outdoors" },
     ],
     carousels: [
       {
@@ -394,6 +408,32 @@ export const projects: Project[] = [
           { key: "kurbe-dental-2", alt: "Carousel slide listing whitening, replacing fillings or crowns, gum contouring, implants and braces" },
         ],
       },
+      {
+        title: "How to treat bleeding gums?",
+        slides: [
+          { key: "kurbe-gums-1", alt: "Dr. Mawada Kurbe carousel cover: how to treat bleeding gums, over a close-up of a smile" },
+          { key: "kurbe-gums-2", alt: "Carousel slide: better oral hygiene, an antibacterial mouthwash and professional dental treatments" },
+        ],
+      },
+      {
+        title: "Retinol, retinal or tretinoin?",
+        slides: [
+          { key: "kurbe-retinoids-1", alt: "Nada Kurbe FAQ carousel cover: retinol, who is it recommended for?" },
+          { key: "kurbe-retinoids-2", alt: "Carousel slide: not all retinoids are the same, with a dropper and serum" },
+          { key: "kurbe-retinoids-3", alt: "Carousel slide: what retinoids are and what they do for the skin, with a golden serum dropper" },
+          { key: "kurbe-retinoids-4", alt: "Carousel slide: retinol, the gentlest for the skin, with strength, use and expected results" },
+          { key: "kurbe-retinoids-5", alt: "Carousel slide: retinal, stronger and faster than retinol but gentler than tretinoin" },
+        ],
+      },
+    ],
+    reels: [
+      { key: "kurbe-reel-1", title: "Facial procedure, step by step" },
+      { key: "kurbe-reel-2", title: "CO2 laser treatment" },
+      { key: "kurbe-reel-3", title: "Instacast with Dr. Kurbe" },
+      { key: "kurbe-reel-4", title: "Relaxing massage at the clinic" },
+      { key: "kurbe-reel-5", title: "Dr. Mawada Kurbe answers in the dental chair" },
+      { key: "kurbe-reel-6", title: "Placing a dental implant" },
+      { key: "kurbe-reel-7", title: "A walk through the clinic" },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

@@ -293,8 +293,8 @@ export const projects: Project[] = [
     client: "Dr. Kurbe Clinic, Nada Kurbe & Mawada Kurbe",
     categories: ["Social Media"],
     industry: "Estetică și stare de bine",
-    services: ["Design pentru rețele sociale", "Montaj video"],
-    deliverables: ["Bannere informative și promoționale", "Caruseluri", "Clipuri Reels pentru TikTok / Instagram", "Videoclipuri de tip interviu"],
+    services: ["Identitate vizuală pentru social media", "Design pentru rețele sociale", "Montaj video"],
+    deliverables: ["Bannere informative și promoționale", "Stories cu oferte", "Caruseluri", "Clipuri Reels pentru TikTok / Instagram", "Videoclipuri de tip interviu"],
     summary: "Conținut coerent pentru rețelele sociale ale unei clinici și ale brandurilor personale ale fondatoarelor sale.",
     description: [
       "Dr. Kurbe Clinic este un centru modern de estetică și stare de bine, axat pe îngrijire personalizată și rezultate naturale.",
@@ -304,8 +304,20 @@ export const projects: Project[] = [
     cover: { key: "kurbe-clinic-cover", alt: "Femeie cu ochii închiși în timpul unui tratament facial cu laser" },
     gallery: [
       { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
+      { key: "kurbe-habits", alt: "Postare Dr. Mawada Kurbe: ce obiceiuri dăunează sănătății dentare, de la periajul agresiv la roasul unghiilor și bruxism" },
       { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
       { key: "kurbe-1", alt: "Postări Dr. Kurbe pentru rețelele sociale, prezentate pe machete de telefon" },
+    ],
+    moodboard: { key: "kurbe-moodboard", alt: "Identitatea vizuală Dr. Kurbe: logoul auriu Dr. Kurbe pe antracit, auriul #D4AF62 cu antracit și crem, mesajul „Dedicated to perfection”, o story cu ofertă de perfuzii, doctorița în scaunul stomatologic, clinica și un ser auriu" },
+    stories: [
+      { key: "kurbe-story-1", alt: "Story Dr. Kurbe cu oferta de perfuzii: Beach Body Boost, energie, detox și strălucire, 285 RON, cu o femeie zâmbitoare pe plajă" },
+      { key: "kurbe-story-2", alt: "Story Dr. Kurbe cu oferta de perfuzii: Gluta Goddess, perfuzie cu glutation pentru detox și strălucire, 450 RON, cu o femeie în alb pe un cer auriu" },
+      { key: "kurbe-story-3", alt: "Story Dr. Kurbe cu oferta de perfuzii: Vitafusion, perfuzie cu vitamina C, B și magneziu, 400 RON, cu o femeie într-un top sport" },
+      { key: "kurbe-story-4", alt: "Story Dr. Kurbe cu oferta de perfuzii: Bright Mind Drip, claritate și focus, 200 RON, cu o femeie care meditează pe câmp" },
+      { key: "kurbe-story-5", alt: "Story Dr. Kurbe cu oferta de perfuzii: The Glow Shot, vitamina C pentru strălucire și colagen, 150 RON, cu o femeie cu pielea luminoasă" },
+      { key: "kurbe-story-6", alt: "Story Dr. Kurbe cu oferta de perfuzii: After Party Drip, claritate și focus, 275 RON, cu o femeie zâmbitoare cu un disc demachiant" },
+      { key: "kurbe-story-7", alt: "Story Dr. Kurbe cu oferta de perfuzii: Pre-Game Drip, pregătită de party fără regrete, 275 RON, cu o femeie într-un top cu paiete" },
+      { key: "kurbe-story-8", alt: "Story Dr. Kurbe cu oferta de perfuzii: Iron Revival, perfuzie cu fier pentru energie și putere, 350 RON, cu o femeie care se întinde în aer liber" },
     ],
     carousels: [
       {
@@ -322,6 +334,32 @@ export const projects: Project[] = [
           { key: "kurbe-dental-2", alt: "Slide din carusel cu albirea dentară, înlocuirea plombelor sau coroanelor, gingivoplastia, implanturile și bretelele dentare" },
         ],
       },
+      {
+        title: "Cum se pot trata sângerările gingivale?",
+        slides: [
+          { key: "kurbe-gums-1", alt: "Copertă de carusel Dr. Mawada Kurbe: cum se pot trata sângerările gingivale, peste un prim-plan cu un zâmbet" },
+          { key: "kurbe-gums-2", alt: "Slide din carusel: îmbunătățirea igienei orale, apa de gură antibacteriană și tratamentele dentare profesionale" },
+        ],
+      },
+      {
+        title: "Retinol, retinal sau tretinoin?",
+        slides: [
+          { key: "kurbe-retinoids-1", alt: "Copertă de carusel FAQ Nada Kurbe: retinolul, pentru cine este recomandat?" },
+          { key: "kurbe-retinoids-2", alt: "Slide din carusel: nu toți retinoizii sunt la fel, cu o pipetă și ser" },
+          { key: "kurbe-retinoids-3", alt: "Slide din carusel: ce sunt retinoizii și ce fac pentru piele, cu o pipetă cu ser auriu" },
+          { key: "kurbe-retinoids-4", alt: "Slide din carusel: retinolul, cel mai blând pentru piele, cu putere, mod de folosire și rezultate" },
+          { key: "kurbe-retinoids-5", alt: "Slide din carusel: retinalul, mai puternic și mai rapid decât retinolul, dar mai blând decât tretinoinul" },
+        ],
+      },
+    ],
+    reels: [
+      { key: "kurbe-reel-1", title: "Procedură facială, pas cu pas" },
+      { key: "kurbe-reel-2", title: "Tratament cu laser CO2" },
+      { key: "kurbe-reel-3", title: "Instacast cu Dr. Kurbe" },
+      { key: "kurbe-reel-4", title: "Masaj relaxant la clinică" },
+      { key: "kurbe-reel-5", title: "Dr. Mawada Kurbe răspunde din scaunul stomatologic" },
+      { key: "kurbe-reel-6", title: "Inserarea unui implant dentar" },
+      { key: "kurbe-reel-7", title: "O plimbare prin clinică" },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

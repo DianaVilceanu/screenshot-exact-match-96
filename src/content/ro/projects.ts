@@ -249,8 +249,8 @@ export const projects: Project[] = [
     client: "IQ Fashion",
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Modă, boutique premium",
-    services: ["Identitate vizuală pentru social media", "Design pentru rețele sociale", "Montaj video", "Design de newsletter"],
-    deliverables: ["Postări statice", "Bannere promoționale", "Montaje video pe bază de scenariu și în stil cinematografic", "Reels", "Newsletter"],
+    services: ["Identitate vizuală pentru social media", "Design pentru rețele sociale", "Montaj video", "Design de newsletter", "Hero pentru site", "Design pentru print"],
+    deliverables: ["Postări statice", "Bannere promoționale", "Montaje video pe bază de scenariu și în stil cinematografic", "Reels", "Newslettere", "Hero pentru site", "Pliant A6 cu cod QR"],
     summary: "Materiale vizuale rafinate, în pas cu moda, pentru rochii elegante și blănuri de lux.",
     description: [
       "IQ Fashion este un brand de tip boutique premium care oferă rochii elegante, blănuri de lux și piese vestimentare de înaltă clasă, create pentru femei moderne și încrezătoare.",
@@ -273,8 +273,19 @@ export const projects: Project[] = [
       { key: "iq-reel-3", title: "Rochie de seară aurie, pe străzile orașului" },
       { key: "iq-reel-4", title: "Rochie cu paiete, montaj cinematic" },
     ],
-    newsletter: { key: "iq-newsletter", alt: "Newsletter IQ Fashion în negru și auriu: paltonul Alpaka Ami Beige cu 32% reducere, 850 lei în loc de 1.250 lei, cu detalii despre mărime, retur și ghidul de mărimi" },
-    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter"],
+    siteHero: { key: "iq-site-hero", alt: "Hero de site IQ Fashion pentru Black Friday: două modele în jachete din blană de vulpe albă și aurie, de o parte și de alta a logoului IQ, cu reduceri de până la 60%, pe negru cu confetti aurii" },
+    newsletters: [
+      { key: "iq-newsletter", alt: "Newsletter IQ Fashion în negru și auriu: paltonul Alpaka Ami Beige cu 32% reducere, 850 lei în loc de 1.250 lei, cu detalii despre mărime, retur și ghidul de mărimi" },
+      { key: "iq-coming-soon", alt: "Anunț IQ Fashion „În curând”, începând cu 7 noiembrie: un model într-o rochie neagră cu perle, titlu auriu cu serife pe hârtie texturată" },
+      { key: "iq-newsletter-alcantara", alt: "Newsletter IQ Fashion de sărbători: paltonul Alcantara Ukraina Camel cu blană de vulpe arctică, cu până la 60% reducere, cu globuri aurii pe negru" },
+    ],
+    print: [
+      {
+        title: "Pliant A6 de mulțumire, cu cod QR",
+        image: { key: "iq-flyer-mockup", alt: "Două pliante A6 IQ Fashion tipărite, pe o suprafață întunecată cu lumini aurii: voucher cadou de 50 lei pentru scanarea codului QR și o recenzie" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter", "printed-media"],
   },
   {
     slug: "dr-kurbe-clinic",

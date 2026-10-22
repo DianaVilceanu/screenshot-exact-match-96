@@ -12,7 +12,11 @@ import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
 import iqMoodboard from "@/assets/iq/iq-moodboard.webp";
+import iqComingSoon from "@/assets/iq/iq-coming-soon.webp";
+import iqFlyerMockup from "@/assets/iq/iq-flyer-mockup.webp";
 import iqNewsletter from "@/assets/iq/iq-newsletter.webp";
+import iqNewsletterAlcantara from "@/assets/iq/iq-newsletter-alcantara.webp";
+import iqSiteHero from "@/assets/iq/iq-site-hero.webp";
 import divazHoliday1 from "@/assets/divaz/divaz-holiday-1.webp";
 import divazHoliday2 from "@/assets/divaz/divaz-holiday-2.webp";
 import divazMoodboard from "@/assets/divaz/divaz-moodboard.webp";
@@ -194,6 +198,10 @@ export const img = {
   "divaz-moodboard": { src: divazMoodboard, w: 1600, h: 1200 },
   "iq-moodboard": { src: iqMoodboard, w: 1600, h: 1000 },
   "iq-newsletter": { src: iqNewsletter, w: 900, h: 2718 },
+  "iq-newsletter-alcantara": { src: iqNewsletterAlcantara, w: 900, h: 2718 },
+  "iq-coming-soon": { src: iqComingSoon, w: 1000, h: 1000 },
+  "iq-site-hero": { src: iqSiteHero, w: 1600, h: 838 },
+  "iq-flyer-mockup": { src: iqFlyerMockup, w: 1600, h: 1120 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

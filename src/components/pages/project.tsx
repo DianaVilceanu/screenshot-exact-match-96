@@ -3,6 +3,7 @@ import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Breadcrumbs, Eyebrow, MaybePlaceholder, Pic, Placeholder, Reveal, btn, isPlaceholder } from "@/components/site/primitives";
 import type { BrandGuidelines, GalleryItem, Project, ReelItem } from "@/content/projects";
+import { img } from "@/content/images";
 import { reels } from "@/content/reels";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
 import { breadcrumbLd, notFoundHead, seo } from "@/lib/seo";
@@ -564,9 +565,24 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           </Reveal>
         </section>
       )}
+      {p.siteHero && (
+        <section className="container-editorial pb-16 md:pb-24">
+          <Eyebrow>{t.project.siteHero}</Eyebrow>
+          <Reveal className="mt-8">
+            <div className="overflow-hidden rounded-xl border border-border bg-card shadow-2xl">
+              <div aria-hidden className="flex items-center gap-1.5 border-b border-border bg-muted px-4 py-3">
+                <span className="size-2.5 rounded-full bg-foreground/20" />
+                <span className="size-2.5 rounded-full bg-foreground/20" />
+                <span className="size-2.5 rounded-full bg-foreground/20" />
+              </div>
+              <Pic k={p.siteHero.key} alt={p.siteHero.alt} className="h-auto" sizes="100vw" />
+            </div>
+          </Reveal>
+        </section>
+      )}
       {p.gallery.length > 0 && (
         <section className="bg-secondary py-16 md:py-24">
-          {(p.reels || p.newsletter) && (
+          {(p.reels || p.newsletters) && (
             <div className="container-editorial mb-8">
               <Eyebrow>{t.project.statics}</Eyebrow>
             </div>
@@ -594,20 +610,32 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           </div>
         </section>
       )}
-      {p.newsletter && (
+      {p.newsletters && (
         <section className="bg-secondary py-16 md:py-24">
-          <div className="container-editorial grid gap-10 md:grid-cols-12 md:items-start">
-            <div className="md:sticky md:top-28 md:col-span-4">
-              <Eyebrow>{t.project.newsletter}</Eyebrow>
+          <div className="container-editorial">
+            <Eyebrow>{t.project.newsletter}</Eyebrow>
+            {/* Long emails scroll past while the short ones (e.g. a square teaser) stay pinned beside them. */}
+            <div className="mt-8 grid items-start gap-6 md:grid-cols-3">
+              {p.newsletters.map((x, i) => (
+                <Reveal key={x.key} delay={i * 80} className={cn("mx-auto w-full max-w-[480px]", (img[x.key].h / img[x.key].w) < 1.5 && "md:sticky md:top-28")}>
+                  <div className="overflow-hidden rounded-xl border border-border shadow-2xl">
+                    <Pic k={x.key} alt={x.alt} className="h-auto" sizes="(min-width: 768px) 30vw, 100vw" />
+                  </div>
+                </Reveal>
+              ))}
             </div>
-            <Reveal className="mx-auto w-full max-w-[600px] md:col-span-7 md:col-start-6">
-              <div className="overflow-hidden rounded-xl border border-border shadow-2xl">
-                <Pic k={p.newsletter.key} alt={p.newsletter.alt} className="h-auto" sizes="(min-width: 768px) 600px, 100vw" />
-              </div>
-            </Reveal>
           </div>
         </section>
       )}
+      {p.print?.map((x) => (
+        <section key={x.image.key} className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.print}</Eyebrow>
+          <p className="display-sm mt-4">{x.title}</p>
+          <Reveal className="mt-8">
+            <Pic k={x.image.key} alt={x.image.alt} className="h-auto rounded-xl" sizes="100vw" />
+          </Reveal>
+        </section>
+      ))}
       <section className="container-editorial flex flex-wrap items-center justify-between gap-6 py-14">
         <div>
           <p className="eyebrow mb-3 text-muted-foreground">{t.project.related}</p>

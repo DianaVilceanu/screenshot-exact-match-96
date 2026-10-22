@@ -59,8 +59,12 @@ export type Project = {
   carousels?: Carousel[];
   /** Visual identity board shown on standard (non case-study) project pages. */
   moodboard?: GalleryItem;
-  /** A full-length email newsletter design, shown as its own section. */
-  newsletter?: GalleryItem;
+  /** Website hero banner, shown in a browser frame. */
+  siteHero?: GalleryItem;
+  /** Email newsletter designs, shown side by side in their own section. */
+  newsletters?: GalleryItem[];
+  /** Print pieces, each shown as a titled mockup. */
+  print?: { title: string; image: GalleryItem }[];
   serviceSlugs: string[];
   featured?: boolean;
   /** Draft projects are hidden from search engines until real content is added. */
@@ -317,8 +321,8 @@ export const projects: Project[] = [
     client: "IQ Fashion",
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Fashion, premium boutique",
-    services: ["Visual identity for social media", "Social media design", "Video editing", "Newsletter design"],
-    deliverables: ["Static posts", "Promotional banners", "Scripted & cinematic video edits", "Reels", "Newsletter"],
+    services: ["Visual identity for social media", "Social media design", "Video editing", "Newsletter design", "Website hero", "Print design"],
+    deliverables: ["Static posts", "Promotional banners", "Scripted & cinematic video edits", "Reels", "Newsletters", "Website hero", "A6 flyer with QR code"],
     summary: "Refined, fashion-forward visuals for elegant dresses and luxurious furs.",
     description: [
       "IQ Fashion is a premium boutique brand offering elegant dresses, luxurious furs, and high-end fashion pieces designed for modern, confident women.",
@@ -341,8 +345,19 @@ export const projects: Project[] = [
       { key: "iq-reel-3", title: "A golden evening gown in the old town" },
       { key: "iq-reel-4", title: "Sequin gown, cinematic edit" },
     ],
-    newsletter: { key: "iq-newsletter", alt: "IQ Fashion newsletter in black and gold: the Alpaka Ami Beige coat at 32% off, 850 lei instead of 1,250 lei, with fit details, returns and a size guide" },
-    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter"],
+    siteHero: { key: "iq-site-hero", alt: "IQ Fashion Black Friday website hero: two models in white and golden fox fur jackets either side of the IQ logo, with up to 60% off, on black with gold confetti" },
+    newsletters: [
+      { key: "iq-newsletter", alt: "IQ Fashion newsletter in black and gold: the Alpaka Ami Beige coat at 32% off, 850 lei instead of 1,250 lei, with fit details, returns and a size guide" },
+      { key: "iq-coming-soon", alt: "IQ Fashion coming soon announcement from 7 November: a model in a pearl-embellished black gown, gold serif headline on textured paper" },
+      { key: "iq-newsletter-alcantara", alt: "IQ Fashion holiday newsletter: the Alcantara Ukraina Camel coat with arctic fox fur at up to 60% off, with gold baubles on black" },
+    ],
+    print: [
+      {
+        title: "A6 thank-you flyer with a QR code",
+        image: { key: "iq-flyer-mockup", alt: "Two printed IQ Fashion A6 flyers on a dark surface with gold bokeh: a 50 lei gift voucher for scanning the QR code and leaving a review" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter", "printed-media"],
   },
   {
     slug: "dr-kurbe-clinic",

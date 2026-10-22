@@ -57,6 +57,10 @@ export type Project = {
   mixReels?: boolean;
   /** Multi-slide social posts, shown slide by slide after the statics. */
   carousels?: Carousel[];
+  /** Visual identity board shown on standard (non case-study) project pages. */
+  moodboard?: GalleryItem;
+  /** A full-length email newsletter design, shown as its own section. */
+  newsletter?: GalleryItem;
   serviceSlugs: string[];
   featured?: boolean;
   /** Draft projects are hidden from search engines until real content is added. */
@@ -313,8 +317,8 @@ export const projects: Project[] = [
     client: "IQ Fashion",
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Fashion, premium boutique",
-    services: ["Social media design", "Video editing"],
-    deliverables: ["Static posts", "Promotional banners", "Scripted & cinematic video edits"],
+    services: ["Visual identity for social media", "Social media design", "Video editing", "Newsletter design"],
+    deliverables: ["Static posts", "Promotional banners", "Scripted & cinematic video edits", "Reels", "Newsletter"],
     summary: "Refined, fashion-forward visuals for elegant dresses and luxurious furs.",
     description: [
       "IQ Fashion is a premium boutique brand offering elegant dresses, luxurious furs, and high-end fashion pieces designed for modern, confident women.",
@@ -330,7 +334,15 @@ export const projects: Project[] = [
       { key: "iq-4", alt: "IQ Fashion beige alpaca coat post" },
       { key: "iq-6", alt: "IQ Fashion 'Elsa Silver' natural fur coat post" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    moodboard: { key: "iq-moodboard", alt: "IQ Fashion visual identity: the gold IQ logo, gold #CDA456, black and cream swatches, a light headline style, and photos of coats and evening gowns" },
+    reels: [
+      { key: "iq-reel-1", title: "Fur-trimmed coats in the boutique" },
+      { key: "iq-reel-2", title: "Trying on the little black dress" },
+      { key: "iq-reel-3", title: "A golden evening gown in the old town" },
+      { key: "iq-reel-4", title: "Sequin gown, cinematic edit" },
+    ],
+    newsletter: { key: "iq-newsletter", alt: "IQ Fashion newsletter in black and gold: the Alpaka Ami Beige coat at 32% off, 850 lei instead of 1,250 lei, with fit details, returns and a size guide" },
+    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter"],
   },
   {
     slug: "dr-kurbe-clinic",

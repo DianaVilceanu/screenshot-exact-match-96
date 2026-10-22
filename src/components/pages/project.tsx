@@ -556,8 +556,21 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           <Meta p={p} />
         </div>
       </section>
+      {p.moodboard && (
+        <section className="container-editorial pb-16 md:pb-24">
+          <Eyebrow>{t.project.identity}</Eyebrow>
+          <Reveal className="mt-8">
+            <Pic k={p.moodboard.key} alt={p.moodboard.alt} className="h-auto" sizes="100vw" />
+          </Reveal>
+        </section>
+      )}
       {p.gallery.length > 0 && (
         <section className="bg-secondary py-16 md:py-24">
+          {(p.reels || p.newsletter) && (
+            <div className="container-editorial mb-8">
+              <Eyebrow>{t.project.statics}</Eyebrow>
+            </div>
+          )}
           <div className="container-editorial columns-2 gap-4 md:columns-3 [&>*]:mb-4">
             {p.gallery.map((x, i) => (
               <Reveal key={x.key} delay={(i % 3) * 80} className="break-inside-avoid">
@@ -566,6 +579,32 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
                 </div>
               </Reveal>
             ))}
+          </div>
+        </section>
+      )}
+      {p.reels && (
+        <section className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.reels}</Eyebrow>
+          <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-5">
+            {p.reels.map((r, i) => (
+              <Reveal key={r.key} delay={i * 80}>
+                <Reel item={r} />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+      {p.newsletter && (
+        <section className="bg-secondary py-16 md:py-24">
+          <div className="container-editorial grid gap-10 md:grid-cols-12 md:items-start">
+            <div className="md:sticky md:top-28 md:col-span-4">
+              <Eyebrow>{t.project.newsletter}</Eyebrow>
+            </div>
+            <Reveal className="mx-auto w-full max-w-[600px] md:col-span-7 md:col-start-6">
+              <div className="overflow-hidden rounded-xl border border-border shadow-2xl">
+                <Pic k={p.newsletter.key} alt={p.newsletter.alt} className="h-auto" sizes="(min-width: 768px) 600px, 100vw" />
+              </div>
+            </Reveal>
           </div>
         </section>
       )}

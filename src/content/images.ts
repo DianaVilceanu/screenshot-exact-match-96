@@ -11,6 +11,8 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import iqMoodboard from "@/assets/iq/iq-moodboard.webp";
+import iqNewsletter from "@/assets/iq/iq-newsletter.webp";
 import divazHoliday1 from "@/assets/divaz/divaz-holiday-1.webp";
 import divazHoliday2 from "@/assets/divaz/divaz-holiday-2.webp";
 import divazMoodboard from "@/assets/divaz/divaz-moodboard.webp";
@@ -190,6 +192,8 @@ export const img = {
   "divaz-holiday-1": { src: divazHoliday1, w: 731, h: 914 },
   "divaz-holiday-2": { src: divazHoliday2, w: 731, h: 914 },
   "divaz-moodboard": { src: divazMoodboard, w: 1600, h: 1200 },
+  "iq-moodboard": { src: iqMoodboard, w: 1600, h: 1000 },
+  "iq-newsletter": { src: iqNewsletter, w: 900, h: 2718 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

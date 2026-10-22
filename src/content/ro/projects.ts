@@ -249,8 +249,8 @@ export const projects: Project[] = [
     client: "IQ Fashion",
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Modă, boutique premium",
-    services: ["Design pentru rețele sociale", "Montaj video"],
-    deliverables: ["Postări statice", "Bannere promoționale", "Montaje video pe bază de scenariu și în stil cinematografic"],
+    services: ["Identitate vizuală pentru social media", "Design pentru rețele sociale", "Montaj video", "Design de newsletter"],
+    deliverables: ["Postări statice", "Bannere promoționale", "Montaje video pe bază de scenariu și în stil cinematografic", "Reels", "Newsletter"],
     summary: "Materiale vizuale rafinate, în pas cu moda, pentru rochii elegante și blănuri de lux.",
     description: [
       "IQ Fashion este un brand de tip boutique premium care oferă rochii elegante, blănuri de lux și piese vestimentare de înaltă clasă, create pentru femei moderne și încrezătoare.",
@@ -266,7 +266,15 @@ export const projects: Project[] = [
       { key: "iq-4", alt: "Postare IQ Fashion cu un palton bej din alpaca" },
       { key: "iq-6", alt: "Postare IQ Fashion cu haina de blană naturală „Elsa Silver”" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    moodboard: { key: "iq-moodboard", alt: "Identitatea vizuală IQ Fashion: logoul IQ auriu, auriul #CDA456, nuanțe de negru și crem, un stil de titlu subțire și fotografii cu paltoane și rochii de seară" },
+    reels: [
+      { key: "iq-reel-1", title: "Paltoane cu blană în boutique" },
+      { key: "iq-reel-2", title: "Proba rochiei negre" },
+      { key: "iq-reel-3", title: "Rochie de seară aurie, pe străzile orașului" },
+      { key: "iq-reel-4", title: "Rochie cu paiete, montaj cinematic" },
+    ],
+    newsletter: { key: "iq-newsletter", alt: "Newsletter IQ Fashion în negru și auriu: paltonul Alpaka Ami Beige cu 32% reducere, 850 lei în loc de 1.250 lei, cu detalii despre mărime, retur și ghidul de mărimi" },
+    serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter"],
   },
   {
     slug: "dr-kurbe-clinic",

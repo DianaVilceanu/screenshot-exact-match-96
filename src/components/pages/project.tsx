@@ -459,7 +459,7 @@ function CarouselList({ carousels }: { carousels: Carousel[] }) {
       {carousels.map((c) => (
         <Reveal key={c.title}>
           <p className="text-lg font-semibold">{c.title}</p>
-          <ol className="mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)] md:overflow-visible">
+          <ol className={cn("mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)]", c.slides.length <= 3 && "md:overflow-visible")}>
             {c.slides.map((x, i) => (
               <li key={x.key} className="relative">
                 <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 30vw, 70vw" />

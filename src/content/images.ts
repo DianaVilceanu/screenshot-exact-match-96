@@ -11,6 +11,23 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import kurbeStory1 from "@/assets/kurbe/kurbe-story-1.webp";
+import kurbeStory2 from "@/assets/kurbe/kurbe-story-2.webp";
+import kurbeStory3 from "@/assets/kurbe/kurbe-story-3.webp";
+import kurbeStory4 from "@/assets/kurbe/kurbe-story-4.webp";
+import kurbeStory5 from "@/assets/kurbe/kurbe-story-5.webp";
+import kurbeStory6 from "@/assets/kurbe/kurbe-story-6.webp";
+import kurbeStory7 from "@/assets/kurbe/kurbe-story-7.webp";
+import kurbeStory8 from "@/assets/kurbe/kurbe-story-8.webp";
+import kurbeHabits from "@/assets/kurbe/kurbe-habits.webp";
+import kurbeGums1 from "@/assets/kurbe/kurbe-gums-1.webp";
+import kurbeGums2 from "@/assets/kurbe/kurbe-gums-2.webp";
+import kurbeRetinoids1 from "@/assets/kurbe/kurbe-retinoids-1.webp";
+import kurbeRetinoids2 from "@/assets/kurbe/kurbe-retinoids-2.webp";
+import kurbeRetinoids3 from "@/assets/kurbe/kurbe-retinoids-3.webp";
+import kurbeRetinoids4 from "@/assets/kurbe/kurbe-retinoids-4.webp";
+import kurbeRetinoids5 from "@/assets/kurbe/kurbe-retinoids-5.webp";
+import kurbeMoodboard from "@/assets/kurbe/kurbe-moodboard.webp";
 import kurbeBotox from "@/assets/kurbe/kurbe-botox.webp";
 import kurbePrp1 from "@/assets/kurbe/kurbe-prp-1.webp";
 import kurbePrp2 from "@/assets/kurbe/kurbe-prp-2.webp";
@@ -212,6 +229,23 @@ export const img = {
   "kurbe-prp-2": { src: kurbePrp2, w: 900, h: 1125 },
   "kurbe-dental-1": { src: kurbeDental1, w: 900, h: 1125 },
   "kurbe-dental-2": { src: kurbeDental2, w: 900, h: 1125 },
+  "kurbe-story-1": { src: kurbeStory1, w: 720, h: 1280 },
+  "kurbe-story-2": { src: kurbeStory2, w: 720, h: 1280 },
+  "kurbe-story-3": { src: kurbeStory3, w: 720, h: 1280 },
+  "kurbe-story-4": { src: kurbeStory4, w: 720, h: 1280 },
+  "kurbe-story-5": { src: kurbeStory5, w: 720, h: 1280 },
+  "kurbe-story-6": { src: kurbeStory6, w: 720, h: 1280 },
+  "kurbe-story-7": { src: kurbeStory7, w: 720, h: 1280 },
+  "kurbe-story-8": { src: kurbeStory8, w: 720, h: 1280 },
+  "kurbe-habits": { src: kurbeHabits, w: 900, h: 1125 },
+  "kurbe-gums-1": { src: kurbeGums1, w: 900, h: 1125 },
+  "kurbe-gums-2": { src: kurbeGums2, w: 900, h: 1125 },
+  "kurbe-retinoids-1": { src: kurbeRetinoids1, w: 900, h: 1125 },
+  "kurbe-retinoids-2": { src: kurbeRetinoids2, w: 900, h: 1125 },
+  "kurbe-retinoids-3": { src: kurbeRetinoids3, w: 900, h: 1125 },
+  "kurbe-retinoids-4": { src: kurbeRetinoids4, w: 900, h: 1125 },
+  "kurbe-retinoids-5": { src: kurbeRetinoids5, w: 900, h: 1125 },
+  "kurbe-moodboard": { src: kurbeMoodboard, w: 1600, h: 1000 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

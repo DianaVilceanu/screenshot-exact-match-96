@@ -30,6 +30,20 @@ import iqReel3 from "@/assets/reels/iq-reel-3.mp4";
 import iqPoster3 from "@/assets/reels/iq-reel-3.webp";
 import iqReel4 from "@/assets/reels/iq-reel-4.mp4";
 import iqPoster4 from "@/assets/reels/iq-reel-4.webp";
+import kurbeReel1 from "@/assets/reels/kurbe-reel-1.mp4";
+import kurbePoster1 from "@/assets/reels/kurbe-reel-1.webp";
+import kurbeReel2 from "@/assets/reels/kurbe-reel-2.mp4";
+import kurbePoster2 from "@/assets/reels/kurbe-reel-2.webp";
+import kurbeReel3 from "@/assets/reels/kurbe-reel-3.mp4";
+import kurbePoster3 from "@/assets/reels/kurbe-reel-3.webp";
+import kurbeReel4 from "@/assets/reels/kurbe-reel-4.mp4";
+import kurbePoster4 from "@/assets/reels/kurbe-reel-4.webp";
+import kurbeReel5 from "@/assets/reels/kurbe-reel-5.mp4";
+import kurbePoster5 from "@/assets/reels/kurbe-reel-5.webp";
+import kurbeReel6 from "@/assets/reels/kurbe-reel-6.mp4";
+import kurbePoster6 from "@/assets/reels/kurbe-reel-6.webp";
+import kurbeReel7 from "@/assets/reels/kurbe-reel-7.mp4";
+import kurbePoster7 from "@/assets/reels/kurbe-reel-7.webp";
 
 // Vertical 9:16 reels with a poster frame each (Inklabs at 540×960, the rest at 720×1280).
 export type ReelSrc = { video: string; poster: string };
@@ -50,5 +64,12 @@ export const reels = {
   "iq-reel-2": { video: iqReel2, poster: iqPoster2 },
   "iq-reel-3": { video: iqReel3, poster: iqPoster3 },
   "iq-reel-4": { video: iqReel4, poster: iqPoster4 },
+  "kurbe-reel-1": { video: kurbeReel1, poster: kurbePoster1 },
+  "kurbe-reel-2": { video: kurbeReel2, poster: kurbePoster2 },
+  "kurbe-reel-3": { video: kurbeReel3, poster: kurbePoster3 },
+  "kurbe-reel-4": { video: kurbeReel4, poster: kurbePoster4 },
+  "kurbe-reel-5": { video: kurbeReel5, poster: kurbePoster5 },
+  "kurbe-reel-6": { video: kurbeReel6, poster: kurbePoster6 },
+  "kurbe-reel-7": { video: kurbeReel7, poster: kurbePoster7 },
 } satisfies Record<string, ReelSrc>;
 export type ReelKey = keyof typeof reels;

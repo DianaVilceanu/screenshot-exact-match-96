@@ -459,7 +459,7 @@ function CarouselList({ carousels }: { carousels: Carousel[] }) {
       {carousels.map((c) => (
         <Reveal key={c.title}>
           <p className="text-lg font-semibold">{c.title}</p>
-          <ol className="mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)] md:overflow-visible">
+          <ol className={cn("mt-4 grid grid-flow-col auto-cols-[72%] gap-3 overflow-x-auto pb-2 sm:auto-cols-[40%] md:auto-cols-[calc((100%-1.5rem)/3)]", c.slides.length <= 3 && "md:overflow-visible")}>
             {c.slides.map((x, i) => (
               <li key={x.key} className="relative">
                 <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 30vw, 70vw" />
@@ -589,7 +589,7 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
       )}
       {p.gallery.length > 0 && (
         <section className="bg-secondary py-16 md:py-24">
-          {(p.reels || p.newsletters || p.carousels) && (
+          {(p.reels || p.newsletters || p.carousels || p.stories) && (
             <div className="container-editorial mb-8">
               <Eyebrow>{t.project.statics}</Eyebrow>
             </div>
@@ -602,6 +602,26 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
                 </div>
               </Reveal>
             ))}
+          </div>
+        </section>
+      )}
+      {p.stories && (
+        <section className="bg-foreground py-16 text-background md:py-24">
+          <div className="container-editorial">
+            <p className="eyebrow flex items-center gap-3 text-background/70">
+              <span className="h-px w-8 bg-background/40" />
+              {t.project.stories}
+            </p>
+            {/* A phone-like strip: scrolls sideways on small screens, four across on desktop. */}
+            <ol className="mt-8 grid grid-flow-col auto-cols-[46%] gap-3 overflow-x-auto pb-3 sm:auto-cols-[30%] md:grid-flow-row md:grid-cols-4 md:gap-5 md:overflow-visible">
+              {p.stories.map((x, i) => (
+                <li key={x.key}>
+                  <Reveal delay={(i % 4) * 70} className="frame-zoom overflow-hidden rounded-2xl">
+                    <Pic k={x.key} alt={x.alt} className="aspect-[9/16]" sizes="(min-width: 768px) 22vw, 46vw" />
+                  </Reveal>
+                </li>
+              ))}
+            </ol>
           </div>
         </section>
       )}

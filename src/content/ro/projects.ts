@@ -182,6 +182,9 @@ export const projects: Project[] = [
     ],
     cover: { key: "kdt-cover", alt: "Utilaj KDT Drill Tech pe standul KDT Global, la un târg" },
     gallery: [
+      { key: "kdt-workshop-loss", alt: "Postare KDT pe albastru: de ce pierzi bani în atelier? Mutatul manual al plăcilor între utilaje costă profit, cu un teanc de lemn și îndemnul de a încerca automatizarea KDT" },
+      { key: "kdt-smt-training", alt: "Postare KDT: training avansat pentru sisteme de exhaustare SMT, cu echipa în showroomul KDT" },
+      { key: "kdt-peak-season", alt: "Postare KDT pe albastru: 1 septembrie, începe sezonul de vârf, cu un calendar și un CNC de nesting KDT și îndemnul de a programa o probă" },
       { key: "kdt-perfect", alt: "Postare KDT: perfect din prima, peste un prim-plan cu o placă cănțuită" },
       { key: "kdt-results", alt: "Postare KDT: nu vindem doar utilaje, îți oferim rezultate, peste un teanc de plăci" },
       { key: "kdt-myth", alt: "Postare KDT cu mit și realitate despre mașinile CNC, pe albastrul KDT" },

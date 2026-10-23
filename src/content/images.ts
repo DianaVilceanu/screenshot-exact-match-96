@@ -11,6 +11,9 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import kdtWorkshopLoss from "@/assets/kdt/kdt-workshop-loss.webp";
+import kdtSmtTraining from "@/assets/kdt/kdt-smt-training.webp";
+import kdtPeakSeason from "@/assets/kdt/kdt-peak-season.webp";
 import kurbeStory1 from "@/assets/kurbe/kurbe-story-1.webp";
 import kurbeStory2 from "@/assets/kurbe/kurbe-story-2.webp";
 import kurbeStory3 from "@/assets/kurbe/kurbe-story-3.webp";
@@ -246,6 +249,9 @@ export const img = {
   "kurbe-retinoids-4": { src: kurbeRetinoids4, w: 900, h: 1125 },
   "kurbe-retinoids-5": { src: kurbeRetinoids5, w: 900, h: 1125 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2000, h: 1336 },
+  "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
+  "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },
+  "kdt-peak-season": { src: kdtPeakSeason, w: 800, h: 1000 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

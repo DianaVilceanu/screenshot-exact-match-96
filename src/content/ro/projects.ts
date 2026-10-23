@@ -306,9 +306,8 @@ export const projects: Project[] = [
       { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
       { key: "kurbe-habits", alt: "Postare Dr. Mawada Kurbe: ce obiceiuri dăunează sănătății dentare, de la periajul agresiv la roasul unghiilor și bruxism" },
       { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
-      { key: "kurbe-1", alt: "Postări Dr. Kurbe pentru rețelele sociale, prezentate pe machete de telefon" },
     ],
-    moodboard: { key: "kurbe-moodboard", alt: "Identitatea vizuală Dr. Kurbe: logoul auriu Dr. Kurbe pe antracit, auriul #D4AF62 cu antracit și crem, mesajul „Dedicated to perfection”, o story cu ofertă de perfuzii, doctorița în scaunul stomatologic, clinica și un ser auriu" },
+    moodboard: { key: "kurbe-moodboard", alt: "Moodboard de brand Dr. Kurbe: logoul auriu Dr. Kurbe pe negru, o paletă din negru obsidian, antracit, auriu șampanie, auriu deschis, ivoriu, alb și gri piatră, un serif editorial cu un sans modern, modelul brandului, portrete beauty, un cabinet, instrumente dentare și papetărie aurie pe negru" },
     stories: [
       { key: "kurbe-story-1", alt: "Story Dr. Kurbe cu oferta de perfuzii: Beach Body Boost, energie, detox și strălucire, 285 RON, cu o femeie zâmbitoare pe plajă" },
       { key: "kurbe-story-2", alt: "Story Dr. Kurbe cu oferta de perfuzii: Gluta Goddess, perfuzie cu glutation pentru detox și strălucire, 450 RON, cu o femeie în alb pe un cer auriu" },

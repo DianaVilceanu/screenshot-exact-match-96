@@ -245,7 +245,7 @@ export const img = {
   "kurbe-retinoids-3": { src: kurbeRetinoids3, w: 900, h: 1125 },
   "kurbe-retinoids-4": { src: kurbeRetinoids4, w: 900, h: 1125 },
   "kurbe-retinoids-5": { src: kurbeRetinoids5, w: 900, h: 1125 },
-  "kurbe-moodboard": { src: kurbeMoodboard, w: 1600, h: 1000 },
+  "kurbe-moodboard": { src: kurbeMoodboard, w: 1536, h: 1024 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

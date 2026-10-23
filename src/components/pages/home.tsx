@@ -269,7 +269,7 @@ function HeroObjects({ className }: { className: string }) {
           alt=""
           width={ROSE.w}
           height={ROSE.h}
-          className={cn("float-slow absolute top-[47%] left-0 w-[20%] rotate-[-14deg] [animation-delay:-4s] md:top-[45%] md:left-[-11%] md:w-[24%]", shadow)}
+          className={cn("float-slow absolute top-[44%] left-0 w-[25%] rotate-[-14deg] [animation-delay:-4s] md:top-[41%] md:left-[-14%] md:w-[31%]", shadow)}
         />
         <img
           src={laptop}

@@ -460,7 +460,7 @@ export const projects: Project[] = [
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Food, traditional pastries",
     services: ["Social media design", "Reels"],
-    deliverables: ["Informative posts", "Seasonal promotional banners", "TikTok / Instagram reels"],
+    deliverables: ["Informative posts", "Seasonal promotional banners", "TikTok / Instagram reels", "Website banner"],
     summary: "Warm, nostalgic visuals for handcrafted Romanian pastries.",
     description: [
       "Ilie is a traditional Romanian brand known for its handcrafted pastries and homemade delicacies inspired by authentic family recipes.",
@@ -468,14 +468,28 @@ export const projects: Project[] = [
       "My work helped strengthen Moș Ilie's online identity, bringing a warm, nostalgic, and engaging visual presence to their digital platforms.",
     ],
     cover: { key: "ilie-cover", alt: "Smiling baker in black gloves filling a paper bag with cookies from glass jars" },
+    siteHero: { key: "ilie-site-banner", alt: "Moș Ilie Black Friday website banner: a jar labelled Black Friday on a wooden stand, with the line Moș Ilie puts its Black Friday discounts in a jar" },
     gallery: [
       { key: "ilie-5", alt: "Moș Ilie 'Tradition and good taste' cookies and jam post" },
+      { key: "ilie-xmas-pastry", alt: "Moș Ilie Christmas post: sugar-dusted filled cookies stacked on a rustic table, festive pastry without the effort" },
+      { key: "ilie-xmas-cozonac", alt: "Moș Ilie Christmas post: a braided cozonac on a wooden board, with the line the taste of Christmas in a single click, before a glowing tree" },
       { key: "ilie-1", alt: "Moș Ilie Black Friday hamper post" },
       { key: "ilie-2", alt: "Moș Ilie Black Friday jar post" },
-      { key: "ilie-3", alt: "Moș Ilie holiday pastries post" },
       { key: "ilie-4", alt: "Moș Ilie pistachio spread product post" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    reels: [
+      { key: "ilie-reel-1", title: "Cherry sherbet and favourites, in the forest" },
+      { key: "ilie-reel-2", title: "Jars lined up on the shelf, in every gift pack" },
+      { key: "ilie-reel-3", title: "Black Friday: up to 40% off" },
+      { key: "ilie-reel-4", title: "Apricot jam and nectar on the veranda" },
+    ],
+    print: [
+      {
+        title: "Two printed flyers with a QR code",
+        image: { key: "ilie-flyers-mockup", alt: "Two printed Moș Ilie flyers on warm linen, both reading Tradiție și bun gust: one with tomato tagliatelle, raspberry vinegar and walnut fudge, the other with wildflower honey, cherry sherbet and walnut-shaped cookies, each with a QR code to mos-ilie.ro" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "printed-media"],
   },
   {
     slug: "farmacia-farmex",

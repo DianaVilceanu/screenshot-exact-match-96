@@ -384,7 +384,7 @@ export const projects: Project[] = [
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Alimentație, patiserie tradițională",
     services: ["Design pentru rețele sociale", "Clipuri Reels"],
-    deliverables: ["Postări informative", "Bannere promoționale sezoniere", "Clipuri Reels pentru TikTok / Instagram"],
+    deliverables: ["Postări informative", "Bannere promoționale sezoniere", "Clipuri Reels pentru TikTok / Instagram", "Banner pentru site"],
     summary: "Materiale vizuale calde, nostalgice, pentru produse de patiserie românești artizanale.",
     description: [
       "Ilie este un brand românesc tradițional, cunoscut pentru produsele de patiserie artizanale și bunătățile de casă inspirate din rețete autentice de familie.",
@@ -392,14 +392,28 @@ export const projects: Project[] = [
       "Munca mea a contribuit la consolidarea identității online a Moș Ilie, aducând o prezență vizuală caldă, nostalgică și captivantă pe platformele sale digitale.",
     ],
     cover: { key: "ilie-cover", alt: "Brutăriță zâmbitoare, cu mănuși negre, care pune fursecuri din borcane de sticlă într-o pungă de hârtie" },
+    siteHero: { key: "ilie-site-banner", alt: "Banner de site Moș Ilie pentru Black Friday: un borcan cu eticheta Black Friday pe un suport de lemn, cu mesajul Moș Ilie pune la borcan reducerile de Black Friday" },
     gallery: [
       { key: "ilie-5", alt: "Postare Moș Ilie cu fursecuri și dulceață, cu mesajul „Tradiție și bun gust”" },
+      { key: "ilie-xmas-pastry", alt: "Postare Moș Ilie de Crăciun: prăjituri umplute, presărate cu zahăr, așezate pe o masă rustică, patiserie de sărbătoare fără efort" },
+      { key: "ilie-xmas-cozonac", alt: "Postare Moș Ilie de Crăciun: un cozonac împletit pe un fund de lemn, cu mesajul aroma Crăciunului într-un singur click, în fața unui brad luminat" },
       { key: "ilie-1", alt: "Postare Moș Ilie de Black Friday cu un coș cadou" },
       { key: "ilie-2", alt: "Postare Moș Ilie de Black Friday cu un borcan" },
-      { key: "ilie-3", alt: "Postare Moș Ilie cu produse de patiserie pentru sărbători" },
       { key: "ilie-4", alt: "Postare de produs Moș Ilie cu cremă de fistic" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    reels: [
+      { key: "ilie-reel-1", title: "Șerbet de vișine și sortimentul preferat, în pădure" },
+      { key: "ilie-reel-2", title: "Borcane înșirate pe raft, în fiecare pachet" },
+      { key: "ilie-reel-3", title: "Black Friday: reduceri de până la 40%" },
+      { key: "ilie-reel-4", title: "Dulceață și nectar de caise, pe prispă" },
+    ],
+    print: [
+      {
+        title: "Două pliante tipărite, cu cod QR",
+        image: { key: "ilie-flyers-mockup", alt: "Două pliante Moș Ilie tipărite, pe in cald: „Tradiție și bun gust”, cu tagliatelle cu sos de tomate, oțet de zmeură și fudge cu nucă, și cu miere poliflora, șerbet de vișine și nuci umplute, fiecare cu cod QR spre mos-ilie.ro" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "printed-media"],
   },
   {
     slug: "farmacia-farmex",

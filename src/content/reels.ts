@@ -46,6 +46,14 @@ import kurbeReel8 from "@/assets/reels/kurbe-reel-8.mp4";
 import kurbePoster8 from "@/assets/reels/kurbe-reel-8.webp";
 import kurbeReel7 from "@/assets/reels/kurbe-reel-7.mp4";
 import kurbePoster7 from "@/assets/reels/kurbe-reel-7.webp";
+import ilieReel1 from "@/assets/reels/ilie-reel-1.mp4";
+import iliePoster1 from "@/assets/reels/ilie-reel-1.webp";
+import ilieReel2 from "@/assets/reels/ilie-reel-2.mp4";
+import iliePoster2 from "@/assets/reels/ilie-reel-2.webp";
+import ilieReel3 from "@/assets/reels/ilie-reel-3.mp4";
+import iliePoster3 from "@/assets/reels/ilie-reel-3.webp";
+import ilieReel4 from "@/assets/reels/ilie-reel-4.mp4";
+import iliePoster4 from "@/assets/reels/ilie-reel-4.webp";
 
 // Vertical 9:16 reels with a poster frame each (Inklabs at 540×960, the rest at 720×1280).
 export type ReelSrc = { video: string; poster: string };
@@ -74,5 +82,9 @@ export const reels = {
   "kurbe-reel-6": { video: kurbeReel6, poster: kurbePoster6 },
   "kurbe-reel-7": { video: kurbeReel7, poster: kurbePoster7 },
   "kurbe-reel-8": { video: kurbeReel8, poster: kurbePoster8 },
+  "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
+  "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
+  "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },
+  "ilie-reel-4": { video: ilieReel4, poster: iliePoster4 },
 } satisfies Record<string, ReelSrc>;
 export type ReelKey = keyof typeof reels;

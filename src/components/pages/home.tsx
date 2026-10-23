@@ -11,10 +11,12 @@ import { cn } from "@/lib/utils";
 import camera from "@/assets/hero-camera.webp";
 import laptop from "@/assets/hero-laptop.webp";
 import palette from "@/assets/hero-palette.webp";
+import rose from "@/assets/hero-rose.webp";
 
 const CAMERA = { w: 900, h: 687 };
 const LAPTOP = { w: 1000, h: 691 };
 const PALETTE = { w: 520, h: 836 };
+const ROSE = { w: 500, h: 751 };
 
 export function homeHead(locale: Locale) {
   const c = content(locale);
@@ -261,6 +263,14 @@ function HeroObjects({ className }: { className: string }) {
         <span className="absolute right-0 bottom-[12%] font-display text-xs text-coral md:text-xl">✶</span>
         <span className="absolute bottom-[2%] left-[6%] font-display text-sm text-ink/70 md:text-2xl">✶</span>
         <span className="absolute top-[42%] left-0 size-1.5 rounded-full bg-coral md:size-2.5" />
+        {/* Tucked under the swatch card and half behind the laptop. */}
+        <img
+          src={rose}
+          alt=""
+          width={ROSE.w}
+          height={ROSE.h}
+          className={cn("float-slow absolute top-[47%] left-0 w-[20%] rotate-[-14deg] [animation-delay:-4s] md:top-[45%] md:left-[-11%] md:w-[24%]", shadow)}
+        />
         <img
           src={laptop}
           alt=""

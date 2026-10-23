@@ -380,9 +380,8 @@ export const projects: Project[] = [
       { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
       { key: "kurbe-habits", alt: "Dr. Mawada Kurbe post: which habits harm dental health, from aggressive brushing to nail biting and teeth grinding" },
       { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
-      { key: "kurbe-1", alt: "Dr. Kurbe social posts shown on phone mockups" },
     ],
-    moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe visual identity: the gold Dr. Kurbe logo on charcoal, gold #D4AF62 with charcoal and cream, the Dedicated to perfection line, an IV drip offer story, the doctor in the dental chair, the clinic and a golden serum" },
+    moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe brand moodboard: the gold Dr. Kurbe logo on black, a palette of obsidian, charcoal, champagne gold, soft gold, warm ivory, white and stone grey, an editorial serif with a modern sans, the brand pattern, beauty portraits, a clinic interior, dental tools and gold-on-black stationery" },
     stories: [
       { key: "kurbe-story-1", alt: "Dr. Kurbe IV drip offer story: Beach Body Boost, energy, detox and glow, 285 RON, with a smiling woman on a beach" },
       { key: "kurbe-story-2", alt: "Dr. Kurbe IV drip offer story: Gluta Goddess, glutathione drip for detox and radiance, 450 RON, with a woman in white against a golden sky" },

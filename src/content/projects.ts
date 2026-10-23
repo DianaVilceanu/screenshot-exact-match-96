@@ -460,7 +460,7 @@ export const projects: Project[] = [
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Food, traditional pastries",
     services: ["Social media design", "Reels"],
-    deliverables: ["Informative posts", "Seasonal promotional banners", "TikTok / Instagram reels"],
+    deliverables: ["Informative posts", "Seasonal promotional banners", "TikTok / Instagram reels", "Website banner"],
     summary: "Warm, nostalgic visuals for handcrafted Romanian pastries.",
     description: [
       "Ilie is a traditional Romanian brand known for its handcrafted pastries and homemade delicacies inspired by authentic family recipes.",
@@ -468,11 +468,13 @@ export const projects: Project[] = [
       "My work helped strengthen Moș Ilie's online identity, bringing a warm, nostalgic, and engaging visual presence to their digital platforms.",
     ],
     cover: { key: "ilie-cover", alt: "Smiling baker in black gloves filling a paper bag with cookies from glass jars" },
+    siteHero: { key: "ilie-site-banner", alt: "Moș Ilie Black Friday website banner: a jar labelled Black Friday on a wooden stand, with the line Moș Ilie puts its Black Friday discounts in a jar" },
     gallery: [
       { key: "ilie-5", alt: "Moș Ilie 'Tradition and good taste' cookies and jam post" },
+      { key: "ilie-xmas-pastry", alt: "Moș Ilie Christmas post: sugar-dusted filled cookies stacked on a rustic table, festive pastry without the effort" },
+      { key: "ilie-xmas-cozonac", alt: "Moș Ilie Christmas post: a braided cozonac on a wooden board, with the line the taste of Christmas in a single click, before a glowing tree" },
       { key: "ilie-1", alt: "Moș Ilie Black Friday hamper post" },
       { key: "ilie-2", alt: "Moș Ilie Black Friday jar post" },
-      { key: "ilie-3", alt: "Moș Ilie holiday pastries post" },
       { key: "ilie-4", alt: "Moș Ilie pistachio spread product post" },
     ],
     reels: [

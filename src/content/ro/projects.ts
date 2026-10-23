@@ -384,7 +384,7 @@ export const projects: Project[] = [
     categories: ["Social Media", "Ads & Campaigns"],
     industry: "Alimentație, patiserie tradițională",
     services: ["Design pentru rețele sociale", "Clipuri Reels"],
-    deliverables: ["Postări informative", "Bannere promoționale sezoniere", "Clipuri Reels pentru TikTok / Instagram"],
+    deliverables: ["Postări informative", "Bannere promoționale sezoniere", "Clipuri Reels pentru TikTok / Instagram", "Banner pentru site"],
     summary: "Materiale vizuale calde, nostalgice, pentru produse de patiserie românești artizanale.",
     description: [
       "Ilie este un brand românesc tradițional, cunoscut pentru produsele de patiserie artizanale și bunătățile de casă inspirate din rețete autentice de familie.",
@@ -392,11 +392,13 @@ export const projects: Project[] = [
       "Munca mea a contribuit la consolidarea identității online a Moș Ilie, aducând o prezență vizuală caldă, nostalgică și captivantă pe platformele sale digitale.",
     ],
     cover: { key: "ilie-cover", alt: "Brutăriță zâmbitoare, cu mănuși negre, care pune fursecuri din borcane de sticlă într-o pungă de hârtie" },
+    siteHero: { key: "ilie-site-banner", alt: "Banner de site Moș Ilie pentru Black Friday: un borcan cu eticheta Black Friday pe un suport de lemn, cu mesajul Moș Ilie pune la borcan reducerile de Black Friday" },
     gallery: [
       { key: "ilie-5", alt: "Postare Moș Ilie cu fursecuri și dulceață, cu mesajul „Tradiție și bun gust”" },
+      { key: "ilie-xmas-pastry", alt: "Postare Moș Ilie de Crăciun: prăjituri umplute, presărate cu zahăr, așezate pe o masă rustică, patiserie de sărbătoare fără efort" },
+      { key: "ilie-xmas-cozonac", alt: "Postare Moș Ilie de Crăciun: un cozonac împletit pe un fund de lemn, cu mesajul aroma Crăciunului într-un singur click, în fața unui brad luminat" },
       { key: "ilie-1", alt: "Postare Moș Ilie de Black Friday cu un coș cadou" },
       { key: "ilie-2", alt: "Postare Moș Ilie de Black Friday cu un borcan" },
-      { key: "ilie-3", alt: "Postare Moș Ilie cu produse de patiserie pentru sărbători" },
       { key: "ilie-4", alt: "Postare de produs Moș Ilie cu cremă de fistic" },
     ],
     reels: [

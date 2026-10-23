@@ -12,6 +12,9 @@ import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
 import ilieFlyersMockup from "@/assets/ilie/ilie-flyers-mockup.webp";
+import ilieSiteBanner from "@/assets/ilie/ilie-site-banner.webp";
+import ilieXmasCozonac from "@/assets/ilie/ilie-xmas-cozonac.webp";
+import ilieXmasPastry from "@/assets/ilie/ilie-xmas-pastry.webp";
 import bifeTeam from "@/assets/kdt/bife/bife-team.webp";
 import bifeStand from "@/assets/kdt/bife/bife-stand.webp";
 import bifeNesting from "@/assets/kdt/bife/bife-nesting.webp";
@@ -263,6 +266,9 @@ export const img = {
   "bife-nesting": { src: bifeNesting, w: 1400, h: 790 },
   "bife-edgebander": { src: bifeEdgebander, w: 1091, h: 1400 },
   "bife-consult": { src: bifeConsult, w: 1400, h: 790 },
+  "ilie-site-banner": { src: ilieSiteBanner, w: 1600, h: 900 },
+  "ilie-xmas-cozonac": { src: ilieXmasCozonac, w: 900, h: 900 },
+  "ilie-xmas-pastry": { src: ilieXmasPastry, w: 900, h: 900 },
   "ilie-flyers-mockup": { src: ilieFlyersMockup, w: 1600, h: 1120 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },

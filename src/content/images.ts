@@ -11,6 +11,11 @@ import divazHomeGalentine from "@/assets/divaz-home-galentine.webp";
 import divazHomeLipCombo from "@/assets/divaz-home-lip-combo.webp";
 import divazHomeManicure from "@/assets/divaz-home-manicure.webp";
 import kdtCover from "@/assets/kdt-cover.webp";
+import bifeTeam from "@/assets/kdt/bife/bife-team.webp";
+import bifeStand from "@/assets/kdt/bife/bife-stand.webp";
+import bifeNesting from "@/assets/kdt/bife/bife-nesting.webp";
+import bifeEdgebander from "@/assets/kdt/bife/bife-edgebander.webp";
+import bifeConsult from "@/assets/kdt/bife/bife-consult.webp";
 import kdtWorkshopLoss from "@/assets/kdt/kdt-workshop-loss.webp";
 import kdtSmtTraining from "@/assets/kdt/kdt-smt-training.webp";
 import kdtPeakSeason from "@/assets/kdt/kdt-peak-season.webp";
@@ -211,7 +216,7 @@ export const img = {
   "kdt-testimonial": { src: kdtTestimonial, w: 800, h: 1000 },
   "kdt-results": { src: kdtResults, w: 800, h: 1000 },
   "kdt-myth": { src: kdtMyth, w: 800, h: 1000 },
-  "kdt-moodboard": { src: kdtMoodboard, w: 1600, h: 1200 },
+  "kdt-moodboard": { src: kdtMoodboard, w: 1536, h: 1024 },
   "journal-premium": { src: journalPremium, w: 1400, h: 933 },
   "journal-stand-out": { src: journalStandOut, w: 1400, h: 933 },
   "journal-identity": { src: journalIdentity, w: 1400, h: 933 },
@@ -252,6 +257,11 @@ export const img = {
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },
   "kdt-peak-season": { src: kdtPeakSeason, w: 800, h: 1000 },
+  "bife-team": { src: bifeTeam, w: 1400, h: 790 },
+  "bife-stand": { src: bifeStand, w: 954, h: 1400 },
+  "bife-nesting": { src: bifeNesting, w: 1400, h: 790 },
+  "bife-edgebander": { src: bifeEdgebander, w: 1091, h: 1400 },
+  "bife-consult": { src: bifeConsult, w: 1400, h: 790 },
   "ilie-cover": { src: ilieCover, w: 1400, h: 933 },
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },

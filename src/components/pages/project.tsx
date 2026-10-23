@@ -295,6 +295,20 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
               </div>
             </>
           )}
+          {p.photos && (
+            <>
+              <h3 className="eyebrow mt-16 text-muted-foreground">{t.project.photos}</h3>
+              <p className="mt-3 text-lg font-semibold">{p.photos.title}</p>
+              {/* First photo runs full width, the rest sit two by two at their natural ratio. */}
+              <div className="mt-6 grid gap-3 md:grid-cols-2">
+                {p.photos.images.map((x, i) => (
+                  <Reveal key={x.key} delay={(i % 2) * 80} className={cn("frame-zoom", i === 0 && "md:col-span-2")}>
+                    <Pic k={x.key} alt={x.alt} className={i === 0 ? "aspect-[16/9]" : "aspect-[4/3]"} sizes={i === 0 ? "100vw" : "(min-width: 768px) 50vw, 100vw"} />
+                  </Reveal>
+                ))}
+              </div>
+            </>
+          )}
           {p.description.length > 1 && (
             <div className="mt-14 grid gap-6 md:grid-cols-2">
               {p.description.slice(1).map((x) => (

@@ -59,6 +59,8 @@ export type Project = {
   carousels?: Carousel[];
   /** Visual identity board shown on standard (non case-study) project pages. */
   moodboard?: GalleryItem;
+  /** On-site photography, shown as its own titled section. */
+  photos?: { title: string; images: GalleryItem[] };
   /** Vertical 9:16 stories, shown together in their own row. */
   stories?: GalleryItem[];
   /** Website hero banner, shown in a browser frame. */
@@ -296,6 +298,16 @@ export const projects: Project[] = [
       { key: "kdt-reel-3", title: "Q&A: why does edgebanding come off?" },
       { key: "kdt-reel-4", title: "Why KDT is the right partner" },
     ],
+    photos: {
+      title: "KDT at BIFE-SIM",
+      images: [
+        { key: "bife-team", alt: "The KDT Romania team on the KDT Machinery stand at BIFE-SIM" },
+        { key: "bife-stand", alt: "A consultation at the KDT stand counter, under the backlit KDT logo" },
+        { key: "bife-nesting", alt: "A KDT nesting CNC on display, with financing information on the stand behind" },
+        { key: "bife-edgebander", alt: "A KDT edgebander running on the blue stand floor, with a KDT specialist beside it" },
+        { key: "bife-consult", alt: "A KDT specialist going through a board with visitors at the stand" },
+      ],
+    },
     serviceSlugs: ["social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -310,12 +322,13 @@ export const projects: Project[] = [
         { title: "One clear message per post", text: "Short, bold headlines and a single benefit per post, from myth versus reality to open days, make technical topics easy to follow." },
       ],
       process: [
-        { key: "kdt-moodboard", alt: "KDT moodboard: KDT blue #3F62AA, navy and white, the logo, a sample headline, key messages, and photos of the team, showroom and finished boards" },
+        { key: "kdt-moodboard", alt: "KDT brand moodboard: the white KDT Woodworking Machinery logo on blue, a palette from KDT blue #2563EB to dark blue, light blue, ice blue, grays and white, Montserrat type, CNC machines at work, a control panel, finished boards, a factory floor and KDT stationery with a hard hat" },
       ],
       results: [
         "A social media presence launched from zero on Facebook, Instagram, TikTok and YouTube.",
         "A consistent visual system for the Romanian branch, aligned with KDT's international pages.",
         "Campaigns for real moments, such as the open days at the new Bucharest-Ilfov showroom and machine installations across Romania.",
+        "Coverage at the BIFE-SIM trade fair, creating content on site and photographing the KDT stand and machines.",
       ],
       testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
     },

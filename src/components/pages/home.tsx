@@ -31,12 +31,12 @@ export function homeHead(locale: Locale) {
   });
 }
 
-/** Home page "selected work": each project shows three of its posts, in this order. */
-const FEATURED: { id: string; keys: ImgKey[]; aspect?: string }[] = [
+/** Home page "selected work", in this order: three posts per project, or its portfolio cover filling the same space. */
+const FEATURED: { id: string; keys?: ImgKey[]; coverPosition?: string }[] = [
   { id: "kdt-romania", keys: ["kdt-workshop-loss", "kdt-smt-training", "kdt-peak-season"] },
-  { id: "dr-kurbe-clinic", keys: ["kurbe-habits", "kurbe-botox", "kurbe-2"] },
+  { id: "dr-kurbe-clinic", coverPosition: "object-[50%_35%]" },
   { id: "inklabs", keys: ["inklabs-features", "inklabs-before", "inklabs-stop-scroll"] },
-  { id: "iq-fashion", keys: ["iq-5", "iq-1", "iq-6"], aspect: "aspect-square" },
+  { id: "iq-fashion" },
   { id: "divaz", keys: ["divaz-home-galentine", "divaz-home-manicure", "divaz-home-lip-combo"] },
 ];
 
@@ -112,14 +112,22 @@ export function HomePage() {
           </L>
         </div>
         <div className="space-y-20 md:space-y-28">
-          {featured.map(({ p, keys, aspect = "aspect-[4/5]" }, i) => (
+          {featured.map(({ p, keys, coverPosition }, i) => (
             <Reveal key={p.slug}>
               <L to={link(p)} className="group grid gap-6 md:grid-cols-12 md:items-end">
-                <div className={cn("frame-zoom grid grid-cols-3 gap-2 md:col-span-8", i % 2 === 1 && "md:order-2")}>
-                  {keys.map((k, j) => (
-                    <Pic key={k} k={k} alt={altFor(p, k, j)} className={aspect} sizes="(min-width: 768px) 22vw, 33vw" />
-                  ))}
-                </div>
+                {keys ? (
+                  <div className={cn("frame-zoom grid grid-cols-3 gap-2 md:col-span-8", i % 2 === 1 && "md:order-2")}>
+                    {keys.map((k, j) => (
+                      <Pic key={k} k={k} alt={altFor(p, k, j)} className="aspect-[4/5]" sizes="(min-width: 768px) 22vw, 33vw" />
+                    ))}
+                  </div>
+                ) : (
+                  // An invisible 4:5 cell sets the row height, so the cover matches the rows of three posts exactly.
+                  <div className={cn("frame-zoom relative grid grid-cols-3 gap-2 md:col-span-8", i % 2 === 1 && "md:order-2")}>
+                    <div aria-hidden className="aspect-[4/5]" />
+                    <Pic k={p.cover!.key} alt={p.cover!.alt} className={cn("absolute inset-0", coverPosition)} sizes="(min-width: 768px) 66vw, 100vw" />
+                  </div>
+                )}
                 <FeatureText p={p} n={String(i + 1).padStart(2, "0")} className={cn("md:col-span-4", i % 2 === 1 && "md:order-1")} />
               </L>
             </Reveal>

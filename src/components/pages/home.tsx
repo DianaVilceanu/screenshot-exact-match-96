@@ -1,7 +1,8 @@
-import { ArticleCard, ProjectTile } from "@/components/site/cards";
+import { ArticleCard } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
 import { Arrow, Eyebrow, Pic, Reveal, btn } from "@/components/site/primitives";
+import type { ImgKey } from "@/content/images";
 import type { Project } from "@/content/projects";
 import { SITE_URL } from "@/content/site";
 import { content, hrefFor, idOf, useContent, type Locale } from "@/lib/i18n";
@@ -30,14 +31,23 @@ export function homeHead(locale: Locale) {
   });
 }
 
-const SELECTED = ["inklabs", "divaz", "kdt-romania", "iq-fashion", "mos-ilie", "floraria-mariei"];
+/** Home page "selected work", in this order: three posts per project, or its portfolio cover filling the same space. */
+const FEATURED: { id: string; keys?: ImgKey[]; coverPosition?: string }[] = [
+  { id: "kdt-romania", keys: ["kdt-workshop-loss", "kdt-smt-training", "kdt-peak-season"] },
+  { id: "dr-kurbe-clinic", coverPosition: "object-[50%_35%]" },
+  { id: "inklabs", keys: ["inklabs-features", "inklabs-before", "inklabs-stop-scroll"] },
+  { id: "iq-fashion" },
+  { id: "divaz", keys: ["divaz-home-galentine", "divaz-home-manicure", "divaz-home-lip-combo"] },
+];
 
 export function HomePage() {
   const c = useContent();
   const { t, locale } = c;
   const h = t.home;
-  const selected = SELECTED.map((id) => c.projectById(id)).filter(Boolean) as Project[];
-  const [ink, divaz, kdt, ...rest] = selected as [Project, Project, Project, ...Project[]];
+  const featured = FEATURED.map((f) => ({ ...f, p: c.projectById(f.id) })).filter((f): f is typeof f & { p: Project } => !!f.p);
+  // Prefer the project's own alt text for a post; the Inklabs and Divaz home picks have theirs in the UI strings.
+  const altFor = (p: Project, k: ImgKey, i: number) =>
+    [...p.gallery, ...(p.stories ?? [])].find((x) => x.key === k)?.alt ?? (p.slug === "inklabs" ? h.inkAlts[i] : h.divazAlts[i]) ?? p.name;
   const link = (p: Project) => hrefFor(locale, { kind: "project", id: idOf(p) });
   return (
     <>
@@ -101,37 +111,25 @@ export function HomePage() {
             {h.viewAll} <Arrow />
           </L>
         </div>
-        <Reveal>
-          <L to={link(ink)} className="group grid gap-6 md:grid-cols-12 md:items-end">
-            <div className="frame-zoom grid grid-cols-3 gap-2 md:col-span-8">
-              <Pic k="inklabs-features" alt={h.inkAlts[0]!} className="aspect-[4/5]" sizes="25vw" />
-              <Pic k="inklabs-before" alt={h.inkAlts[1]!} className="aspect-[4/5]" sizes="25vw" />
-              <Pic k="inklabs-stop-scroll" alt={h.inkAlts[2]!} className="aspect-[4/5]" sizes="25vw" />
-            </div>
-            <FeatureText p={ink} n="01" className="md:col-span-4" />
-          </L>
-        </Reveal>
-        <div className="mt-20 grid gap-14 md:mt-28 md:grid-cols-12">
-          <Reveal className="md:col-span-7">
-            <L to={link(divaz)} className="group block">
-              <div className="frame-zoom grid grid-cols-3 gap-2">
-                {(["divaz-home-galentine", "divaz-home-manicure", "divaz-home-lip-combo"] as const).map((k, i) => (
-                  <Pic key={k} k={k} alt={h.divazAlts[i]!} className="aspect-[4/5]" sizes="(min-width: 768px) 20vw, 33vw" />
-                ))}
-              </div>
-              <FeatureText p={divaz} n="02" className="mt-6" />
-            </L>
-          </Reveal>
-          <Reveal className="md:col-span-5 md:pt-40" delay={120}>
-            <ProjectTile p={kdt} aspect="aspect-[4/5]" />
-            <p className="mt-3 text-sm text-muted-foreground">{kdt.summary}</p>
-          </Reveal>
-        </div>
-        <div className="mt-20 grid gap-10 sm:grid-cols-2 md:mt-28 md:grid-cols-3">
-          {rest.map((p, i) => (
-            <Reveal key={p.slug} delay={i * 100} className={i === 1 ? "md:mt-16" : ""}>
-              <ProjectTile p={p} />
-              <p className="mt-2 text-sm text-muted-foreground">{p.summary}</p>
+        <div className="space-y-20 md:space-y-28">
+          {featured.map(({ p, keys, coverPosition }, i) => (
+            <Reveal key={p.slug}>
+              <L to={link(p)} className="group grid gap-6 md:grid-cols-12 md:items-end">
+                {keys ? (
+                  <div className={cn("frame-zoom grid grid-cols-3 gap-2 md:col-span-8", i % 2 === 1 && "md:order-2")}>
+                    {keys.map((k, j) => (
+                      <Pic key={k} k={k} alt={altFor(p, k, j)} className="aspect-[4/5]" sizes="(min-width: 768px) 22vw, 33vw" />
+                    ))}
+                  </div>
+                ) : (
+                  // An invisible 4:5 cell sets the row height, so the cover matches the rows of three posts exactly.
+                  <div className={cn("frame-zoom relative grid grid-cols-3 gap-2 md:col-span-8", i % 2 === 1 && "md:order-2")}>
+                    <div aria-hidden className="aspect-[4/5]" />
+                    <Pic k={p.cover!.key} alt={p.cover!.alt} className={cn("absolute inset-0", coverPosition)} sizes="(min-width: 768px) 66vw, 100vw" />
+                  </div>
+                )}
+                <FeatureText p={p} n={String(i + 1).padStart(2, "0")} className={cn("md:col-span-4", i % 2 === 1 && "md:order-1")} />
+              </L>
             </Reveal>
           ))}
         </div>

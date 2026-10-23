@@ -256,6 +256,9 @@ export const projects: Project[] = [
     ],
     cover: { key: "kdt-cover", alt: "KDT Drill Tech machine on the KDT Global stand at a trade fair" },
     gallery: [
+      { key: "kdt-workshop-loss", alt: "KDT post on blue: why are you losing money in the workshop? Moving boards by hand between machines costs profit, with a stack of wood and a call to try KDT automation" },
+      { key: "kdt-smt-training", alt: "KDT post: advanced training for SMT dust extraction systems, with the team in the KDT showroom" },
+      { key: "kdt-peak-season", alt: "KDT post on blue: 1 September, peak season starts, with a calendar and a KDT nesting CNC and a call to book a trial" },
       { key: "kdt-perfect", alt: "KDT post: perfect from the first cut, over a close-up of an edgebanded board" },
       { key: "kdt-results", alt: "KDT post: we don't just sell machines, we deliver results, over stacked boards" },
       { key: "kdt-myth", alt: "KDT myth versus reality post about CNC machines, on KDT blue" },

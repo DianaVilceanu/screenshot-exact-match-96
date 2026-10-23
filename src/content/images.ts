@@ -224,7 +224,7 @@ export const img = {
   "iq-coming-soon": { src: iqComingSoon, w: 1000, h: 1000 },
   "iq-site-hero": { src: iqSiteHero, w: 1600, h: 838 },
   "iq-flyer-mockup": { src: iqFlyerMockup, w: 1600, h: 1120 },
-  "kurbe-botox": { src: kurbeBotox, w: 900, h: 900 },
+  "kurbe-botox": { src: kurbeBotox, w: 900, h: 1125 },
   "kurbe-prp-1": { src: kurbePrp1, w: 900, h: 1125 },
   "kurbe-prp-2": { src: kurbePrp2, w: 900, h: 1125 },
   "kurbe-dental-1": { src: kurbeDental1, w: 900, h: 1125 },

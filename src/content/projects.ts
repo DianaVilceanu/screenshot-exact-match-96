@@ -475,6 +475,12 @@ export const projects: Project[] = [
       { key: "ilie-3", alt: "Moș Ilie holiday pastries post" },
       { key: "ilie-4", alt: "Moș Ilie pistachio spread product post" },
     ],
+    reels: [
+      { key: "ilie-reel-1", title: "Cherry sherbet and favourites, in the forest" },
+      { key: "ilie-reel-2", title: "Jars lined up on the shelf, in every gift pack" },
+      { key: "ilie-reel-3", title: "Black Friday: up to 40% off" },
+      { key: "ilie-reel-4", title: "Apricot jam and nectar on the veranda" },
+    ],
     serviceSlugs: ["social-media-design", "ads-campaigns"],
   },
   {

@@ -399,6 +399,12 @@ export const projects: Project[] = [
       { key: "ilie-3", alt: "Postare Moș Ilie cu produse de patiserie pentru sărbători" },
       { key: "ilie-4", alt: "Postare de produs Moș Ilie cu cremă de fistic" },
     ],
+    reels: [
+      { key: "ilie-reel-1", title: "Șerbet de vișine și sortimentul preferat, în pădure" },
+      { key: "ilie-reel-2", title: "Borcane înșirate pe raft, în fiecare pachet" },
+      { key: "ilie-reel-3", title: "Black Friday: reduceri de până la 40%" },
+      { key: "ilie-reel-4", title: "Dulceață și nectar de caise, pe prispă" },
+    ],
     serviceSlugs: ["social-media-design", "ads-campaigns"],
   },
   {

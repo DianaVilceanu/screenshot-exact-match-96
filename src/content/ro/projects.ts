@@ -176,7 +176,7 @@ export const projects: Project[] = [
     deliverables: ["Strategie pentru Facebook, Instagram, TikTok și YouTube", "Postări statice", "Caruseluri", "Reels și videoclipuri YouTube", "Campanii pentru evenimente"],
     summary: "Social media construit de la zero pentru filiala din România a unui brand internațional de utilaje.",
     description: [
-      "KDT Romania este filiala din România a KDT, un brand internațional de utilaje pentru prelucrarea lemnului, destinate producătorilor de mobilă, de la mașini CNC la mașini de cănțuit și linii de găurire.",
+      "KDT Romania este filiala din România a KDT, un brand internațional de utilaje pentru prelucrarea lemnului, destinate producătorilor de mobilă, de la mașini CNC la mașini de căntuit și linii de găurire.",
       "Când am început colaborarea, filiala din România nu avea social media și nici o identitate vizuală proprie. Am preluat toată prezența lor de la zero: strategia pentru Facebook, Instagram, TikTok și YouTube, scenariile, filmarea și editarea video, plus grafică premium pentru fiecare postare.",
       "Pentru că KDT este o franciză, am studiat cum apare brandul în alte țări și am construit un sistem local pe aceleași fundații, astfel încât KDT Romania arată ca parte din brandul global, dar vorbește direct producătorilor de mobilă din România.",
     ],
@@ -185,7 +185,7 @@ export const projects: Project[] = [
       { key: "kdt-workshop-loss", alt: "Postare KDT pe albastru: de ce pierzi bani în atelier? Mutatul manual al plăcilor între utilaje costă profit, cu un teanc de lemn și îndemnul de a încerca automatizarea KDT" },
       { key: "kdt-smt-training", alt: "Postare KDT: training avansat pentru sisteme de exhaustare SMT, cu echipa în showroomul KDT" },
       { key: "kdt-peak-season", alt: "Postare KDT pe albastru: 1 septembrie, începe sezonul de vârf, cu un calendar și un CNC de nesting KDT și îndemnul de a programa o probă" },
-      { key: "kdt-perfect", alt: "Postare KDT: perfect din prima, peste un prim-plan cu o placă cănțuită" },
+      { key: "kdt-perfect", alt: "Postare KDT: perfect din prima, peste un prim-plan cu o placă căntuită" },
       { key: "kdt-results", alt: "Postare KDT: nu vindem doar utilaje, îți oferim rezultate, peste un teanc de plăci" },
       { key: "kdt-myth", alt: "Postare KDT cu mit și realitate despre mașinile CNC, pe albastrul KDT" },
       { key: "kdt-testimonial", alt: "Postare KDT cu testimonialul unui client: productivitate crescută cu 40%, cinci stele" },
@@ -200,9 +200,9 @@ export const projects: Project[] = [
         ],
       },
       {
-        title: "Cănțuire PUR la Sighetu Marmației",
+        title: "Căntuire PUR la Sighetu Marmației",
         slides: [
-          { key: "kdt-pur-1", alt: "Slide din carusel: cănțuire impecabilă, tehnologia PUR adusă la Sighetu Marmației" },
+          { key: "kdt-pur-1", alt: "Slide din carusel: căntuire impecabilă, tehnologia PUR adusă la Sighetu Marmației" },
           { key: "kdt-pur-2", alt: "Slide din carusel: KDT KE-710BT instalat de echipa tehnică" },
           { key: "kdt-pur-3", alt: "Slide din carusel: finisaje perfecte cu adeziv PUR" },
         ],
@@ -222,6 +222,16 @@ export const projects: Project[] = [
       { key: "kdt-reel-3", title: "Întrebări: de ce se dezlipesc canturile?" },
       { key: "kdt-reel-4", title: "De ce KDT este partenerul potrivit" },
     ],
+    photos: {
+      title: "KDT la BIFE-SIM",
+      images: [
+        { key: "bife-team", alt: "Echipa KDT Romania pe standul KDT Machinery de la BIFE-SIM" },
+        { key: "bife-stand", alt: "O consultanță la tejgheaua standului KDT, sub logoul KDT iluminat" },
+        { key: "bife-nesting", alt: "Un CNC de nesting KDT expus, cu informații despre finanțare pe standul din spate" },
+        { key: "bife-edgebander", alt: "O mașină de căntuit KDT în funcțiune pe standul albastru, cu un specialist KDT alături" },
+        { key: "bife-consult", alt: "Un specialist KDT discută o placă împreună cu vizitatorii standului" },
+      ],
+    },
     serviceSlugs: ["social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -236,12 +246,13 @@ export const projects: Project[] = [
         { title: "Un singur mesaj clar pe postare", text: "Titluri scurte și puternice și un singur beneficiu pe postare, de la mit și realitate până la zilele porților deschise, fac subiectele tehnice ușor de urmărit." },
       ],
       process: [
-        { key: "kdt-moodboard", alt: "Moodboard KDT: albastrul KDT #3F62AA, bleumarin și alb, logoul, un titlu de exemplu, mesajele-cheie și fotografii cu echipa, showroomul și plăcile finisate" },
+        { key: "kdt-moodboard", alt: "Moodboard de brand KDT: logoul alb KDT Woodworking Machinery pe albastru, o paletă de la albastrul KDT #2563EB la albastru închis, albastru deschis, albastru gheață, griuri și alb, fontul Montserrat, utilaje CNC la lucru, un panou de comandă, plăci finisate, o hală și papetărie KDT cu o cască de protecție" },
       ],
       results: [
         "Prezență pe social media lansată de la zero pe Facebook, Instagram, TikTok și YouTube.",
         "Un sistem vizual consecvent pentru filiala din România, aliniat cu paginile internaționale KDT.",
         "Campanii pentru momente reale, precum Ziua Porților Deschise la noul showroom din București-Ilfov și instalările de utilaje din toată țara.",
+        "Prezență la BIFE-SIM, unde am creat conținut pe loc și am fotografiat standul KDT și utilajele.",
       ],
       testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
     },

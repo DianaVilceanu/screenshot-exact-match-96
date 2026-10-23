@@ -377,8 +377,8 @@ export const projects: Project[] = [
     ],
     cover: { key: "kurbe-clinic-cover", alt: "Woman with closed eyes receiving a facial laser treatment" },
     gallery: [
-      { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
       { key: "kurbe-habits", alt: "Dr. Mawada Kurbe post: which habits harm dental health, from aggressive brushing to nail biting and teeth grinding" },
+      { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
       { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
     ],
     moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe brand moodboard: the gold Dr. Kurbe logo on black, a palette of obsidian, charcoal, champagne gold, soft gold, warm ivory, white and stone grey, an editorial serif with a modern sans, the brand pattern, beauty portraits, a clinic interior, dental tools and gold-on-black stationery" },
@@ -433,6 +433,7 @@ export const projects: Project[] = [
       { key: "kurbe-reel-5", title: "Dr. Mawada Kurbe answers in the dental chair" },
       { key: "kurbe-reel-6", title: "PRP therapy in dentistry" },
       { key: "kurbe-reel-7", title: "A walk through the clinic" },
+      { key: "kurbe-reel-8", title: "Before and after: new teeth, new confidence" },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

@@ -42,6 +42,8 @@ import kurbeReel5 from "@/assets/reels/kurbe-reel-5.mp4";
 import kurbePoster5 from "@/assets/reels/kurbe-reel-5.webp";
 import kurbeReel6 from "@/assets/reels/kurbe-reel-6.mp4";
 import kurbePoster6 from "@/assets/reels/kurbe-reel-6.webp";
+import kurbeReel8 from "@/assets/reels/kurbe-reel-8.mp4";
+import kurbePoster8 from "@/assets/reels/kurbe-reel-8.webp";
 import kurbeReel7 from "@/assets/reels/kurbe-reel-7.mp4";
 import kurbePoster7 from "@/assets/reels/kurbe-reel-7.webp";
 
@@ -71,5 +73,6 @@ export const reels = {
   "kurbe-reel-5": { video: kurbeReel5, poster: kurbePoster5 },
   "kurbe-reel-6": { video: kurbeReel6, poster: kurbePoster6 },
   "kurbe-reel-7": { video: kurbeReel7, poster: kurbePoster7 },
+  "kurbe-reel-8": { video: kurbeReel8, poster: kurbePoster8 },
 } satisfies Record<string, ReelSrc>;
 export type ReelKey = keyof typeof reels;

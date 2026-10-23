@@ -303,8 +303,8 @@ export const projects: Project[] = [
     ],
     cover: { key: "kurbe-clinic-cover", alt: "Femeie cu ochii închiși în timpul unui tratament facial cu laser" },
     gallery: [
-      { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
       { key: "kurbe-habits", alt: "Postare Dr. Mawada Kurbe: ce obiceiuri dăunează sănătății dentare, de la periajul agresiv la roasul unghiilor și bruxism" },
+      { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
       { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
     ],
     moodboard: { key: "kurbe-moodboard", alt: "Moodboard de brand Dr. Kurbe: logoul auriu Dr. Kurbe pe negru, o paletă din negru obsidian, antracit, auriu șampanie, auriu deschis, ivoriu, alb și gri piatră, un serif editorial cu un sans modern, modelul brandului, portrete beauty, un cabinet, instrumente dentare și papetărie aurie pe negru" },
@@ -359,6 +359,7 @@ export const projects: Project[] = [
       { key: "kurbe-reel-5", title: "Dr. Mawada Kurbe răspunde din scaunul stomatologic" },
       { key: "kurbe-reel-6", title: "Terapia PRP în stomatologie" },
       { key: "kurbe-reel-7", title: "O plimbare prin clinică" },
+      { key: "kurbe-reel-8", title: "Înainte și după: dinți noi, încredere nouă" },
     ],
     serviceSlugs: ["social-media-design", "content-creation"],
   },

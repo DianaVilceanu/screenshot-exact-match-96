@@ -405,7 +405,13 @@ export const projects: Project[] = [
       { key: "ilie-reel-3", title: "Black Friday: reduceri de până la 40%" },
       { key: "ilie-reel-4", title: "Dulceață și nectar de caise, pe prispă" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    print: [
+      {
+        title: "Două pliante tipărite, cu cod QR",
+        image: { key: "ilie-flyers-mockup", alt: "Două pliante Moș Ilie tipărite, pe in cald: „Tradiție și bun gust”, cu tagliatelle cu sos de tomate, oțet de zmeură și fudge cu nucă, și cu miere poliflora, șerbet de vișine și nuci umplute, fiecare cu cod QR spre mos-ilie.ro" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "printed-media"],
   },
   {
     slug: "farmacia-farmex",

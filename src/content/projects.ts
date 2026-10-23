@@ -481,7 +481,13 @@ export const projects: Project[] = [
       { key: "ilie-reel-3", title: "Black Friday: up to 40% off" },
       { key: "ilie-reel-4", title: "Apricot jam and nectar on the veranda" },
     ],
-    serviceSlugs: ["social-media-design", "ads-campaigns"],
+    print: [
+      {
+        title: "Two printed flyers with a QR code",
+        image: { key: "ilie-flyers-mockup", alt: "Two printed Moș Ilie flyers on warm linen, both reading Tradiție și bun gust: one with tomato tagliatelle, raspberry vinegar and walnut fudge, the other with wildflower honey, cherry sherbet and walnut-shaped cookies, each with a QR code to mos-ilie.ro" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "ads-campaigns", "printed-media"],
   },
   {
     slug: "farmacia-farmex",

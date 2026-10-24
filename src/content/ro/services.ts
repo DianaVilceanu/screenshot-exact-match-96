@@ -16,6 +16,7 @@ export const services: Service[] = [
     ],
     offerings: ["Branding complet", "Direcție cromatică și tipografică", "Adaptarea identității vizuale pentru rețelele sociale"],
     projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
+    mock: { key: "service-brand", alt: "Două tablete care plutesc una lângă alta, cu placa de identitate vizuală KDT și coperta manualului de brand Caterina Tomasso" },
     images: [
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs Wrapped 2025" },
       { key: "divaz-nails", alt: "Ambalaj pentru unghii false autoadezive Divaz" },
@@ -37,6 +38,7 @@ export const services: Service[] = [
     ],
     offerings: ["Postări statice", "Carusele informative", "Bannere promoționale", "Reeluri pentru TikTok / Instagram"],
     projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
+    mock: { key: "service-social", alt: "Două telefoane care plutesc unul lângă altul: o postare Divaz într-un feed de Instagram și un story Farmex" },
     images: [
       { key: "divaz-galentine", alt: "Postare Divaz de Galentine’s Day" },
       { key: "farmex-4", alt: "Postare Farmex despre nutriție" },
@@ -59,6 +61,7 @@ export const services: Service[] = [
     ],
     offerings: ["Strategie de conținut", "Direcție vizuală", "Editare video: clipuri promoționale, secvențe cinematografice, interviuri", "Reeluri"],
     projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic"],
+    mock: { key: "service-content", alt: "Un laptop cu identitatea vizuală Dr. Kurbe și, în față, un telefon cu o postare Inklabs pe Instagram" },
     images: [
       { key: "iq-6", alt: "Postare IQ Fashion cu o haină de blană" },
       { key: "kurbe-1", alt: "Conținut Dr. Kurbe pentru rețelele sociale, afișat pe telefoane" },

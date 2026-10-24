@@ -17,6 +17,8 @@ export type Service = {
   offerings: string[];
   projectSlugs: string[];
   images: { key: ImgKey; alt: string }[];
+  /** Floating device mockup shown in place of the image grid (transparent, shadow baked in). */
+  mock?: { key: ImgKey; alt: string };
   /** Shown as a dashed placeholder when examples still need to be supplied. */
   missing?: string;
   articleSlugs: string[];
@@ -37,6 +39,7 @@ export const services: Service[] = [
     ],
     offerings: ["Complete branding", "Colour and typography direction", "Brand applications for social media"],
     projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
+    mock: { key: "service-brand", alt: "Two tablets floating side by side, showing the KDT visual identity board and the Caterina Tomasso brand book cover" },
     images: [
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 typographic post" },
       { key: "divaz-nails", alt: "Divaz press-on nail packaging" },
@@ -57,6 +60,7 @@ export const services: Service[] = [
     ],
     offerings: ["Static posts", "Informative carousels", "Promotional banners", "TikTok / Instagram reels"],
     projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
+    mock: { key: "service-social", alt: "Two phones floating side by side: an Instagram feed post for Divaz and a Farmex story" },
     images: [
       { key: "divaz-galentine", alt: "Divaz Galentine's Day post" },
       { key: "farmex-4", alt: "Farmex nutrition post" },
@@ -78,6 +82,7 @@ export const services: Service[] = [
     ],
     offerings: ["Content strategy", "Visual direction", "Video editing: promos, cinematic clips, interviews", "Reels"],
     projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic"],
+    mock: { key: "service-content", alt: "A laptop showing the Dr. Kurbe visual identity with a phone in front of it showing an Inklabs Instagram post" },
     images: [
       { key: "iq-6", alt: "IQ Fashion fur coat post" },
       { key: "kurbe-1", alt: "Dr. Kurbe social content on phones" },

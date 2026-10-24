@@ -47,13 +47,19 @@ export function ServicesPage() {
                   {t.services.explore} <Arrow />
                 </L>
               </div>
-              <div className={`grid grid-cols-2 gap-3 ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>
-                {s.images.slice(0, 2).map((im, j) => (
-                  <div key={im.key} className={j === 1 ? "mt-12" : ""}>
-                    <Pic k={im.key} alt={im.alt} className="aspect-[4/5]" sizes="25vw" />
-                  </div>
-                ))}
-              </div>
+              {s.mock ? (
+                <div className={`flex items-center justify-center ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>
+                  <Pic k={s.mock.key} alt={s.mock.alt} className="float-slow h-auto w-full max-w-[640px]" sizes="(min-width: 768px) 50vw, 100vw" />
+                </div>
+              ) : (
+                <div className={`grid grid-cols-2 gap-3 ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>
+                  {s.images.slice(0, 2).map((im, j) => (
+                    <div key={im.key} className={j === 1 ? "mt-12" : ""}>
+                      <Pic k={im.key} alt={im.alt} className="aspect-[4/5]" sizes="25vw" />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </Reveal>
         ))}
@@ -138,7 +144,14 @@ export function ServicePage({ slug }: { slug: string }) {
           <p className="lede text-muted-foreground md:col-span-5">{s.intro}</p>
         </div>
       </section>
-      {s.images.length > 0 && (
+      {s.mock && (
+        <section className="container-editorial">
+          <div className="flex justify-center">
+            <Pic k={s.mock.key} alt={s.mock.alt} eager className="float-slow h-auto w-full max-w-[860px]" sizes="(min-width: 768px) 70vw, 100vw" />
+          </div>
+        </section>
+      )}
+      {!s.mock && s.images.length > 0 && (
         <section className="container-editorial">
           <div className={`grid gap-3 ${s.images.length > 2 ? "grid-cols-3" : "grid-cols-2"}`}>
             {s.images.map((im, i) => (

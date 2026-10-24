@@ -95,6 +95,9 @@ import greentableCover from "@/assets/greentable/greentable-cover.webp";
 import greentableBrand from "@/assets/greentable/greentable-brand.webp";
 import greentableDesktop from "@/assets/greentable/greentable-desktop.webp";
 import greentableMobile from "@/assets/greentable/greentable-mobile.webp";
+import serviceBrand from "@/assets/services/service-brand.webp";
+import serviceSocial from "@/assets/services/service-social.webp";
+import serviceContent from "@/assets/services/service-content.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -339,6 +342,9 @@ export const img = {
   "greentable-brand": { src: greentableBrand, w: 2400, h: 1500 },
   "greentable-desktop": { src: greentableDesktop, w: 2400, h: 1230 },
   "greentable-mobile": { src: greentableMobile, w: 2400, h: 1120 },
+  "service-brand": { src: serviceBrand, w: 1194, h: 961 },
+  "service-social": { src: serviceSocial, w: 890, h: 850 },
+  "service-content": { src: serviceContent, w: 1102, h: 933 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

@@ -228,7 +228,7 @@ export const projects: Project[] = [
         { title: "Carousels that teach", text: "Informative carousels sit next to sale banners so the feed educates as well as sells." },
       ],
       process: [
-        { key: "divaz-moodboard", alt: "Divaz moodboard: berry #5E0833, blush and rose swatches, the logo, the tagline, key words, the nail boxes and stills from the reels" },
+        { key: "divaz-moodboard", alt: "Divaz moodboard: berry #5E0833, blush and rose swatches, the logo, the tagline, key words and product photography of the nail boxes and accessories" },
       ],
       results: [
         "A recognisable blush pink feed: followers can spot a Divaz post before they read the name.",

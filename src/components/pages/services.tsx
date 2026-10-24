@@ -49,7 +49,7 @@ export function ServicesPage() {
               </div>
               {s.mock ? (
                 <div className={`flex items-center justify-center ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>
-                  <Pic k={s.mock.key} alt={s.mock.alt} className="float-slow h-auto w-full max-w-[640px]" sizes="(min-width: 768px) 50vw, 100vw" />
+                  <Pic k={s.mock.key} alt={s.mock.alt} className="h-auto w-full max-w-[640px]" sizes="(min-width: 768px) 50vw, 100vw" />
                 </div>
               ) : (
                 <div className={`grid grid-cols-2 gap-3 ${i % 2 ? "md:order-1 md:col-span-6" : "md:col-span-6 md:col-start-7"}`}>
@@ -147,7 +147,7 @@ export function ServicePage({ slug }: { slug: string }) {
       {s.mock && (
         <section className="container-editorial">
           <div className="flex justify-center">
-            <Pic k={s.mock.key} alt={s.mock.alt} eager className="float-slow h-auto w-full max-w-[860px]" sizes="(min-width: 768px) 70vw, 100vw" />
+            <Pic k={s.mock.key} alt={s.mock.alt} eager className="h-auto w-full max-w-[860px]" sizes="(min-width: 768px) 70vw, 100vw" />
           </div>
         </section>
       )}

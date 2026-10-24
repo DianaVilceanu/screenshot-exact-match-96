@@ -517,10 +517,17 @@ export const projects: Project[] = [
     gallery: [
       { key: "kanoi-2", alt: "Postare Kanoi de Black Friday pentru abonamentul 365" },
       { key: "kanoi-1", alt: "Postare Kanoi despre curățarea pantofilor sport" },
-      { key: "kanoi-3", alt: "Postare Kanoi cu oferta din 7 noiembrie" },
       { key: "kanoi-4", alt: "Campanie Kanoi de Moș Nicolae, cu ghete" },
       { key: "kanoi-5", alt: "Postare Kanoi de iarnă despre curățarea ghetelor" },
     ],
+    siteHero: { key: "kanoi-site-hero", alt: "Hero de website Kanoi: ghete din piele întoarsă cu blăniță, pudrate cu zăpadă, lângă mesajul Începe anul cu încălțămintea curată și logoul Kanoi" },
+    reels: [
+      { key: "kanoi-reel-1", title: "Kanoi 365, acum la jumătate de preț" },
+      { key: "kanoi-reel-2", title: "Kanoi 365: tu ai grijă doar să le porți" },
+      { key: "kanoi-reel-3", title: "Numărătoare inversă până pe 7 noiembrie: schimbă felul în care ai grijă de încălțăminte" },
+      { key: "kanoi-reel-4", title: "Ghicești ce urmează? 12 perechi, 1 abonament" },
+    ],
+    staticsGrid: true,
     serviceSlugs: ["social-media-design", "ads-campaigns"],
   },
   {

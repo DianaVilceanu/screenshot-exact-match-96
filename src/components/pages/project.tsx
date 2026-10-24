@@ -629,7 +629,7 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
             {p.gallery.map((x, i) => (
               <Reveal key={x.key} delay={(i % (p.staticsGrid ? 4 : 3)) * 80} className="break-inside-avoid">
                 <div className="frame-zoom">
-                  <Pic k={x.key} alt={x.alt} className={p.staticsGrid ? "aspect-[4/5]" : "h-auto"} sizes={p.staticsGrid ? "25vw" : "33vw"} />
+                  <Pic k={x.key} alt={x.alt} className={p.staticsGrid ? (img[p.gallery[0]!.key].w === img[p.gallery[0]!.key].h ? "aspect-square" : "aspect-[4/5]") : "h-auto"} sizes={p.staticsGrid ? "25vw" : "33vw"} />
                 </div>
               </Reveal>
             ))}

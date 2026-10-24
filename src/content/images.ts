@@ -80,6 +80,7 @@ import caterinaBrandbook6 from "@/assets/caterina/caterina-brandbook-6.webp";
 import caterinaBrandbook7 from "@/assets/caterina/caterina-brandbook-7.webp";
 import caterinaBrandbook8 from "@/assets/caterina/caterina-brandbook-8.webp";
 import caterinaBrandbook9 from "@/assets/caterina/caterina-brandbook-9.webp";
+import kanoiSiteHero from "@/assets/kanoi/kanoi-site-hero.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -311,6 +312,7 @@ export const img = {
   "caterina-brandbook-7": { src: caterinaBrandbook7, w: 1800, h: 1013 },
   "caterina-brandbook-8": { src: caterinaBrandbook8, w: 1800, h: 1013 },
   "caterina-brandbook-9": { src: caterinaBrandbook9, w: 1800, h: 1013 },
+  "kanoi-site-hero": { src: kanoiSiteHero, w: 1600, h: 619 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

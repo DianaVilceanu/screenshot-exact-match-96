@@ -322,7 +322,7 @@ export const projects: Project[] = [
         { title: "One clear message per post", text: "Short, bold headlines and a single benefit per post, from myth versus reality to open days, make technical topics easy to follow." },
       ],
       process: [
-        { key: "kdt-moodboard", alt: "KDT brand moodboard: the white KDT Woodworking Machinery logo on blue, a palette from KDT blue #2563EB to dark blue, light blue, ice blue, grays and white, Montserrat type, CNC machines at work, a control panel, finished boards, a factory floor and KDT stationery with a hard hat" },
+        { key: "kdt-moodboard", alt: "KDT brand moodboard: the white KDT Woodworking Machinery logo on blue with the line Consultancy, Installation, Dedicated service, a blue panel Complete solutions for the woodworking industry, the KDT blue #2563EB palette with dark, light and ice blue, grays and white, Montserrat type, real photos from the BIFE-SIM stand with the nesting CNC, the Drill Tech sign, the edgebander and finished board edges, and flat business cards with the KDT logo" },
       ],
       results: [
         "A social media presence launched from zero on Facebook, Instagram, TikTok and YouTube.",
@@ -397,7 +397,7 @@ export const projects: Project[] = [
       { key: "kurbe-botox", alt: "Dr. Kurbe offer post: 4 botox areas for 1,000 lei instead of 1,700 lei, gold type on dark patterned background" },
       { key: "kurbe-2", alt: "Dr. Kurbe PRP therapy benefits post" },
     ],
-    moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe brand moodboard: the gold Dr. Kurbe logo on black, a palette of obsidian, charcoal, champagne gold, soft gold, warm ivory, white and stone grey, an editorial serif with a modern sans, the brand pattern, beauty portraits, a clinic interior, dental tools and gold-on-black stationery" },
+    moodboard: { key: "kurbe-moodboard", alt: "Dr. Kurbe brand moodboard: gold script logo on black, palette, Playfair Display and Jost type, clinic photos, patterns and stationery" },
     stories: [
       { key: "kurbe-story-1", alt: "Dr. Kurbe IV drip offer story: Beach Body Boost, energy, detox and glow, 285 RON, with a smiling woman on a beach" },
       { key: "kurbe-story-2", alt: "Dr. Kurbe IV drip offer story: Gluta Goddess, glutathione drip for detox and radiance, 450 RON, with a woman in white against a golden sky" },

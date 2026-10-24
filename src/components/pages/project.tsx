@@ -264,11 +264,16 @@ function CaseStudy({ p, next }: { p: Project; next: Project }) {
           ) : g.length > 0 ? (
             <>
               {(p.reels || p.carousels) && <h3 className="eyebrow mt-12 text-muted-foreground">{t.project.statics}</h3>}
-              <div className={cn("columns-2 gap-3 md:columns-4 [&>*]:mb-3", p.reels || p.carousels ? "mt-6" : "mt-12")}>
+              <div
+                className={cn(
+                  p.staticsGrid ? "grid grid-cols-2 gap-3 md:grid-cols-4" : "columns-2 gap-3 md:columns-4 [&>*]:mb-3",
+                  p.reels || p.carousels ? "mt-6" : "mt-12",
+                )}
+              >
                 {g.map((x, i) => (
                   <Reveal key={x.key} delay={(i % 4) * 70} className="break-inside-avoid">
                     <div className="frame-zoom">
-                      <Pic k={x.key} alt={x.alt} className="h-auto" sizes="25vw" />
+                      <Pic k={x.key} alt={x.alt} className={p.staticsGrid ? "aspect-[4/5]" : "h-auto"} sizes="25vw" />
                     </div>
                   </Reveal>
                 ))}

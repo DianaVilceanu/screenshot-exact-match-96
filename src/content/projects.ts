@@ -55,6 +55,8 @@ export type Project = {
   reels?: ReelItem[];
   /** Interleave reels with the static posts in one grid instead of a separate block. */
   mixReels?: boolean;
+  /** Lay the statics out as a strict grid (use when they all share one ratio). */
+  staticsGrid?: boolean;
   /** Multi-slide social posts, shown slide by slide after the statics. */
   carousels?: Carousel[];
   /** Visual identity board shown on standard (non case-study) project pages. */
@@ -203,7 +205,6 @@ export const projects: Project[] = [
       { key: "divaz-blue", alt: "Divaz 'Stellar Blue' press-on nails post" },
       { key: "divaz-2026", alt: "Divaz 'Which nails will win 2026?' post" },
       { key: "divaz-lips", alt: "Divaz lip comparison post with model" },
-      { key: "divaz-flavour", alt: "Divaz 'Choose your favourite flavour' lip gloss sale post" },
       { key: "divaz-gloss14", alt: "Divaz lip gloss shade 14 with berries" },
       { key: "divaz-combo", alt: "Divaz budget lip combo carousel cover" },
     ],
@@ -214,6 +215,7 @@ export const projects: Project[] = [
       { key: "divaz-reel-4", title: "Budget lip combo, step by step" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
+    staticsGrid: true,
     featured: true,
     caseStudy: {
       theme: "divaz",

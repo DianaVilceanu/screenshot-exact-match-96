@@ -105,6 +105,9 @@ import serviceUxui from "@/assets/services/service-uxui.webp";
 import fleuraneCover from "@/assets/fleurane/fleurane-cover.webp";
 import fleuraneIngredients from "@/assets/fleurane/fleurane-ingredients.webp";
 import fleuraneFlatlay from "@/assets/fleurane/fleurane-flatlay.webp";
+import caterinaPrintCards from "@/assets/caterina/caterina-print-cards.webp";
+import caterinaPrintLetterhead from "@/assets/caterina/caterina-print-letterhead.webp";
+import caterinaPrintThankyou from "@/assets/caterina/caterina-print-thankyou.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -359,6 +362,9 @@ export const img = {
   "fleurane-cover": { src: fleuraneCover, w: 1000, h: 1500 },
   "fleurane-ingredients": { src: fleuraneIngredients, w: 2400, h: 1500 },
   "fleurane-flatlay": { src: fleuraneFlatlay, w: 1536, h: 1024 },
+  "caterina-print-cards": { src: caterinaPrintCards, w: 2000, h: 1250 },
+  "caterina-print-letterhead": { src: caterinaPrintLetterhead, w: 2000, h: 1333 },
+  "caterina-print-thankyou": { src: caterinaPrintThankyou, w: 2000, h: 1250 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

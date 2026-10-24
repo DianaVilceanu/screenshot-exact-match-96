@@ -100,7 +100,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="container-editorial py-24 md:py-36" aria-labelledby="work-h">
+      <section className="container-editorial pt-24 pb-10 md:pt-36 md:pb-12" aria-labelledby="work-h">
         <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div>
             <Eyebrow n="02">{h.selected}</Eyebrow>
@@ -134,6 +134,11 @@ export function HomePage() {
               </L>
             </Reveal>
           ))}
+        </div>
+        <div className="mt-8 flex justify-center md:mt-10">
+          <L to={hrefFor(locale, { kind: "portfolio" })} className={btn({ variant: "solid" })}>
+            {h.moreProjects} <Arrow />
+          </L>
         </div>
       </section>
 

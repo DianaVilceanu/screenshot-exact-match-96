@@ -486,11 +486,17 @@ export const projects: Project[] = [
     cover: { key: "farmex-cover", alt: "Stetoscop lângă blistere și pastile, pe fundal verde salvie" },
     gallery: [
       { key: "farmex-4", alt: "Postare Farmex pe fundal verde, cu sfaturi de nutriție" },
-      { key: "farmex-1", alt: "Postare Farmex despre vitamine pentru iarnă" },
       { key: "farmex-2", alt: "Postare Farmex pentru un concurs cu premii" },
       { key: "farmex-3", alt: "Postare informativă Farmex despre micoza unghiilor" },
       { key: "farmex-5", alt: "Postare Farmex cu un tensiometru Omron" },
     ],
+    reels: [
+      { key: "farmex-reel-1", title: "System Kollagen 11000 Plus, pentru articulații și piele" },
+      { key: "farmex-reel-2", title: "Înainte și după: prepararea unei creme în laboratorul farmaciei" },
+      { key: "farmex-reel-3", title: "Sirop cu miere Calmotusin pentru căile respiratorii" },
+      { key: "farmex-reel-4", title: "Produse speciale create în laboratorul nostru" },
+    ],
+    staticsGrid: true,
     serviceSlugs: ["social-media-design"],
   },
   {

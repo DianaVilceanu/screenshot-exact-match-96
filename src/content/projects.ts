@@ -568,11 +568,17 @@ export const projects: Project[] = [
     cover: { key: "farmex-cover", alt: "Stethoscope beside blister packs and pills on a sage green background" },
     gallery: [
       { key: "farmex-4", alt: "Farmex green post with nutrition advice" },
-      { key: "farmex-1", alt: "Farmex winter vitamins post" },
       { key: "farmex-2", alt: "Farmex giveaway post" },
       { key: "farmex-3", alt: "Farmex nail fungus information post" },
       { key: "farmex-5", alt: "Farmex Omron blood pressure monitor post" },
     ],
+    reels: [
+      { key: "farmex-reel-1", title: "System Kollagen 11000 Plus, for joints and skin" },
+      { key: "farmex-reel-2", title: "Before and after: making a cream in the pharmacy lab" },
+      { key: "farmex-reel-3", title: "Calmotusin honey syrup for the airways" },
+      { key: "farmex-reel-4", title: "Special products made in our own lab" },
+    ],
+    staticsGrid: true,
     serviceSlugs: ["social-media-design"],
   },
   {

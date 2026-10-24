@@ -59,6 +59,8 @@ export type Project = {
   staticsGrid?: boolean;
   /** Static ad banners for product campaigns, shown in their own section after the social statics. */
   ads?: GalleryItem[];
+  /** Full-width interface mockups (phone, desktop), shown after the identity board. */
+  screens?: GalleryItem[];
   /** Pages of the delivered brand book: the first runs full width, the rest sit two by two. */
   brandbook?: GalleryItem[];
   /** Multi-slide social posts, shown slide by slide after the statics. */
@@ -441,10 +443,10 @@ export const projects: Project[] = [
     slug: "dr-kurbe-clinic",
     name: "Dr. Kurbe Clinic",
     client: "Dr. Kurbe Clinic, Nada Kurbe & Mawada Kurbe",
-    categories: ["Social Media"],
+    categories: ["Social Media", "Print"],
     industry: "Aesthetics & wellness",
-    services: ["Visual identity for social media", "Social media design", "Video editing"],
-    deliverables: ["Informative & promotional banners", "Offer stories", "Carousels", "TikTok / Instagram reels", "Interview-style videos"],
+    services: ["Visual identity for social media", "Social media design", "Video editing", "Print design"],
+    deliverables: ["Informative & promotional banners", "Offer stories", "Carousels", "TikTok / Instagram reels", "Interview-style videos", "Discount vouchers"],
     summary: "Cohesive social content for a clinic and its founders' personal brands.",
     description: [
       "Dr. Kurbe Clinic is a modern aesthetic and wellness center focused on personalized care and natural results.",
@@ -511,7 +513,13 @@ export const projects: Project[] = [
       { key: "kurbe-reel-7", title: "A walk through the clinic" },
       { key: "kurbe-reel-8", title: "Before and after: new teeth, new confidence" },
     ],
-    serviceSlugs: ["social-media-design", "content-creation"],
+    print: [
+      {
+        title: "Discount vouchers",
+        image: { key: "kurbe-vouchers", alt: "Stacks of Dr. Kurbe discount vouchers in gold and black on a satin surface: up to 50% off, and a 250 RON dental spa offer with a free air flow" },
+      },
+    ],
+    serviceSlugs: ["social-media-design", "content-creation", "printed-media"],
   },
   {
     slug: "mos-ilie",
@@ -696,26 +704,6 @@ export const projects: Project[] = [
     serviceSlugs: ["printed-media"],
   },
   {
-    slug: "dr-kurbe-dental",
-    name: "Dr. Kurbe Dental & Aesthetic",
-    client: "Dr. Kurbe Dental & Aesthetic Center",
-    categories: ["Print"],
-    industry: "Healthcare, dental & aesthetics",
-    services: ["Print design"],
-    deliverables: ["Discount vouchers", "Campaign print materials"],
-    summary: "Elegant vouchers and campaign print for a dental and aesthetic center.",
-    description: [
-      "Dr. Kurbe Dental & Aesthetic Center is a modern clinic specializing in advanced dental care and aesthetic treatments, known for its high-quality services, state-of-the-art technology, and patient-centered approach.",
-      "For Dr. Kurbe, I created a series of printed promotional materials, including discount vouchers and campaign-focused designs. The print concepts were developed to reflect the clinic's elegant and professional identity, ensuring a coherent visual presence across both promotional and patient-facing materials.",
-    ],
-    cover: { key: "kurbe-dental-cover", alt: "Dentist in blue gloves examining a smiling patient with a mirror and probe" },
-    gallery: [
-      { key: "kurbe-voucher", alt: "Dr. Kurbe gold and black discount vouchers" },
-      { key: "kurbe-card", alt: "Dr. Kurbe business card mockup" },
-    ],
-    serviceSlugs: ["printed-media"],
-  },
-  {
     slug: "floraria-mariei",
     name: "Florăria Mariei",
     client: "Mariei",
@@ -763,15 +751,21 @@ export const projects: Project[] = [
     client: "Bachelor's thesis project",
     categories: ["UX / UI"],
     industry: "Digital library",
-    services: ["UX / UI design"],
-    deliverables: ["Complete UX/UI system for mobile and desktop"],
-    summary: "A calm, AI-assisted virtual library, built as my bachelor's thesis.",
+    services: ["UX / UI design", "Application development (.NET)", "Graphic design"],
+    deliverables: ["A working application, built end to end", "Complete UX/UI system for mobile and desktop", "Graphics and visual identity", "UI mockups for mobile and desktop"],
+    summary: "A calm, AI-assisted virtual library. My bachelor's thesis, built from the functionality to the last pixel.",
     description: [
-      "Vibrary is a virtual library platform created as my bachelor's thesis project, developed in .NET and designed to offer users a seamless, intuitive reading experience. The platform allows users to explore a digital book collection, generate their own stories, and receive personalized book recommendations powered by artificial intelligence.",
-      "For this project, I designed the complete UX/UI system with a minimalist and user-friendly approach, focusing on clarity, accessibility, and an enjoyable reading environment across both mobile and desktop.",
+      "Vibrary is my bachelor's thesis project: a virtual library platform developed in .NET and designed to offer users a seamless, intuitive reading experience. It lets people explore a digital book collection, generate their own stories, and receive personalized book recommendations powered by artificial intelligence.",
+      "I did everything end to end: the functionality of the application, the design, the graphics and the UI design. The UX/UI system takes a minimalist, friendly approach, focused on clarity, accessibility and an enjoyable reading environment on both mobile and desktop.",
+      "The identity rests on the diamond logo with its bookmark and a soft palette of sage green, peach cream and forest green. The icons, components and screens are all built from that base, from login and recommendations to the library and the story studio.",
     ],
     cover: { key: "vibrary-cover", alt: "Stack of red cloth-bound books with gold-embossed spines against a pale wall" },
-    gallery: [{ key: "vibrary", alt: "Vibrary app screens on phone and desktop in sage and blush" }],
+    gallery: [],
+    moodboard: { key: "vibrary-brand", alt: "Vibrary visual identity: the diamond logo in three colourways, the app icon, the sage, forest, mint, blush and peach palette, Outfit typography, the icon set and interface components" },
+    screens: [
+      { key: "vibrary-mobile", alt: "Five Vibrary mobile screens: login, home with recommendations, library, book detail and the story studio" },
+      { key: "vibrary-desktop", alt: "Two Vibrary desktop screens: the personal library and the AI story studio" },
+    ],
     serviceSlugs: ["ux-ui-design"],
   },
 ];

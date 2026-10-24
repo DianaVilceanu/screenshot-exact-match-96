@@ -81,6 +81,10 @@ import caterinaBrandbook7 from "@/assets/caterina/caterina-brandbook-7.webp";
 import caterinaBrandbook8 from "@/assets/caterina/caterina-brandbook-8.webp";
 import caterinaBrandbook9 from "@/assets/caterina/caterina-brandbook-9.webp";
 import kanoiSiteHero from "@/assets/kanoi/kanoi-site-hero.webp";
+import kurbeVouchers from "@/assets/kurbe/kurbe-vouchers.webp";
+import vibraryBrand from "@/assets/vibrary/vibrary-brand.webp";
+import vibraryMobile from "@/assets/vibrary/vibrary-mobile.webp";
+import vibraryDesktop from "@/assets/vibrary/vibrary-desktop.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -103,7 +107,6 @@ import kdtMyth from "@/assets/kdt/kdt-myth.webp";
 import kdtMoodboard from "@/assets/kdt/kdt-moodboard.webp";
 import portraitCutout from "@/assets/portrait-cutout.webp";
 import portraitPolaroid from "@/assets/portrait-polaroid.webp";
-import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
 import marieiCover from "@/assets/mariei-cover.webp";
 import regataCover from "@/assets/regata-cover.webp";
 import vibraryCover from "@/assets/vibrary-cover.webp";
@@ -227,7 +230,6 @@ export const img = {
   "ads-cover": { src: adsCover, w: 1057, h: 603 },
   "robotics-cover": { src: roboticsCover, w: 1086, h: 1448 },
   "gmh-cover": { src: gmhCover, w: 1400, h: 933 },
-  "kurbe-dental-cover": { src: kurbeDentalCover, w: 1400, h: 933 },
   "mariei-cover": { src: marieiCover, w: 1200, h: 1200 },
   "regata-cover": { src: regataCover, w: 1400, h: 933 },
   "vibrary-cover": { src: vibraryCover, w: 1200, h: 1066 },
@@ -313,6 +315,10 @@ export const img = {
   "caterina-brandbook-8": { src: caterinaBrandbook8, w: 1800, h: 1013 },
   "caterina-brandbook-9": { src: caterinaBrandbook9, w: 1800, h: 1013 },
   "kanoi-site-hero": { src: kanoiSiteHero, w: 1600, h: 619 },
+  "kurbe-vouchers": { src: kurbeVouchers, w: 1800, h: 1081 },
+  "vibrary-brand": { src: vibraryBrand, w: 2400, h: 1500 },
+  "vibrary-mobile": { src: vibraryMobile, w: 2400, h: 1120 },
+  "vibrary-desktop": { src: vibraryDesktop, w: 2400, h: 1230 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

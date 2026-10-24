@@ -137,7 +137,6 @@ export const projects: Project[] = [
       { key: "divaz-reel-3", title: "No hashtags: machiajul Divaz în mână" },
       { key: "divaz-reel-4", title: "Lip combo de buget, pas cu pas" },
     ],
-    mixReels: true,
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -280,7 +279,7 @@ export const projects: Project[] = [
       { key: "iq-4", alt: "Postare IQ Fashion cu un palton bej din alpaca" },
       { key: "iq-6", alt: "Postare IQ Fashion cu haina de blană naturală „Elsa Silver”" },
     ],
-    moodboard: { key: "iq-moodboard", alt: "Identitatea vizuală IQ Fashion: logoul IQ auriu, auriul #CDA456, nuanțe de negru și crem, un stil de titlu subțire și fotografii cu paltoane și rochii de seară" },
+    moodboard: { key: "iq-moodboard", alt: "Identitatea vizuală IQ Fashion: logoul IQ auriu, auriul #CDA456, nuanțe de negru și crem, titluri în Cormorant Garamond și un prim-plan cu o rochie de seară aurie cu paiete" },
     reels: [
       { key: "iq-reel-1", title: "Paltoane cu blană în boutique" },
       { key: "iq-reel-2", title: "Proba rochiei negre" },

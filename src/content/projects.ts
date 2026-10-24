@@ -213,7 +213,6 @@ export const projects: Project[] = [
       { key: "divaz-reel-3", title: "No hashtags: the Divaz makeup haul" },
       { key: "divaz-reel-4", title: "Budget lip combo, step by step" },
     ],
-    mixReels: true,
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
     featured: true,
     caseStudy: {
@@ -356,7 +355,7 @@ export const projects: Project[] = [
       { key: "iq-4", alt: "IQ Fashion beige alpaca coat post" },
       { key: "iq-6", alt: "IQ Fashion 'Elsa Silver' natural fur coat post" },
     ],
-    moodboard: { key: "iq-moodboard", alt: "IQ Fashion visual identity: the gold IQ logo, gold #CDA456, black and cream swatches, a light headline style, and photos of coats and evening gowns" },
+    moodboard: { key: "iq-moodboard", alt: "IQ Fashion visual identity: the gold IQ logo, gold #CDA456, black and cream swatches, Cormorant Garamond headlines and a close-up of a gold sequined evening gown" },
     reels: [
       { key: "iq-reel-1", title: "Fur-trimmed coats in the boutique" },
       { key: "iq-reel-2", title: "Trying on the little black dress" },

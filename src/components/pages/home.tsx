@@ -85,7 +85,7 @@ export function HomePage() {
           </span>
           <span className="eyebrow text-muted-foreground">{h.scroll}</span>
         </div>
-        <div className="overflow-hidden border-y border-border py-5" aria-label={h.brandsAria}>
+        <div className="overflow-hidden bg-[#11052b] py-5 text-white" aria-label={h.brandsAria}>
           <div className="marquee flex w-max gap-12 whitespace-nowrap">
             {[0, 1].map((r) => (
               <div key={r} className="flex gap-12" aria-hidden={r === 1}>

@@ -358,7 +358,7 @@ export const img = {
   "service-uxui": { src: serviceUxui, w: 1216, h: 941 },
   "fleurane-cover": { src: fleuraneCover, w: 1000, h: 1500 },
   "fleurane-ingredients": { src: fleuraneIngredients, w: 2400, h: 1500 },
-  "fleurane-flatlay": { src: fleuraneFlatlay, w: 1400, h: 951 },
+  "fleurane-flatlay": { src: fleuraneFlatlay, w: 1536, h: 1024 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

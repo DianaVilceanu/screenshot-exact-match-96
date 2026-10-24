@@ -127,7 +127,6 @@ export const projects: Project[] = [
       { key: "divaz-blue", alt: "Postare Divaz cu unghii autoadezive „Stellar Blue”" },
       { key: "divaz-2026", alt: "Postare Divaz cu mesajul „Ce unghii vor câștiga în 2026?”" },
       { key: "divaz-lips", alt: "Postare Divaz cu o comparație a buzelor, prezentată de un model" },
-      { key: "divaz-flavour", alt: "Postare Divaz de reduceri la luciu de buze, cu mesajul „Alege aroma preferată”" },
       { key: "divaz-gloss14", alt: "Luciu de buze Divaz în nuanța 14, cu fructe de pădure" },
       { key: "divaz-combo", alt: "Copertă de carusel Divaz cu o combinație accesibilă de produse pentru buze" },
     ],
@@ -138,6 +137,7 @@ export const projects: Project[] = [
       { key: "divaz-reel-4", title: "Lip combo de buget, pas cu pas" },
     ],
     serviceSlugs: ["branding", "social-media-design", "content-creation"],
+    staticsGrid: true,
     featured: true,
     caseStudy: {
       theme: "divaz",

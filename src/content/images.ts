@@ -54,6 +54,32 @@ import iqSiteHero from "@/assets/iq/iq-site-hero.webp";
 import divazHoliday1 from "@/assets/divaz/divaz-holiday-1.webp";
 import divazHoliday2 from "@/assets/divaz/divaz-holiday-2.webp";
 import divazMoodboard from "@/assets/divaz/divaz-moodboard.webp";
+import caterinaCover from "@/assets/caterina/caterina-cover.webp";
+import caterinaPost1 from "@/assets/caterina/caterina-post-1.webp";
+import caterinaPost2 from "@/assets/caterina/caterina-post-2.webp";
+import caterinaPost3 from "@/assets/caterina/caterina-post-3.webp";
+import caterinaPost4 from "@/assets/caterina/caterina-post-4.webp";
+import caterinaPost5 from "@/assets/caterina/caterina-post-5.webp";
+import caterinaPost6 from "@/assets/caterina/caterina-post-6.webp";
+import caterinaPost7 from "@/assets/caterina/caterina-post-7.webp";
+import caterinaPost8 from "@/assets/caterina/caterina-post-8.webp";
+import caterinaAd1 from "@/assets/caterina/caterina-ad-1.webp";
+import caterinaAd2 from "@/assets/caterina/caterina-ad-2.webp";
+import caterinaAd3 from "@/assets/caterina/caterina-ad-3.webp";
+import caterinaAd4 from "@/assets/caterina/caterina-ad-4.webp";
+import caterinaAd5 from "@/assets/caterina/caterina-ad-5.webp";
+import caterinaAd6 from "@/assets/caterina/caterina-ad-6.webp";
+import caterinaAd7 from "@/assets/caterina/caterina-ad-7.webp";
+import caterinaAd8 from "@/assets/caterina/caterina-ad-8.webp";
+import caterinaBrandbook1 from "@/assets/caterina/caterina-brandbook-1.webp";
+import caterinaBrandbook2 from "@/assets/caterina/caterina-brandbook-2.webp";
+import caterinaBrandbook3 from "@/assets/caterina/caterina-brandbook-3.webp";
+import caterinaBrandbook4 from "@/assets/caterina/caterina-brandbook-4.webp";
+import caterinaBrandbook5 from "@/assets/caterina/caterina-brandbook-5.webp";
+import caterinaBrandbook6 from "@/assets/caterina/caterina-brandbook-6.webp";
+import caterinaBrandbook7 from "@/assets/caterina/caterina-brandbook-7.webp";
+import caterinaBrandbook8 from "@/assets/caterina/caterina-brandbook-8.webp";
+import caterinaBrandbook9 from "@/assets/caterina/caterina-brandbook-9.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -259,6 +285,32 @@ export const img = {
   "kurbe-retinoids-3": { src: kurbeRetinoids3, w: 900, h: 1125 },
   "kurbe-retinoids-4": { src: kurbeRetinoids4, w: 900, h: 1125 },
   "kurbe-retinoids-5": { src: kurbeRetinoids5, w: 900, h: 1125 },
+  "caterina-cover": { src: caterinaCover, w: 1400, h: 933 },
+  "caterina-post-1": { src: caterinaPost1, w: 1080, h: 1350 },
+  "caterina-post-2": { src: caterinaPost2, w: 1080, h: 1350 },
+  "caterina-post-3": { src: caterinaPost3, w: 1080, h: 1350 },
+  "caterina-post-4": { src: caterinaPost4, w: 1080, h: 1350 },
+  "caterina-post-5": { src: caterinaPost5, w: 1080, h: 1350 },
+  "caterina-post-6": { src: caterinaPost6, w: 1080, h: 1350 },
+  "caterina-post-7": { src: caterinaPost7, w: 1080, h: 1350 },
+  "caterina-post-8": { src: caterinaPost8, w: 1080, h: 1350 },
+  "caterina-ad-1": { src: caterinaAd1, w: 960, h: 1200 },
+  "caterina-ad-2": { src: caterinaAd2, w: 960, h: 1200 },
+  "caterina-ad-3": { src: caterinaAd3, w: 960, h: 1200 },
+  "caterina-ad-4": { src: caterinaAd4, w: 960, h: 1200 },
+  "caterina-ad-5": { src: caterinaAd5, w: 960, h: 1200 },
+  "caterina-ad-6": { src: caterinaAd6, w: 960, h: 1200 },
+  "caterina-ad-7": { src: caterinaAd7, w: 960, h: 1200 },
+  "caterina-ad-8": { src: caterinaAd8, w: 960, h: 1200 },
+  "caterina-brandbook-1": { src: caterinaBrandbook1, w: 1800, h: 1013 },
+  "caterina-brandbook-2": { src: caterinaBrandbook2, w: 1800, h: 1013 },
+  "caterina-brandbook-3": { src: caterinaBrandbook3, w: 1800, h: 1013 },
+  "caterina-brandbook-4": { src: caterinaBrandbook4, w: 1800, h: 1013 },
+  "caterina-brandbook-5": { src: caterinaBrandbook5, w: 1800, h: 1013 },
+  "caterina-brandbook-6": { src: caterinaBrandbook6, w: 1800, h: 1013 },
+  "caterina-brandbook-7": { src: caterinaBrandbook7, w: 1800, h: 1013 },
+  "caterina-brandbook-8": { src: caterinaBrandbook8, w: 1800, h: 1013 },
+  "caterina-brandbook-9": { src: caterinaBrandbook9, w: 1800, h: 1013 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

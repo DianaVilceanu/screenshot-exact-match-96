@@ -583,6 +583,18 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           <Meta p={p} />
         </div>
       </section>
+      {p.brandbook && (
+        <section className="container-editorial pb-16 md:pb-24">
+          <Eyebrow>{t.project.brandbook}</Eyebrow>
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            {p.brandbook.map((x, i) => (
+              <Reveal key={x.key} delay={(i % 2) * 80} className={cn("overflow-hidden rounded-xl border border-border shadow-xl", i === 0 && "md:col-span-2")}>
+                <Pic k={x.key} alt={x.alt} className="h-auto" sizes={i === 0 ? "100vw" : "(min-width: 768px) 50vw, 100vw"} />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
       {p.moodboard && (
         <section className="container-editorial pb-16 md:pb-24">
           <Eyebrow>{t.project.identity}</Eyebrow>
@@ -608,16 +620,30 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
       )}
       {p.gallery.length > 0 && (
         <section className="bg-secondary py-16 md:py-24">
-          {(p.reels || p.newsletters || p.carousels || p.stories) && (
+          {(p.reels || p.newsletters || p.carousels || p.stories || p.ads) && (
             <div className="container-editorial mb-8">
               <Eyebrow>{t.project.statics}</Eyebrow>
             </div>
           )}
-          <div className="container-editorial columns-2 gap-4 md:columns-3 [&>*]:mb-4">
+          <div className={cn("container-editorial", p.staticsGrid ? "grid grid-cols-2 gap-4 md:grid-cols-4" : "columns-2 gap-4 md:columns-3 [&>*]:mb-4")}>
             {p.gallery.map((x, i) => (
-              <Reveal key={x.key} delay={(i % 3) * 80} className="break-inside-avoid">
+              <Reveal key={x.key} delay={(i % (p.staticsGrid ? 4 : 3)) * 80} className="break-inside-avoid">
                 <div className="frame-zoom">
-                  <Pic k={x.key} alt={x.alt} className="h-auto" sizes="33vw" />
+                  <Pic k={x.key} alt={x.alt} className={p.staticsGrid ? "aspect-[4/5]" : "h-auto"} sizes={p.staticsGrid ? "25vw" : "33vw"} />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+      {p.ads && (
+        <section className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.ads}</Eyebrow>
+          <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
+            {p.ads.map((x, i) => (
+              <Reveal key={x.key} delay={(i % 4) * 80}>
+                <div className="frame-zoom">
+                  <Pic k={x.key} alt={x.alt} className="aspect-[4/5]" sizes="(min-width: 768px) 25vw, 50vw" />
                 </div>
               </Reveal>
             ))}

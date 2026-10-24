@@ -1,3 +1,11 @@
+import caterinaReel1 from "@/assets/reels/caterina-reel-1.mp4";
+import caterinaPoster1 from "@/assets/reels/caterina-reel-1.webp";
+import caterinaReel2 from "@/assets/reels/caterina-reel-2.mp4";
+import caterinaPoster2 from "@/assets/reels/caterina-reel-2.webp";
+import caterinaReel3 from "@/assets/reels/caterina-reel-3.mp4";
+import caterinaPoster3 from "@/assets/reels/caterina-reel-3.webp";
+import caterinaReel4 from "@/assets/reels/caterina-reel-4.mp4";
+import caterinaPoster4 from "@/assets/reels/caterina-reel-4.webp";
 import inklabsReel1 from "@/assets/reels/inklabs-reel-1.mp4";
 import inklabsPoster1 from "@/assets/reels/inklabs-reel-1.webp";
 import inklabsReel2 from "@/assets/reels/inklabs-reel-2.mp4";
@@ -82,6 +90,10 @@ export const reels = {
   "kurbe-reel-6": { video: kurbeReel6, poster: kurbePoster6 },
   "kurbe-reel-7": { video: kurbeReel7, poster: kurbePoster7 },
   "kurbe-reel-8": { video: kurbeReel8, poster: kurbePoster8 },
+  "caterina-reel-1": { video: caterinaReel1, poster: caterinaPoster1 },
+  "caterina-reel-2": { video: caterinaReel2, poster: caterinaPoster2 },
+  "caterina-reel-3": { video: caterinaReel3, poster: caterinaPoster3 },
+  "caterina-reel-4": { video: caterinaReel4, poster: caterinaPoster4 },
   "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
   "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
   "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },

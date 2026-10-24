@@ -135,6 +135,11 @@ export function HomePage() {
             </Reveal>
           ))}
         </div>
+        <div className="mt-20 flex justify-center md:mt-28">
+          <L to={hrefFor(locale, { kind: "portfolio" })} className={btn({ variant: "solid" })}>
+            {h.moreProjects} <Arrow />
+          </L>
+        </div>
       </section>
 
       <section data-theme="ink" className="bg-background py-24 text-foreground md:py-36" aria-labelledby="services-h">

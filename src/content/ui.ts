@@ -54,6 +54,7 @@ const en = {
     selectedH1: "Brand worlds, built ",
     selectedH2: "post by post.",
     viewAll: "View all projects",
+    moreProjects: "Discover more projects",
     inkAlts: ["Inklabs post presenting the semi-permanent tattoo kit and its benefits", "Inklabs post: Before you get a real tattoo…", "Inklabs 'Stop scrolling' post with a scorpion tattoo"],
     divazAlts: [
       "Divaz Galentine's Day post: blush stick in a cocktail glass with a cherry, 50% off",
@@ -285,6 +286,7 @@ const ro: Ui = {
     selectedH1: "Universuri de brand, construite ",
     selectedH2: "postare cu postare.",
     viewAll: "Vezi toate proiectele",
+    moreProjects: "Descoperă mai multe proiecte",
     inkAlts: ["Postare Inklabs cu kitul de tatuaje semipermanente și beneficiile lui", "Postare Inklabs: Înainte să-ți faci un tatuaj pe bune…", "Postarea Inklabs „Stop scrolling” cu un tatuaj cu scorpion"],
     divazAlts: [
       "Postare Divaz de Galentine's Day: blush stick într-un pahar de cocktail cu o cireașă, 50% reducere",

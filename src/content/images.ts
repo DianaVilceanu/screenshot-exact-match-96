@@ -232,7 +232,7 @@ export const img = {
   "divaz-holiday-1": { src: divazHoliday1, w: 731, h: 914 },
   "divaz-holiday-2": { src: divazHoliday2, w: 731, h: 914 },
   "divaz-moodboard": { src: divazMoodboard, w: 2400, h: 1800 },
-  "iq-moodboard": { src: iqMoodboard, w: 1600, h: 1000 },
+  "iq-moodboard": { src: iqMoodboard, w: 2400, h: 1500 },
   "iq-newsletter": { src: iqNewsletter, w: 900, h: 2718 },
   "iq-newsletter-alcantara": { src: iqNewsletterAlcantara, w: 900, h: 2718 },
   "iq-coming-soon": { src: iqComingSoon, w: 1000, h: 1000 },

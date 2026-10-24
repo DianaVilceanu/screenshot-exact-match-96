@@ -789,8 +789,8 @@ export const projects: Project[] = [
     cover: { key: "fleurane-cover", alt: "Skincare products on a pink tiled surface: white jars, golden oil bottles, an amber dropper bottle and a white daisy on a mirror" },
     gallery: [],
     print: [
-      { title: "In the studio", image: { key: "fleurane-flatlay", alt: "Fleurane jars and a tube lying on terracotta stone slabs: the eye cream, the day cream and the cleansing foam tube" } },
       { title: "Key ingredients", image: { key: "fleurane-ingredients", alt: "The Fleurane anti-age face cream, open, with the navy lid leaning on the jar, among illustrations of mandarin, bergamot, almonds and cornflowers" } },
+      { title: "In the studio", image: { key: "fleurane-flatlay", alt: "Fleurane jars and a tube lying on terracotta stone slabs: the eye cream, the day cream and the cleansing foam tube" } },
     ],
     viewer3d: "fleurane-jar",
     serviceSlugs: ["printed-media", "branding"],

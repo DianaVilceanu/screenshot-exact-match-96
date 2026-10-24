@@ -27,8 +27,8 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       const pmrem = new THREE.PMREMGenerator(renderer);
       scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
       const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 50);
-      camera.position.set(0, 2.1, 7.2);
-      camera.lookAt(0, 0.25, 0);
+      camera.position.set(0, 2.2, 7.4);
+      camera.lookAt(0, 0.35, 0);
 
       const group = new THREE.Group();
       scene.add(group);
@@ -65,11 +65,11 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       }
       const curve = new THREE.CatmullRomCurve3(pts);
       const swirl = new THREE.Mesh(new THREE.TubeGeometry(curve, 240, 0.19, 24, false), creamMat);
-      group.add(swirl);
+      
       const swirlBase = new THREE.Mesh(new THREE.SphereGeometry(R * 0.7, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2), creamMat);
       swirlBase.scale.set(1, 0.16, 1);
       swirlBase.position.y = topY;
-      group.add(swirlBase);
+      
       // Label: wraps about 150 degrees of the front, with the logo centred.
       const lh = 1.0;
       const arc = (lh * 2048) / 656 / (R * 1.02);
@@ -77,16 +77,15 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       const label = new THREE.Mesh(new THREE.CylinderGeometry(R * 1.022, R * 1.022, lh, 128, 1, true, -0.43 * arc, arc), labelMat);
       label.position.y = 0.72;
       group.add(label);
-      // Navy lid, shown open and leaning against the jar.
+      // Navy lid, closed on the jar.
       const lidMat = new THREE.MeshPhysicalMaterial({ color: 0x2c3070, roughness: 0.55, metalness: 0.15, clearcoat: 0.3, side: THREE.DoubleSide });
       const lidProf: [number, number][] = [[R * 0.97, 0], [R * 1.1, 0], [R * 1.12, 0.04], [R * 1.12, 0.5], [R * 1.08, 0.58], [0, 0.58], [0, 0.54], [R * 1.04, 0.54], [R * 1.07, 0.48], [R * 1.06, 0.06], [R * 0.97, 0.03]];
       const lid = new THREE.Mesh(new THREE.LatheGeometry(lidProf.map(([x, y]) => new THREE.Vector2(x, y)), 96), lidMat);
       const lidGroup = new THREE.Group();
       lidGroup.add(lid);
-      lidGroup.rotation.set(0, 0, -1.15);
-      lidGroup.position.set(R * 1.55, 0.2, -0.1);
+      lidGroup.position.set(0, H - 0.2, 0);
       group.add(lidGroup);
-      group.position.set(-0.45, -0.85, 0);
+      group.position.set(0, -0.85, 0);
 
       // Soft contact shadow
       const c = document.createElement("canvas");
@@ -99,7 +98,7 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       g.fillRect(0, 0, 256, 256);
       const shadow = new THREE.Mesh(new THREE.PlaneGeometry(6, 6), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false }));
       shadow.rotation.x = -Math.PI / 2;
-      shadow.position.set(-0.45, -0.84, 0);
+      shadow.position.set(0, -0.84, 0);
       scene.add(shadow);
       scene.background = null;
       const key = new THREE.DirectionalLight(0xffffff, 0.9);

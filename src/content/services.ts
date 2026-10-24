@@ -19,6 +19,8 @@ export type Service = {
   images: { key: ImgKey; alt: string }[];
   /** Floating device mockup shown in place of the image grid (transparent, shadow baked in). */
   mock?: { key: ImgKey; alt: string };
+  /** Animated 2D scene shown instead of images (drawn in code, no media file). */
+  anim?: "dog";
   /** Shown as a dashed placeholder when examples still need to be supplied. */
   missing?: string;
   articleSlugs: string[];
@@ -99,6 +101,7 @@ export const services: Service[] = [
     value: ["Offers that read in a second.", "Campaign sets that stay consistent across formats.", "Visual drama without losing the product."],
     offerings: ["Black Friday & sale campaigns", "Product ads", "Seasonal and gift campaigns"],
     projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie"],
+    mock: { key: "service-ads", alt: "Three Meta feed ads side by side: a Canvas Dreams Black Friday portrait ad, a Teno wireless controller ad and an Alpacka Gift lamp ad" },
     images: [
       { key: "ads-blackfriday", alt: "Black Friday car ad" },
       { key: "ads-teno", alt: "Teno controller ad" },
@@ -116,6 +119,7 @@ export const services: Service[] = [
     value: ["Print that matches the brand online.", "Clear information hierarchy for patients and customers.", "Production-ready layouts."],
     offerings: ["Packaging design", "Flyers & brochures", "Posters", "Vouchers & coupons"],
     projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
+    mock: { key: "service-print", alt: "Printed pieces in situ: Moș Ilie flyers, IQ Fashion thank-you flyers with a QR code and Dr. Kurbe discount vouchers" },
     images: [
       { key: "robotics-mock", alt: "Entry Robotics Kit packaging" },
       { key: "kurbe-voucher", alt: "Dr. Kurbe vouchers" },
@@ -132,6 +136,7 @@ export const services: Service[] = [
     value: ["Readable on any phone.", "Offers and products presented clearly.", "Consistent with the brand's campaigns."],
     offerings: ["Newsletter design"],
     projectSlugs: ["iq-fashion"],
+    mock: { key: "service-newsletter", alt: "Two laptops showing email newsletters in an inbox: IQ Fashion and Tapet Autoadeziv by Canvas Dreams" },
     images: [
       { key: "newsletter-1", alt: "Fashion newsletter design" },
       { key: "newsletter-2", alt: "Promotional newsletter design" },
@@ -148,6 +153,7 @@ export const services: Service[] = [
     value: ["Clear navigation people understand.", "Designs that work on desktop and mobile.", "Interfaces that still feel like the brand."],
     offerings: ["Website UX/UI", "Online shop design", "App UI systems"],
     projectSlugs: ["floraria-mariei", "regata-print", "green-table", "vibrary"],
+    mock: { key: "service-uxui", alt: "A laptop showing the Green Table website and a phone showing the Vibrary app" },
     images: [
       { key: "mariei", alt: "Florăria Mariei website" },
       { key: "vibrary", alt: "Vibrary app" },
@@ -164,6 +170,7 @@ export const services: Service[] = [
     value: ["Movement that draws attention in a feed.", "Animation consistent with the brand's static design."],
     offerings: ["2D animation"],
     projectSlugs: [],
+    anim: "dog",
     images: [],
     missing: "[ADD 2D ANIMATION EXAMPLES. The animations on the current site are videos that need to be re-uploaded]",
     articleSlugs: ["how-to-make-your-social-media-design-stand-out"],

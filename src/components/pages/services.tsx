@@ -1,3 +1,4 @@
+import { DogWalk } from "@/components/site/dog-walk";
 import { ArticleCard, ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
@@ -151,7 +152,12 @@ export function ServicePage({ slug }: { slug: string }) {
           </div>
         </section>
       )}
-      {!s.mock && s.images.length > 0 && (
+      {s.anim === "dog" && (
+        <section className="container-editorial">
+          <DogWalk label={s.title} />
+        </section>
+      )}
+      {!s.mock && !s.anim && s.images.length > 0 && (
         <section className="container-editorial">
           <div className={`grid gap-3 ${s.images.length > 2 ? "grid-cols-3" : "grid-cols-2"}`}>
             {s.images.map((im, i) => (

@@ -20,42 +20,74 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
       renderer.outputColorSpace = THREE.SRGBColorSpace;
       renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      renderer.toneMappingExposure = 0.78;
       el.appendChild(renderer.domElement);
       renderer.domElement.style.touchAction = "pan-y";
       const scene = new THREE.Scene();
       const pmrem = new THREE.PMREMGenerator(renderer);
       scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
       const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 50);
-      camera.position.set(0, 1.5, 6.2);
-      camera.lookAt(0, 0.1, 0);
+      camera.position.set(0, 2.1, 7.2);
+      camera.lookAt(0, 0.25, 0);
 
       const group = new THREE.Group();
       scene.add(group);
       const tex = new THREE.TextureLoader().load("/fleurane/jar-label.webp");
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
-      // Rotate the texture so the front of the label faces the camera at rotation 0.
-      tex.wrapS = THREE.RepeatWrapping;
-      tex.offset.x = 0.5;
-      const body = new THREE.Mesh(
-        new THREE.CylinderGeometry(1.05, 1.05, 1.3, 96, 1, false),
-        [
-          new THREE.MeshPhysicalMaterial({ map: tex, roughness: 0.38, clearcoat: 0.6, clearcoatRoughness: 0.25 }),
-          new THREE.MeshPhysicalMaterial({ color: 0xf5f3ef, roughness: 0.5 }),
-          new THREE.MeshPhysicalMaterial({ color: 0xf5f3ef, roughness: 0.5 }),
-        ],
+
+      // Glass jar: a lathe profile with a slightly flared body, rounded base and a thick rim.
+      const R = 1.25;
+      const H = 1.6;
+      const prof: [number, number][] = [
+        [0, 0], [R * 0.78, 0], [R * 0.9, 0.03], [R * 0.97, 0.11], [R * 0.99, 0.25],
+        [R, 0.6], [R * 1.01, H * 0.85], [R * 0.99, H - 0.07], [R * 0.95, H - 0.02], [R * 0.9, H],
+        [R * 0.86, H - 0.05], [R * 0.9, H - 0.2],
+      ];
+      const glass = new THREE.Mesh(
+        new THREE.LatheGeometry(prof.map(([x, y]) => new THREE.Vector2(x, y)), 128),
+        new THREE.MeshPhysicalMaterial({ color: 0xf2f4f8, transmission: 0.92, thickness: 0.35, ior: 1.5, roughness: 0.04, clearcoat: 1, side: THREE.DoubleSide, transparent: true, opacity: 0.55, envMapIntensity: 1 }),
       );
-      body.position.y = -0.15;
-      group.add(body);
-      const lidMat = new THREE.MeshPhysicalMaterial({ color: 0x3b3e72, roughness: 0.32, metalness: 0.1, clearcoat: 0.8, clearcoatRoughness: 0.2 });
-      const capMat = new THREE.MeshStandardMaterial({ color: 0x34376a, roughness: 0.55, envMapIntensity: 0.25 });
-      const lid = new THREE.Mesh(new THREE.CylinderGeometry(1.1, 1.1, 0.62, 96), [lidMat, capMat, capMat]);
-      lid.position.y = 0.81;
-      group.add(lid);
-      const ring = new THREE.Mesh(new THREE.TorusGeometry(1.1, 0.014, 12, 96), new THREE.MeshStandardMaterial({ color: 0xc9a24f, metalness: 1, roughness: 0.28 }));
-      ring.rotation.x = Math.PI / 2;
-      ring.position.y = 0.49;
-      group.add(ring);
+      group.add(glass);
+      // Cream: fills the jar and rises into a soft swirl.
+      const creamMat = new THREE.MeshPhysicalMaterial({ color: 0xf7f0e4, roughness: 0.38, sheen: 1, sheenColor: new THREE.Color(0xfff6e6), clearcoat: 0.3 });
+      const fill = new THREE.Mesh(new THREE.CylinderGeometry(R * 0.86, R * 0.82, H - 0.12, 96), creamMat);
+      fill.position.y = (H - 0.12) / 2 + 0.06;
+      group.add(fill);
+      const topY = H - 0.1;
+      const pts: InstanceType<typeof THREE.Vector3>[] = [];
+      const turns = 2.35;
+      for (let i = 0; i <= 120; i++) {
+        const u = i / 120;
+        const r = (1 - u) * R * 0.52;
+        const a = u * turns * Math.PI * 2;
+        pts.push(new THREE.Vector3(Math.cos(a) * r, topY + 0.12 + Math.pow(u, 0.85) * 0.34, Math.sin(a) * r));
+      }
+      const curve = new THREE.CatmullRomCurve3(pts);
+      const swirl = new THREE.Mesh(new THREE.TubeGeometry(curve, 240, 0.19, 24, false), creamMat);
+      group.add(swirl);
+      const swirlBase = new THREE.Mesh(new THREE.SphereGeometry(R * 0.7, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2), creamMat);
+      swirlBase.scale.set(1, 0.16, 1);
+      swirlBase.position.y = topY;
+      group.add(swirlBase);
+      // Label: wraps about 150 degrees of the front, with the logo centred.
+      const lh = 1.0;
+      const arc = (lh * 2048) / 656 / (R * 1.02);
+      const labelMat = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.42, metalness: 0.02, side: THREE.DoubleSide });
+      const label = new THREE.Mesh(new THREE.CylinderGeometry(R * 1.022, R * 1.022, lh, 128, 1, true, -0.43 * arc, arc), labelMat);
+      label.position.y = 0.72;
+      group.add(label);
+      // Navy lid, shown open and leaning against the jar.
+      const lidMat = new THREE.MeshPhysicalMaterial({ color: 0x2c3070, roughness: 0.55, metalness: 0.15, clearcoat: 0.3, side: THREE.DoubleSide });
+      const lidProf: [number, number][] = [[R * 0.97, 0], [R * 1.1, 0], [R * 1.12, 0.04], [R * 1.12, 0.5], [R * 1.08, 0.58], [0, 0.58], [0, 0.54], [R * 1.04, 0.54], [R * 1.07, 0.48], [R * 1.06, 0.06], [R * 0.97, 0.03]];
+      const lid = new THREE.Mesh(new THREE.LatheGeometry(lidProf.map(([x, y]) => new THREE.Vector2(x, y)), 96), lidMat);
+      const lidGroup = new THREE.Group();
+      lidGroup.add(lid);
+      lidGroup.rotation.set(0, 0, -1.15);
+      lidGroup.position.set(R * 1.55, 0.2, -0.1);
+      group.add(lidGroup);
+      group.position.set(-0.45, -0.85, 0);
+
       // Soft contact shadow
       const c = document.createElement("canvas");
       c.width = c.height = 256;
@@ -65,16 +97,17 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
       grad.addColorStop(1, "rgba(20,20,50,0)");
       g.fillStyle = grad;
       g.fillRect(0, 0, 256, 256);
-      const shadow = new THREE.Mesh(new THREE.PlaneGeometry(4, 4), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false }));
+      const shadow = new THREE.Mesh(new THREE.PlaneGeometry(6, 6), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false }));
       shadow.rotation.x = -Math.PI / 2;
-      shadow.position.y = -0.82;
+      shadow.position.set(-0.45, -0.84, 0);
       scene.add(shadow);
-      const key = new THREE.DirectionalLight(0xffffff, 1.3);
+      scene.background = null;
+      const key = new THREE.DirectionalLight(0xffffff, 0.9);
       key.position.set(3, 4, 4);
       scene.add(key);
 
       const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      let rot = -0.45;
+      let rot = 0.5;
       let vel = 0;
       let dragging = false;
       let lastX = 0;
@@ -121,7 +154,7 @@ export function JarViewer({ label, hint }: { label: string; hint: string }) {
           rot += vel + (reduce ? 0 : 0.0035);
         }
         group.rotation.y = rot;
-        group.rotation.x = 0.1;
+        group.rotation.x = 0;
         renderer.render(scene, camera);
       };
       loop();

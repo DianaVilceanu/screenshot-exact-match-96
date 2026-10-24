@@ -103,7 +103,7 @@ import servicePrint from "@/assets/services/service-print.webp";
 import serviceNewsletter from "@/assets/services/service-newsletter.webp";
 import serviceUxui from "@/assets/services/service-uxui.webp";
 import fleuraneCover from "@/assets/fleurane/fleurane-cover.webp";
-import fleuraneRange from "@/assets/fleurane/fleurane-range.webp";
+import fleuraneIngredients from "@/assets/fleurane/fleurane-ingredients.webp";
 import fleuraneFlatlay from "@/assets/fleurane/fleurane-flatlay.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
@@ -357,7 +357,7 @@ export const img = {
   "service-newsletter": { src: serviceNewsletter, w: 1306, h: 900 },
   "service-uxui": { src: serviceUxui, w: 1216, h: 941 },
   "fleurane-cover": { src: fleuraneCover, w: 1000, h: 1500 },
-  "fleurane-range": { src: fleuraneRange, w: 1400, h: 1241 },
+  "fleurane-ingredients": { src: fleuraneIngredients, w: 2400, h: 1500 },
   "fleurane-flatlay": { src: fleuraneFlatlay, w: 1400, h: 951 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },

@@ -703,8 +703,8 @@ export const projects: Project[] = [
     cover: { key: "fleurane-cover", alt: "Produse de îngrijire pe o suprafață de gresie roz: borcane albe, sticle cu ulei auriu, o sticluță chihlimbarie cu pipetă și o margaretă albă pe o oglindă" },
     gallery: [],
     print: [
-      { title: "Gama de ambalaje", image: { key: "fleurane-range", alt: "Gama de ambalaje Fleurane pe un postament albastru-lavandă: o sticlă cu spumă demachiantă, un tub de demachiant, un borcan cu cremă pentru ochi și un borcan cu cremă de zi anti-age, în alb cu detalii aurii" } },
       { title: "În studio", image: { key: "fleurane-flatlay", alt: "Borcane și un tub Fleurane pe plăci de piatră teracotă: crema pentru ochi, crema de zi și tubul cu spumă demachiantă" } },
+      { title: "Ingrediente cheie", image: { key: "fleurane-ingredients", alt: "Crema de față anti-age Fleurane, deschisă, cu capacul bleumarin sprijinit de borcan, printre ilustrații cu mandarină, bergamotă, migdale și albăstrele" } },
     ],
     viewer3d: "fleurane-jar",
     serviceSlugs: ["printed-media", "branding"],

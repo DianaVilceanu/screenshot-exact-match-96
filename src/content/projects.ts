@@ -61,6 +61,8 @@ export type Project = {
   ads?: GalleryItem[];
   /** Full-width interface mockups (phone, desktop), shown after the identity board. */
   screens?: GalleryItem[];
+  /** Interactive 3D product viewer, shown after the print pieces. */
+  viewer3d?: "fleurane-jar";
   /** Pages of the delivered brand book: the first runs full width, the rest sit two by two. */
   brandbook?: GalleryItem[];
   /** Multi-slide social posts, shown slide by slide after the statics. */
@@ -769,6 +771,29 @@ export const projects: Project[] = [
       { key: "greentable-mobile", alt: "Five Green Table mobile screens: home, menu, dish page, order box and log in" },
     ],
     serviceSlugs: ["ux-ui-design"],
+  },
+  {
+    slug: "fleurane",
+    name: "Fleurane",
+    client: "Fleurane",
+    categories: ["Print", "Branding"],
+    industry: "Skincare & cosmetics",
+    services: ["Packaging design", "Print design"],
+    deliverables: ["Packaging for a new skincare range", "Labels for jars, tubes and bottles", "Packaging mockups"],
+    summary: "Premium packaging for a new skincare range: white, periwinkle and gold.",
+    description: [
+      "Fleurane is a skincare brand that asked for premium packaging for a new range of face-care products: a cleansing foam with orange blossom, an eye and lip make-up remover, an eye cream and an anti-age day cream.",
+      "This project is print only. I designed the labels and the packaging system for jars, tubes and bottles around a clean white base, soft periwinkle lids and gold detailing, with a fine molecular pattern that hints at active ingredients, and an arched frame that holds the logo on every pack.",
+      "The result is a range that reads as one family on the shelf, with each product clearly named and a refined, high-end finish.",
+    ],
+    cover: { key: "fleurane-cover", alt: "Skincare products on a pink tiled surface: white jars, golden oil bottles, an amber dropper bottle and a white daisy on a mirror" },
+    gallery: [],
+    print: [
+      { title: "The packaging range", image: { key: "fleurane-range", alt: "Fleurane packaging range on a periwinkle plinth: a cleansing foam bottle, a make-up remover tube, an eye cream jar and an anti-age day cream jar, in white with gold detailing" } },
+      { title: "In the studio", image: { key: "fleurane-flatlay", alt: "Fleurane jars and a tube lying on terracotta stone slabs: the eye cream, the day cream and the cleansing foam tube" } },
+    ],
+    viewer3d: "fleurane-jar",
+    serviceSlugs: ["printed-media", "branding"],
   },
   {
     slug: "vibrary",

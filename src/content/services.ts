@@ -110,7 +110,7 @@ export const services: Service[] = [
     intro: "Print still matters, especially for clinics and products. I design packaging and promotional print that keeps the same identity as the brand's digital presence.",
     value: ["Print that matches the brand online.", "Clear information hierarchy for patients and customers.", "Production-ready layouts."],
     offerings: ["Packaging design", "Flyers & brochures", "Posters", "Vouchers & coupons"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-dental"],
+    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
     images: [
       { key: "robotics-mock", alt: "Entry Robotics Kit packaging" },
       { key: "kurbe-voucher", alt: "Dr. Kurbe vouchers" },

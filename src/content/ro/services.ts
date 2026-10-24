@@ -93,7 +93,7 @@ export const services: Service[] = [
     intro: "Materialele tipărite contează în continuare, mai ales pentru clinici și produse. Creez ambalaje și materiale promoționale tipărite care păstrează identitatea prezenței digitale a brandului.",
     value: ["Materiale tipărite în acord cu imaginea online a brandului.", "O ierarhie clară a informațiilor pentru pacienți și clienți.", "Machete pregătite pentru tipar."],
     offerings: ["Design de ambalaj", "Pliante și broșuri", "Afișe", "Vouchere și cupoane"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-dental"],
+    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
     images: [
       { key: "robotics-mock", alt: "Ambalaj Entry Robotics Kit" },
       { key: "kurbe-voucher", alt: "Vouchere Dr. Kurbe" },

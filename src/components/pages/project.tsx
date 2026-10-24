@@ -603,6 +603,18 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           </Reveal>
         </section>
       )}
+      {p.screens && (
+        <section className="container-editorial pb-16 md:pb-24">
+          <Eyebrow>{t.project.screens}</Eyebrow>
+          <div className="mt-8 space-y-6">
+            {p.screens.map((x) => (
+              <Reveal key={x.key}>
+                <Pic k={x.key} alt={x.alt} className={cn("h-auto rounded-xl", img[x.key].h > img[x.key].w && "mx-auto max-w-[620px]")} sizes="100vw" />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
       {p.siteHero && (
         <section className="container-editorial pb-16 md:pb-24">
           <Eyebrow>{t.project.siteHero}</Eyebrow>

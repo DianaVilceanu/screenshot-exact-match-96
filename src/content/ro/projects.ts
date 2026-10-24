@@ -304,10 +304,10 @@ export const projects: Project[] = [
     slug: "caterina-tomasso",
     name: "Caterina Tomasso",
     client: "Caterina Tomasso",
-    categories: ["Branding", "Social Media", "Ads & Campaigns"],
+    categories: ["Branding", "Social Media", "Ads & Campaigns", "Print"],
     industry: "Argint sterling de lux, magazin online",
-    services: ["Identitate de brand", "Manual de brand", "Design pentru rețele sociale", "Bannere statice pentru reclame", "Clipuri Reels"],
-    deliverables: ["Identitate vizuală completă", "Manual de brand", "Postări pentru rețele sociale", "Bannere statice pentru campaniile de produs", "Clipuri Reels"],
+    services: ["Identitate de brand", "Manual de brand", "Design pentru rețele sociale", "Bannere statice pentru reclame", "Clipuri Reels", "Design de print"],
+    deliverables: ["Identitate vizuală completă", "Manual de brand", "Postări pentru rețele sociale", "Bannere statice pentru campaniile de produs", "Clipuri Reels", "Hârtie cu antet, cărți de vizită și card de mulțumire"],
     summary: "O lume vizuală high end pentru argintul sterling făcut să fie dăruit, păstrat și transmis mai departe.",
     description: [
       "Caterina Tomasso este un magazin online dedicat argintului sterling 925: căni, ceainice, zornăitoare și cadouri premium create pentru botezuri și alte momente care merită marcate.",
@@ -346,13 +346,18 @@ export const projects: Project[] = [
       { key: "caterina-ad-7", alt: "Banner de reclamă Caterina Tomasso: un set cadou cu o cană și o linguriță din argint, în cutie albă" },
       { key: "caterina-ad-8", alt: "Banner de reclamă Caterina Tomasso: un sfeșnic argintat" },
     ],
+    print: [
+      { title: "Cărți de vizită", image: { key: "caterina-print-cards", alt: "Cărți de vizită negre Caterina Tomasso pe o suprafață nude de balerină: fața cu simbolul balerinei și wordmark-ul, și spatele cu datele de contact într-un cadru fin argintiu" } },
+      { title: "Hârtie cu antet", image: { key: "caterina-print-letterhead", alt: "Două coli cu antet Caterina Tomasso în nude de balerină, cu simbolul și wordmark-ul sus și datele de contact jos" } },
+      { title: "Card de mulțumire", image: { key: "caterina-print-thankyou", alt: "Un card de mulțumire Caterina Tomasso cu filigran cu balerină și un mesaj de apreciere, lângă o carte de vizită neagră" } },
+    ],
     reels: [
       { key: "caterina-reel-1", title: "Un cadou care rămâne intact pentru generația următoare" },
       { key: "caterina-reel-2", title: "Seturi cadou, desfăcute din cutie" },
       { key: "caterina-reel-3", title: "Cauți cadoul perfect pentru următorul eveniment?" },
       { key: "caterina-reel-4", title: "Simplitatea este apogeul rafinamentului" },
     ],
-    serviceSlugs: ["branding", "social-media-design", "ads-campaigns"],
+    serviceSlugs: ["branding", "social-media-design", "ads-campaigns", "printed-media"],
     staticsGrid: true,
   },
   {

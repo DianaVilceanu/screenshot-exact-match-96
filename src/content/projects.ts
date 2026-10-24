@@ -390,10 +390,10 @@ export const projects: Project[] = [
     slug: "caterina-tomasso",
     name: "Caterina Tomasso",
     client: "Caterina Tomasso",
-    categories: ["Branding", "Social Media", "Ads & Campaigns"],
+    categories: ["Branding", "Social Media", "Ads & Campaigns", "Print"],
     industry: "Luxury sterling silver, online boutique",
-    services: ["Brand identity", "Brand guidelines", "Social media design", "Static ad banners", "Reels"],
-    deliverables: ["Complete visual identity", "Brand book", "Social media posts", "Static ad banners for product campaigns", "Reels"],
+    services: ["Brand identity", "Brand guidelines", "Social media design", "Static ad banners", "Reels", "Print design"],
+    deliverables: ["Complete visual identity", "Brand book", "Social media posts", "Static ad banners for product campaigns", "Reels", "Letterhead, business cards and thank-you card"],
     summary: "A high-end visual world for sterling silver made to be given, kept and handed down.",
     description: [
       "Caterina Tomasso is an online boutique devoted to 925 sterling silver: cups, teapots, rattles and premium gifts made for christenings and other moments worth marking.",
@@ -432,13 +432,18 @@ export const projects: Project[] = [
       { key: "caterina-ad-7", alt: "Caterina Tomasso ad banner: a gift set with a silver cup and spoon in a white box" },
       { key: "caterina-ad-8", alt: "Caterina Tomasso ad banner: a silver-plated candlestick" },
     ],
+    print: [
+      { title: "Business cards", image: { key: "caterina-print-cards", alt: "Caterina Tomasso black business cards on a ballet nude surface: the front with the ballerina symbol and wordmark, and the back with contact details inside a fine silver frame" } },
+      { title: "Letterhead", image: { key: "caterina-print-letterhead", alt: "Two sheets of Caterina Tomasso letterhead in ballet nude, with the symbol and wordmark at the top and contact details at the bottom" } },
+      { title: "Thank-you card", image: { key: "caterina-print-thankyou", alt: "A Caterina Tomasso thank-you card with a ballerina watermark and a message of appreciation, next to a black business card" } },
+    ],
     reels: [
       { key: "caterina-reel-1", title: "A gift that stays intact for the next generation" },
       { key: "caterina-reel-2", title: "Gift sets, unboxed" },
       { key: "caterina-reel-3", title: "Looking for the perfect gift for the next event?" },
       { key: "caterina-reel-4", title: "Simplicity is the height of refinement" },
     ],
-    serviceSlugs: ["branding", "social-media-design", "ads-campaigns"],
+    serviceSlugs: ["branding", "social-media-design", "ads-campaigns", "printed-media"],
     staticsGrid: true,
   },
   {

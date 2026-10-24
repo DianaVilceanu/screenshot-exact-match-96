@@ -127,7 +127,7 @@ export const services: Service[] = [
     intro: "Studiile de Informatică Economică îmi oferă o bază tehnică pentru designul de interfețe: magazine online, site-uri de prezentare și sisteme de interfețe pentru aplicații.",
     value: ["Navigare clară și intuitivă.", "Design adaptat atât pentru desktop, cât și pentru mobil.", "Interfețe care păstrează identitatea brandului."],
     offerings: ["UX/UI pentru site-uri web", "Design de magazine online", "Sisteme de interfețe pentru aplicații"],
-    projectSlugs: ["floraria-mariei", "regata-print", "vibrary"],
+    projectSlugs: ["floraria-mariei", "regata-print", "green-table", "vibrary"],
     images: [
       { key: "mariei", alt: "Site-ul Florăria Mariei" },
       { key: "vibrary", alt: "Aplicația Vibrary" },

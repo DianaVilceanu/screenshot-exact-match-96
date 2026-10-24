@@ -91,6 +91,10 @@ import regataDesktop from "@/assets/regata/regata-desktop.webp";
 import marieiBrand from "@/assets/mariei/mariei-brand.webp";
 import marieiMobile from "@/assets/mariei/mariei-mobile.webp";
 import marieiDesktop from "@/assets/mariei/mariei-desktop.webp";
+import greentableCover from "@/assets/greentable/greentable-cover.webp";
+import greentableBrand from "@/assets/greentable/greentable-brand.webp";
+import greentableDesktop from "@/assets/greentable/greentable-desktop.webp";
+import greentableMobile from "@/assets/greentable/greentable-mobile.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -331,6 +335,10 @@ export const img = {
   "mariei-brand": { src: marieiBrand, w: 2400, h: 1500 },
   "mariei-mobile": { src: marieiMobile, w: 2400, h: 1120 },
   "mariei-desktop": { src: marieiDesktop, w: 2400, h: 1230 },
+  "greentable-cover": { src: greentableCover, w: 1400, h: 933 },
+  "greentable-brand": { src: greentableBrand, w: 2400, h: 1500 },
+  "greentable-desktop": { src: greentableDesktop, w: 2400, h: 1230 },
+  "greentable-mobile": { src: greentableMobile, w: 2400, h: 1120 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

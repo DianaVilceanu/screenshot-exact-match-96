@@ -142,7 +142,7 @@ export const services: Service[] = [
     intro: "My studies in Economic Informatics give me a technical foundation for interface work: online shops, presentation websites and app systems.",
     value: ["Clear navigation people understand.", "Designs that work on desktop and mobile.", "Interfaces that still feel like the brand."],
     offerings: ["Website UX/UI", "Online shop design", "App UI systems"],
-    projectSlugs: ["floraria-mariei", "regata-print", "vibrary"],
+    projectSlugs: ["floraria-mariei", "regata-print", "green-table", "vibrary"],
     images: [
       { key: "mariei", alt: "Florăria Mariei website" },
       { key: "vibrary", alt: "Vibrary app" },

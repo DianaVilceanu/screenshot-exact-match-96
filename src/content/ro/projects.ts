@@ -152,7 +152,7 @@ export const projects: Project[] = [
         { title: "Carusele care informează", text: "Caruselele informative stau alături de bannerele de reduceri, astfel încât fluxul de postări să informeze, nu doar să vândă." },
       ],
       process: [
-        { key: "divaz-moodboard", alt: "Moodboard Divaz: berry #5E0833, nuanțe de roz pudrat și trandafiriu, logoul, sloganul, cuvinte-cheie, cutiile cu unghii și cadre din reels" },
+        { key: "divaz-moodboard", alt: "Moodboard Divaz: berry #5E0833, nuanțe de roz pudrat și trandafiriu, logoul, sloganul, cuvinte-cheie și fotografii de produs cu cutiile de unghii și accesoriile" },
       ],
       results: [
         "Un feed în roz pudrat ușor de recunoscut: urmăritorii identifică o postare Divaz înainte să citească numele.",

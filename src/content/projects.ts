@@ -57,6 +57,10 @@ export type Project = {
   mixReels?: boolean;
   /** Lay the statics out as a strict grid (use when they all share one ratio). */
   staticsGrid?: boolean;
+  /** Static ad banners for product campaigns, shown in their own section after the social statics. */
+  ads?: GalleryItem[];
+  /** Pages of the delivered brand book: the first runs full width, the rest sit two by two. */
+  brandbook?: GalleryItem[];
   /** Multi-slide social posts, shown slide by slide after the statics. */
   carousels?: Carousel[];
   /** Visual identity board shown on standard (non case-study) project pages. */
@@ -377,6 +381,61 @@ export const projects: Project[] = [
       },
     ],
     serviceSlugs: ["social-media-design", "ads-campaigns", "newsletter", "printed-media"],
+  },
+  {
+    slug: "caterina-tomasso",
+    name: "Caterina Tomasso",
+    client: "Caterina Tomasso",
+    categories: ["Branding", "Social Media", "Ads & Campaigns"],
+    industry: "Luxury sterling silver, online boutique",
+    services: ["Brand identity", "Brand guidelines", "Social media design", "Static ad banners", "Reels"],
+    deliverables: ["Complete visual identity", "Brand book", "Social media posts", "Static ad banners for product campaigns", "Reels"],
+    summary: "A high-end visual world for sterling silver made to be given, kept and handed down.",
+    description: [
+      "Caterina Tomasso is an online boutique devoted to 925 sterling silver: cups, teapots, rattles and premium gifts made for christenings and other moments worth marking.",
+      "I took over the brand's entire visual identity, from the ballerina symbol and wordmark to the palette, typography and the brand book that keeps every touchpoint consistent. On top of that I created the social media materials and the static ads that put each product in front of the right audience.",
+      "The look is premium and high end by design: silver gradients, ballet nude, fine lines and plenty of negative space, so the silver does the talking and every post feels like a small piece of the brand's world.",
+    ],
+    cover: { key: "caterina-cover", alt: "Two polished gold-toned pieces, a lidded sugar bowl and a jug, on a wooden shelf in warm raking light" },
+    brandbook: [
+      { key: "caterina-brandbook-1", alt: "Caterina Tomasso brand book cover: the ballerina symbol and wordmark on ballet nude" },
+      { key: "caterina-brandbook-2", alt: "Brand book page: our story, with a black and white photograph of a silver tea set and the brand values" },
+      { key: "caterina-brandbook-3", alt: "Brand book page: logo clear space around the symbol and wordmark" },
+      { key: "caterina-brandbook-4", alt: "Brand book page: the primary logo, the symbol and the wordmark" },
+      { key: "caterina-brandbook-5", alt: "Brand book page: the logo in dark mode and white mode" },
+      { key: "caterina-brandbook-6", alt: "Brand book page: colour palette with a silver gradient, black and white, and ballet nude #D4B5A0 and #F5ECE6" },
+      { key: "caterina-brandbook-7", alt: "Brand book page: typography, Abramo for headings and Helvetica Light for body text" },
+      { key: "caterina-brandbook-8", alt: "Brand book page: graphic elements and textures, with a metallic texture, negative space and fine lines" },
+      { key: "caterina-brandbook-9", alt: "Brand book page: social media design templates with a silver teapot and a silver goblet" },
+    ],
+    gallery: [
+      { key: "caterina-post-1", alt: "Caterina Tomasso post: a silver goblet held in a red glove, with the line about the art of timeless luxury" },
+      { key: "caterina-post-2", alt: "Caterina Tomasso post: a silver christening cup with a teddy bear on lace, about a gift that measures appreciation, not only time" },
+      { key: "caterina-post-3", alt: "Caterina Tomasso post: a silver baby fork and spoon with bear details on linen" },
+      { key: "caterina-post-4", alt: "Caterina Tomasso post: close-up of a silver spoon with a teddy bear, 'their first gift of value'" },
+      { key: "caterina-post-5", alt: "Caterina Tomasso post: two silver candlesticks with white roses, on the perfect table" },
+      { key: "caterina-post-6", alt: "Caterina Tomasso post: a silver duck rattle on a silk ribbon, 'the most wanted christening gift'" },
+      { key: "caterina-post-7", alt: "Caterina Tomasso post: a silver spoon on white linen, 'your morning ritual, redefined by silver'" },
+      { key: "caterina-post-8", alt: "Caterina Tomasso post: a silver fruit bowl full of lemons, 'Italian tradition and refinement'" },
+    ],
+    ads: [
+      { key: "caterina-ad-1", alt: "Caterina Tomasso ad banner: a sterling silver star rattle on blush" },
+      { key: "caterina-ad-2", alt: "Caterina Tomasso ad banner: a sterling silver baby cup with a bear and a handle" },
+      { key: "caterina-ad-3", alt: "Caterina Tomasso ad banner: two sterling silver rattles with mother-of-pearl rings, category banner" },
+      { key: "caterina-ad-4", alt: "Caterina Tomasso ad banner: a silver-plated fruit bowl" },
+      { key: "caterina-ad-5", alt: "Caterina Tomasso ad banner: two heart rattles with mother-of-pearl rings" },
+      { key: "caterina-ad-6", alt: "Caterina Tomasso ad banner: a sterling silver champagne glass" },
+      { key: "caterina-ad-7", alt: "Caterina Tomasso ad banner: a gift set with a silver cup and spoon in a white box" },
+      { key: "caterina-ad-8", alt: "Caterina Tomasso ad banner: a silver-plated candlestick" },
+    ],
+    reels: [
+      { key: "caterina-reel-1", title: "A gift that stays intact for the next generation" },
+      { key: "caterina-reel-2", title: "Gift sets, unboxed" },
+      { key: "caterina-reel-3", title: "Looking for the perfect gift for the next event?" },
+      { key: "caterina-reel-4", title: "Simplicity is the height of refinement" },
+    ],
+    serviceSlugs: ["branding", "social-media-design", "ads-campaigns"],
+    staticsGrid: true,
   },
   {
     slug: "dr-kurbe-clinic",

@@ -15,7 +15,7 @@ export const services: Service[] = [
       "Branding gândit de la început și pentru prezența pe rețelele sociale.",
     ],
     offerings: ["Branding complet", "Direcție cromatică și tipografică", "Adaptarea identității vizuale pentru rețelele sociale"],
-    projectSlugs: ["inklabs", "divaz"],
+    projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
     images: [
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs Wrapped 2025" },
       { key: "divaz-nails", alt: "Ambalaj pentru unghii false autoadezive Divaz" },
@@ -36,7 +36,7 @@ export const services: Service[] = [
       "Formate gândite pentru felul în care oamenii folosesc Instagram și TikTok.",
     ],
     offerings: ["Postări statice", "Carusele informative", "Bannere promoționale", "Reeluri pentru TikTok / Instagram"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
     images: [
       { key: "divaz-galentine", alt: "Postare Divaz de Galentine’s Day" },
       { key: "farmex-4", alt: "Postare Farmex despre nutriție" },
@@ -75,7 +75,7 @@ export const services: Service[] = [
     intro: "Vizualuri publicitare de impact pentru branduri din modă, auto, tehnologie, cadouri, sănătate și energie, concepute să oprească derularea și să prezinte clar oferta.",
     value: ["Oferte pe care le înțelegi dintr-o privire.", "Seturi de materiale de campanie coerente în toate formatele.", "Impact vizual fără a pierde produsul din prim-plan."],
     offerings: ["Campanii de Black Friday și reduceri", "Reclame de produs", "Campanii de sezon și pentru cadouri"],
-    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "kanoi", "mos-ilie"],
+    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie"],
     images: [
       { key: "ads-blackfriday", alt: "Reclamă auto de Black Friday" },
       { key: "ads-teno", alt: "Reclamă pentru un controler Teno" },

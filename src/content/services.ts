@@ -36,7 +36,7 @@ export const services: Service[] = [
       "Branding planned together with how it will live on social media.",
     ],
     offerings: ["Complete branding", "Colour and typography direction", "Brand applications for social media"],
-    projectSlugs: ["inklabs", "divaz"],
+    projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
     images: [
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 typographic post" },
       { key: "divaz-nails", alt: "Divaz press-on nail packaging" },
@@ -56,7 +56,7 @@ export const services: Service[] = [
       "Formats designed for how Instagram and TikTok are actually used.",
     ],
     offerings: ["Static posts", "Informative carousels", "Promotional banners", "TikTok / Instagram reels"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
     images: [
       { key: "divaz-galentine", alt: "Divaz Galentine's Day post" },
       { key: "farmex-4", alt: "Farmex nutrition post" },
@@ -93,7 +93,7 @@ export const services: Service[] = [
     intro: "High-impact advertising visuals for fashion, automotive, tech, gift, health and energy brands, designed to stop the scroll and make the offer clear.",
     value: ["Offers that read in a second.", "Campaign sets that stay consistent across formats.", "Visual drama without losing the product."],
     offerings: ["Black Friday & sale campaigns", "Product ads", "Seasonal and gift campaigns"],
-    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "kanoi", "mos-ilie"],
+    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie"],
     images: [
       { key: "ads-blackfriday", alt: "Black Friday car ad" },
       { key: "ads-teno", alt: "Teno controller ad" },

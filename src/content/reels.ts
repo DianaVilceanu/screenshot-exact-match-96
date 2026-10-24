@@ -1,3 +1,11 @@
+import kanoiReel1 from "@/assets/reels/kanoi-reel-1.mp4";
+import kanoiPoster1 from "@/assets/reels/kanoi-reel-1.webp";
+import kanoiReel2 from "@/assets/reels/kanoi-reel-2.mp4";
+import kanoiPoster2 from "@/assets/reels/kanoi-reel-2.webp";
+import kanoiReel3 from "@/assets/reels/kanoi-reel-3.mp4";
+import kanoiPoster3 from "@/assets/reels/kanoi-reel-3.webp";
+import kanoiReel4 from "@/assets/reels/kanoi-reel-4.mp4";
+import kanoiPoster4 from "@/assets/reels/kanoi-reel-4.webp";
 import farmexReel1 from "@/assets/reels/farmex-reel-1.mp4";
 import farmexPoster1 from "@/assets/reels/farmex-reel-1.webp";
 import farmexReel2 from "@/assets/reels/farmex-reel-2.mp4";
@@ -106,6 +114,10 @@ export const reels = {
   "farmex-reel-2": { video: farmexReel2, poster: farmexPoster2 },
   "farmex-reel-3": { video: farmexReel3, poster: farmexPoster3 },
   "farmex-reel-4": { video: farmexReel4, poster: farmexPoster4 },
+  "kanoi-reel-1": { video: kanoiReel1, poster: kanoiPoster1 },
+  "kanoi-reel-2": { video: kanoiReel2, poster: kanoiPoster2 },
+  "kanoi-reel-3": { video: kanoiReel3, poster: kanoiPoster3 },
+  "kanoi-reel-4": { video: kanoiReel4, poster: kanoiPoster4 },
   "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
   "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
   "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },

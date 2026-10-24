@@ -599,10 +599,17 @@ export const projects: Project[] = [
     gallery: [
       { key: "kanoi-2", alt: "Kanoi 365 subscription Black Friday post" },
       { key: "kanoi-1", alt: "Kanoi sneaker cleaning post" },
-      { key: "kanoi-3", alt: "Kanoi 7 November offer post" },
       { key: "kanoi-4", alt: "Kanoi St. Nicholas boots campaign" },
       { key: "kanoi-5", alt: "Kanoi boot cleaning winter post" },
     ],
+    siteHero: { key: "kanoi-site-hero", alt: "Kanoi website hero: tan shearling boots dusted with snow beside the line Start the year with clean footwear and the Kanoi logo" },
+    reels: [
+      { key: "kanoi-reel-1", title: "Kanoi 365, now half price" },
+      { key: "kanoi-reel-2", title: "Kanoi 365: you only worry about wearing them" },
+      { key: "kanoi-reel-3", title: "Countdown to 7 November: change how you care for your shoes" },
+      { key: "kanoi-reel-4", title: "Guess what comes next: 12 pairs, 1 subscription" },
+    ],
+    staticsGrid: true,
     serviceSlugs: ["social-media-design", "ads-campaigns"],
   },
   {

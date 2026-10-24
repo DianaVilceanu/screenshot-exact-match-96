@@ -322,7 +322,7 @@ export const projects: Project[] = [
         { title: "One clear message per post", text: "Short, bold headlines and a single benefit per post, from myth versus reality to open days, make technical topics easy to follow." },
       ],
       process: [
-        { key: "kdt-moodboard", alt: "KDT brand moodboard: the white KDT Woodworking Machinery logo on blue, a palette from KDT blue #2563EB to dark blue, light blue, ice blue, grays and white, Montserrat type, CNC machines at work, a control panel, finished boards, a factory floor and KDT stationery with a hard hat" },
+        { key: "kdt-moodboard", alt: "KDT brand moodboard: the white KDT Woodworking Machinery logo on blue with the line Consultancy, Installation, Dedicated service, a blue panel Complete solutions for the woodworking industry, the KDT blue #2563EB palette with dark, light and ice blue, grays and white, Montserrat type, real photos from the BIFE-SIM stand with the nesting CNC, the Drill Tech sign, the edgebander and finished board edges, and flat business cards with the KDT logo" },
       ],
       results: [
         "A social media presence launched from zero on Facebook, Instagram, TikTok and YouTube.",

@@ -222,7 +222,7 @@ export const img = {
   "kdt-testimonial": { src: kdtTestimonial, w: 800, h: 1000 },
   "kdt-results": { src: kdtResults, w: 800, h: 1000 },
   "kdt-myth": { src: kdtMyth, w: 800, h: 1000 },
-  "kdt-moodboard": { src: kdtMoodboard, w: 1536, h: 1024 },
+  "kdt-moodboard": { src: kdtMoodboard, w: 2304, h: 1536 },
   "journal-premium": { src: journalPremium, w: 1400, h: 933 },
   "journal-stand-out": { src: journalStandOut, w: 1400, h: 933 },
   "journal-identity": { src: journalIdentity, w: 1400, h: 933 },

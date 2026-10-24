@@ -681,7 +681,6 @@ export const projects: Project[] = [
     screens: [
       { key: "vibrary-mobile", alt: "Cinci ecrane mobile Vibrary: autentificare, acasă cu recomandări, bibliotecă, detaliu de carte și studioul de povești" },
       { key: "vibrary-desktop", alt: "Două ecrane desktop Vibrary: biblioteca personală și studioul de povești generate cu inteligență artificială" },
-      { key: "vibrary-overview", alt: "Prezentarea aplicației Vibrary, cu ecrane pe telefon și pe desktop în verde salvie și roz pudrat" },
     ],
     serviceSlugs: ["ux-ui-design"],
   },

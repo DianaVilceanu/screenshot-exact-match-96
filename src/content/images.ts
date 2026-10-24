@@ -85,7 +85,6 @@ import kurbeVouchers from "@/assets/kurbe/kurbe-vouchers.webp";
 import vibraryBrand from "@/assets/vibrary/vibrary-brand.webp";
 import vibraryMobile from "@/assets/vibrary/vibrary-mobile.webp";
 import vibraryDesktop from "@/assets/vibrary/vibrary-desktop.webp";
-import vibraryOverview from "@/assets/vibrary/vibrary-overview.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -320,7 +319,6 @@ export const img = {
   "vibrary-brand": { src: vibraryBrand, w: 2400, h: 1500 },
   "vibrary-mobile": { src: vibraryMobile, w: 2400, h: 1120 },
   "vibrary-desktop": { src: vibraryDesktop, w: 2400, h: 1230 },
-  "vibrary-overview": { src: vibraryOverview, w: 1052, h: 2000 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

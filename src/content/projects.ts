@@ -765,7 +765,6 @@ export const projects: Project[] = [
     screens: [
       { key: "vibrary-mobile", alt: "Five Vibrary mobile screens: login, home with recommendations, library, book detail and the story studio" },
       { key: "vibrary-desktop", alt: "Two Vibrary desktop screens: the personal library and the AI story studio" },
-      { key: "vibrary-overview", alt: "The Vibrary app presentation, with phone and desktop screens in sage green and blush" },
     ],
     serviceSlugs: ["ux-ui-design"],
   },

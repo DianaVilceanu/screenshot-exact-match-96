@@ -85,6 +85,12 @@ import kurbeVouchers from "@/assets/kurbe/kurbe-vouchers.webp";
 import vibraryBrand from "@/assets/vibrary/vibrary-brand.webp";
 import vibraryMobile from "@/assets/vibrary/vibrary-mobile.webp";
 import vibraryDesktop from "@/assets/vibrary/vibrary-desktop.webp";
+import regataBrand from "@/assets/regata/regata-brand.webp";
+import regataMobile from "@/assets/regata/regata-mobile.webp";
+import regataDesktop from "@/assets/regata/regata-desktop.webp";
+import marieiBrand from "@/assets/mariei/mariei-brand.webp";
+import marieiMobile from "@/assets/mariei/mariei-mobile.webp";
+import marieiDesktop from "@/assets/mariei/mariei-desktop.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -319,6 +325,12 @@ export const img = {
   "vibrary-brand": { src: vibraryBrand, w: 2400, h: 1500 },
   "vibrary-mobile": { src: vibraryMobile, w: 2400, h: 1120 },
   "vibrary-desktop": { src: vibraryDesktop, w: 2400, h: 1230 },
+  "regata-brand": { src: regataBrand, w: 2400, h: 1500 },
+  "regata-mobile": { src: regataMobile, w: 2400, h: 1120 },
+  "regata-desktop": { src: regataDesktop, w: 2400, h: 1230 },
+  "mariei-brand": { src: marieiBrand, w: 2400, h: 1500 },
+  "mariei-mobile": { src: marieiMobile, w: 2400, h: 1120 },
+  "mariei-desktop": { src: marieiDesktop, w: 2400, h: 1230 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

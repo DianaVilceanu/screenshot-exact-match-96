@@ -790,7 +790,7 @@ export const projects: Project[] = [
     gallery: [],
     print: [
       { title: "Key ingredients", image: { key: "fleurane-ingredients", alt: "The Fleurane anti-age face cream, open, with the navy lid leaning on the jar, among illustrations of mandarin, bergamot, almonds and cornflowers" } },
-      { title: "In the studio", image: { key: "fleurane-flatlay", alt: "Fleurane jars and a tube lying on terracotta stone slabs: the eye cream, the day cream and the cleansing foam tube" } },
+      { title: "In the studio", image: { key: "fleurane-flatlay", alt: "The Fleurane range on terracotta stone slabs: the anti-age day cream and the eye cream in white jars with navy lids, and the orange blossom cleansing foam tube, on a warm cream background" } },
     ],
     viewer3d: "fleurane-jar",
     serviceSlugs: ["printed-media", "branding"],

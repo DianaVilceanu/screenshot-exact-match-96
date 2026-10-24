@@ -704,7 +704,7 @@ export const projects: Project[] = [
     gallery: [],
     print: [
       { title: "Ingrediente cheie", image: { key: "fleurane-ingredients", alt: "Crema de față anti-age Fleurane, deschisă, cu capacul bleumarin sprijinit de borcan, printre ilustrații cu mandarină, bergamotă, migdale și albăstrele" } },
-      { title: "În studio", image: { key: "fleurane-flatlay", alt: "Borcane și un tub Fleurane pe plăci de piatră teracotă: crema pentru ochi, crema de zi și tubul cu spumă demachiantă" } },
+      { title: "În studio", image: { key: "fleurane-flatlay", alt: "Gama Fleurane pe plăci de piatră teracotă: crema de zi anti-age și crema pentru ochi, în borcane albe cu capace bleumarin, și tubul cu spumă demachiantă cu flori de portocal, pe un fundal cald, crem" } },
     ],
     viewer3d: "fleurane-jar",
     serviceSlugs: ["printed-media", "branding"],

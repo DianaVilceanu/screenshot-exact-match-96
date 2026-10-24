@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
@@ -554,6 +555,8 @@ function contrastText(hex: string) {
   return lum > 150 ? "#000000" : "#FFFFFF";
 }
 
+const JarViewer = lazy(() => import("@/components/site/jar-viewer").then((m) => ({ default: m.JarViewer })));
+
 function StandardProject({ p, next }: { p: Project; next: Project }) {
   const { t, locale } = useContent();
   return (
@@ -726,6 +729,16 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
           </Reveal>
         </section>
       ))}
+      {p.viewer3d && (
+        <section className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.viewer3d}</Eyebrow>
+          <Reveal className="mt-8">
+            <Suspense fallback={<div className="aspect-[16/9] rounded-2xl bg-muted" />}>
+              <JarViewer label={t.project.viewer3d} hint={t.project.viewer3dHint} />
+            </Suspense>
+          </Reveal>
+        </section>
+      )}
       <section className="container-editorial flex flex-wrap items-center justify-between gap-6 py-14">
         <div>
           <p className="eyebrow mb-3 text-muted-foreground">{t.project.related}</p>

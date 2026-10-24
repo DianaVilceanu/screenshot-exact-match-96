@@ -15,7 +15,7 @@ export const services: Service[] = [
       "Branding gândit de la început și pentru prezența pe rețelele sociale.",
     ],
     offerings: ["Branding complet", "Direcție cromatică și tipografică", "Adaptarea identității vizuale pentru rețelele sociale"],
-    projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
+    projectSlugs: ["inklabs", "divaz", "caterina-tomasso", "fleurane"],
     mock: { key: "service-brand", alt: "Două tablete care plutesc una lângă alta, cu placa de identitate vizuală KDT și coperta manualului de brand Caterina Tomasso" },
     images: [
       { key: "inklabs-wrapped", alt: "Postare tipografică Inklabs Wrapped 2025" },
@@ -97,7 +97,7 @@ export const services: Service[] = [
     intro: "Materialele tipărite contează în continuare, mai ales pentru clinici și produse. Creez ambalaje și materiale promoționale tipărite care păstrează identitatea prezenței digitale a brandului.",
     value: ["Materiale tipărite în acord cu imaginea online a brandului.", "O ierarhie clară a informațiilor pentru pacienți și clienți.", "Machete pregătite pentru tipar."],
     offerings: ["Design de ambalaj", "Pliante și broșuri", "Afișe", "Vouchere și cupoane"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
+    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
     mock: { key: "service-print", alt: "Materiale tipărite în context: pliante Moș Ilie, flyere IQ Fashion cu cod QR și vouchere de reducere Dr. Kurbe" },
     images: [
       { key: "robotics-mock", alt: "Ambalaj Entry Robotics Kit" },

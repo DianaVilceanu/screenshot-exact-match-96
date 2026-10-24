@@ -40,7 +40,7 @@ export const services: Service[] = [
       "Branding planned together with how it will live on social media.",
     ],
     offerings: ["Complete branding", "Colour and typography direction", "Brand applications for social media"],
-    projectSlugs: ["inklabs", "divaz", "caterina-tomasso"],
+    projectSlugs: ["inklabs", "divaz", "caterina-tomasso", "fleurane"],
     mock: { key: "service-brand", alt: "Two tablets floating side by side, showing the KDT visual identity board and the Caterina Tomasso brand book cover" },
     images: [
       { key: "inklabs-wrapped", alt: "Inklabs Wrapped 2025 typographic post" },
@@ -118,7 +118,7 @@ export const services: Service[] = [
     intro: "Print still matters, especially for clinics and products. I design packaging and promotional print that keeps the same identity as the brand's digital presence.",
     value: ["Print that matches the brand online.", "Clear information hierarchy for patients and customers.", "Production-ready layouts."],
     offerings: ["Packaging design", "Flyers & brochures", "Posters", "Vouchers & coupons"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
+    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
     mock: { key: "service-print", alt: "Printed pieces in situ: Moș Ilie flyers, IQ Fashion thank-you flyers with a QR code and Dr. Kurbe discount vouchers" },
     images: [
       { key: "robotics-mock", alt: "Entry Robotics Kit packaging" },

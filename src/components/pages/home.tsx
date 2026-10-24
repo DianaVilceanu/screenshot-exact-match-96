@@ -186,8 +186,9 @@ export function HomePage() {
       <section className="container-editorial py-24 md:py-36" aria-labelledby="about-h">
         <div className="grid gap-12 md:grid-cols-12 md:items-center">
           <Reveal className="relative md:col-span-5">
-            <Pic k="portrait-cutout" alt={h.portraitAlt} className="h-auto" sizes="(min-width: 768px) 40vw, 100vw" />
-            <p className="font-display absolute -bottom-6 -left-2 text-6xl text-accent italic md:-left-8 md:text-8xl">Diana</p>
+            <Pic k="portrait-polaroid" alt={h.portraitAlt} className="h-auto" sizes="(min-width: 768px) 40vw, 100vw" />
+            {/* Written on the polaroid's white strip, tilted with the print. */}
+            <p className="font-display absolute top-[77%] left-[26%] w-[64%] rotate-[-3deg] text-center text-5xl text-accent italic sm:text-6xl md:text-[clamp(3rem,5vw,4.5rem)]">Diana</p>
           </Reveal>
           <div className="md:col-span-6 md:col-start-7">
             <Eyebrow n="04">{h.about}</Eyebrow>

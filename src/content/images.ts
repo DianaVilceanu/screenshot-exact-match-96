@@ -75,6 +75,7 @@ import kdtResults from "@/assets/kdt/kdt-results.webp";
 import kdtMyth from "@/assets/kdt/kdt-myth.webp";
 import kdtMoodboard from "@/assets/kdt/kdt-moodboard.webp";
 import portraitCutout from "@/assets/portrait-cutout.webp";
+import portraitPolaroid from "@/assets/portrait-polaroid.webp";
 import kurbeDentalCover from "@/assets/kurbe-dental-cover.webp";
 import marieiCover from "@/assets/mariei-cover.webp";
 import regataCover from "@/assets/regata-cover.webp";
@@ -203,6 +204,7 @@ export const img = {
   "mariei-cover": { src: marieiCover, w: 1200, h: 1200 },
   "regata-cover": { src: regataCover, w: 1400, h: 933 },
   "vibrary-cover": { src: vibraryCover, w: 1200, h: 1066 },
+  "portrait-polaroid": { src: portraitPolaroid, w: 938, h: 1100 },
   "portrait-cutout": { src: portraitCutout, w: 1000, h: 1124 },
   "divaz-home-galentine": { src: divazHomeGalentine, w: 800, h: 1000 },
   "divaz-home-manicure": { src: divazHomeManicure, w: 800, h: 1000 },

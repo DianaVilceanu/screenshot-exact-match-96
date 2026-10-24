@@ -316,6 +316,21 @@
 @utility float-slow {
   animation: float-y 7s ease-in-out infinite;
 }
+/* For large images with a blurred drop shadow: put this on a wrapper and the shadow on the child,
+   so the shadow is painted once and the browser only moves the finished layer. */
+@keyframes float-smooth {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -12px, 0);
+  }
+}
+@utility float-smooth {
+  will-change: transform;
+  animation: float-smooth 8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
 @keyframes scroll-cue {
   0% {
     transform: scaleY(0);

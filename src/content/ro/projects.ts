@@ -321,7 +321,7 @@ export const projects: Project[] = [
       { key: "kurbe-botox", alt: "Postare cu oferta Dr. Kurbe: 4 zone de botox la 1000 lei în loc de 1700 lei, text auriu pe fundal închis cu model" },
       { key: "kurbe-2", alt: "Postare Dr. Kurbe despre beneficiile terapiei PRP" },
     ],
-    moodboard: { key: "kurbe-moodboard", alt: "Moodboard de brand Dr. Kurbe: logoul auriu Dr. Kurbe pe negru, o paletă din negru obsidian, antracit, auriu șampanie, auriu deschis, ivoriu, alb și gri piatră, un serif editorial cu un sans modern, modelul brandului, portrete beauty, un cabinet, instrumente dentare și papetărie aurie pe negru" },
+    moodboard: { key: "kurbe-moodboard", alt: "Moodboard brand Dr. Kurbe: logo auriu pe negru, paleta, tipografie Playfair Display si Jost, fotografii din clinica, pattern-uri si papetarie" },
     stories: [
       { key: "kurbe-story-1", alt: "Story Dr. Kurbe cu oferta de perfuzii: Beach Body Boost, energie, detox și strălucire, 285 RON, cu o femeie zâmbitoare pe plajă" },
       { key: "kurbe-story-2", alt: "Story Dr. Kurbe cu oferta de perfuzii: Gluta Goddess, perfuzie cu glutation pentru detox și strălucire, 450 RON, cu o femeie în alb pe un cer auriu" },

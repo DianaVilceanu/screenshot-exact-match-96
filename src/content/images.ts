@@ -98,6 +98,10 @@ import greentableMobile from "@/assets/greentable/greentable-mobile.webp";
 import serviceBrand from "@/assets/services/service-brand.webp";
 import serviceSocial from "@/assets/services/service-social.webp";
 import serviceContent from "@/assets/services/service-content.webp";
+import serviceAds from "@/assets/services/service-ads.webp";
+import servicePrint from "@/assets/services/service-print.webp";
+import serviceNewsletter from "@/assets/services/service-newsletter.webp";
+import serviceUxui from "@/assets/services/service-uxui.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -345,6 +349,10 @@ export const img = {
   "service-brand": { src: serviceBrand, w: 1194, h: 961 },
   "service-social": { src: serviceSocial, w: 890, h: 850 },
   "service-content": { src: serviceContent, w: 1102, h: 933 },
+  "service-ads": { src: serviceAds, w: 1201, h: 812 },
+  "service-print": { src: servicePrint, w: 961, h: 977 },
+  "service-newsletter": { src: serviceNewsletter, w: 1306, h: 900 },
+  "service-uxui": { src: serviceUxui, w: 1216, h: 941 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

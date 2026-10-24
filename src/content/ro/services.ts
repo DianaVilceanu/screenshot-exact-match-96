@@ -79,6 +79,7 @@ export const services: Service[] = [
     value: ["Oferte pe care le înțelegi dintr-o privire.", "Seturi de materiale de campanie coerente în toate formatele.", "Impact vizual fără a pierde produsul din prim-plan."],
     offerings: ["Campanii de Black Friday și reduceri", "Reclame de produs", "Campanii de sezon și pentru cadouri"],
     projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie"],
+    mock: { key: "service-ads", alt: "Trei reclame Meta în feed, una lângă alta: o reclamă Canvas Dreams de Black Friday, una pentru un controller wireless Teno și una pentru o lampă Alpacka Gift" },
     images: [
       { key: "ads-blackfriday", alt: "Reclamă auto de Black Friday" },
       { key: "ads-teno", alt: "Reclamă pentru un controler Teno" },
@@ -97,6 +98,7 @@ export const services: Service[] = [
     value: ["Materiale tipărite în acord cu imaginea online a brandului.", "O ierarhie clară a informațiilor pentru pacienți și clienți.", "Machete pregătite pentru tipar."],
     offerings: ["Design de ambalaj", "Pliante și broșuri", "Afișe", "Vouchere și cupoane"],
     projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic"],
+    mock: { key: "service-print", alt: "Materiale tipărite în context: pliante Moș Ilie, flyere IQ Fashion cu cod QR și vouchere de reducere Dr. Kurbe" },
     images: [
       { key: "robotics-mock", alt: "Ambalaj Entry Robotics Kit" },
       { key: "kurbe-voucher", alt: "Vouchere Dr. Kurbe" },
@@ -114,6 +116,7 @@ export const services: Service[] = [
     value: ["Ușor de citit pe orice telefon.", "Oferte și produse prezentate clar.", "Coerență cu celelalte campanii ale brandului."],
     offerings: ["Design de newsletter"],
     projectSlugs: ["iq-fashion"],
+    mock: { key: "service-newsletter", alt: "Două laptopuri cu newslettere într-un inbox: IQ Fashion și Tapet Autoadeziv by Canvas Dreams" },
     images: [
       { key: "newsletter-1", alt: "Design de newsletter de modă" },
       { key: "newsletter-2", alt: "Design de newsletter promoțional" },
@@ -131,6 +134,7 @@ export const services: Service[] = [
     value: ["Navigare clară și intuitivă.", "Design adaptat atât pentru desktop, cât și pentru mobil.", "Interfețe care păstrează identitatea brandului."],
     offerings: ["UX/UI pentru site-uri web", "Design de magazine online", "Sisteme de interfețe pentru aplicații"],
     projectSlugs: ["floraria-mariei", "regata-print", "green-table", "vibrary"],
+    mock: { key: "service-uxui", alt: "Un laptop cu site-ul Green Table și un telefon cu aplicația Vibrary" },
     images: [
       { key: "mariei", alt: "Site-ul Florăria Mariei" },
       { key: "vibrary", alt: "Aplicația Vibrary" },
@@ -148,6 +152,7 @@ export const services: Service[] = [
     value: ["Mișcare care atrage atenția în feed.", "Animație în acord cu designul static al brandului."],
     offerings: ["Animație 2D"],
     projectSlugs: [],
+    anim: "dog",
     images: [],
     missing: "[DE ADĂUGAT EXEMPLE DE ANIMAȚIE 2D. Animațiile de pe site-ul actual sunt videoclipuri care trebuie încărcate din nou]",
     articleSlugs: ["how-to-make-your-social-media-design-stand-out"],

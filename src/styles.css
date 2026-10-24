@@ -350,4 +350,10 @@
     opacity: 1;
     transform: none;
   }
+  .dog-scene * {
+    animation: none !important;
+  }
+  .dog-scene .dog-layer {
+    transform: translateX(120%);
+  }
 }

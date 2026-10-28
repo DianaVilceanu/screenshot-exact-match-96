@@ -166,6 +166,7 @@ import gmhPost4 from "@/assets/gmh/gmh-post-4.webp";
 import gmhPost5 from "@/assets/gmh/gmh-post-5.webp";
 import gmhPost6 from "@/assets/gmh/gmh-post-6.webp";
 import gmhSpiderMock from "@/assets/gmh/gmh-spider-mock.webp";
+import gmhPosterMock from "@/assets/gmh/gmh-poster-mock.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -481,6 +482,7 @@ export const img = {
   "gmh-post-5": { src: gmhPost5, w: 1080, h: 1350 },
   "gmh-post-6": { src: gmhPost6, w: 1080, h: 1350 },
   "gmh-spider-mock": { src: gmhSpiderMock, w: 2000, h: 1250 },
+  "gmh-poster-mock": { src: gmhPosterMock, w: 2000, h: 1250 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

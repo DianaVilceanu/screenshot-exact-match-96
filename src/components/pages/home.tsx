@@ -1,6 +1,7 @@
 import { ArticleCard } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
+import { NicheGrid } from "@/components/site/niches";
 import { Arrow, Eyebrow, Pic, Reveal, btn } from "@/components/site/primitives";
 import type { ImgKey } from "@/content/images";
 import type { Project } from "@/content/projects";
@@ -99,6 +100,8 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <NicheGrid />
 
       <section className="container-editorial pt-24 pb-10 md:pt-36 md:pb-12" aria-labelledby="work-h">
         <div className="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">

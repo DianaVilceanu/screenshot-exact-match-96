@@ -610,7 +610,7 @@ export const projects: Project[] = [
       "I designed the social media presence: friendly seasonal posts, a carousel for each service, short reels that introduce the team and the location, and PPC banners for first-visit offers. Everything follows one idea: soft turquoise waves, clean white space and crisp 3D tooth and implant visuals.",
       "The result is a clinic that explains what it does without frightening anyone, and a feed where every service is easy to understand at a glance.",
     ],
-    cover: { key: "artinnova-c1-2", alt: "Art Innova carousel slide about general dentistry, with a dental implant and crown on a turquoise wave" },
+    cover: { key: "artinnova-cover", alt: "A dentist in blue gloves examining a smiling patient with a mirror and a probe" },
     gallery: [
       { key: "artinnova-1", alt: "Art Innova Easter greeting with dental tools, a stethoscope and a ribboned tooth in grass" },
       { key: "artinnova-2", alt: "Art Innova spring greeting with a hand holding a tooth tied with a red ribbon" },
@@ -682,7 +682,7 @@ export const projects: Project[] = [
       "I created the social media content and the website banners. The posts explain things people genuinely wonder about, from how progressive lenses work to the difference between an ophthalmologist and an optometrist, alongside seasonal greetings and offers. The identity is built on the logo colours, a deep navy and a fresh green, with generous white space and friendly illustrations.",
       "I also edited the reels, including a walkthrough of the online shop on a phone.",
     ],
-    cover: { key: "opticatei-6", alt: "Optica Tei Valentine post: frames among pink blossoms on a white stone" },
+    cover: { key: "opticatei-cover", alt: "Black glasses lying on an eye chart of black letters on white" },
     gallery: [
       { key: "opticatei-1", alt: "Optica Tei post: how do progressive lenses work, with a lens diagram" },
       { key: "opticatei-2", alt: "Optica Tei Easter post with a pink bunny-ear egg wearing round glasses" },
@@ -898,9 +898,7 @@ export const projects: Project[] = [
       { title: "Event backdrop", image: { key: "gmh-spider-mock", alt: "A step-and-repeat event backdrop with the GMH logo repeated across it and the addresses of the clinic and the hospital" } },
       { title: "Wall calendar 2025", image: { key: "gmh-calendar-mock", alt: "GMH wall calendar for 2025, four sheets of three months each, headed Centre of Excellence in Oncology" } },
       { title: "Discount coupon", image: { key: "gmh-coupon", alt: "GMH discount coupon for maternal ultrasound" } },
-      { title: "Event poster", image: { key: "gmh-poster", alt: "GMH second opinion event poster" } },
-      { title: "Flyer", image: { key: "gmh-flyer", alt: "Hand holding GMH flyer" } },
-      { title: "Coupon print layout", image: { key: "gmh-print", alt: "GMH coupon print layout" } },
+      { title: "Event poster", image: { key: "gmh-poster-mock", alt: "Three framed GMH event posters on a wall: second opinion with an international expert in general surgery, 18 June 2025" } },
     ],
     serviceSlugs: ["printed-media", "social-media-design"],
   },

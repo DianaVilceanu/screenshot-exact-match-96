@@ -524,7 +524,7 @@ export const projects: Project[] = [
       "Am creat prezența pe rețelele sociale: postări sezoniere prietenoase, un carusel pentru fiecare serviciu, clipuri scurte care prezintă echipa și locația și bannere PPC pentru ofertele de prima vizită. Totul pornește dintr-o singură idee: valuri line în turcoaz, mult spațiu alb și vizualuri 3D curate cu dinți și implanturi.",
       "Rezultatul este o clinică ce explică ce face fără să sperie pe nimeni și un feed în care fiecare serviciu se înțelege dintr-o privire.",
     ],
-    cover: { key: "artinnova-c1-2", alt: "Slide de carusel Art Innova despre stomatologia generală, cu un implant dentar și o coroană pe un val turcoaz" },
+    cover: { key: "artinnova-cover", alt: "Medic stomatolog cu mănuși albastre care examinează o pacientă zâmbitoare, cu oglinda și sonda" },
     gallery: [
       { key: "artinnova-1", alt: "Urare de Paște Art Innova, cu instrumente stomatologice, stetoscop și un dinte cu fundă în iarbă" },
       { key: "artinnova-2", alt: "Urare de primăvară Art Innova, cu o mână care ține un dinte legat cu o fundă roșie" },
@@ -596,7 +596,7 @@ export const projects: Project[] = [
       "Am creat conținutul pentru rețelele sociale și bannerele pentru site. Postările explică lucruri pe care oamenii chiar și le întreabă, de la cum funcționează lentilele progresive până la diferența dintre oftalmolog și optometrist, alături de urări sezoniere și oferte. Identitatea pornește din culorile logoului, un bleumarin adânc și un verde proaspăt, cu mult spațiu alb și ilustrații prietenoase.",
       "Am montat și clipurile Reels, inclusiv o prezentare a magazinului online pe telefon.",
     ],
-    cover: { key: "opticatei-6", alt: "Postare Optica Tei de Valentine's Day: rame printre flori roz, pe o piatră albă" },
+    cover: { key: "opticatei-cover", alt: "Ochelari negri așezați pe o tabelă optometrică cu litere negre pe fond alb" },
     gallery: [
       { key: "opticatei-1", alt: "Postare Optica Tei: cum funcționează lentilele progresive, cu o schemă a lentilei" },
       { key: "opticatei-2", alt: "Postare de Paște Optica Tei, cu un ou roz cu urechi de iepuraș și ochelari rotunzi" },
@@ -812,9 +812,7 @@ export const projects: Project[] = [
       { title: "Fundal de eveniment", image: { key: "gmh-spider-mock", alt: "Un fundal de eveniment cu logoul GMH repetat și adresele clinicii și ale spitalului" } },
       { title: "Calendar de perete 2025", image: { key: "gmh-calendar-mock", alt: "Calendar de perete GMH pentru 2025, patru foi cu câte trei luni, cu titlul Centrul de Excelență în Oncologie" } },
       { title: "Cupon de reducere", image: { key: "gmh-coupon", alt: "Cupon GMH de reducere pentru ecografie maternă" } },
-      { title: "Afiș de eveniment", image: { key: "gmh-poster", alt: "Afiș GMH pentru un eveniment dedicat celei de-a doua opinii medicale" } },
-      { title: "Pliant", image: { key: "gmh-flyer", alt: "Mână care ține un fluturaș GMH" } },
-      { title: "Machetă de tipar a cuponului", image: { key: "gmh-print", alt: "Machetă de tipar pentru un cupon GMH" } },
+      { title: "Afiș de eveniment", image: { key: "gmh-poster-mock", alt: "Trei afișe GMH încadrate pe un perete: second opinion cu expert internațional în chirurgie generală, 18 iunie 2025" } },
     ],
     serviceSlugs: ["printed-media", "social-media-design"],
   },

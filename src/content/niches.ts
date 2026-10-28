@@ -13,6 +13,8 @@ export const NICHE_OF: Record<string, NicheId[]> = {
   "farmacia-farmex": ["health"],
   "global-medical-health": ["health"],
   "dr-kurbe-clinic": ["health", "beauty"],
+  "art-innova": ["health"],
+  "optica-tei": ["health"],
   divaz: ["beauty"],
   inklabs: ["beauty"],
   fleurane: ["beauty"],
@@ -22,6 +24,7 @@ export const NICHE_OF: Record<string, NicheId[]> = {
   "floraria-mariei": ["lifestyle"],
   "ads-campaigns-selection": ["lifestyle"],
   "kdt-romania": ["tech"],
+  selfconsulting: ["tech"],
   "regata-print": ["tech"],
   "entry-robotics-kit": ["tech"],
   vibrary: ["tech"],
@@ -55,10 +58,10 @@ export const nicheCopy: Record<"en" | "ro", Copy> = {
     names: { food: "Food & Drink", health: "Health & Care", beauty: "Beauty & Skincare", lifestyle: "Fashion & Lifestyle", tech: "Industry & Tech" },
     blurbs: {
       food: "Traditional pastries and healthy meals that look as good as they taste.",
-      health: "Clinics, pharmacies and medical services that need to feel clear and trustworthy.",
+      health: "Clinics, dental practices, opticians and pharmacies that need to feel clear and trustworthy.",
       beauty: "Cosmetics, tattoos and skincare with a polished, desirable finish.",
       lifestyle: "Fashion, silver, flowers and shoe care: boutiques and brands built on taste.",
-      tech: "Machines, printing, education and software, explained without the jargon.",
+      tech: "Machines, engineering, printing, education and software, explained without the jargon.",
     },
   },
   ro: {
@@ -73,10 +76,10 @@ export const nicheCopy: Record<"en" | "ro", Copy> = {
     names: { food: "Mâncare & băuturi", health: "Sănătate & îngrijire", beauty: "Beauty & skincare", lifestyle: "Fashion & lifestyle", tech: "Industrie & tehnologie" },
     blurbs: {
       food: "Produse de patiserie tradiționale și mese sănătoase care arată pe atât de bine pe cât sunt de bune.",
-      health: "Clinici, farmacii și servicii medicale care trebuie să transmită claritate și încredere.",
+      health: "Clinici, cabinete stomatologice, optici și farmacii care trebuie să transmită claritate și încredere.",
       beauty: "Cosmetice, tatuaje și skincare cu un aspect șlefuit și dorit.",
       lifestyle: "Modă, argint, flori și îngrijirea încălțămintei: boutique-uri și branduri construite pe gust.",
-      tech: "Utilaje, tipar, educație și software, explicate fără jargon.",
+      tech: "Utilaje, inginerie, tipar, educație și software, explicate fără jargon.",
     },
   },
 };

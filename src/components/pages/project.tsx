@@ -507,7 +507,7 @@ function mixed(statics: GalleryItem[], reels: ReelItem[]): (GalleryItem | ReelIt
 }
 
 /** A muted, looping 9:16 reel that plays while on screen; tap the button for sound. `fill` stretches it to its grid cell and moves the title onto the video. */
-function Reel({ item, fill }: { item: ReelItem; fill?: boolean }) {
+export function Reel({ item, fill }: { item: ReelItem; fill?: boolean }) {
   const { t } = useContent();
   const ref = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);

@@ -37,7 +37,7 @@ export const services: Service[] = [
       "Formate gândite pentru felul în care oamenii folosesc Instagram și TikTok.",
     ],
     offerings: ["Postări statice", "Carusele informative", "Bannere promoționale", "Reeluri pentru TikTok / Instagram"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic", "art-innova", "optica-tei", "selfconsulting"],
     mock: { key: "service-social", alt: "Două telefoane care plutesc unul lângă altul: o postare Divaz într-un feed de Instagram și un story Farmex" },
     images: [
       { key: "divaz-galentine", alt: "Postare Divaz de Galentine’s Day" },
@@ -60,7 +60,7 @@ export const services: Service[] = [
       "Conținut video și static care exprimă aceeași voce.",
     ],
     offerings: ["Strategie de conținut", "Direcție vizuală", "Editare video: clipuri promoționale, secvențe cinematografice, interviuri", "Reeluri"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic", "selfconsulting"],
     mock: { key: "service-content", alt: "Un laptop cu identitatea vizuală Dr. Kurbe și, în față, un telefon cu o postare Inklabs pe Instagram" },
     images: [
       { key: "iq-6", alt: "Postare IQ Fashion cu o haină de blană" },
@@ -78,7 +78,7 @@ export const services: Service[] = [
     intro: "Vizualuri publicitare de impact pentru branduri din modă, auto, tehnologie, cadouri, sănătate și energie, concepute să oprească derularea și să prezinte clar oferta.",
     value: ["Oferte pe care le înțelegi dintr-o privire.", "Seturi de materiale de campanie coerente în toate formatele.", "Impact vizual fără a pierde produsul din prim-plan."],
     offerings: ["Campanii de Black Friday și reduceri", "Reclame de produs", "Campanii de sezon și pentru cadouri"],
-    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie"],
+    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie", "art-innova", "optica-tei"],
     mock: { key: "service-ads", alt: "Trei reclame Meta în feed, una lângă alta: o reclamă Canvas Dreams de Black Friday, una pentru un controller wireless Teno și una pentru o lampă Alpacka Gift" },
     images: [
       { key: "ads-blackfriday", alt: "Reclamă auto de Black Friday" },
@@ -153,6 +153,12 @@ export const services: Service[] = [
     offerings: ["Animație 2D"],
     projectSlugs: [],
     anim: "dog",
+    reels: [
+      { key: "anim-reel-1", title: "Personalizează-ți spațiul de lucru: o animație cu un comutator pentru Fuse Digital" },
+      { key: "anim-reel-2", title: "Urmărește timpul dedicat unui proiect: un grafic animat" },
+      { key: "anim-reel-3", title: "Cum îți dai seama că ai avut o zi de lucru excelentă?" },
+      { key: "anim-reel-4", title: "Ești gata să îți crești performanța afacerii?" },
+    ],
     images: [],
     missing: "[DE ADĂUGAT EXEMPLE DE ANIMAȚIE 2D. Animațiile de pe site-ul actual sunt videoclipuri care trebuie încărcate din nou]",
     articleSlugs: ["how-to-make-your-social-media-design-stand-out"],

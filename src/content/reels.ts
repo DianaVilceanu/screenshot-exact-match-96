@@ -1,3 +1,27 @@
+import artinnovaReel1 from "@/assets/reels/artinnova-reel-1.mp4";
+import artinnovaPoster1 from "@/assets/reels/artinnova-reel-1.webp";
+import artinnovaReel2 from "@/assets/reels/artinnova-reel-2.mp4";
+import artinnovaPoster2 from "@/assets/reels/artinnova-reel-2.webp";
+import opticateiReel1 from "@/assets/reels/opticatei-reel-1.mp4";
+import opticateiPoster1 from "@/assets/reels/opticatei-reel-1.webp";
+import opticateiReel2 from "@/assets/reels/opticatei-reel-2.mp4";
+import opticateiPoster2 from "@/assets/reels/opticatei-reel-2.webp";
+import gmhReel1 from "@/assets/reels/gmh-reel-1.mp4";
+import gmhPoster1 from "@/assets/reels/gmh-reel-1.webp";
+import gmhReel2 from "@/assets/reels/gmh-reel-2.mp4";
+import gmhPoster2 from "@/assets/reels/gmh-reel-2.webp";
+import gmhReel3 from "@/assets/reels/gmh-reel-3.mp4";
+import gmhPoster3 from "@/assets/reels/gmh-reel-3.webp";
+import gmhReel4 from "@/assets/reels/gmh-reel-4.mp4";
+import gmhPoster4 from "@/assets/reels/gmh-reel-4.webp";
+import animReel1 from "@/assets/reels/anim-reel-1.mp4";
+import animPoster1 from "@/assets/reels/anim-reel-1.webp";
+import animReel2 from "@/assets/reels/anim-reel-2.mp4";
+import animPoster2 from "@/assets/reels/anim-reel-2.webp";
+import animReel3 from "@/assets/reels/anim-reel-3.mp4";
+import animPoster3 from "@/assets/reels/anim-reel-3.webp";
+import animReel4 from "@/assets/reels/anim-reel-4.mp4";
+import animPoster4 from "@/assets/reels/anim-reel-4.webp";
 import kanoiReel1 from "@/assets/reels/kanoi-reel-1.mp4";
 import kanoiPoster1 from "@/assets/reels/kanoi-reel-1.webp";
 import kanoiReel2 from "@/assets/reels/kanoi-reel-2.mp4";
@@ -118,6 +142,18 @@ export const reels = {
   "kanoi-reel-2": { video: kanoiReel2, poster: kanoiPoster2 },
   "kanoi-reel-3": { video: kanoiReel3, poster: kanoiPoster3 },
   "kanoi-reel-4": { video: kanoiReel4, poster: kanoiPoster4 },
+  "artinnova-reel-1": { video: artinnovaReel1, poster: artinnovaPoster1 },
+  "artinnova-reel-2": { video: artinnovaReel2, poster: artinnovaPoster2 },
+  "opticatei-reel-1": { video: opticateiReel1, poster: opticateiPoster1 },
+  "opticatei-reel-2": { video: opticateiReel2, poster: opticateiPoster2 },
+  "gmh-reel-1": { video: gmhReel1, poster: gmhPoster1 },
+  "gmh-reel-2": { video: gmhReel2, poster: gmhPoster2 },
+  "gmh-reel-3": { video: gmhReel3, poster: gmhPoster3 },
+  "gmh-reel-4": { video: gmhReel4, poster: gmhPoster4 },
+  "anim-reel-1": { video: animReel1, poster: animPoster1 },
+  "anim-reel-2": { video: animReel2, poster: animPoster2 },
+  "anim-reel-3": { video: animReel3, poster: animPoster3 },
+  "anim-reel-4": { video: animReel4, poster: animPoster4 },
   "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
   "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
   "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },

@@ -108,6 +108,64 @@ import fleuraneFlatlay from "@/assets/fleurane/fleurane-flatlay.webp";
 import caterinaPrintCards from "@/assets/caterina/caterina-print-cards.webp";
 import caterinaPrintLetterhead from "@/assets/caterina/caterina-print-letterhead.webp";
 import caterinaPrintThankyou from "@/assets/caterina/caterina-print-thankyou.webp";
+import artinnova1 from "@/assets/artinnova/artinnova-1.webp";
+import artinnova2 from "@/assets/artinnova/artinnova-2.webp";
+import artinnova3 from "@/assets/artinnova/artinnova-3.webp";
+import artinnovaAd1 from "@/assets/artinnova/artinnova-ad-1.webp";
+import artinnovaAd2 from "@/assets/artinnova/artinnova-ad-2.webp";
+import artinnovaAd3 from "@/assets/artinnova/artinnova-ad-3.webp";
+import artinnovaC11 from "@/assets/artinnova/artinnova-c1-1.webp";
+import artinnovaC12 from "@/assets/artinnova/artinnova-c1-2.webp";
+import artinnovaC13 from "@/assets/artinnova/artinnova-c1-3.webp";
+import artinnovaC21 from "@/assets/artinnova/artinnova-c2-1.webp";
+import artinnovaC22 from "@/assets/artinnova/artinnova-c2-2.webp";
+import artinnovaC23 from "@/assets/artinnova/artinnova-c2-3.webp";
+import artinnovaC31 from "@/assets/artinnova/artinnova-c3-1.webp";
+import artinnovaC32 from "@/assets/artinnova/artinnova-c3-2.webp";
+import artinnovaC33 from "@/assets/artinnova/artinnova-c3-3.webp";
+import artinnovaC41 from "@/assets/artinnova/artinnova-c4-1.webp";
+import artinnovaC42 from "@/assets/artinnova/artinnova-c4-2.webp";
+import artinnovaC43 from "@/assets/artinnova/artinnova-c4-3.webp";
+import artinnovaC51 from "@/assets/artinnova/artinnova-c5-1.webp";
+import artinnovaC52 from "@/assets/artinnova/artinnova-c5-2.webp";
+import opticatei1 from "@/assets/opticatei/opticatei-1.webp";
+import opticatei2 from "@/assets/opticatei/opticatei-2.webp";
+import opticatei3 from "@/assets/opticatei/opticatei-3.webp";
+import opticatei4 from "@/assets/opticatei/opticatei-4.webp";
+import opticatei5 from "@/assets/opticatei/opticatei-5.webp";
+import opticatei6 from "@/assets/opticatei/opticatei-6.webp";
+import opticatei7 from "@/assets/opticatei/opticatei-7.webp";
+import opticateiC11 from "@/assets/opticatei/opticatei-c1-1.webp";
+import opticateiC12 from "@/assets/opticatei/opticatei-c1-2.webp";
+import opticateiC13 from "@/assets/opticatei/opticatei-c1-3.webp";
+import opticateiHero from "@/assets/opticatei/opticatei-hero.webp";
+import selfconsultingA1 from "@/assets/selfconsulting/selfconsulting-a-1.webp";
+import selfconsultingA2 from "@/assets/selfconsulting/selfconsulting-a-2.webp";
+import selfconsultingA3 from "@/assets/selfconsulting/selfconsulting-a-3.webp";
+import selfconsultingB1 from "@/assets/selfconsulting/selfconsulting-b-1.webp";
+import selfconsultingB2 from "@/assets/selfconsulting/selfconsulting-b-2.webp";
+import selfconsultingB3 from "@/assets/selfconsulting/selfconsulting-b-3.webp";
+import selfconsultingC1 from "@/assets/selfconsulting/selfconsulting-c-1.webp";
+import selfconsultingC2 from "@/assets/selfconsulting/selfconsulting-c-2.webp";
+import selfconsultingC3 from "@/assets/selfconsulting/selfconsulting-c-3.webp";
+import selfconsultingD1 from "@/assets/selfconsulting/selfconsulting-d-1.webp";
+import selfconsultingD2 from "@/assets/selfconsulting/selfconsulting-d-2.webp";
+import selfconsultingP1 from "@/assets/selfconsulting/selfconsulting-p1.webp";
+import selfconsultingP2 from "@/assets/selfconsulting/selfconsulting-p2.webp";
+import selfconsultingP3 from "@/assets/selfconsulting/selfconsulting-p3.webp";
+import selfconsultingP4 from "@/assets/selfconsulting/selfconsulting-p4.webp";
+import selfconsultingP5 from "@/assets/selfconsulting/selfconsulting-p5.webp";
+import selfconsultingP6 from "@/assets/selfconsulting/selfconsulting-p6.webp";
+import selfconsultingP7 from "@/assets/selfconsulting/selfconsulting-p7.webp";
+import selfconsultingP8 from "@/assets/selfconsulting/selfconsulting-p8.webp";
+import gmhCalendarMock from "@/assets/gmh/gmh-calendar-mock.webp";
+import gmhPost1 from "@/assets/gmh/gmh-post-1.webp";
+import gmhPost2 from "@/assets/gmh/gmh-post-2.webp";
+import gmhPost3 from "@/assets/gmh/gmh-post-3.webp";
+import gmhPost4 from "@/assets/gmh/gmh-post-4.webp";
+import gmhPost5 from "@/assets/gmh/gmh-post-5.webp";
+import gmhPost6 from "@/assets/gmh/gmh-post-6.webp";
+import gmhSpiderMock from "@/assets/gmh/gmh-spider-mock.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -365,6 +423,64 @@ export const img = {
   "caterina-print-cards": { src: caterinaPrintCards, w: 2000, h: 1250 },
   "caterina-print-letterhead": { src: caterinaPrintLetterhead, w: 2000, h: 1333 },
   "caterina-print-thankyou": { src: caterinaPrintThankyou, w: 2000, h: 1250 },
+  "artinnova-1": { src: artinnova1, w: 1080, h: 1350 },
+  "artinnova-2": { src: artinnova2, w: 1080, h: 1350 },
+  "artinnova-3": { src: artinnova3, w: 1080, h: 1350 },
+  "artinnova-ad-1": { src: artinnovaAd1, w: 1000, h: 1000 },
+  "artinnova-ad-2": { src: artinnovaAd2, w: 1000, h: 1000 },
+  "artinnova-ad-3": { src: artinnovaAd3, w: 1000, h: 1000 },
+  "artinnova-c1-1": { src: artinnovaC11, w: 1080, h: 1350 },
+  "artinnova-c1-2": { src: artinnovaC12, w: 1080, h: 1350 },
+  "artinnova-c1-3": { src: artinnovaC13, w: 1080, h: 1350 },
+  "artinnova-c2-1": { src: artinnovaC21, w: 1080, h: 1350 },
+  "artinnova-c2-2": { src: artinnovaC22, w: 1080, h: 1350 },
+  "artinnova-c2-3": { src: artinnovaC23, w: 1080, h: 1350 },
+  "artinnova-c3-1": { src: artinnovaC31, w: 1080, h: 1350 },
+  "artinnova-c3-2": { src: artinnovaC32, w: 1080, h: 1350 },
+  "artinnova-c3-3": { src: artinnovaC33, w: 1080, h: 1350 },
+  "artinnova-c4-1": { src: artinnovaC41, w: 1080, h: 1350 },
+  "artinnova-c4-2": { src: artinnovaC42, w: 1080, h: 1350 },
+  "artinnova-c4-3": { src: artinnovaC43, w: 1080, h: 1350 },
+  "artinnova-c5-1": { src: artinnovaC51, w: 1080, h: 1350 },
+  "artinnova-c5-2": { src: artinnovaC52, w: 1080, h: 1350 },
+  "opticatei-1": { src: opticatei1, w: 1080, h: 1350 },
+  "opticatei-2": { src: opticatei2, w: 1080, h: 1350 },
+  "opticatei-3": { src: opticatei3, w: 1080, h: 1350 },
+  "opticatei-4": { src: opticatei4, w: 1080, h: 1350 },
+  "opticatei-5": { src: opticatei5, w: 1080, h: 1080 },
+  "opticatei-6": { src: opticatei6, w: 1080, h: 1080 },
+  "opticatei-7": { src: opticatei7, w: 1080, h: 1080 },
+  "opticatei-c1-1": { src: opticateiC11, w: 1080, h: 1080 },
+  "opticatei-c1-2": { src: opticateiC12, w: 1080, h: 1080 },
+  "opticatei-c1-3": { src: opticateiC13, w: 1080, h: 1080 },
+  "opticatei-hero": { src: opticateiHero, w: 1600, h: 623 },
+  "selfconsulting-a-1": { src: selfconsultingA1, w: 1080, h: 1080 },
+  "selfconsulting-a-2": { src: selfconsultingA2, w: 1080, h: 1080 },
+  "selfconsulting-a-3": { src: selfconsultingA3, w: 1080, h: 1080 },
+  "selfconsulting-b-1": { src: selfconsultingB1, w: 1080, h: 1080 },
+  "selfconsulting-b-2": { src: selfconsultingB2, w: 1080, h: 1080 },
+  "selfconsulting-b-3": { src: selfconsultingB3, w: 1080, h: 1080 },
+  "selfconsulting-c-1": { src: selfconsultingC1, w: 1080, h: 1080 },
+  "selfconsulting-c-2": { src: selfconsultingC2, w: 1080, h: 1080 },
+  "selfconsulting-c-3": { src: selfconsultingC3, w: 1080, h: 1080 },
+  "selfconsulting-d-1": { src: selfconsultingD1, w: 1080, h: 1080 },
+  "selfconsulting-d-2": { src: selfconsultingD2, w: 1080, h: 1080 },
+  "selfconsulting-p1": { src: selfconsultingP1, w: 1080, h: 1080 },
+  "selfconsulting-p2": { src: selfconsultingP2, w: 1080, h: 1080 },
+  "selfconsulting-p3": { src: selfconsultingP3, w: 1080, h: 1080 },
+  "selfconsulting-p4": { src: selfconsultingP4, w: 1080, h: 1080 },
+  "selfconsulting-p5": { src: selfconsultingP5, w: 1080, h: 1080 },
+  "selfconsulting-p6": { src: selfconsultingP6, w: 1080, h: 1080 },
+  "selfconsulting-p7": { src: selfconsultingP7, w: 1080, h: 1080 },
+  "selfconsulting-p8": { src: selfconsultingP8, w: 1080, h: 1080 },
+  "gmh-calendar-mock": { src: gmhCalendarMock, w: 2000, h: 1250 },
+  "gmh-post-1": { src: gmhPost1, w: 1080, h: 1350 },
+  "gmh-post-2": { src: gmhPost2, w: 1080, h: 1350 },
+  "gmh-post-3": { src: gmhPost3, w: 1080, h: 1350 },
+  "gmh-post-4": { src: gmhPost4, w: 1080, h: 1350 },
+  "gmh-post-5": { src: gmhPost5, w: 1080, h: 1350 },
+  "gmh-post-6": { src: gmhPost6, w: 1080, h: 1350 },
+  "gmh-spider-mock": { src: gmhSpiderMock, w: 2000, h: 1250 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

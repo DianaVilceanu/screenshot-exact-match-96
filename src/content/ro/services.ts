@@ -97,7 +97,7 @@ export const services: Service[] = [
     intro: "Materialele tipărite contează în continuare, mai ales pentru clinici și produse. Creez ambalaje și materiale promoționale tipărite care păstrează identitatea prezenței digitale a brandului.",
     value: ["Materiale tipărite în acord cu imaginea online a brandului.", "O ierarhie clară a informațiilor pentru pacienți și clienți.", "Machete pregătite pentru tipar."],
     offerings: ["Design de ambalaj", "Pliante și broșuri", "Afișe", "Vouchere și cupoane"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
+    projectSlugs: ["nextlab-tech", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
     mock: { key: "service-print", alt: "Materiale tipărite în context: pliante Moș Ilie, flyere IQ Fashion cu cod QR și vouchere de reducere Dr. Kurbe" },
     images: [
       { key: "robotics-mock", alt: "Ambalaj Entry Robotics Kit" },
@@ -158,6 +158,14 @@ export const services: Service[] = [
       { key: "anim-reel-2", title: "Urmărește timpul dedicat unui proiect: un grafic animat" },
       { key: "anim-reel-3", title: "Cum îți dai seama că ai avut o zi de lucru excelentă?" },
       { key: "anim-reel-4", title: "Ești gata să îți crești performanța afacerii?" },
+    ],
+    clips: [
+      { key: "nextlab-clip-2", title: "Algoritmii, explicați printr-o rețetă de smoothie" },
+      { key: "nextlab-clip-3", title: "Variabilele și memoria unui calculator" },
+      { key: "nextlab-clip-4", title: "Dispozitive periferice: intrare și ieșire" },
+      { key: "nextlab-clip-6", title: "Liste în Python și indexare" },
+      { key: "nextlab-clip-7", title: "Malware, antivirus și parole sigure" },
+      { key: "nextlab-clip-8", title: "Prezentarea NEXTLAB.TECH pentru platforma educațională" },
     ],
     images: [],
     missing: "[DE ADĂUGAT EXEMPLE DE ANIMAȚIE 2D. Animațiile de pe site-ul actual sunt videoclipuri care trebuie încărcate din nou]",

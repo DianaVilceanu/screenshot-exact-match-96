@@ -26,7 +26,7 @@ export const NICHE_OF: Record<string, NicheId[]> = {
   "kdt-romania": ["tech"],
   selfconsulting: ["tech"],
   "regata-print": ["tech"],
-  "entry-robotics-kit": ["tech"],
+  "nextlab-tech": ["tech"],
   vibrary: ["tech"],
 };
 

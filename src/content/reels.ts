@@ -1,3 +1,19 @@
+import nextlabClip1 from "@/assets/nextlab/nextlab-clip-1.mp4";
+import nextlabClipPoster1 from "@/assets/nextlab/nextlab-clip-1.webp";
+import nextlabClip2 from "@/assets/nextlab/nextlab-clip-2.mp4";
+import nextlabClipPoster2 from "@/assets/nextlab/nextlab-clip-2.webp";
+import nextlabClip3 from "@/assets/nextlab/nextlab-clip-3.mp4";
+import nextlabClipPoster3 from "@/assets/nextlab/nextlab-clip-3.webp";
+import nextlabClip4 from "@/assets/nextlab/nextlab-clip-4.mp4";
+import nextlabClipPoster4 from "@/assets/nextlab/nextlab-clip-4.webp";
+import nextlabClip5 from "@/assets/nextlab/nextlab-clip-5.mp4";
+import nextlabClipPoster5 from "@/assets/nextlab/nextlab-clip-5.webp";
+import nextlabClip6 from "@/assets/nextlab/nextlab-clip-6.mp4";
+import nextlabClipPoster6 from "@/assets/nextlab/nextlab-clip-6.webp";
+import nextlabClip7 from "@/assets/nextlab/nextlab-clip-7.mp4";
+import nextlabClipPoster7 from "@/assets/nextlab/nextlab-clip-7.webp";
+import nextlabClip8 from "@/assets/nextlab/nextlab-clip-8.mp4";
+import nextlabClipPoster8 from "@/assets/nextlab/nextlab-clip-8.webp";
 import artinnovaReel1 from "@/assets/reels/artinnova-reel-1.mp4";
 import artinnovaPoster1 from "@/assets/reels/artinnova-reel-1.webp";
 import artinnovaReel2 from "@/assets/reels/artinnova-reel-2.mp4";
@@ -154,6 +170,14 @@ export const reels = {
   "anim-reel-2": { video: animReel2, poster: animPoster2 },
   "anim-reel-3": { video: animReel3, poster: animPoster3 },
   "anim-reel-4": { video: animReel4, poster: animPoster4 },
+  "nextlab-clip-1": { video: nextlabClip1, poster: nextlabClipPoster1 },
+  "nextlab-clip-2": { video: nextlabClip2, poster: nextlabClipPoster2 },
+  "nextlab-clip-3": { video: nextlabClip3, poster: nextlabClipPoster3 },
+  "nextlab-clip-4": { video: nextlabClip4, poster: nextlabClipPoster4 },
+  "nextlab-clip-5": { video: nextlabClip5, poster: nextlabClipPoster5 },
+  "nextlab-clip-6": { video: nextlabClip6, poster: nextlabClipPoster6 },
+  "nextlab-clip-7": { video: nextlabClip7, poster: nextlabClipPoster7 },
+  "nextlab-clip-8": { video: nextlabClip8, poster: nextlabClipPoster8 },
   "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
   "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
   "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },

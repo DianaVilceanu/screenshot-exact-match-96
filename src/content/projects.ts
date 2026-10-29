@@ -57,6 +57,8 @@ export type Project = {
   mixReels?: boolean;
   /** Lay the statics out as a strict grid (use when they all share one ratio). */
   staticsGrid?: boolean;
+  /** Landscape 16:9 video clips (explanatory animations), shown in their own section. */
+  clips?: ReelItem[];
   /** Static ad banners for product campaigns, shown in their own section after the social statics. */
   ads?: GalleryItem[];
   /** Full-width interface mockups (phone, desktop), shown after the identity board. */
@@ -844,27 +846,48 @@ export const projects: Project[] = [
     serviceSlugs: ["ads-campaigns"],
   },
   {
-    slug: "entry-robotics-kit",
-    name: "Entry Robotics Kit",
-    client: "Entry Robotics Kit",
-    categories: ["Print"],
-    industry: "STEM education",
-    services: ["Packaging design"],
-    deliverables: ["Full box packaging: front, back, top, bottom and sides"],
-    summary: "Clear, educational packaging for a beginner robotics kit.",
+    slug: "nextlab-tech",
+    name: "NEXTLAB.TECH",
+    client: "NEXTLAB.TECH",
+    categories: ["UX / UI", "Social Media", "Print"],
+    industry: "EdTech, STEM education",
+    services: ["UX / UI design", "Art direction", "2D animation", "Social media design", "Packaging design", "Print design"],
+    deliverables: ["UX/UI for the content platform", "Visual direction for an educational project", "Explanatory 2D animations", "Social media posts", "Business cards", "Entry kit packaging"],
+    summary: "Three years in house, shaping how a robotics and informatics learning platform looks, moves and speaks.",
     description: [
-      "The Entry Robotics Kit is an educational STEM set designed to introduce beginners to the basics of electronics, programming, and simple robotics. It offers students an accessible way to explore technology and develop problem-solving skills through hands-on experimentation.",
-      "For this product, I created the full print packaging design for the box, including the front, back, top, bottom, and side panels. The design blends clean layouts, educational elements, and brand-consistent visuals to present the kit in a professional, engaging, and easy-to-understand way.",
+      "NEXTLAB.TECH is an educational technology company that builds learning labs and an online content platform for informatics and robotics, with its own STEM kits for beginners.",
+      "I worked with the team in house for three years. I contributed significantly to the visual direction of a large project in partnership with EDULIB: creating informatics and robotics lessons, from the characters and the scenes to the explanatory 2D animations that carry each lesson.",
+      "On the product side I worked on the UX/UI design of the content platform: courses, lessons, the learning assistant, articles and analytics, in the brand's indigo, navy and orange. Alongside, I designed the social media posts, the business cards and the packaging of the Entry starter kit.",
     ],
-    cover: { key: "robotics-cover", alt: "Purple Entry Starter Kit boxes by NextLab.tech with a microcontroller board on acrylic risers" },
+    cover: { key: "nextlab-cover", alt: "Gloved hands using a multimeter to test a computer motherboard in an electronics lab" },
+    screens: [
+      { key: "nextlab-desktop", alt: "Two desktop screens of the NEXTLAB.TECH content platform: the learner dashboard with the AI Platform course, and the learning analytics report" },
+      { key: "nextlab-mobile", alt: "Five mobile screens of the platform: login, courses, a lesson, the virtual learning assistant and articles" },
+    ],
     gallery: [
-      { key: "robotics-mock", alt: "Entry Robotics Kit box packaging mockup" },
-      { key: "robotics-flat", alt: "Entry Robotics Kit flat packaging panels" },
-      { key: "robotics-box", alt: "Entry Robotics Kit box render" },
+      { key: "nextlab-post-1", alt: "NEXTLAB.TECH post: Cybersecurity Laboratory, with a shield and a cloud" },
+      { key: "nextlab-post-2", alt: "NEXTLAB.TECH post: platform with AI, with a laptop and a chatbot" },
+      { key: "nextlab-post-3", alt: "NEXTLAB.TECH post: learning analytics, with a report and a team" },
+      { key: "nextlab-post-4", alt: "NEXTLAB.TECH post: export with legacy platforms" },
+      { key: "nextlab-post-5", alt: "NEXTLAB.TECH post: virtual learning assistant, with a robot" },
+      { key: "nextlab-post-6", alt: "NEXTLAB.TECH post: export in SCORM, with file icons" },
     ],
-    serviceSlugs: ["printed-media"],
-  },
-  {
+    print: [
+      { title: "Business cards", image: { key: "nextlab-print-cards", alt: "NEXTLAB.TECH business cards: the back with a QR code, the mascot and the website, and the front with contact details beside indigo and orange curves" } },
+      { title: "Entry Starter Kit packaging", image: { key: "robotics-cover", alt: "Purple Entry Starter Kit boxes by NextLab.tech with a microcontroller board on acrylic risers" } },
+    ],
+    clips: [
+      { key: "nextlab-clip-1", title: "Next-generation learning labs: presentation video" },
+      { key: "nextlab-clip-2", title: "Algorithms, explained with a smoothie recipe" },
+      { key: "nextlab-clip-3", title: "Variables and the memory of a computer" },
+      { key: "nextlab-clip-4", title: "Peripheral devices: input and output" },
+      { key: "nextlab-clip-5", title: "Problem solving: the steps of an algorithm" },
+      { key: "nextlab-clip-6", title: "Python lists and indexing" },
+      { key: "nextlab-clip-7", title: "Malware, antivirus and strong passwords" },
+      { key: "nextlab-clip-8", title: "NEXTLAB.TECH presentation for the educational platform" },
+    ],
+    serviceSlugs: ["ux-ui-design", "2d-animation", "social-media-design", "printed-media"],
+  },  {
     slug: "global-medical-health",
     name: "Global Medical Health",
     client: "Global Medical Health (GMH)",

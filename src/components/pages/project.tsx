@@ -548,6 +548,19 @@ export function Reel({ item, fill }: { item: ReelItem; fill?: boolean }) {
   );
 }
 
+/** A landscape explanatory animation with native controls. */
+export function Clip({ item }: { item: ReelItem }) {
+  const src = reels[item.key];
+  return (
+    <figure>
+      <div className="overflow-hidden rounded-2xl border border-border bg-card">
+        <video src={src.video} poster={src.poster} controls playsInline preload="none" aria-label={item.title} className="aspect-video w-full object-cover" />
+      </div>
+      <figcaption className="mt-3 text-sm text-muted-foreground">{item.title}</figcaption>
+    </figure>
+  );
+}
+
 /** Black or white text, whichever reads better on the given hex colour. */
 function contrastText(hex: string) {
   const v = parseInt(hex.slice(1), 16);
@@ -698,6 +711,18 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
             {p.reels.map((r, i) => (
               <Reveal key={r.key} delay={i * 80}>
                 <Reel item={r} />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+      {p.clips && (
+        <section className="container-editorial py-16 md:py-24">
+          <Eyebrow>{t.project.animations}</Eyebrow>
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
+            {p.clips.map((r, i) => (
+              <Reveal key={r.key} delay={(i % 2) * 80}>
+                <Clip item={r} />
               </Reveal>
             ))}
           </div>

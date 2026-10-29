@@ -1,5 +1,5 @@
 import { DogWalk } from "@/components/site/dog-walk";
-import { Reel } from "@/components/pages/project";
+import { Clip, Reel } from "@/components/pages/project";
 import { ArticleCard, ProjectTile } from "@/components/site/cards";
 import { CtaBand } from "@/components/site/chrome";
 import { L } from "@/components/site/llink";
@@ -164,6 +164,17 @@ export function ServicePage({ slug }: { slug: string }) {
             {s.reels.map((r, i) => (
               <Reveal key={r.key} delay={i * 80}>
                 <Reel item={r} />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+      {s.clips && (
+        <section className="container-editorial pt-12 md:pt-16">
+          <div className="grid gap-5 md:grid-cols-2">
+            {s.clips.map((r, i) => (
+              <Reveal key={r.key} delay={(i % 2) * 80}>
+                <Clip item={r} />
               </Reveal>
             ))}
           </div>

@@ -1,3 +1,11 @@
+import thsReel1 from "@/assets/reels/ths-reel-1.mp4";
+import thsPoster1 from "@/assets/reels/ths-reel-1.webp";
+import thsReel2 from "@/assets/reels/ths-reel-2.mp4";
+import thsPoster2 from "@/assets/reels/ths-reel-2.webp";
+import thsReel3 from "@/assets/reels/ths-reel-3.mp4";
+import thsPoster3 from "@/assets/reels/ths-reel-3.webp";
+import thsReel4 from "@/assets/reels/ths-reel-4.mp4";
+import thsPoster4 from "@/assets/reels/ths-reel-4.webp";
 import nextlabClip1 from "@/assets/nextlab/nextlab-clip-1.mp4";
 import nextlabClipPoster1 from "@/assets/nextlab/nextlab-clip-1.webp";
 import nextlabClip2 from "@/assets/nextlab/nextlab-clip-2.mp4";
@@ -178,6 +186,10 @@ export const reels = {
   "nextlab-clip-6": { video: nextlabClip6, poster: nextlabClipPoster6 },
   "nextlab-clip-7": { video: nextlabClip7, poster: nextlabClipPoster7 },
   "nextlab-clip-8": { video: nextlabClip8, poster: nextlabClipPoster8 },
+  "ths-reel-1": { video: thsReel1, poster: thsPoster1 },
+  "ths-reel-2": { video: thsReel2, poster: thsPoster2 },
+  "ths-reel-3": { video: thsReel3, poster: thsPoster3 },
+  "ths-reel-4": { video: thsReel4, poster: thsPoster4 },
   "ilie-reel-1": { video: ilieReel1, poster: iliePoster1 },
   "ilie-reel-2": { video: ilieReel2, poster: iliePoster2 },
   "ilie-reel-3": { video: ilieReel3, poster: iliePoster3 },

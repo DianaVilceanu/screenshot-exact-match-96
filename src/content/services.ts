@@ -66,7 +66,7 @@ export const services: Service[] = [
       "Formats designed for how Instagram and TikTok are actually used.",
     ],
     offerings: ["Static posts", "Informative carousels", "Promotional banners", "TikTok / Instagram reels"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic", "art-innova", "optica-tei", "selfconsulting"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "caterina-tomasso", "farmacia-farmex", "kanoi", "mos-ilie", "dr-kurbe-clinic", "art-innova", "optica-tei", "selfconsulting", "ths-organic"],
     mock: { key: "service-social", alt: "Two phones floating side by side: an Instagram feed post for Divaz and a Farmex story" },
     images: [
       { key: "divaz-galentine", alt: "Divaz Galentine's Day post" },
@@ -88,7 +88,7 @@ export const services: Service[] = [
       "Video and static content that feel like one voice.",
     ],
     offerings: ["Content strategy", "Visual direction", "Video editing: promos, cinematic clips, interviews", "Reels"],
-    projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic", "selfconsulting"],
+    projectSlugs: ["inklabs", "divaz", "iq-fashion", "dr-kurbe-clinic", "selfconsulting", "ths-organic"],
     mock: { key: "service-content", alt: "A laptop showing the Dr. Kurbe visual identity with a phone in front of it showing an Inklabs Instagram post" },
     images: [
       { key: "iq-6", alt: "IQ Fashion fur coat post" },
@@ -105,7 +105,7 @@ export const services: Service[] = [
     intro: "High-impact advertising visuals for fashion, automotive, tech, gift, health and energy brands, designed to stop the scroll and make the offer clear.",
     value: ["Offers that read in a second.", "Campaign sets that stay consistent across formats.", "Visual drama without losing the product."],
     offerings: ["Black Friday & sale campaigns", "Product ads", "Seasonal and gift campaigns"],
-    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie", "art-innova", "optica-tei"],
+    projectSlugs: ["ads-campaigns-selection", "iq-fashion", "caterina-tomasso", "kanoi", "mos-ilie", "art-innova", "optica-tei", "ths-organic"],
     mock: { key: "service-ads", alt: "Three Meta feed ads side by side: a Canvas Dreams Black Friday portrait ad, a Teno wireless controller ad and an Alpacka Gift lamp ad" },
     images: [
       { key: "ads-blackfriday", alt: "Black Friday car ad" },

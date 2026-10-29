@@ -179,6 +179,13 @@ import nextlabPost4 from "@/assets/nextlab/nextlab-post-4.webp";
 import nextlabPost5 from "@/assets/nextlab/nextlab-post-5.webp";
 import nextlabPost6 from "@/assets/nextlab/nextlab-post-6.webp";
 import nextlabPrintCards from "@/assets/nextlab/nextlab-print-cards.webp";
+import thsPost1 from "@/assets/ths/ths-post-1.webp";
+import thsPost2 from "@/assets/ths/ths-post-2.webp";
+import thsPost3 from "@/assets/ths/ths-post-3.webp";
+import thsPost4 from "@/assets/ths/ths-post-4.webp";
+import thsPost5 from "@/assets/ths/ths-post-5.webp";
+import thsPost6 from "@/assets/ths/ths-post-6.webp";
+import thsCover from "@/assets/ths/ths-cover.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -507,6 +514,13 @@ export const img = {
   "nextlab-post-5": { src: nextlabPost5, w: 1080, h: 1080 },
   "nextlab-post-6": { src: nextlabPost6, w: 1080, h: 1080 },
   "nextlab-print-cards": { src: nextlabPrintCards, w: 2000, h: 1250 },
+  "ths-post-1": { src: thsPost1, w: 1080, h: 1080 },
+  "ths-post-2": { src: thsPost2, w: 1080, h: 1080 },
+  "ths-post-3": { src: thsPost3, w: 1080, h: 1080 },
+  "ths-post-4": { src: thsPost4, w: 1080, h: 1080 },
+  "ths-post-5": { src: thsPost5, w: 1080, h: 1080 },
+  "ths-post-6": { src: thsPost6, w: 1080, h: 1080 },
+  "ths-cover": { src: thsCover, w: 1000, h: 1500 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

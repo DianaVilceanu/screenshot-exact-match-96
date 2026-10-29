@@ -14,6 +14,7 @@ export const NICHE_OF: Record<string, NicheId[]> = {
   "global-medical-health": ["health"],
   "dr-kurbe-clinic": ["health", "beauty"],
   "art-innova": ["health"],
+  "ths-organic": ["beauty", "health"],
   "optica-tei": ["health"],
   divaz: ["beauty"],
   inklabs: ["beauty"],

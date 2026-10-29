@@ -421,7 +421,7 @@ export const img = {
   "service-newsletter": { src: serviceNewsletter, w: 1306, h: 900 },
   "service-uxui": { src: serviceUxui, w: 1216, h: 941 },
   "fleurane-cover": { src: fleuraneCover, w: 1000, h: 1500 },
-  "fleurane-ingredients": { src: fleuraneIngredients, w: 2400, h: 1500 },
+  "fleurane-ingredients": { src: fleuraneIngredients, w: 1586, h: 992 },
   "fleurane-flatlay": { src: fleuraneFlatlay, w: 1536, h: 1024 },
   "caterina-print-cards": { src: caterinaPrintCards, w: 2000, h: 1250 },
   "caterina-print-letterhead": { src: caterinaPrintLetterhead, w: 2000, h: 1333 },

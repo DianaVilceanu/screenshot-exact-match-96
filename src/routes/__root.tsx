@@ -80,7 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Diana Marrie Designs | Graphic Designer & Art Director" },
+      { title: "Digital Muse | Graphic Designer & Art Director" },
       { name: "description", content: "Portfolio of Diana Vîlceanu: branding, social media design and art direction." },
       { name: "author", content: "Diana Vîlceanu" },
       { name: "theme-color", content: "#0c032c" },

@@ -1,6 +1,6 @@
 import { useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { contact } from "@/content/site";
+import { SITE_NAME, contact } from "@/content/site";
 import { hrefFor, idOf, LOCALES, refFromPath, useContent, type Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 import { L } from "./llink";
@@ -211,7 +211,7 @@ export function SiteFooter() {
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
           <img src={logoLight} alt={t.logoAlt} width={672} height={585} className="h-10 w-auto" />
           <p>
-            © {new Date().getFullYear()} {person.fullName} · {person.handle}
+            © {new Date().getFullYear()} {SITE_NAME} · {person.fullName}
           </p>
           <p>{t.footer.tagline}</p>
         </div>

@@ -1,6 +1,6 @@
 // Contact details and social links come from the original dianamarriedesigns.com.
 export const SITE_URL = "https://dianamarriedesigns.com";
-export const SITE_NAME = "Diana Marrie Designs";
+export const SITE_NAME = "Digital Muse";
 
 export const person = {
   name: "Diana Vîlceanu",

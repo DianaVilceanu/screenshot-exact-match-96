@@ -29,7 +29,7 @@ export function homeHead(locale: Locale) {
     ref: { kind: "home" },
     jsonLd: [
       { "@context": "https://schema.org", "@type": "Person", name: c.person.fullName, jobTitle: c.person.role, url: SITE_URL, knowsLanguage: ["ro", "en"] },
-      { "@context": "https://schema.org", "@type": "WebSite", name: "Diana Marrie Designs", url: SITE_URL, inLanguage: locale },
+      { "@context": "https://schema.org", "@type": "WebSite", name: "Digital Muse", url: SITE_URL, inLanguage: locale },
     ],
   });
 }

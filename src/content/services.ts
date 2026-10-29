@@ -24,6 +24,8 @@ export type Service = {
   anim?: "dog";
   /** Vertical animation clips, shown in a grid under the scene. */
   reels?: ReelItem[];
+  /** Landscape explanatory animations shown below the reels. */
+  clips?: ReelItem[];
   /** Shown as a dashed placeholder when examples still need to be supplied. */
   missing?: string;
   articleSlugs: string[];
@@ -121,7 +123,7 @@ export const services: Service[] = [
     intro: "Print still matters, especially for clinics and products. I design packaging and promotional print that keeps the same identity as the brand's digital presence.",
     value: ["Print that matches the brand online.", "Clear information hierarchy for patients and customers.", "Production-ready layouts."],
     offerings: ["Packaging design", "Flyers & brochures", "Posters", "Vouchers & coupons"],
-    projectSlugs: ["entry-robotics-kit", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
+    projectSlugs: ["nextlab-tech", "global-medical-health", "dr-kurbe-clinic", "fleurane"],
     mock: { key: "service-print", alt: "Printed pieces in situ: Moș Ilie flyers, IQ Fashion thank-you flyers with a QR code and Dr. Kurbe discount vouchers" },
     images: [
       { key: "robotics-mock", alt: "Entry Robotics Kit packaging" },
@@ -179,6 +181,14 @@ export const services: Service[] = [
       { key: "anim-reel-2", title: "Track the time you dedicate to a project: an animated chart" },
       { key: "anim-reel-3", title: "How can you tell if you had a great day at work?" },
       { key: "anim-reel-4", title: "Are you ready to boost your business performance?" },
+    ],
+    clips: [
+      { key: "nextlab-clip-2", title: "Algorithms, explained with a smoothie recipe" },
+      { key: "nextlab-clip-3", title: "Variables and the memory of a computer" },
+      { key: "nextlab-clip-4", title: "Peripheral devices: input and output" },
+      { key: "nextlab-clip-6", title: "Python lists and indexing" },
+      { key: "nextlab-clip-7", title: "Malware, antivirus and strong passwords" },
+      { key: "nextlab-clip-8", title: "NEXTLAB.TECH presentation for the educational platform" },
     ],
     images: [],
     missing: "[ADD 2D ANIMATION EXAMPLES. The animations on the current site are videos that need to be re-uploaded]",

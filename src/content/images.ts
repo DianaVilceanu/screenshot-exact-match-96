@@ -169,6 +169,16 @@ import gmhSpiderMock from "@/assets/gmh/gmh-spider-mock.webp";
 import gmhPosterMock from "@/assets/gmh/gmh-poster-mock.webp";
 import artinnovaCover from "@/assets/artinnova/artinnova-cover.webp";
 import opticateiCover from "@/assets/opticatei/opticatei-cover.webp";
+import nextlabCover from "@/assets/nextlab/nextlab-cover.webp";
+import nextlabDesktop from "@/assets/nextlab/nextlab-desktop.webp";
+import nextlabMobile from "@/assets/nextlab/nextlab-mobile.webp";
+import nextlabPost1 from "@/assets/nextlab/nextlab-post-1.webp";
+import nextlabPost2 from "@/assets/nextlab/nextlab-post-2.webp";
+import nextlabPost3 from "@/assets/nextlab/nextlab-post-3.webp";
+import nextlabPost4 from "@/assets/nextlab/nextlab-post-4.webp";
+import nextlabPost5 from "@/assets/nextlab/nextlab-post-5.webp";
+import nextlabPost6 from "@/assets/nextlab/nextlab-post-6.webp";
+import nextlabPrintCards from "@/assets/nextlab/nextlab-print-cards.webp";
 import journalPremium from "@/assets/journal/journal-premium.webp";
 import journalStandOut from "@/assets/journal/journal-stand-out.webp";
 import journalIdentity from "@/assets/journal/journal-identity.webp";
@@ -487,6 +497,16 @@ export const img = {
   "gmh-poster-mock": { src: gmhPosterMock, w: 2000, h: 1250 },
   "artinnova-cover": { src: artinnovaCover, w: 1400, h: 933 },
   "opticatei-cover": { src: opticateiCover, w: 1400, h: 934 },
+  "nextlab-cover": { src: nextlabCover, w: 1400, h: 933 },
+  "nextlab-desktop": { src: nextlabDesktop, w: 2400, h: 1230 },
+  "nextlab-mobile": { src: nextlabMobile, w: 2400, h: 1120 },
+  "nextlab-post-1": { src: nextlabPost1, w: 1080, h: 1080 },
+  "nextlab-post-2": { src: nextlabPost2, w: 1080, h: 1080 },
+  "nextlab-post-3": { src: nextlabPost3, w: 1080, h: 1080 },
+  "nextlab-post-4": { src: nextlabPost4, w: 1080, h: 1080 },
+  "nextlab-post-5": { src: nextlabPost5, w: 1080, h: 1080 },
+  "nextlab-post-6": { src: nextlabPost6, w: 1080, h: 1080 },
+  "nextlab-print-cards": { src: nextlabPrintCards, w: 2000, h: 1250 },
   "kurbe-moodboard": { src: kurbeMoodboard, w: 2304, h: 1536 },
   "kdt-workshop-loss": { src: kdtWorkshopLoss, w: 800, h: 1000 },
   "kdt-smt-training": { src: kdtSmtTraining, w: 800, h: 1000 },

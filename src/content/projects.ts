@@ -881,13 +881,13 @@ export const projects: Project[] = [
     client: "NEXTLAB.TECH",
     categories: ["UX / UI", "Social Media", "Print"],
     industry: "EdTech, STEM education",
-    services: ["UX / UI design", "Art direction", "2D animation", "Social media design", "Packaging design", "Print design"],
-    deliverables: ["UX/UI for the content platform", "Visual direction for an educational project", "Explanatory 2D animations", "Social media posts", "Business cards", "Entry kit packaging"],
+    services: ["UX / UI design", "Art direction", "2D animation", "Social media design", "Print design"],
+    deliverables: ["UX/UI for the content platform", "Visual direction for an educational project", "Explanatory 2D animations", "Social media posts", "Business cards"],
     summary: "Three years in house, shaping how a robotics and informatics learning platform looks, moves and speaks.",
     description: [
       "NEXTLAB.TECH is an educational technology company that builds learning labs and an online content platform for informatics and robotics, with its own STEM kits for beginners.",
       "I worked with the team in house for three years. I contributed significantly to the visual direction of a large project in partnership with EDULIB: creating informatics and robotics lessons, from the characters and the scenes to the explanatory 2D animations that carry each lesson.",
-      "On the product side I worked on the UX/UI design of the content platform: courses, lessons, the learning assistant, articles and analytics, in the brand's indigo, navy and orange. Alongside, I designed the social media posts, the business cards and the packaging of the Entry starter kit.",
+      "On the product side I worked on the UX/UI design of the content platform: courses, lessons, the learning assistant, articles and analytics, in the brand's indigo, navy and orange. Alongside, I designed the social media posts and the business cards.",
     ],
     cover: { key: "nextlab-cover", alt: "Gloved hands using a multimeter to test a computer motherboard in an electronics lab" },
     screens: [
@@ -904,7 +904,6 @@ export const projects: Project[] = [
     ],
     print: [
       { title: "Business cards", image: { key: "nextlab-print-cards", alt: "NEXTLAB.TECH business cards: the back with a QR code, the mascot and the website, and the front with contact details beside indigo and orange curves" } },
-      { title: "Entry Starter Kit packaging", image: { key: "robotics-cover", alt: "Purple Entry Starter Kit boxes by NextLab.tech with a microcontroller board on acrylic risers" } },
     ],
     clips: [
       { key: "nextlab-clip-1", title: "Next-generation learning labs: presentation video" },

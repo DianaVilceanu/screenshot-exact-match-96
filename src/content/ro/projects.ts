@@ -793,13 +793,13 @@ export const projects: Project[] = [
     client: "NEXTLAB.TECH",
     categories: ["UX / UI", "Social Media", "Print"],
     industry: "EdTech, educație STEM",
-    services: ["Design UX / UI", "Direcție artistică", "Animație 2D", "Design pentru rețele sociale", "Design de ambalaje", "Design de print"],
-    deliverables: ["UX/UI pentru platforma de conținut", "Direcția vizuală a unui proiect educațional", "Animații 2D explicative", "Postări pentru rețele sociale", "Cărți de vizită", "Ambalaj pentru kitul Entry"],
+    services: ["Design UX / UI", "Direcție artistică", "Animație 2D", "Design pentru rețele sociale", "Design de print"],
+    deliverables: ["UX/UI pentru platforma de conținut", "Direcția vizuală a unui proiect educațional", "Animații 2D explicative", "Postări pentru rețele sociale", "Cărți de vizită"],
     summary: "Trei ani in house, în care am dat formă felului în care arată, se mișcă și vorbește o platformă de învățare pentru informatică și robotică.",
     description: [
       "NEXTLAB.TECH este o companie de tehnologie educațională, care creează laboratoare de învățare și o platformă online de conținut pentru informatică și robotică, plus kituri STEM proprii pentru începători.",
       "Am lucrat cu echipa in house timp de trei ani. Am contribuit semnificativ la direcția vizuală a unui proiect mare, în parteneriat cu EDULIB, pentru crearea de lecții de informatică și robotică: de la personaje și scene până la animațiile 2D explicative pe care se sprijină fiecare lecție.",
-      "Pe partea de produs am lucrat la designul UX/UI al platformei de conținut: cursuri, lecții, asistentul de învățare, articole și analitice, în indigo, bleumarin și portocaliu, culorile brandului. În paralel, am creat postările pentru rețelele sociale, cărțile de vizită și ambalajul kitului de start Entry.",
+      "Pe partea de produs am lucrat la designul UX/UI al platformei de conținut: cursuri, lecții, asistentul de învățare, articole și analitice, în indigo, bleumarin și portocaliu, culorile brandului. În paralel, am creat postările pentru rețelele sociale și cărțile de vizită.",
     ],
     cover: { key: "nextlab-cover", alt: "Mâini în mănuși care folosesc un multimetru pentru a testa o placă de bază într-un laborator de electronică" },
     screens: [
@@ -816,7 +816,6 @@ export const projects: Project[] = [
     ],
     print: [
       { title: "Cărți de vizită", image: { key: "nextlab-print-cards", alt: "Cărți de vizită NEXTLAB.TECH: verso cu cod QR, mascota și site-ul, și fața cu datele de contact, lângă curbe indigo și portocalii" } },
-      { title: "Ambalajul kitului de start Entry", image: { key: "robotics-cover", alt: "Cutii mov Entry Starter Kit de la NextLab.tech, cu o placă cu microcontroler pe suporturi din acril" } },
     ],
     clips: [
       { key: "nextlab-clip-1", title: "Laboratoare de învățare de nouă generație: videoclip de prezentare" },

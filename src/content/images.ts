@@ -538,7 +538,7 @@ export const img = {
   "inklabs-logo-system": { src: inklabsLogoSystem, w: 1400, h: 1224 },
   "inklabs-moodboard": { src: inklabsMoodboard, w: 1600, h: 1200 },
   "inklabs-photo-cross": { src: inklabsPhotoCross, w: 480, h: 840 },
-  "inklabs-photo-birds": { src: inklabsPhotoBirds, w: 480, h: 840 },
+  "inklabs-photo-birds": { src: inklabsPhotoBirds, w: 480, h: 837 },
   "inklabs-photo-compass": { src: inklabsPhotoCompass, w: 480, h: 840 },
   "inklabs-photo-caduceus": { src: inklabsPhotoCaduceus, w: 480, h: 840 },
 } satisfies Record<string, Img>;

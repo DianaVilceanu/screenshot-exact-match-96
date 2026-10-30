@@ -34,7 +34,7 @@ export type CaseStudy = {
   /** Process material is never invented — leave empty to show a placeholder. */
   process: GalleryItem[];
   results: string[];
-  testimonial: { quote: string; author: string };
+  testimonial?: { quote: string; author: string };
   /** Brand guidelines delivered for the project, shown as their own section. */
   guidelines?: BrandGuidelines;
 };
@@ -341,7 +341,6 @@ export const projects: Project[] = [
         "Campaigns for real moments, such as the open days at the new Bucharest-Ilfov showroom and machine installations across Romania.",
         "Coverage at the BIFE-SIM trade fair, creating content on site and photographing the KDT stand and machines.",
       ],
-      testimonial: { quote: "[CLIENT TESTIMONIAL TO BE ADDED]", author: "[CLIENT NAME / ROLE]" },
     },
   },
   {

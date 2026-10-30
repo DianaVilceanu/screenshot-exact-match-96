@@ -168,7 +168,6 @@ export const services: Service[] = [
       { key: "nextlab-clip-8", title: "Prezentarea NEXTLAB.TECH pentru platforma educațională" },
     ],
     images: [],
-    missing: "[DE ADĂUGAT EXEMPLE DE ANIMAȚIE 2D. Animațiile de pe site-ul actual sunt videoclipuri care trebuie încărcate din nou]",
     articleSlugs: ["how-to-make-your-social-media-design-stand-out"],
   },
 ];

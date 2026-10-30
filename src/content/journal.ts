@@ -49,7 +49,7 @@ export const articles: Article[] = [
     title: "How to Build a Strong Visual Identity for Your Brand",
     description: "A practical guide to the parts of a visual identity that matter, and how to keep them consistent once you start posting.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-05-12",
     cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
     intro: "A visual identity is more than a logo. It is the set of decisions that makes people recognise you before they read your name. In this guide you'll learn which decisions come first, how to turn them into a system, and how to protect that system once content starts flowing.",
     sections: [
@@ -99,7 +99,7 @@ export const articles: Article[] = [
     title: "Why Some Fonts Make a Brand Look More Expensive",
     description: "Contrast, spacing and restraint: the typographic details that make a brand feel premium, and the ones that cheapen it.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-06-02",
     cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
     intro: "People judge the price of a product by its typography long before they see a price tag. This article explains which typographic qualities read as premium, why, and how to apply them without making your brand feel cold.",
     sections: [
@@ -140,7 +140,7 @@ export const articles: Article[] = [
     title: "How to Create a Consistent Instagram Feed for Your Brand",
     description: "Templates, colour rhythm and content pillars: a simple method to make your Instagram grid look intentional.",
     category: "social-media",
-    publishedAt: null,
+    publishedAt: "2026-06-23",
     cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
     intro: "A consistent feed helps people recognise your posts before they see your name. You'll learn how to plan content pillars, build templates and use colour rhythm so your grid looks intentional without becoming repetitive.",
     sections: [
@@ -180,7 +180,7 @@ export const articles: Article[] = [
     title: "7 Branding Mistakes That Make a Business Look Unprofessional",
     description: "Seven common branding mistakes small businesses make, and simple ways to fix each one.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-07-14",
     cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
     intro: "Most brands don't look unprofessional because of one bad decision but because of small inconsistencies that add up. Here are seven of the most common ones and how to fix them.",
     sections: [
@@ -217,7 +217,7 @@ export const articles: Article[] = [
     title: "How to Make Your Social Media Design Stand Out",
     description: "Practical techniques for social posts that stop the scroll: contrast, a single message, motion and recognisable devices.",
     category: "social-media",
-    publishedAt: null,
+    publishedAt: "2026-09-08",
     cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
     intro: "On social media, your design has about a second to earn attention. This article covers the techniques that help a post stand out, and why they work.",
     sections: [
@@ -249,7 +249,7 @@ export const articles: Article[] = [
     title: "What Makes a Brand Look Premium?",
     description: "Photography, restraint, material and consistency: the visual signals that make a brand feel premium.",
     category: "content-creation",
-    publishedAt: null,
+    publishedAt: "2026-10-13",
     cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
     intro: "Premium is a feeling built from many small signals. You'll learn what those signals are and how to bring them into your photos, layouts and content, even on a modest budget.",
     sections: [

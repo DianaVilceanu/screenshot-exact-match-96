@@ -253,7 +253,6 @@ export const projects: Project[] = [
         "Campanii pentru momente reale, precum Ziua Porților Deschise la noul showroom din București-Ilfov și instalările de utilaje din toată țara.",
         "Prezență la BIFE-SIM, unde am creat conținut pe loc și am fotografiat standul KDT și utilajele.",
       ],
-      testimonial: { quote: "[DE ADĂUGAT MĂRTURIA CLIENTULUI]", author: "[NUMELE CLIENTULUI / ROLUL]" },
     },
   },
   {

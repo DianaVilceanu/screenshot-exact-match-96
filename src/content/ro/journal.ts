@@ -19,7 +19,7 @@ export const articles: Article[] = [
     title: "Cum să construiești o identitate vizuală puternică pentru brandul tău",
     description: "Un ghid practic despre elementele esențiale ale unei identități vizuale și despre cum să le păstrezi consecvente odată ce începi să publici.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-05-12",
     cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
     intro: "O identitate vizuală înseamnă mai mult decât un logo. Este ansamblul de decizii care îi ajută pe oameni să te recunoască înainte să-ți citească numele. În acest ghid vei afla cu ce decizii să începi, cum să le transformi într-un sistem și cum să păstrezi coerența acelui sistem odată ce începi să creezi conținut în mod regulat.",
     sections: [
@@ -70,7 +70,7 @@ export const articles: Article[] = [
     title: "De ce unele fonturi fac un brand să pară mai scump",
     description: "Contrast, spațiere și simplitate: detaliile tipografice care dau unui brand un aer premium și cele care îl fac să pară ieftin.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-06-02",
     cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
     intro: "Oamenii își formează o idee despre prețul unui produs din tipografie cu mult înainte să vadă eticheta de preț. Acest articol explică ce trăsături tipografice sugerează un brand premium, de ce funcționează și cum să le folosești fără ca brandul tău să devină rece.",
     sections: [
@@ -106,7 +106,7 @@ export const articles: Article[] = [
     title: "Cum să creezi un feed Instagram coerent pentru brandul tău",
     description: "Șabloane, ritm cromatic și piloni de conținut: o metodă simplă pentru un profil Instagram cu o direcție vizuală clară.",
     category: "social-media",
-    publishedAt: null,
+    publishedAt: "2026-06-23",
     cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
     intro: "Un feed coerent îi ajută pe oameni să-ți recunoască postările înainte să-ți vadă numele. Vei afla cum să planifici pilonii de conținut, să construiești șabloane și să folosești ritmul cromatic pentru ca grila ta să aibă o direcție clară, fără să devină repetitivă.",
     sections: [
@@ -139,7 +139,7 @@ export const articles: Article[] = [
     title: "7 greșeli de branding care fac o afacere să pară neprofesionistă",
     description: "Șapte greșeli frecvente de branding ale afacerilor mici și soluții simple pentru fiecare.",
     category: "graphic-design",
-    publishedAt: null,
+    publishedAt: "2026-07-14",
     cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
     intro: "Cele mai multe branduri nu par neprofesioniste din cauza unei singure decizii greșite, ci din cauza micilor inconsecvențe care se adună. Iată șapte dintre cele mai frecvente și cum le poți corecta.",
     sections: [
@@ -177,7 +177,7 @@ export const articles: Article[] = [
     title: "Cum să ieși în evidență prin design în social media",
     description: "Tehnici practice pentru postări care îi fac pe oameni să se oprească din derulat: contrast, un singur mesaj, mișcare și elemente ușor de recunoscut.",
     category: "social-media",
-    publishedAt: null,
+    publishedAt: "2026-09-08",
     cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
     intro: "În social media, designul tău are cam o secundă ca să atragă atenția. Acest articol prezintă tehnicile care ajută o postare să iasă în evidență și explică de ce funcționează.",
     sections: [
@@ -210,7 +210,7 @@ export const articles: Article[] = [
     title: "Ce face un brand să pară premium?",
     description: "Fotografia, simplitatea, materialele și consecvența sunt indiciile vizuale care dau unui brand un aer premium.",
     category: "content-creation",
-    publishedAt: null,
+    publishedAt: "2026-10-13",
     cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
     intro: "Impresia de premium se construiește din multe indicii mici. Vei afla care sunt acestea și cum să le integrezi în fotografii, compoziții și conținut, chiar și cu un buget modest.",
     sections: [

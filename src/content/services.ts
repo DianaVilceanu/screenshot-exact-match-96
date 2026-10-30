@@ -191,7 +191,6 @@ export const services: Service[] = [
       { key: "nextlab-clip-8", title: "NEXTLAB.TECH presentation for the educational platform" },
     ],
     images: [],
-    missing: "[ADD 2D ANIMATION EXAMPLES. The animations on the current site are videos that need to be re-uploaded]",
     articleSlugs: ["how-to-make-your-social-media-design-stand-out"],
   },
 ];

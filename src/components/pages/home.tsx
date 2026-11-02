@@ -58,7 +58,7 @@ export function HomePage() {
         <div className="container-editorial">
           <div className="flex items-center justify-between">
             <Eyebrow n="Vol. 2026">{h.eyebrow}</Eyebrow>
-            <p className="eyebrow hidden text-muted-foreground md:block">{h.location}</p>
+            <p className="eyebrow hidden text-muted-foreground lg:block">{h.location}</p>
           </div>
           <div className="mt-10 grid grid-cols-[1fr_0.95fr] items-center gap-3 md:mt-14 md:grid-cols-[1.3fr_1fr] md:gap-6 lg:grid-cols-[1.4fr_1fr] lg:gap-10">
             <h1 className="display-hero relative z-10">
@@ -276,7 +276,7 @@ function HeroObjects({ className }: { className: string }) {
           alt=""
           width={ROSE.w}
           height={ROSE.h}
-          className={cn("float-slow absolute top-[44%] left-0 w-[25%] rotate-[-14deg] [animation-delay:-4s] md:top-[41%] md:left-[-14%] md:w-[31%]", shadow)}
+          className={cn("float-slow absolute top-[44%] left-0 w-[25%] rotate-[-14deg] [animation-delay:-4s] md:top-[41%] md:left-[1%] md:w-[26%]", shadow)}
         />
         <img
           src={laptop}

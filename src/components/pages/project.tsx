@@ -581,9 +581,9 @@ function StandardProject({ p, next }: { p: Project; next: Project }) {
       <section className="container-editorial pt-28 pb-16 md:pt-36">
         <Crumbs p={p} />
         <div className="mt-10 grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-6">
+          <div className="min-w-0 md:col-span-6">
             <Eyebrow>{cats(p, t)}</Eyebrow>
-            <h1 className="display-xl mt-6">{p.name}</h1>
+            <h1 className={cn(p.name.length > 11 ? "display-lg" : "display-xl", "mt-6 break-words")}>{p.name}</h1>
             <p className="display-sm mt-6 italic text-muted-foreground">{p.summary}</p>
             <div className="mt-10 space-y-5 text-lg leading-relaxed">
               {p.description.map((x) => (

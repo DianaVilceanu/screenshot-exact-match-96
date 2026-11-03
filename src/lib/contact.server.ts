@@ -35,7 +35,7 @@ export async function sendNotification(d: ContactInput, env: Env, to: string, do
     method: "POST",
     headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
     body: JSON.stringify({
-      from: env["CONTACT_FROM"] || "Digital Muse <onboarding@resend.dev>",
+      from: env["CONTACT_FROM"] || "Daring Muse <onboarding@resend.dev>",
       to: [env["CONTACT_TO"] || to],
       reply_to: d.email,
       subject: mail.subject,

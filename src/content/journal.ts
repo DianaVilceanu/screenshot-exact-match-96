@@ -3152,6 +3152,339 @@ export const articles: Article[] = [
     ],
     related: { projects: ["farmacia-farmex", "divaz"], services: ["social-media-design"] },
   },
+  {
+    id: "testimonial-posts",
+    slug: "how-to-design-testimonial-and-review-posts",
+    title: "How to Design Testimonial and Review Posts That Build Trust",
+    seoTitle: "How to Design Testimonial and Review Posts",
+    description: "Customer reviews are strong proof, but a screenshot is not enough. How to turn reviews and testimonials into clean, honest posts that build trust.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "People trust other customers more than they trust brands. A good review post puts that trust on display. The difference between a convincing one and a forgettable one is mostly in the choice of quote and the care in the design.",
+    sections: [
+      {
+        id: "ask",
+        heading: "Get permission and real words",
+        blocks: [
+          p("Always ask before publishing a client's words or photo. Use real quotes without inventing or improving them. Edit only for length or typos, and keep the meaning intact. For health and beauty brands, be extra careful about claims and privacy."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "Choose the right quote",
+        blocks: [
+          ul("Specific beats general: 'the appointment was on time and explained clearly' is better than 'great service'.", "Pick a quote that answers a real customer worry.", "Keep it short enough to read in a glance."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design the post",
+        blocks: [
+          ol("Put the quote in large, clear type.", "Add the first name or initials and context, with permission.", "Use brand colours and a calm layout.", "Include the logo discreetly.", "Leave enough contrast and space."),
+          p("A clinic like Dr. Kurbe or an optical shop like Optica Tei benefits from a clean, reassuring style that matches the rest of the brand."),
+        ],
+      },
+      {
+        id: "formats",
+        heading: "Formats that work",
+        blocks: [
+          ul("Single quote posts.", "Carousels with several short reviews.", "Story highlights titled Reviews.", "Short videos with permission."),
+        ],
+      },
+      {
+        id: "honesty",
+        heading: "Keep it honest",
+        blocks: [
+          p("Do not fabricate reviews. If you do not have any yet, ask satisfied customers, and until then use other proof such as process, results you can document and your expertise. See my social media design service for review templates."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Can I post screenshots of reviews?"),
+          p("With permission, yes, but a designed quote often reads better. Make sure the source is clear."),
+          h3("How often should I post reviews?"),
+          p("Occasionally, mixed with other content, so the feed does not become one long advert."),
+          h3("What if a review is negative?"),
+          p("Respond publicly and calmly. It shows how you handle problems."),
+        ],
+      },
+    ],
+    related: { projects: ["dr-kurbe-clinic", "optica-tei"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-for-beauty-salons",
+    slug: "social-media-for-beauty-salons-and-brands",
+    title: "Social Media for Beauty Salons and Brands: Content That Books Appointments",
+    seoTitle: "Social Media for Beauty Salons and Brands",
+    description: "Beauty is visual, which makes social media a natural fit. What to post, how to photograph results and how to turn followers into bookings.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Beauty sells on sight. People choose a salon, a nail technician or a skincare brand largely by what they see. That makes social media a strong channel, as long as the content shows quality and makes booking or buying easy.",
+    sections: [
+      {
+        id: "show",
+        heading: "Show the work",
+        blocks: [
+          ul("Before and after, with permission.", "Close-ups of detail and finish.", "Short videos of the process.", "Products in use, not only on a shelf."),
+          p("Good light and clean backgrounds matter more than expensive equipment."),
+        ],
+      },
+      {
+        id: "trust",
+        heading: "Build trust",
+        blocks: [
+          p("Introduce the people, the space and the hygiene practices. Customers want to feel safe as well as pampered. Share honest information about products and ingredients, and avoid exaggerated claims."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Keep a consistent look",
+        blocks: [
+          p("A salon feed with random photos looks cheaper than the service really is. Use a coherent palette and a few templates. A beauty brand like Divaz is built on colour and product, while a natural line such as THS Organic can lean on warmth and honey tones."),
+        ],
+      },
+      {
+        id: "book",
+        heading: "Make booking easy",
+        blocks: [
+          ol("Put the booking link or phone number in the bio.", "Add a Highlight with prices and how to book.", "End key posts with a clear call to action.", "Reply fast to messages."),
+        ],
+      },
+      {
+        id: "rhythm",
+        heading: "A simple weekly rhythm",
+        blocks: [
+          ul("One or two result posts.", "One educational post, such as aftercare tips.", "One behind-the-scenes or team post.", "Stories every few days for availability and offers."),
+          p("If you want a beauty content system, see my social media design and content creation services."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Which platform is best for beauty?"),
+          p("Instagram is the usual starting point, with short video and Stories, though it depends on your audience."),
+          h3("Can I show client photos?"),
+          p("Only with clear permission."),
+          h3("How do I handle price questions?"),
+          p("Share a price guide or a Highlight, and explain what is included."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "ths-organic"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "ecommerce-product-posts",
+    slug: "social-media-posts-for-ecommerce-products",
+    title: "Social Media Posts for E-commerce: How to Show a Product So It Sells",
+    seoTitle: "Social Media Posts for E-commerce Products",
+    description: "How to photograph, frame and write about products so social media posts attract attention and lead to the product page.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "A product post has a hard job: stop the scroll, explain the product and push the viewer toward your shop. Good e-commerce posts do this with a clear image, one benefit and an obvious next step.",
+    sections: [
+      {
+        id: "clear",
+        heading: "Make the product clear",
+        blocks: [
+          ul("Show the product large and in good light.", "Use a clean background or a believable setting.", "Include a size or scale reference when needed.", "Show details and the packaging."),
+          p("For a premium boutique such as Caterina Tomasso, restraint, clean backgrounds and elegant presentation matter. For a cosmetic brand such as Fleurane, packaging and texture shots add value."),
+        ],
+      },
+      {
+        id: "benefit",
+        heading: "Lead with one benefit",
+        blocks: [
+          p("Customers care about what a product does for them. Pick one benefit per post and say it in plain words. Avoid listing every feature."),
+        ],
+      },
+      {
+        id: "variety",
+        heading: "Vary the formats",
+        blocks: [
+          ol("Product on a clean background.", "Product in use or in a scene.", "Detail close-up.", "Short video, such as unboxing or a demonstration.", "Customer photos, with permission."),
+        ],
+      },
+      {
+        id: "cta",
+        heading: "Make buying easy",
+        blocks: [
+          p("Tell people exactly how to buy: link in bio, product tags or a direct message. Keep price and availability clear. In a carousel, end with a slide that points to the shop."),
+        ],
+      },
+      {
+        id: "ads",
+        heading: "Reuse good posts for ads",
+        blocks: [
+          p("Posts that perform well organically often work as ads too. See my ads and campaigns service for help turning product content into campaigns."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many product photos do I need?"),
+          p("Several angles per product plus a few lifestyle shots is a good base."),
+          h3("Should I show prices in posts?"),
+          p("It depends on the brand. Premium brands often keep prices on the shop page; accessible brands often show them."),
+          h3("Do I need a studio?"),
+          p("Not necessarily. Daylight, a clean surface and a steady phone can work well."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "fleurane"], services: ["social-media-design", "ads-campaigns"] },
+  },
+  {
+    id: "social-media-audit",
+    slug: "social-media-audit-checklist",
+    title: "Social Media Audit: A Checklist to Find What Is Working and What Is Not",
+    seoTitle: "Social Media Audit: A Practical Checklist",
+    description: "A practical social media audit covering profiles, content, design consistency and results, with steps to turn findings into a plan.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "Most brands keep posting without ever stopping to look at the whole picture. An audit is that pause. It does not need special software. It needs an hour, honest eyes and a list of questions.",
+    sections: [
+      {
+        id: "profiles",
+        heading: "1. Check the profiles",
+        blocks: [
+          ul("Names, pictures and bios are consistent across platforms.", "Links work and lead to the right place.", "Contact details are current.", "Highlights and pinned posts are up to date."),
+        ],
+      },
+      {
+        id: "content",
+        heading: "2. Review the content",
+        blocks: [
+          p("Look at the last 30 posts. Group them by type and topic. Note which have the best saves, shares, comments and reach. Notice what you post a lot of that gets little response."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "3. Review the design",
+        blocks: [
+          ol("Do the posts look like one brand?", "Is text readable on a phone?", "Are images sharp and consistent?", "Are templates used, or does everything look improvised?"),
+          p("A tattoo studio such as Inklabs and an apparel brand such as Kanoi both benefit from a recognisable look, each in its own style."),
+        ],
+      },
+      {
+        id: "audience",
+        heading: "4. Understand the audience",
+        blocks: [
+          p("Look at who follows and engages: location, age ranges, activity times where available. Compare it to the audience you want."),
+        ],
+      },
+      {
+        id: "goals",
+        heading: "5. Compare with goals",
+        blocks: [
+          p("What is social media supposed to do for the business: awareness, enquiries, sales? Check whether the content supports that goal."),
+        ],
+      },
+      {
+        id: "plan",
+        heading: "Turn findings into a plan",
+        blocks: [
+          ol("List the three biggest problems.", "Pick the quickest wins.", "Set a posting rhythm you can keep.", "Review again in three months."),
+          p("If you want an outside review and a template system, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How often should I audit?"),
+          p("Every three to six months."),
+          h3("What tools do I need?"),
+          p("The platforms' own insights are enough to start."),
+          h3("Should I delete weak posts?"),
+          p("Usually no. Improve the future instead, unless a post is harmful or wrong."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "kanoi"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-metrics",
+    slug: "social-media-metrics-that-matter",
+    title: "Social Media Metrics That Matter (and the Ones You Can Ignore)",
+    seoTitle: "Social Media Metrics That Matter",
+    description: "Likes feel good, but they rarely pay the bills. Which social media metrics tell you if your content works, and how to read them without obsessing.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "Social platforms give you endless numbers. Most of them are interesting and few are useful. The trick is to pick a small set tied to what you want the content to do, and to read them over weeks, not hours.",
+    sections: [
+      {
+        id: "goal",
+        heading: "Start with the goal",
+        blocks: [
+          p("Different goals need different numbers. A new brand wants to be seen. A shop wants clicks and sales. A local business wants messages and calls. Decide the main goal for each channel first."),
+        ],
+      },
+      {
+        id: "reach",
+        heading: "Reach and views",
+        blocks: [
+          p("Reach shows how many people saw the content. It helps you understand what captures attention: formats, topics, hooks. It is not proof of results on its own."),
+        ],
+      },
+      {
+        id: "engagement",
+        heading: "Saves, shares and comments",
+        blocks: [
+          p("Saves and shares usually show real value, because someone wanted to keep or pass on the content. Comments can show interest and questions. They tell you more than likes."),
+        ],
+      },
+      {
+        id: "action",
+        heading: "Clicks and actions",
+        blocks: [
+          ul("Link clicks and profile visits.", "Messages and calls.", "Sales or bookings attributed to social."),
+          p("These are closest to business results. Where possible, track them with a simple method, such as a unique link or a question in your booking form."),
+        ],
+      },
+      {
+        id: "growth",
+        heading: "Follower growth",
+        blocks: [
+          p("Growth matters, but quality of followers matters more. Ten local customers are worth more than a thousand random followers."),
+        ],
+      },
+      {
+        id: "ignore",
+        heading: "What to treat carefully",
+        blocks: [
+          ul("Single-day spikes or dips.", "Comparing yourself with much bigger accounts.", "Likes as the only signal."),
+        ],
+      },
+      {
+        id: "review",
+        heading: "Review monthly",
+        blocks: [
+          p("Pick three metrics, write them down each month and note what you posted. Patterns appear quickly. If you want help planning content around results, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Which metric is the most important?"),
+          p("The one closest to your goal: usually saves, clicks or messages."),
+          h3("How often should I check numbers?"),
+          p("Weekly for a quick look, monthly for decisions."),
+          h3("Are followers still important?"),
+          p("Somewhat, but engaged and relevant followers matter more than the total."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

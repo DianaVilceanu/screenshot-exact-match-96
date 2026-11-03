@@ -3113,6 +3113,339 @@ export const articles: Article[] = [
     ],
     related: { projects: ["farmacia-farmex", "divaz"], services: ["social-media-design"] },
   },
+  {
+    id: "testimonial-posts",
+    slug: "cum-proiectezi-postari-cu-recenzii-si-testimoniale",
+    title: "Cum proiectezi postări cu recenzii și testimoniale care construiesc încredere",
+    seoTitle: "Cum proiectezi postări cu recenzii și testimoniale",
+    description: "Recenziile clienților sunt o dovadă puternică, dar o captură de ecran nu este suficientă. Cum transformi recenziile în postări curate și oneste care construiesc încredere.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Oamenii au mai multă încredere în alți clienți decât în branduri. O postare bună cu o recenzie pune acea încredere în față. Diferența dintre una convingătoare și una uitată ține mai ales de alegerea citatului și de grija din design.",
+    sections: [
+      {
+        id: "cere",
+        heading: "Cere permisiunea și cuvinte reale",
+        blocks: [
+          p("Cere mereu acordul înainte să publici cuvintele sau poza unui client. Folosește citate reale, fără să le inventezi sau să le îmbunătățești. Editează doar pentru lungime sau greșeli de scriere și păstrează sensul. Pentru branduri de sănătate și beauty, fii extra atent la afirmații și confidențialitate."),
+        ],
+      },
+      {
+        id: "alege",
+        heading: "Alege citatul potrivit",
+        blocks: [
+          ul("Specificul bate generalul: „programarea a fost la timp și mi s-a explicat clar” e mai bine decât „servicii grozave”.", "Alege un citat care răspunde unei îngrijorări reale a clienților.", "Păstrează-l destul de scurt cât să se citească dintr-o privire."),
+        ],
+      },
+      {
+        id: "proiecteaza",
+        heading: "Proiectează postarea",
+        blocks: [
+          ol("Pune citatul cu litere mari și clare.", "Adaugă prenumele sau inițialele și contextul, cu permisiune.", "Folosește culorile brandului și o compoziție calmă.", "Include logoul discret.", "Lasă suficient contrast și spațiu."),
+          p("O clinică precum Dr. Kurbe sau un magazin optic precum Optica Tei câștigă dintr-un stil curat și liniștitor care se potrivește restului brandului."),
+        ],
+      },
+      {
+        id: "formate",
+        heading: "Formate care funcționează",
+        blocks: [
+          ul("Postări cu un singur citat.", "Carusele cu mai multe recenzii scurte.", "Highlights Stories intitulate Recenzii.", "Videoclipuri scurte, cu permisiune."),
+        ],
+      },
+      {
+        id: "onestitate",
+        heading: "Rămâi onest",
+        blocks: [
+          p("Nu fabrica recenzii. Dacă nu ai încă, cere-le clienților mulțumiți și, până atunci, folosește alte dovezi precum procesul, rezultate pe care le poți documenta și expertiza ta. Vezi serviciul meu de design pentru social media pentru șabloane de recenzii."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Pot posta capturi de ecran cu recenzii?"),
+          p("Cu permisiune, da, dar un citat proiectat se citește adesea mai bine. Asigură-te că sursa e clară."),
+          h3("Cât de des ar trebui să postez recenzii?"),
+          p("Ocazional, amestecate cu alt conținut, ca feedul să nu devină o reclamă lungă."),
+          h3("Ce fac dacă o recenzie este negativă?"),
+          p("Răspunde public și calm. Arată cum gestionezi problemele."),
+        ],
+      },
+    ],
+    related: { projects: ["dr-kurbe-clinic", "optica-tei"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-for-beauty-salons",
+    slug: "social-media-pentru-saloane-si-branduri-de-beauty",
+    title: "Social media pentru saloane și branduri de beauty: conținut care aduce programări",
+    seoTitle: "Social media pentru saloane și branduri de beauty",
+    description: "Beauty-ul este vizual, deci social media i se potrivește natural. Ce postezi, cum fotografiezi rezultatele și cum transformi urmăritorii în programări.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Beauty-ul se vinde din priviri. Oamenii aleg un salon, o tehniciană de unghii sau un brand de skincare în mare parte după ce văd. Asta face din social media un canal puternic, atâta timp cât conținutul arată calitate și face programarea sau cumpărarea ușoare.",
+    sections: [
+      {
+        id: "arata",
+        heading: "Arată munca",
+        blocks: [
+          ul("Înainte și după, cu permisiune.", "Prim-planuri cu detalii și finisaj.", "Video-uri scurte cu procesul.", "Produse în folosire, nu doar pe un raft."),
+          p("Lumina bună și fundalurile curate contează mai mult decât echipamentul scump."),
+        ],
+      },
+      {
+        id: "incredere",
+        heading: "Construiește încredere",
+        blocks: [
+          p("Prezintă oamenii, spațiul și practicile de igienă. Clienții vor să se simtă în siguranță, nu doar răsfățați. Împărtășește informații oneste despre produse și ingrediente și evită afirmațiile exagerate."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Păstrează un aspect consecvent",
+        blocks: [
+          p("Un feed de salon cu poze aleatorii pare mai ieftin decât este serviciul în realitate. Folosește o paletă coerentă și câteva șabloane. Un brand de beauty precum Divaz se construiește pe culoare și produs, în timp ce o linie naturală precum THS Organic se poate sprijini pe căldură și tonuri de miere."),
+        ],
+      },
+      {
+        id: "programare",
+        heading: "Fă programarea ușoară",
+        blocks: [
+          ol("Pune linkul de programare sau telefonul în bio.", "Adaugă un Highlight cu prețuri și cum te programezi.", "Încheie postările cheie cu un îndemn clar la acțiune.", "Răspunde rapid la mesaje."),
+        ],
+      },
+      {
+        id: "ritm",
+        heading: "Un ritm simplu pe săptămână",
+        blocks: [
+          ul("Una sau două postări cu rezultate.", "O postare educativă, de exemplu sfaturi de îngrijire după serviciu.", "O postare din culise sau cu echipa.", "Stories la câteva zile pentru disponibilitate și oferte."),
+          p("Dacă vrei un sistem de conținut pentru beauty, vezi serviciile mele de design pentru social media și creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care platformă este cea mai bună pentru beauty?"),
+          p("Instagram este punctul obișnuit de start, cu video scurt și Stories, deși depinde de publicul tău."),
+          h3("Pot arăta poze cu clienți?"),
+          p("Doar cu permisiune clară."),
+          h3("Cum gestionez întrebările despre preț?"),
+          p("Împărtășește un ghid de prețuri sau un Highlight și explică ce include."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "ths-organic"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "ecommerce-product-posts",
+    slug: "postari-social-media-pentru-produse-de-ecommerce",
+    title: "Postări social media pentru e-commerce: cum arăți un produs ca să se vândă",
+    seoTitle: "Postări social media pentru produse e-commerce",
+    description: "Cum fotografiezi, încadrezi și descrii produse astfel încât postările să atragă atenția și să ducă spre pagina produsului.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "O postare de produs are o treabă grea: să oprească derularea, să explice produsul și să împingă privitorul spre magazin. Postările bune de e-commerce fac asta cu o imagine clară, un beneficiu și un pas următor evident.",
+    sections: [
+      {
+        id: "clar",
+        heading: "Fă produsul clar",
+        blocks: [
+          ul("Arată produsul mare și în lumină bună.", "Folosește un fundal curat sau un decor credibil.", "Include o referință de mărime sau scară când e nevoie.", "Arată detaliile și ambalajul."),
+          p("Pentru un boutique premium precum Caterina Tomasso contează reținerea, fundalurile curate și prezentarea elegantă. Pentru un brand cosmetic precum Fleurane, ambalajul și texturile adaugă valoare."),
+        ],
+      },
+      {
+        id: "beneficiu",
+        heading: "Începe cu un beneficiu",
+        blocks: [
+          p("Clienții se gândesc la ce face un produs pentru ei. Alege un beneficiu pe postare și spune-l simplu. Evită să enumeri toate caracteristicile."),
+        ],
+      },
+      {
+        id: "varietate",
+        heading: "Variază formatele",
+        blocks: [
+          ol("Produs pe fundal curat.", "Produs în folosire sau într-o scenă.", "Prim-plan cu detalii.", "Video scurt, de exemplu despachetare sau demonstrație.", "Fotografii ale clienților, cu permisiune."),
+        ],
+      },
+      {
+        id: "cta",
+        heading: "Fă cumpărarea ușoară",
+        blocks: [
+          p("Spune-le oamenilor exact cum să cumpere: link în bio, taguri de produs sau mesaj direct. Păstrează prețul și disponibilitatea clare. Într-un caruzel, încheie cu un slide care trimite spre magazin."),
+        ],
+      },
+      {
+        id: "reclame",
+        heading: "Refolosește postările bune pentru reclame",
+        blocks: [
+          p("Postările care merg bine organic funcționează adesea și ca reclame. Vezi serviciul meu de reclame și campanii pentru ajutor la transformarea conținutului de produs în campanii."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte poze de produs am nevoie?"),
+          p("Mai multe unghiuri pe produs plus câteva cadre lifestyle sunt o bază bună."),
+          h3("Să arăt prețuri în postări?"),
+          p("Depinde de brand. Brandurile premium păstrează adesea prețurile pe pagina magazinului; cele accesibile le arată adesea."),
+          h3("Am nevoie de studio?"),
+          p("Nu neapărat. Lumina naturală, o suprafață curată și un telefon stabil pot funcționa bine."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "fleurane"], services: ["social-media-design", "ads-campaigns"] },
+  },
+  {
+    id: "social-media-audit",
+    slug: "audit-social-media-lista-de-verificare",
+    title: "Audit social media: o listă pentru a găsi ce funcționează și ce nu",
+    seoTitle: "Audit social media: o listă practică",
+    description: "Un audit social media practic care acoperă profilele, conținutul, consecvența designului și rezultatele, cu pași pentru a transforma concluziile într-un plan.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "Majoritatea brandurilor continuă să posteze fără să se oprească vreodată să privească imaginea de ansamblu. Un audit este acea pauză. Nu are nevoie de software special. Are nevoie de o oră, ochi sinceri și o listă de întrebări.",
+    sections: [
+      {
+        id: "profiluri",
+        heading: "1. Verifică profilurile",
+        blocks: [
+          ul("Numele, pozele și bio-urile sunt consecvente pe platforme.", "Linkurile funcționează și duc unde trebuie.", "Datele de contact sunt actuale.", "Highlights și postările fixate sunt la zi."),
+        ],
+      },
+      {
+        id: "continut",
+        heading: "2. Revizuiește conținutul",
+        blocks: [
+          p("Uită-te la ultimele 30 de postări. Grupează-le pe tipuri și subiecte. Notează care au cele mai multe salvări, distribuiri, comentarii și reach. Observă ce postezi mult și primește puțin răspuns."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "3. Revizuiește designul",
+        blocks: [
+          ol("Arată postările ca un singur brand?", "Este textul lizibil pe telefon?", "Sunt imaginile clare și consecvente?", "Se folosesc șabloane sau totul pare improvizat?"),
+          p("Un studio de tatuaje precum Inklabs și un brand de îmbrăcăminte precum Kanoi câștigă amândouă dintr-un aspect recognoscibil, fiecare în stilul lui."),
+        ],
+      },
+      {
+        id: "public",
+        heading: "4. Înțelege publicul",
+        blocks: [
+          p("Uită-te cine te urmărește și interacționează: locație, intervale de vârstă, ore de activitate unde sunt disponibile. Compară cu publicul pe care îl vrei."),
+        ],
+      },
+      {
+        id: "obiective",
+        heading: "5. Compară cu obiectivele",
+        blocks: [
+          p("Ce ar trebui să facă social media pentru afacere: notorietate, cereri, vânzări? Verifică dacă conținutul susține acel scop."),
+        ],
+      },
+      {
+        id: "plan",
+        heading: "Transformă concluziile într-un plan",
+        blocks: [
+          ol("Listează cele mai mari trei probleme.", "Alege câștigurile cele mai rapide.", "Stabilește un ritm de postare pe care îl poți menține.", "Revizuiește din nou peste trei luni."),
+          p("Dacă vrei o revizuire din exterior și un sistem de șabloane, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de des ar trebui să fac un audit?"),
+          p("La fiecare trei până la șase luni."),
+          h3("De ce unelte am nevoie?"),
+          p("Statisticile platformelor sunt suficiente la început."),
+          h3("Ar trebui să șterg postările slabe?"),
+          p("De obicei nu. Îmbunătățește viitorul, cu excepția cazului în care o postare este dăunătoare sau greșită."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "kanoi"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-metrics",
+    slug: "metrici-social-media-care-conteaza",
+    title: "Metrici social media care contează (și cele pe care le poți ignora)",
+    seoTitle: "Metrici social media care contează",
+    description: "Like-urile fac bine, dar rareori plătesc facturile. Ce metrici social media îți spun dacă conținutul funcționează și cum le citești fără să devii obsedat.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "Platformele sociale îți oferă numere fără sfârșit. Majoritatea sunt interesante și puține sunt utile. Trucul este să alegi un set mic, legat de ce vrei să facă conținutul, și să le citești în săptămâni, nu în ore.",
+    sections: [
+      {
+        id: "scopul",
+        heading: "Începe cu scopul",
+        blocks: [
+          p("Scopuri diferite cer numere diferite. Un brand nou vrea să fie văzut. Un magazin vrea clickuri și vânzări. O afacere locală vrea mesaje și apeluri. Decide întâi scopul principal pentru fiecare canal."),
+        ],
+      },
+      {
+        id: "reach",
+        heading: "Reach și vizualizări",
+        blocks: [
+          p("Reach-ul arată câți oameni au văzut conținutul. Te ajută să înțelegi ce captează atenția: formate, subiecte, cârlige. Nu este singur o dovadă a rezultatelor."),
+        ],
+      },
+      {
+        id: "interactiune",
+        heading: "Salvări, distribuiri și comentarii",
+        blocks: [
+          p("Salvările și distribuirile arată de obicei valoare reală, pentru că cineva a vrut să păstreze sau să trimită conținutul. Comentariile pot arăta interes și întrebări. Îți spun mai mult decât like-urile."),
+        ],
+      },
+      {
+        id: "actiune",
+        heading: "Clickuri și acțiuni",
+        blocks: [
+          ul("Clickuri pe link și vizite pe profil.", "Mesaje și apeluri.", "Vânzări sau programări atribuite social media."),
+          p("Acestea sunt cele mai apropiate de rezultatele afacerii. Unde se poate, urmărește-le cu o metodă simplă, precum un link unic sau o întrebare în formularul de programare."),
+        ],
+      },
+      {
+        id: "crestere",
+        heading: "Creșterea numărului de urmăritori",
+        blocks: [
+          p("Creșterea contează, dar calitatea urmăritorilor contează mai mult. Zece clienți locali valorează mai mult decât o mie de urmăritori întâmplători."),
+        ],
+      },
+      {
+        id: "ignora",
+        heading: "Cu ce fii atent",
+        blocks: [
+          ul("Vârfuri sau scăderi dintr-o singură zi.", "Compararea cu conturi mult mai mari.", "Like-urile ca singur semnal."),
+        ],
+      },
+      {
+        id: "revizuieste",
+        heading: "Revizuiește lunar",
+        blocks: [
+          p("Alege trei metrici, notează-le în fiecare lună și adaugă ce ai postat. Tiparele apar repede. Dacă vrei ajutor să planifici conținut în funcție de rezultate, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care metrică este cea mai importantă?"),
+          p("Cea mai apropiată de scopul tău: de obicei salvările, clickurile sau mesajele."),
+          h3("Cât de des ar trebui să verific numerele?"),
+          p("Săptămânal pentru o privire rapidă, lunar pentru decizii."),
+          h3("Mai contează urmăritorii?"),
+          p("Oarecum, dar urmăritorii implicați și relevanți contează mai mult decât totalul."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

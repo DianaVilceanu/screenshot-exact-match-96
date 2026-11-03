@@ -4093,6 +4093,334 @@ export const articles: Article[] = [
     ],
     related: { projects: ["nextlab-tech", "floraria-mariei"], services: ["printed-media"] },
   },
+  {
+    id: "paper-and-finishes",
+    slug: "paper-and-finishes-for-business-cards-and-print",
+    title: "Paper and Finishes for Business Cards and Print: How to Choose",
+    seoTitle: "Paper and Finishes for Business Cards and Print",
+    description: "Coated or uncoated, matte or gloss, foil or spot varnish. A plain guide to choosing paper and finishes that fit your brand and your budget.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Print is physical, so the paper and finish are part of the message. Two identical designs can feel cheap or premium depending on what they are printed on. Here is how to choose without needing a print-shop vocabulary.",
+    sections: [
+      {
+        id: "weight",
+        heading: "Weight",
+        blocks: [
+          p("Paper weight is measured in grams per square metre (gsm). Heavier paper feels sturdier. Business cards are usually printed on a heavy stock, flyers on lighter paper, and brochures somewhere in between. Ask your printer for samples to feel the difference."),
+        ],
+      },
+      {
+        id: "coated",
+        heading: "Coated or uncoated",
+        blocks: [
+          ul("Coated paper is smooth and makes colours look vivid. It comes in matte or gloss.", "Uncoated paper is more natural, absorbs ink and feels softer. It suits a calm, premium or craft look.", "Matte coated paper reduces glare and looks modern."),
+        ],
+      },
+      {
+        id: "finishes",
+        heading: "Common finishes",
+        blocks: [
+          ul("Lamination: a thin protective film, matte or gloss, that makes a card more durable.", "Spot varnish: a glossy coating applied to selected areas, such as a logo.", "Foil: a metallic layer for logos or details.", "Embossing: raised areas that add texture."),
+          p("Use special finishes sparingly. One well-chosen detail has more effect than several competing ones."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Match the finish to the brand",
+        blocks: [
+          p("A natural cosmetics brand like Fleurane can use soft, tactile paper that feels calm and refined. A silver boutique such as Caterina Tomasso may use restrained elegance, perhaps with a subtle foil detail. An industrial company may prefer durable, clean materials."),
+        ],
+      },
+      {
+        id: "budget",
+        heading: "Mind the budget",
+        blocks: [
+          ol("Choose the paper first, since it has the biggest impact.", "Add one finish where it matters most.", "Order samples or proofs before large runs.", "Ask for quotes with different options."),
+          p("For help specifying print materials, see my print design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Which paper is best for business cards?"),
+          p("A heavy, good quality stock. Coated or uncoated depends on the brand mood."),
+          h3("Is matte or gloss better?"),
+          p("Matte looks calmer and shows fewer fingerprints; gloss makes colours pop."),
+          h3("Do special finishes make a big difference?"),
+          p("Used well, yes, but a few details are better than many."),
+        ],
+      },
+    ],
+    related: { projects: ["fleurane", "caterina-tomasso"], services: ["printed-media"] },
+  },
+  {
+    id: "cosmetics-label-requirements",
+    slug: "cosmetics-label-requirements-in-the-eu",
+    title: "Cosmetics Label Design in the EU: What Must Appear on the Packaging",
+    seoTitle: "Cosmetics Label Requirements in the EU",
+    description: "A designer's overview of what an EU cosmetics label must show, according to Regulation 1223/2009, and how to plan space for it from the start.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "A cosmetics label has to be beautiful and legal at the same time. Designing it without knowing what must appear leads to rework. This is a designer's overview of the main items listed in Article 19 of the EU Cosmetics Regulation (1223/2009). It is not legal advice, so always confirm with a regulatory expert.",
+    sections: [
+      {
+        id: "why",
+        heading: "Why plan the space first",
+        blocks: [
+          p("Mandatory text takes real space, and some of it needs a minimum legibility. If you plan the layout around it from the start, the label looks intentional. If you add it at the end, the design suffers."),
+        ],
+      },
+      {
+        id: "items",
+        heading: "The main items on the label",
+        blocks: [
+          ul("Name and address of the responsible person in the EU.", "Country of origin for imported products.", "Nominal content (weight or volume) at the time of packaging.", "Date of minimum durability or the period after opening symbol, depending on the product.", "Precautions for use and any special warnings.", "Batch number or reference that identifies the product.", "Function of the product, unless it is clear from its presentation.", "List of ingredients, using the standard ingredient naming."),
+          p("Some information may need to appear on the container and on the outer packaging; some can be given on an accompanying leaflet or label when it is not practical to print it. Check the details for your product."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "How to design with it",
+        blocks: [
+          ol("Make a list of all mandatory items for the product.", "Reserve the area for them, with enough size and contrast.", "Choose a font that stays readable at small sizes.", "Separate regulatory text from marketing text.", "Print a real-size proof and test legibility."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Keep the brand feeling",
+        blocks: [
+          p("Good hierarchy lets the brand name and the main message lead while the regulatory text stays tidy and clear. Brands such as Fleurane or THS Organic can keep a calm, premium appearance while respecting the rules."),
+        ],
+      },
+      {
+        id: "check",
+        heading: "Always check with an expert",
+        blocks: [
+          p("Rules also cover claims, languages and product-specific requirements. Have the final label verified by someone who knows the regulation before printing. For help designing labels and packaging, see my print design and branding services."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Are these rules the same in all EU countries?"),
+          p("The regulation applies across the EU, but language requirements for some information can depend on the country. Check each market."),
+          h3("Can I put all information on a leaflet?"),
+          p("Only in cases where the regulation allows it. Check which items must be on the pack."),
+          h3("Who is the responsible person?"),
+          p("The person or company, established in the EU, responsible for the product's compliance."),
+        ],
+      },
+    ],
+    related: { projects: ["fleurane", "ths-organic"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "brochure-catalogue-layout",
+    slug: "brochure-and-catalogue-layout-basics",
+    title: "Brochure and Catalogue Layout: Grids, Hierarchy and Page Flow",
+    seoTitle: "Brochure and Catalogue Layout Basics",
+    description: "How to lay out a brochure or product catalogue so it is easy to scan and pleasant to read: grids, hierarchy, images, pacing and print preparation.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "A brochure or catalogue is read in a series of glances before any real reading. The layout has to guide those glances. A clear grid, strong hierarchy and a rhythm across pages make the difference between a catalogue people browse and one they put down.",
+    sections: [
+      {
+        id: "goal",
+        heading: "Start with the purpose",
+        blocks: [
+          p("Is the document meant to inform, to sell or to impress? A product catalogue needs scanning and comparison. A brand brochure needs mood and story. Decide the purpose before choosing the layout."),
+        ],
+      },
+      {
+        id: "grid",
+        heading: "Use a grid",
+        blocks: [
+          ul("Choose a column grid, such as two, three or four columns.", "Set margins and gutters and keep them consistent.", "Align images and text to the grid.", "Use a baseline grid for tidy text."),
+          p("A grid is what makes many pages feel like one document."),
+        ],
+      },
+      {
+        id: "hierarchy",
+        heading: "Create a hierarchy",
+        blocks: [
+          ol("Page titles and section openers.", "Product names or headings.", "Descriptions and key details.", "Prices, codes and small print."),
+          p("Use size, weight and colour to separate levels. A florist catalogue, for example, can lead with large product images and short names, with details in smaller text."),
+        ],
+      },
+      {
+        id: "images",
+        heading: "Treat images with care",
+        blocks: [
+          p("Use high-resolution photos, consistent in light and style. Mix full-page images with smaller ones to create rhythm. Keep captions near the images."),
+        ],
+      },
+      {
+        id: "flow",
+        heading: "Plan the page flow",
+        blocks: [
+          ul("Start with a strong cover and a clear contents page.", "Group related products or topics.", "Vary page density: busy pages followed by calmer ones.", "End with contact details and a call to action."),
+        ],
+      },
+      {
+        id: "print",
+        heading: "Prepare for print",
+        blocks: [
+          p("Use CMYK, add bleed, check resolution at 300 dpi for images and keep text away from folds and trims. Pay attention to page counts: booklets usually need multiples of four. See my print design service for catalogues and brochures."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many columns should I use?"),
+          p("Two to four is typical, depending on the page size and content."),
+          h3("What resolution do images need?"),
+          p("About 300 dpi at final size for print."),
+          h3("Should I print or send a PDF?"),
+          p("Both can be useful. A PDF is good for online sharing, print for in-person impact."),
+        ],
+      },
+    ],
+    related: { projects: ["regata-print", "floraria-mariei"], services: ["printed-media"] },
+  },
+  {
+    id: "promotional-materials",
+    slug: "promotional-materials-that-work",
+    title: "Promotional Materials That Work: Which Ones Are Worth Printing",
+    seoTitle: "Promotional Materials That Work: What to Print",
+    description: "Pens, bags, brochures, banners, stickers. How to decide which promotional items suit your brand and audience, and how to design them well.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "Printed promotional materials can strengthen a brand, or waste a budget. The difference is usually relevance. Items that people keep, use and associate with a good experience work. Generic items that nobody wants do not.",
+    sections: [
+      {
+        id: "purpose",
+        heading: "Start with the purpose",
+        blocks: [
+          ul("Awareness at an event or in a shop.", "Thanking customers.", "Supporting a sale or a presentation.", "Referrals and repeat business."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "Choose items people will actually use",
+        blocks: [
+          p("Think about your audience's daily routine. A notebook may suit a consultant; a tote bag may suit a boutique; a durable catalogue may suit an industrial company showing machines at a trade fair."),
+        ],
+      },
+      {
+        id: "list",
+        heading: "Common options",
+        blocks: [
+          ul("Brochures and catalogues for information.", "Stickers and labels for small brands and shops.", "Packaging, tissue paper and thank-you cards for e-commerce.", "Roll-up banners and signage for events.", "Branded stationery, as discussed in my stationery guide."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design as a family",
+        blocks: [
+          ol("Use the same colours, fonts and logo placement.", "Include a clear call to action.", "Keep layouts simple and bold.", "Test legibility at the real size."),
+          p("A tidy family of materials makes a small company look established, as in a project such as KDT Romania."),
+        ],
+      },
+      {
+        id: "quality",
+        heading: "Quality over quantity",
+        blocks: [
+          p("A few well-made items beat a large stock of weak ones. Order a sample, check colours and paper, and run small quantities first."),
+        ],
+      },
+      {
+        id: "measure",
+        heading: "Measure the effect",
+        blocks: [
+          p("Use codes, links or a question at the checkout to see which materials bring results. For help with promotional design, see my print design and branding services."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Are printed materials still worth it?"),
+          p("Yes, for events, local business and premium impressions, alongside digital channels."),
+          h3("How many items should I order?"),
+          p("Start small, then reorder once you know what works."),
+          h3("How do I make promo items feel premium?"),
+          p("Good design, good material and restraint."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "regata-print"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "ux-vs-ui",
+    slug: "ux-vs-ui-design-difference",
+    title: "UX vs UI Design: What Is the Difference and Why Both Matter",
+    seoTitle: "UX vs UI Design: The Difference Explained",
+    description: "UX is how a product works for people, UI is how it looks and feels on screen. How the two differ, how they work together and what to ask a designer.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "UX and UI are often mentioned together, which is why they get confused. They are two sides of the same product. One answers 'does this work for people?', the other 'does this look and feel right?'. A good product needs both.",
+    sections: [
+      {
+        id: "ux",
+        heading: "What UX design is",
+        blocks: [
+          p("User experience design is about how a product works for the person using it. It covers understanding users, mapping tasks, structuring information, planning flows and testing. The question is: can people achieve their goal easily?"),
+          ul("User research and personas.", "Information architecture and flows.", "Wireframes and prototypes.", "Usability testing."),
+        ],
+      },
+      {
+        id: "ui",
+        heading: "What UI design is",
+        blocks: [
+          p("User interface design is the visual and interactive layer: layout, colours, typography, buttons, icons, spacing and states. The question is: does this look clear, consistent and on brand?"),
+          ul("Visual style and design systems.", "Components such as buttons and forms.", "Responsive layouts for different screens.", "Motion and feedback."),
+        ],
+      },
+      {
+        id: "together",
+        heading: "How they work together",
+        blocks: [
+          p("UX decides what goes where and why. UI decides how it looks. A beautiful interface with a confusing flow fails. A logical flow with a poor interface feels untrustworthy. In projects such as Vibrary, a reading app, structure, usability and visual style were designed together."),
+        ],
+      },
+      {
+        id: "example",
+        heading: "A simple example",
+        blocks: [
+          p("On an ordering page for a food delivery brand like Green Table, UX decides the steps from choosing a plan to paying. UI decides how the plates are presented, how buttons look and how the colours support appetite and clarity."),
+        ],
+      },
+      {
+        id: "ask",
+        heading: "What to ask a designer",
+        blocks: [
+          ol("How do you understand users?", "Can you show a flow, not only screens?", "How do you handle consistency?", "How do you test?"),
+          p("For app and website interface design, see my UX/UI design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Can one person do both UX and UI?"),
+          p("Yes, especially on small projects."),
+          h3("Which should come first?"),
+          p("UX, because structure and flows shape the interface."),
+          h3("Is UX only for apps?"),
+          p("No. Websites, print flows and services have user experience too."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

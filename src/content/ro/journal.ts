@@ -4123,6 +4123,334 @@ export const articles: Article[] = [
     ],
     related: { projects: ["nextlab-tech", "floraria-mariei"], services: ["printed-media"] },
   },
+  {
+    id: "paper-and-finishes",
+    slug: "hartie-si-finisaje-pentru-carti-de-vizita-si-print",
+    title: "Hârtie și finisaje pentru cărți de vizită și print: cum alegi",
+    seoTitle: "Hârtie și finisaje pentru cărți de vizită și print",
+    description: "Cretată sau necretată, mată sau lucioasă, folie sau lac selectiv. Un ghid simplu pentru alegerea hârtiei și a finisajelor care se potrivesc brandului și bugetului tău.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Tiparul este fizic, deci hârtia și finisajul fac parte din mesaj. Două designuri identice pot părea ieftine sau premium în funcție de ce sunt tipărite. Iată cum alegi fără să ai nevoie de vocabularul unei tipografii.",
+    sections: [
+      {
+        id: "gramaj",
+        heading: "Gramaj",
+        blocks: [
+          p("Greutatea hârtiei se măsoară în grame pe metru pătrat (gsm). Hârtia mai grea pare mai solidă. Cărțile de vizită se tipăresc de obicei pe carton gros, flyerele pe hârtie mai subțire, iar broșurile undeva la mijloc. Cere tipografiei mostre ca să simți diferența."),
+        ],
+      },
+      {
+        id: "cretata",
+        heading: "Cretată sau necretată",
+        blocks: [
+          ul("Hârtia cretată este netedă și face culorile să arate vii. Vine în variantă mată sau lucioasă.", "Hârtia necretată este mai naturală, absoarbe cerneala și are o textură mai moale. Se potrivește unui aspect calm, premium sau artizanal.", "Hârtia cretată mată reduce reflexiile și arată modern."),
+        ],
+      },
+      {
+        id: "finisaje",
+        heading: "Finisaje frecvente",
+        blocks: [
+          ul("Laminare: o peliculă subțire de protecție, mată sau lucioasă, care face cartea mai durabilă.", "Lac selectiv: un strat lucios aplicat pe anumite zone, precum un logo.", "Folie: un strat metalic pentru logouri sau detalii.", "Ștanțare în relief: zone ridicate care adaugă textură."),
+          p("Folosește finisajele speciale cu măsură. Un detaliu ales bine are mai mult efect decât mai multe care concurează."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Potrivește finisajul cu brandul",
+        blocks: [
+          p("Un brand de cosmetice naturale precum Fleurane poate folosi hârtie moale, tactilă, care se simte calmă și rafinată. Un boutique de argint precum Caterina Tomasso poate folosi eleganță reținută, poate cu un detaliu subtil de folie. O companie industrială poate prefera materiale durabile și curate."),
+        ],
+      },
+      {
+        id: "buget",
+        heading: "Ține cont de buget",
+        blocks: [
+          ol("Alege mai întâi hârtia, pentru că are cel mai mare impact.", "Adaugă un singur finisaj acolo unde contează cel mai mult.", "Comandă mostre sau probe înainte de tiraje mari.", "Cere oferte cu opțiuni diferite."),
+          p("Pentru ajutor la specificarea materialelor tipărite, vezi serviciul meu de design pentru print."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care hârtie este cea mai bună pentru cărți de vizită?"),
+          p("Un carton gros, de calitate bună. Cretat sau necretat depinde de atmosfera brandului."),
+          h3("Mat sau lucios?"),
+          p("Matul arată mai calm și lasă mai puține amprente; luciosul face culorile să iasă în evidență."),
+          h3("Fac finisajele speciale o mare diferență?"),
+          p("Folosite bine, da, dar câteva detalii sunt mai bune decât multe."),
+        ],
+      },
+    ],
+    related: { projects: ["fleurane", "caterina-tomasso"], services: ["printed-media"] },
+  },
+  {
+    id: "cosmetics-label-requirements",
+    slug: "cerinte-pentru-eticheta-cosmetice-in-ue",
+    title: "Designul etichetelor de cosmetice în UE: ce trebuie să apară pe ambalaj",
+    seoTitle: "Cerințe pentru eticheta de cosmetice în UE",
+    description: "O prezentare pentru designeri a ceea ce trebuie să arate o etichetă de cosmetice din UE, conform Regulamentului 1223/2009, și cum planifici spațiul pentru ele de la început.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "O etichetă de cosmetice trebuie să fie frumoasă și legală în același timp. Dacă o proiectezi fără să știi ce trebuie să apară, ajungi să refaci munca. Aceasta este o prezentare pentru designeri a principalelor elemente enumerate în Articolul 19 al Regulamentului UE privind produsele cosmetice (1223/2009). Nu este consultanță juridică, deci confirmă mereu cu un expert în reglementări.",
+    sections: [
+      {
+        id: "de-ce",
+        heading: "De ce planifici spațiul mai întâi",
+        blocks: [
+          p("Textul obligatoriu ocupă spațiu real, iar o parte din el are nevoie de o lizibilitate minimă. Dacă planifici compoziția în jurul lui de la început, eticheta pare intenționată. Dacă îl adaugi la final, designul are de suferit."),
+        ],
+      },
+      {
+        id: "elemente",
+        heading: "Principalele elemente de pe etichetă",
+        blocks: [
+          ul("Numele și adresa persoanei responsabile din UE.", "Țara de origine pentru produsele importate.", "Conținutul nominal (greutate sau volum) la momentul ambalării.", "Data duratei minime de depozitare sau simbolul perioadei după deschidere, în funcție de produs.", "Precauții de utilizare și eventualele avertismente speciale.", "Numărul lotului sau o referință care identifică produsul.", "Funcția produsului, dacă nu reiese clar din prezentare.", "Lista ingredientelor, folosind denumirile standard."),
+          p("Unele informații pot trebui să apară pe recipient și pe ambalajul exterior; altele pot fi date pe un prospect sau o etichetă însoțitoare când nu este practic să fie tipărite. Verifică detaliile pentru produsul tău."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Cum proiectezi cu ele",
+        blocks: [
+          ol("Fă o listă cu toate elementele obligatorii pentru produs.", "Rezervă zona pentru ele, cu dimensiune și contrast suficiente.", "Alege un font care rămâne lizibil la dimensiuni mici.", "Separă textul de reglementare de cel de marketing.", "Tipărește o probă la dimensiunea reală și testează lizibilitatea."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Păstrează senzația de brand",
+        blocks: [
+          p("O ierarhie bună lasă numele brandului și mesajul principal să conducă, în timp ce textul de reglementare rămâne ordonat și clar. Branduri precum Fleurane sau THS Organic pot păstra un aspect calm și premium respectând regulile."),
+        ],
+      },
+      {
+        id: "verifica",
+        heading: "Verifică mereu cu un expert",
+        blocks: [
+          p("Regulile acoperă și afirmațiile, limbile și cerințe specifice produsului. Pune eticheta finală la verificat de cineva care cunoaște regulamentul înainte de tipărire. Pentru ajutor la designul etichetelor și ambalajelor, vezi serviciile mele de design pentru print și branding."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Sunt aceste reguli la fel în toate țările UE?"),
+          p("Regulamentul se aplică în toată UE, dar cerințele de limbă pentru unele informații pot depinde de țară. Verifică fiecare piață."),
+          h3("Pot pune toate informațiile pe un prospect?"),
+          p("Doar în cazurile în care regulamentul permite. Verifică ce elemente trebuie să fie pe ambalaj."),
+          h3("Cine este persoana responsabilă?"),
+          p("Persoana sau compania, stabilită în UE, responsabilă de conformitatea produsului."),
+        ],
+      },
+    ],
+    related: { projects: ["fleurane", "ths-organic"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "brochure-catalogue-layout",
+    slug: "bazele-aranjarii-in-pagina-pentru-brosuri-si-cataloage",
+    title: "Aranjarea în pagină pentru broșuri și cataloage: grile, ierarhie și flux",
+    seoTitle: "Aranjarea în pagină pentru broșuri și cataloage",
+    description: "Cum aranjezi o broșură sau un catalog de produse ca să fie ușor de parcurs și plăcut de citit: grile, ierarhie, imagini, ritm și pregătire pentru tipar.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
+    intro: "O broșură sau un catalog se citește printr-o serie de priviri înainte de orice citit real. Aranjarea trebuie să ghideze acele priviri. O grilă clară, o ierarhie puternică și un ritm pe pagini fac diferența între un catalog pe care oamenii îl răsfoiesc și unul pe care îl lasă jos.",
+    sections: [
+      {
+        id: "scop",
+        heading: "Începe cu scopul",
+        blocks: [
+          p("Documentul este făcut să informeze, să vândă sau să impresioneze? Un catalog de produse are nevoie de parcurgere rapidă și comparație. O broșură de brand are nevoie de atmosferă și poveste. Decide scopul înainte de a alege aranjarea."),
+        ],
+      },
+      {
+        id: "grila",
+        heading: "Folosește o grilă",
+        blocks: [
+          ul("Alege o grilă de coloane, de exemplu două, trei sau patru.", "Stabilește margini și spații între coloane și păstrează-le consecvente.", "Aliniază imaginile și textul la grilă.", "Folosește o grilă de linii de bază pentru text ordonat."),
+          p("O grilă este ceea ce face ca multe pagini să pară un singur document."),
+        ],
+      },
+      {
+        id: "ierarhie",
+        heading: "Creează o ierarhie",
+        blocks: [
+          ol("Titlurile paginilor și deschiderile de secțiune.", "Numele produselor sau titluri.", "Descrieri și detalii cheie.", "Prețuri, coduri și text mic."),
+          p("Folosește mărimea, grosimea și culoarea pentru a separa nivelurile. Un catalog de florărie, de exemplu, poate pune în față imagini mari de produs și nume scurte, cu detalii în text mai mic."),
+        ],
+      },
+      {
+        id: "imagini",
+        heading: "Tratează imaginile cu grijă",
+        blocks: [
+          p("Folosește fotografii de rezoluție mare, consecvente ca lumină și stil. Amestecă imagini pe toată pagina cu unele mai mici pentru ritm. Păstrează legendele aproape de imagini."),
+        ],
+      },
+      {
+        id: "flux",
+        heading: "Planifică fluxul paginilor",
+        blocks: [
+          ul("Începe cu o copertă puternică și o pagină de cuprins clară.", "Grupează produsele sau subiectele înrudite.", "Variază densitatea paginilor: pagini aglomerate urmate de unele mai calme.", "Încheie cu date de contact și un îndemn la acțiune."),
+        ],
+      },
+      {
+        id: "tipar",
+        heading: "Pregătește pentru tipar",
+        blocks: [
+          p("Folosește CMYK, adaugă bleed, verifică rezoluția la 300 dpi pentru imagini și ține textul departe de pliuri și tăieturi. Fii atent la numărul de pagini: broșurile necesită de obicei multipli de patru. Vezi serviciul meu de design pentru print pentru cataloage și broșuri."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte coloane ar trebui să folosesc?"),
+          p("De la două la patru este tipic, în funcție de mărimea paginii și de conținut."),
+          h3("Ce rezoluție au nevoie imaginile?"),
+          p("Aproximativ 300 dpi la dimensiunea finală pentru tipar."),
+          h3("Să tipăresc sau să trimit un PDF?"),
+          p("Ambele pot fi utile. Un PDF e bun pentru distribuire online, tiparul pentru impact în persoană."),
+        ],
+      },
+    ],
+    related: { projects: ["regata-print", "floraria-mariei"], services: ["printed-media"] },
+  },
+  {
+    id: "promotional-materials",
+    slug: "materiale-promotionale-care-functioneaza",
+    title: "Materiale promoționale care funcționează: care merită tipărite",
+    seoTitle: "Materiale promoționale care funcționează",
+    description: "Pixuri, genți, broșuri, bannere, stickere. Cum decizi ce articole promoționale se potrivesc brandului și publicului tău și cum le proiectezi bine.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
+    intro: "Materialele promoționale tipărite pot întări un brand sau pot irosi un buget. Diferența ține de obicei de relevanță. Articolele pe care oamenii le păstrează, le folosesc și le asociază cu o experiență bună funcționează. Cele generice, pe care nu le vrea nimeni, nu.",
+    sections: [
+      {
+        id: "scop",
+        heading: "Începe cu scopul",
+        blocks: [
+          ul("Notorietate la un eveniment sau într-un magazin.", "Mulțumirea clienților.", "Susținerea unei vânzări sau a unei prezentări.", "Recomandări și clienți care revin."),
+        ],
+      },
+      {
+        id: "alege",
+        heading: "Alege articole pe care oamenii chiar le folosesc",
+        blocks: [
+          p("Gândește-te la rutina zilnică a publicului tău. Un caiet poate se potrivi unui consultant; o geantă de pânză, unui boutique; un catalog durabil, unei companii industriale care expune utilaje la un târg."),
+        ],
+      },
+      {
+        id: "lista",
+        heading: "Opțiuni frecvente",
+        blocks: [
+          ul("Broșuri și cataloage pentru informații.", "Stickere și etichete pentru branduri mici și magazine.", "Ambalaje, hârtie de împachetat și cărți de mulțumire pentru e-commerce.", "Bannere roll-up și panouri pentru evenimente.", "Papetărie cu brand, așa cum am discutat în ghidul meu despre papetărie."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Proiectează ca pe o familie",
+        blocks: [
+          ol("Folosește aceleași culori, fonturi și plasare a logoului.", "Include un îndemn clar la acțiune.", "Păstrează compozițiile simple și îndrăznețe.", "Testează lizibilitatea la dimensiunea reală."),
+          p("O familie ordonată de materiale face o companie mică să pară consacrată, ca în proiectul KDT Romania."),
+        ],
+      },
+      {
+        id: "calitate",
+        heading: "Calitate înaintea cantității",
+        blocks: [
+          p("Câteva articole bine făcute bat un stoc mare de articole slabe. Comandă o mostră, verifică culorile și hârtia și începe cu cantități mici."),
+        ],
+      },
+      {
+        id: "masoara",
+        heading: "Măsoară efectul",
+        blocks: [
+          p("Folosește coduri, linkuri sau o întrebare la plată ca să vezi ce materiale aduc rezultate. Pentru ajutor cu designul promoțional, vezi serviciile mele de design pentru print și branding."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Mai merită materialele tipărite?"),
+          p("Da, pentru evenimente, afaceri locale și impresii premium, alături de canalele digitale."),
+          h3("Câte articole ar trebui să comand?"),
+          p("Începe mic, apoi recomandă când știi ce funcționează."),
+          h3("Cum fac articolele promoționale să pară premium?"),
+          p("Design bun, material bun și reținere."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "regata-print"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "ux-vs-ui",
+    slug: "ux-vs-ui-design-care-este-diferenta",
+    title: "UX vs UI design: care este diferența și de ce contează amândouă",
+    seoTitle: "UX vs UI design: diferența explicată",
+    description: "UX înseamnă cum funcționează un produs pentru oameni, UI cum arată și cum se simte pe ecran. Cum diferă, cum lucrează împreună și ce să întrebi un designer.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "UX și UI sunt adesea menționate împreună, de aceea se confundă. Sunt două fețe ale aceluiași produs. Una răspunde la „funcționează asta pentru oameni?”, cealaltă la „arată și se simte bine?”. Un produs bun are nevoie de ambele.",
+    sections: [
+      {
+        id: "ux",
+        heading: "Ce este designul UX",
+        blocks: [
+          p("Designul experienței utilizatorului ține de cum funcționează un produs pentru persoana care îl folosește. Acoperă înțelegerea utilizatorilor, maparea sarcinilor, structurarea informațiilor, planificarea fluxurilor și testarea. Întrebarea este: își pot atinge oamenii scopul ușor?"),
+          ul("Cercetare de utilizatori și persona.", "Arhitectura informației și fluxuri.", "Wireframe-uri și prototipuri.", "Teste de utilizabilitate."),
+        ],
+      },
+      {
+        id: "ui",
+        heading: "Ce este designul UI",
+        blocks: [
+          p("Designul interfeței este stratul vizual și interactiv: compoziție, culori, tipografie, butoane, pictograme, spațiere și stări. Întrebarea este: arată clar, consecvent și în stilul brandului?"),
+          ul("Stil vizual și sisteme de design.", "Componente precum butoane și formulare.", "Compoziții responsive pentru ecrane diferite.", "Mișcare și feedback."),
+        ],
+      },
+      {
+        id: "impreuna",
+        heading: "Cum lucrează împreună",
+        blocks: [
+          p("UX decide ce merge unde și de ce. UI decide cum arată. O interfață frumoasă cu un flux confuz eșuează. Un flux logic cu o interfață slabă pare nedemn de încredere. În proiecte precum Vibrary, o aplicație de citit, structura, utilizabilitatea și stilul vizual au fost proiectate împreună."),
+        ],
+      },
+      {
+        id: "exemplu",
+        heading: "Un exemplu simplu",
+        blocks: [
+          p("Pe o pagină de comandă pentru un brand de livrare de mâncare precum Green Table, UX decide pașii de la alegerea unui plan până la plată. UI decide cum sunt prezentate farfuriile, cum arată butoanele și cum susțin culorile apetitul și claritatea."),
+        ],
+      },
+      {
+        id: "intreaba",
+        heading: "Ce să întrebi un designer",
+        blocks: [
+          ol("Cum înțelegi utilizatorii?", "Poți arăta un flux, nu doar ecrane?", "Cum asiguri consecvența?", "Cum testezi?"),
+          p("Pentru designul interfeței unei aplicații sau al unui site, vezi serviciul meu de design UX/UI."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Poate o singură persoană să facă și UX, și UI?"),
+          p("Da, mai ales la proiecte mici."),
+          h3("Care ar trebui să vină primul?"),
+          p("UX, pentru că structura și fluxurile modelează interfața."),
+          h3("Este UX doar pentru aplicații?"),
+          p("Nu. Site-urile, fluxurile de print și serviciile au și ele experiență de utilizare."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

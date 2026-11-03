@@ -4421,6 +4421,419 @@ export const articles: Article[] = [
     ],
     related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
   },
+  {
+    id: "mobile-first-checklist",
+    slug: "mobile-first-website-design-checklist",
+    title: "Mobile-First Website Design: A Practical Checklist",
+    seoTitle: "Mobile-First Website Design Checklist",
+    description: "Most visitors arrive on a phone. A practical checklist for designing a website that is fast, readable and easy to use on small screens first.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "For many businesses, most visitors open the website on a phone. Designing for the small screen first forces useful discipline: clear priorities, readable text and fast pages. Here is a checklist you can apply to a new site or to a redesign.",
+    sections: [
+      {
+        id: "content",
+        heading: "Content and priorities",
+        blocks: [
+          ul("Put the most important information and action first.", "Keep headlines short.", "Cut text that does not help the visitor decide.", "Make contact options visible: call, message, directions."),
+        ],
+      },
+      {
+        id: "layout",
+        heading: "Layout",
+        blocks: [
+          ul("One main column on small screens.", "Generous spacing between elements.", "Navigation that is simple and reachable.", "Images that scale without cropping key details."),
+        ],
+      },
+      {
+        id: "touch",
+        heading: "Touch-friendly controls",
+        blocks: [
+          ol("Buttons large enough to tap comfortably.", "Space between links so they are not hit by mistake.", "Forms with the right keyboard type and few fields.", "Clear error messages."),
+        ],
+      },
+      {
+        id: "type",
+        heading: "Typography",
+        blocks: [
+          p("Use text size comfortable for reading without zooming, enough line spacing, and strong contrast. A local business such as Optica Tei benefits from clear service pages and easy contact options on mobile."),
+        ],
+      },
+      {
+        id: "speed",
+        heading: "Speed",
+        blocks: [
+          p("Google's Core Web Vitals give targets for a good experience: Largest Contentful Paint within 2.5 seconds, Interaction to Next Paint within 200 milliseconds and Cumulative Layout Shift below 0.1."),
+          ul("Compress and size images properly.", "Avoid heavy scripts.", "Load below-the-fold images lazily.", "Test on a real phone and slower connections."),
+        ],
+      },
+      {
+        id: "test",
+        heading: "Test on real devices",
+        blocks: [
+          p("Check the site on several phones, in daylight, with one hand. For a mobile-friendly website or app design, see my UX/UI design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What does mobile-first mean?"),
+          p("Designing for the smallest screen first, then expanding to larger screens."),
+          h3("Is a separate mobile site needed?"),
+          p("No. A responsive design adapts to all screens."),
+          h3("Does mobile speed affect search results?"),
+          p("Page experience is one of many factors, and a fast, usable site helps visitors regardless."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "optica-tei"], services: ["ux-ui-design"] },
+  },
+  {
+    id: "designer-portfolio-website",
+    slug: "portfolio-website-for-designers",
+    title: "A Portfolio Website for Designers: What to Include and What to Leave Out",
+    seoTitle: "Portfolio Website for Designers: What to Include",
+    description: "How to structure a designer's portfolio website: choosing projects, writing case studies, making contact easy and keeping the site fast and clear.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "A portfolio website is your best sales tool and your most personal design project. Clients decide quickly whether to contact you, so the site must show your best work clearly and make the next step easy.",
+    sections: [
+      {
+        id: "select",
+        heading: "Show fewer, better projects",
+        blocks: [
+          p("Choose the projects that show the work you want to be hired for. Eight strong projects are better than thirty mixed ones. Put the strongest first and last."),
+        ],
+      },
+      {
+        id: "case",
+        heading: "Write real case studies",
+        blocks: [
+          ol("The client and the problem.", "Your role.", "The process and key decisions.", "The result, using facts you can support.", "The deliverables, shown as clear images and mock-ups."),
+          p("Clients want to see how you think. A short story with a strong visual is more convincing than a gallery of images."),
+        ],
+      },
+      {
+        id: "structure",
+        heading: "Keep the structure simple",
+        blocks: [
+          ul("Home with a clear statement and featured work.", "Work or projects page.", "About, with a real photo and a short story.", "Services, so people know what to hire you for.", "Contact, with an easy form."),
+        ],
+      },
+      {
+        id: "presentation",
+        heading: "Present work well",
+        blocks: [
+          ul("Use consistent, high-quality mock-ups.", "Avoid cluttered layouts and slow-loading images.", "Make it work on phones.", "Keep the design simple so the work is the star."),
+        ],
+      },
+      {
+        id: "seo",
+        heading: "Make it findable",
+        blocks: [
+          p("Use clear page titles and descriptions, meaningful image names and alt text, and a page for each project and service. A blog with useful articles can bring visitors who are looking for exactly what you do."),
+        ],
+      },
+      {
+        id: "contact",
+        heading: "Make contact easy",
+        blocks: [
+          p("Put a clear call to action on every page, with an email and a form. Reply fast. For a custom portfolio site, see my UX/UI design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many projects should I show?"),
+          p("Six to ten strong ones is a good range."),
+          h3("Should I show unfinished or personal projects?"),
+          p("Yes, if they show skills you want to be hired for."),
+          h3("Do I need a blog?"),
+          p("Not required, but it can help visibility and show expertise."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "kdt-romania"], services: ["ux-ui-design", "branding"] },
+  },
+  {
+    id: "web-accessibility-basics",
+    slug: "web-accessibility-basics-for-designers",
+    title: "Web Accessibility Basics for Designers: Contrast, Text Size and Focus",
+    seoTitle: "Web Accessibility Basics: Contrast and Text Size",
+    description: "Accessible design helps everyone. The practical basics every designer should know: colour contrast ratios, readable text, focus states and alt text.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "Accessible design is good design. It helps people with low vision, colour blindness, motor difficulties or a tired eye in bright sunlight. The standards sound technical, but the basics are simple enough to apply from the first sketch.",
+    sections: [
+      {
+        id: "contrast",
+        heading: "Colour contrast",
+        blocks: [
+          p("The Web Content Accessibility Guidelines (WCAG 2.2) set the minimum contrast between text and background at 4.5:1 for normal text and 3:1 for large text. Large text means at least 18 point, or 14 point bold."),
+          ul("Check every text and background pair, including buttons.", "Do not put light grey text on white.", "Test text over images with an overlay if needed."),
+        ],
+      },
+      {
+        id: "colour",
+        heading: "Do not rely on colour alone",
+        blocks: [
+          p("Errors, links and states should be shown with more than colour: an icon, an underline or a label. People with colour blindness may not see the difference."),
+        ],
+      },
+      {
+        id: "size",
+        heading: "Readable text",
+        blocks: [
+          ul("Comfortable body size and generous line spacing.", "Avoid very long lines.", "Avoid text as an image when it can be live text.", "Allow zoom without breaking the layout."),
+        ],
+      },
+      {
+        id: "focus",
+        heading: "Focus states and keyboard",
+        blocks: [
+          p("Some people navigate with a keyboard. Make sure every interactive element has a visible focus state and a logical order."),
+        ],
+      },
+      {
+        id: "alt",
+        heading: "Alt text and labels",
+        blocks: [
+          ul("Add short, meaningful alt text to informative images.", "Use empty alt text for purely decorative ones.", "Label form fields clearly."),
+        ],
+      },
+      {
+        id: "start",
+        heading: "Start early",
+        blocks: [
+          p("Fixing accessibility late is expensive. Include checks in your design process, and test with real people when possible. See my UX/UI design service for accessible interfaces."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Is accessibility a legal requirement?"),
+          p("In some situations it is, depending on country and type of organisation. Check the rules for your case."),
+          h3("Does accessible design look worse?"),
+          p("No. Good contrast and clear hierarchy often look better."),
+          h3("What is the easiest first step?"),
+          p("Check colour contrast on your main text and buttons."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
+  },
+  {
+    id: "graphic-design-portfolio",
+    slug: "how-to-build-a-graphic-design-portfolio",
+    title: "How to Build a Graphic Design Portfolio That Gets You Hired",
+    seoTitle: "How to Build a Graphic Design Portfolio That Gets You Hired",
+    description: "A strong graphic design portfolio shows range, process and results. How to choose projects, present them and fill gaps when you are starting out.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Whether you are looking for clients or a job, your portfolio does the talking before you do. The best ones are not the biggest. They are focused, well presented and honest about the designer's role. Here is how to build one.",
+    sections: [
+      {
+        id: "aim",
+        heading: "Decide what you want to be hired for",
+        blocks: [
+          p("A portfolio for branding looks different from one for social media or packaging. Show the kind of work you want more of. Remove the rest, even if you are fond of it."),
+        ],
+      },
+      {
+        id: "projects",
+        heading: "Choose projects with care",
+        blocks: [
+          ul("Lead with your strongest work.", "Show variety within your focus: identity, print, digital.", "Include a few complete identity projects that show a system, not just a logo.", "Add mock-ups to show how work looks in real use."),
+        ],
+      },
+      {
+        id: "fill",
+        heading: "What if you have few clients?",
+        blocks: [
+          ol("Do self-initiated projects for imaginary or small real brands.", "Redesign something with a clear brief and goals.", "Volunteer for a local organisation.", "Be honest that the work is personal."),
+        ],
+      },
+      {
+        id: "story",
+        heading: "Tell the story of each project",
+        blocks: [
+          p("Explain the problem, your role and your decisions. For a project such as a tattoo studio identity like Inklabs or a fashion brand like IQ Fashion, show the logo, the system and then how it appears on posts, packaging and print."),
+        ],
+      },
+      {
+        id: "present",
+        heading: "Present it professionally",
+        blocks: [
+          ul("Consistent, clean layouts.", "High-quality images and mock-ups.", "Short text.", "A PDF version for sending and a website for showing."),
+        ],
+      },
+      {
+        id: "update",
+        heading: "Keep it updated",
+        blocks: [
+          p("Review your portfolio every few months, replace older work with stronger pieces and keep the contact details current. If you need a portfolio site designed, see my UX/UI design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many projects should a portfolio include?"),
+          p("Six to ten is a good range."),
+          h3("Should I include client work I disliked?"),
+          p("Not if it does not represent the quality you want to be known for."),
+          h3("Do I need a website or is a PDF enough?"),
+          p("A website is best for discovery; a PDF is useful for specific applications."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "iq-fashion"], services: ["branding"] },
+  },
+  {
+    id: "working-with-a-freelance-designer",
+    slug: "working-with-a-freelance-designer-contracts-and-usage-rights",
+    title: "Working With a Freelance Designer: Briefs, Contracts and Usage Rights",
+    seoTitle: "Working With a Freelance Designer: Briefs and Rights",
+    description: "How to get the best from a freelance designer: writing a brief, agreeing scope, understanding usage rights and giving feedback that moves the project forward.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "A good working relationship with a freelance designer saves time and money for both sides. Most problems come from the same few gaps: unclear scope, unclear rights and unclear feedback. A bit of structure at the start prevents them.",
+    sections: [
+      {
+        id: "brief",
+        heading: "Start with a clear brief",
+        blocks: [
+          ul("The business, the audience and the goal.", "What you need delivered and where it will be used.", "References you like and dislike.", "Budget and deadline.", "Who makes the final decision."),
+        ],
+      },
+      {
+        id: "scope",
+        heading: "Agree the scope in writing",
+        blocks: [
+          p("List the deliverables, the number of concepts, the revision rounds, the file formats and the timeline. Say what is not included. Extra work can be quoted separately."),
+        ],
+      },
+      {
+        id: "contract",
+        heading: "Use a simple contract",
+        blocks: [
+          p("A short written agreement should cover scope, price, payment schedule, timeline, revisions, confidentiality and cancellation. It protects both sides. For anything complex, ask a lawyer."),
+        ],
+      },
+      {
+        id: "rights",
+        heading: "Understand usage rights",
+        blocks: [
+          p("Design work usually involves copyright and licensing. Clarify who owns the final files and what you are allowed to do with them: where, for how long, in which media. Many agreements transfer rights for the agreed use after full payment. Put it in the contract and check the rules in your country."),
+        ],
+      },
+      {
+        id: "feedback",
+        heading: "Give useful feedback",
+        blocks: [
+          ol("Collect all comments into one message.", "Describe the problem, not only the solution.", "Relate comments to the goal.", "Keep the number of decision makers small."),
+        ],
+      },
+      {
+        id: "payment",
+        heading: "Payment and delivery",
+        blocks: [
+          ul("A deposit before work starts is common.", "Pay milestones on time.", "Receive source files and exports as agreed."),
+          p("If you would like to work with me, see my services and use the contact form."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How much should a deposit be?"),
+          p("It varies. A portion up front is common, with the rest on milestones or delivery."),
+          h3("Can I reuse the design anywhere?"),
+          p("Only within the rights agreed in the contract."),
+          h3("What if I do not like the first concept?"),
+          p("Explain why using the brief. A good designer will refine or propose another direction."),
+        ],
+      },
+    ],
+    related: { projects: ["regata-print", "caterina-tomasso"], services: ["branding"] },
+  },
+  {
+    id: "content-pillars",
+    slug: "content-pillars-how-to-plan-content-by-industry",
+    title: "Content Pillars: How to Plan Social Media Content for Your Industry",
+    seoTitle: "Content Pillars: Plan Content for Your Industry",
+    description: "Content pillars are three to five recurring themes that organise your posts. How to choose them, with examples for health, food, beauty and B2B.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "'What should we post today?' is the question that exhausts small teams. Content pillars answer it in advance. They are a handful of recurring themes that guide what you publish, keep the feed balanced and make planning faster.",
+    sections: [
+      {
+        id: "what",
+        heading: "What a pillar is",
+        blocks: [
+          p("A pillar is a broad topic that your brand can talk about repeatedly from different angles. Three to five is enough. Each should connect to your goals and to something your audience cares about."),
+        ],
+      },
+      {
+        id: "how",
+        heading: "How to choose them",
+        blocks: [
+          ol("List your audience's questions and worries.", "List what you want to be known for.", "Group topics into three to five themes.", "Check that each pillar can produce many posts."),
+        ],
+      },
+      {
+        id: "health",
+        heading: "Example: healthcare and dental",
+        blocks: [
+          ul("Education: explain procedures and prevention.", "Team and trust: introduce the people.", "Results and stories, with permission.", "Practical information: hours, how to book, what to expect."),
+          p("Brands such as Art Innova and Global Medical Health need a calm, reassuring balance of information and trust."),
+        ],
+      },
+      {
+        id: "food",
+        heading: "Example: food and beauty",
+        blocks: [
+          ul("Product and detail.", "Process and ingredients.", "Lifestyle and use.", "Offers and seasonal moments."),
+        ],
+      },
+      {
+        id: "b2b",
+        heading: "Example: B2B and technical",
+        blocks: [
+          ul("Projects and results.", "Expertise and explanations.", "Team and process.", "Industry news with your point of view."),
+        ],
+      },
+      {
+        id: "calendar",
+        heading: "Turn pillars into a calendar",
+        blocks: [
+          p("Assign pillars to days or weeks, then fill them with specific posts. A simple weekly rhythm with one post per pillar is easy to keep. For help with a content plan and design system, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many pillars should I have?"),
+          p("Three to five."),
+          h3("Can pillars change?"),
+          p("Yes. Review them every quarter based on results."),
+          h3("Do pillars limit creativity?"),
+          p("They give a structure. Creativity happens within it."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "global-medical-health"], services: ["content-creation", "social-media-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

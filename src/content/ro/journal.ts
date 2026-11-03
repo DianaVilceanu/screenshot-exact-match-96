@@ -4451,6 +4451,350 @@ export const articles: Article[] = [
     ],
     related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
   },
+  {
+    id: "mobile-first-checklist",
+    slug: "design-de-site-mobile-first-lista-practica",
+    title: "Design de site mobile-first: o listă practică",
+    seoTitle: "Design de site mobile-first: listă practică",
+    description: "Majoritatea vizitatorilor vin de pe telefon. O listă practică pentru proiectarea unui site rapid, lizibil și ușor de folosit întâi pe ecrane mici.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Pentru multe afaceri, majoritatea vizitatorilor deschid site-ul pe telefon. Proiectarea întâi pentru ecranul mic impune o disciplină utilă: priorități clare, text lizibil și pagini rapide. Iată o listă pe care o poți aplica la un site nou sau la o redesenare.",
+    sections: [
+      {
+        id: "continut",
+        heading: "Conținut și priorități",
+        blocks: [
+          ul("Pune informația și acțiunea cea mai importantă prima.", "Păstrează titlurile scurte.", "Taie textul care nu ajută vizitatorul să decidă.", "Fă vizibile opțiunile de contact: apel, mesaj, indicații."),
+        ],
+      },
+      {
+        id: "compozitie",
+        heading: "Compoziție",
+        blocks: [
+          ul("O singură coloană principală pe ecrane mici.", "Spațiere generoasă între elemente.", "Navigare simplă și ușor de atins.", "Imagini care se scalează fără să taie detaliile cheie."),
+        ],
+      },
+      {
+        id: "atingere",
+        heading: "Controale prietenoase cu degetul",
+        blocks: [
+          ol("Butoane destul de mari ca să fie apăsate confortabil.", "Spațiu între linkuri ca să nu fie atinse din greșeală.", "Formulare cu tipul potrivit de tastatură și puține câmpuri.", "Mesaje de eroare clare."),
+        ],
+      },
+      {
+        id: "tipografie",
+        heading: "Tipografie",
+        blocks: [
+          p("Folosește o dimensiune de text confortabilă pentru citit fără zoom, spațiere suficientă între rânduri și contrast puternic. O afacere locală precum Optica Tei câștigă din pagini de servicii clare și opțiuni de contact ușoare pe mobil."),
+        ],
+      },
+      {
+        id: "viteza",
+        heading: "Viteză",
+        blocks: [
+          p("Core Web Vitals de la Google oferă ținte pentru o experiență bună: Largest Contentful Paint în cel mult 2,5 secunde, Interaction to Next Paint în cel mult 200 de milisecunde și Cumulative Layout Shift sub 0,1."),
+          ul("Comprimă și dimensionează corect imaginile.", "Evită scripturile grele.", "Încarcă leneș imaginile din afara ecranului.", "Testează pe un telefon real și pe conexiuni mai lente."),
+        ],
+      },
+      {
+        id: "testeaza",
+        heading: "Testează pe dispozitive reale",
+        blocks: [
+          p("Verifică site-ul pe mai multe telefoane, la lumina zilei, cu o singură mână. Pentru designul unui site sau al unei aplicații prietenoase cu mobilul, vezi serviciul meu de design UX/UI."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce înseamnă mobile-first?"),
+          p("Proiectarea întâi pentru cel mai mic ecran, apoi extinderea la ecrane mai mari."),
+          h3("Am nevoie de un site separat pentru mobil?"),
+          p("Nu. Un design responsive se adaptează tuturor ecranelor."),
+          h3("Afectează viteza pe mobil rezultatele din căutare?"),
+          p("Experiența paginii este unul dintre multele factori, iar un site rapid și utilizabil ajută vizitatorii oricum."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "optica-tei"], services: ["ux-ui-design"] },
+  },
+  {
+    id: "designer-portfolio-website",
+    slug: "site-de-portofoliu-pentru-designeri",
+    title: "Un site de portofoliu pentru designeri: ce incluzi și ce lași deoparte",
+    seoTitle: "Site de portofoliu pentru designeri: ce incluzi",
+    description: "Cum structurezi site-ul de portofoliu al unui designer: alegerea proiectelor, scrierea studiilor de caz, contact ușor și un site rapid și clar.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
+    intro: "Un site de portofoliu este cea mai bună unealtă de vânzare și cel mai personal proiect de design al tău. Clienții decid repede dacă te contactează, așa că site-ul trebuie să arate clar cele mai bune lucrări și să facă pasul următor ușor.",
+    sections: [
+      {
+        id: "alege",
+        heading: "Arată mai puține proiecte, mai bune",
+        blocks: [
+          p("Alege proiectele care arată munca pentru care vrei să fii angajat. Opt proiecte puternice sunt mai bune decât treizeci amestecate. Pune-l pe cel mai puternic primul și ultimul."),
+        ],
+      },
+      {
+        id: "studii",
+        heading: "Scrie studii de caz reale",
+        blocks: [
+          ol("Clientul și problema.", "Rolul tău.", "Procesul și deciziile cheie.", "Rezultatul, folosind fapte pe care le poți susține.", "Livrabilele, arătate ca imagini clare și machete."),
+          p("Clienții vor să vadă cum gândești. O poveste scurtă cu un vizual puternic este mai convingătoare decât o galerie de imagini."),
+        ],
+      },
+      {
+        id: "structura",
+        heading: "Păstrează structura simplă",
+        blocks: [
+          ul("Acasă, cu o afirmație clară și lucrări selectate.", "Pagina de lucrări sau proiecte.", "Despre, cu o poză reală și o poveste scurtă.", "Servicii, ca oamenii să știe pentru ce te pot angaja.", "Contact, cu un formular ușor."),
+        ],
+      },
+      {
+        id: "prezentare",
+        heading: "Prezintă bine lucrările",
+        blocks: [
+          ul("Folosește machete consecvente, de înaltă calitate.", "Evită compozițiile aglomerate și imaginile care se încarcă lent.", "Fă-l să funcționeze pe telefon.", "Păstrează designul simplu ca lucrările să fie vedeta."),
+        ],
+      },
+      {
+        id: "seo",
+        heading: "Fă-l ușor de găsit",
+        blocks: [
+          p("Folosește titluri și descrieri de pagină clare, nume de imagini și text alternativ semnificative și câte o pagină pentru fiecare proiect și serviciu. Un blog cu articole utile poate aduce vizitatori care caută exact ce faci."),
+        ],
+      },
+      {
+        id: "contact",
+        heading: "Fă contactul ușor",
+        blocks: [
+          p("Pune un îndemn clar la acțiune pe fiecare pagină, cu un e-mail și un formular. Răspunde repede. Pentru un site de portofoliu personalizat, vezi serviciul meu de design UX/UI."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte proiecte ar trebui să arăt?"),
+          p("Între șase și zece puternice este un interval bun."),
+          h3("Să arăt proiecte neterminate sau personale?"),
+          p("Da, dacă arată abilități pentru care vrei să fii angajat."),
+          h3("Am nevoie de blog?"),
+          p("Nu e obligatoriu, dar poate ajuta vizibilitatea și poate arăta expertiza."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "kdt-romania"], services: ["ux-ui-design", "branding"] },
+  },
+  {
+    id: "web-accessibility-basics",
+    slug: "bazele-accesibilitatii-web-pentru-designeri",
+    title: "Bazele accesibilității web pentru designeri: contrast, dimensiunea textului și focus",
+    seoTitle: "Bazele accesibilității web: contrast și text",
+    description: "Designul accesibil ajută pe toată lumea. Bazele practice pe care le știe orice designer: rapoarte de contrast, text lizibil, stări de focus și text alternativ.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
+    intro: "Designul accesibil este design bun. Ajută oamenii cu vedere slabă, daltonism, dificultăți motorii sau pur și simplu un ochi obosit în soarele puternic. Standardele sună tehnic, dar bazele sunt destul de simple ca să le aplici de la prima schiță.",
+    sections: [
+      {
+        id: "contrast",
+        heading: "Contrastul culorilor",
+        blocks: [
+          p("Ghidurile de accesibilitate a conținutului web (WCAG 2.2) stabilesc contrastul minim dintre text și fundal la 4,5:1 pentru text normal și 3:1 pentru text mare. Text mare înseamnă cel puțin 18 puncte sau 14 puncte îngroșat."),
+          ul("Verifică fiecare pereche text și fundal, inclusiv butoanele.", "Nu pune text gri deschis pe alb.", "Testează textul peste imagini cu un strat de acoperire, dacă e nevoie."),
+        ],
+      },
+      {
+        id: "culoare",
+        heading: "Nu te baza doar pe culoare",
+        blocks: [
+          p("Erorile, linkurile și stările ar trebui arătate cu mai mult decât culoare: o pictogramă, o subliniere sau o etichetă. Oamenii cu daltonism pot să nu vadă diferența."),
+        ],
+      },
+      {
+        id: "dimensiune",
+        heading: "Text lizibil",
+        blocks: [
+          ul("Dimensiune confortabilă pentru textul de bază și spațiere generoasă între rânduri.", "Evită rândurile foarte lungi.", "Evită textul ca imagine când poate fi text real.", "Permite zoom fără să strice compoziția."),
+        ],
+      },
+      {
+        id: "focus",
+        heading: "Stări de focus și tastatură",
+        blocks: [
+          p("Unele persoane navighează cu tastatura. Asigură-te că fiecare element interactiv are o stare de focus vizibilă și o ordine logică."),
+        ],
+      },
+      {
+        id: "alt",
+        heading: "Text alternativ și etichete",
+        blocks: [
+          ul("Adaugă text alternativ scurt și semnificativ imaginilor cu informații.", "Folosește text alternativ gol pentru cele pur decorative.", "Etichetează clar câmpurile din formulare."),
+        ],
+      },
+      {
+        id: "incepe",
+        heading: "Începe devreme",
+        blocks: [
+          p("Remedierea accesibilității târziu este scumpă. Include verificări în procesul de design și testează cu oameni reali când se poate. Vezi serviciul meu de design UX/UI pentru interfețe accesibile."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Este accesibilitatea o cerință legală?"),
+          p("În unele situații da, în funcție de țară și de tipul organizației. Verifică regulile pentru cazul tău."),
+          h3("Arată designul accesibil mai prost?"),
+          p("Nu. Contrastul bun și o ierarhie clară arată adesea mai bine."),
+          h3("Care este cel mai ușor prim pas?"),
+          p("Verifică contrastul culorilor pe textul principal și pe butoane."),
+        ],
+      },
+    ],
+    related: { projects: ["vibrary", "green-table"], services: ["ux-ui-design"] },
+  },
+  {
+    id: "graphic-design-portfolio",
+    slug: "cum-construiesti-un-portofoliu-de-design-grafic-care-te-angajeaza",
+    title: "Cum construiești un portofoliu de design grafic care te face angajat",
+    seoTitle: "Cum construiești un portofoliu de design grafic",
+    description: "Un portofoliu puternic de design grafic arată gama, procesul și rezultatele. Cum alegi proiectele, cum le prezinți și cum umpli golurile la început de drum.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Fie că cauți clienți sau un job, portofoliul vorbește înaintea ta. Cele mai bune nu sunt cele mai mari. Sunt concentrate, bine prezentate și oneste cu privire la rolul designerului. Iată cum construiești unul.",
+    sections: [
+      {
+        id: "scop",
+        heading: "Decide pentru ce vrei să fii angajat",
+        blocks: [
+          p("Un portofoliu pentru branding arată diferit de unul pentru social media sau ambalaje. Arată tipul de muncă pe care vrei să-l faci mai mult. Scoate restul, chiar dacă îți place."),
+        ],
+      },
+      {
+        id: "proiecte",
+        heading: "Alege proiectele cu grijă",
+        blocks: [
+          ul("Începe cu cea mai puternică lucrare.", "Arată varietate în domeniul tău: identitate, print, digital.", "Include câteva proiecte complete de identitate care arată un sistem, nu doar un logo.", "Adaugă machete pentru a arăta cum arată munca în folosire reală."),
+        ],
+      },
+      {
+        id: "goluri",
+        heading: "Ce faci dacă ai puțini clienți?",
+        blocks: [
+          ol("Fă proiecte din inițiativă proprie pentru branduri imaginare sau mici branduri reale.", "Redesenează ceva cu un brief și obiective clare.", "Fă voluntariat pentru o organizație locală.", "Fii onest că lucrarea este personală."),
+        ],
+      },
+      {
+        id: "poveste",
+        heading: "Spune povestea fiecărui proiect",
+        blocks: [
+          p("Explică problema, rolul tău și deciziile. Pentru un proiect precum identitatea unui studio de tatuaje ca Inklabs sau a unui brand de modă ca IQ Fashion, arată logoul, sistemul și apoi cum apare pe postări, ambalaje și print."),
+        ],
+      },
+      {
+        id: "prezinta",
+        heading: "Prezintă-l profesionist",
+        blocks: [
+          ul("Compoziții consecvente, curate.", "Imagini și machete de înaltă calitate.", "Text scurt.", "O versiune PDF pentru trimis și un site pentru arătat."),
+        ],
+      },
+      {
+        id: "actualizeaza",
+        heading: "Păstrează-l actualizat",
+        blocks: [
+          p("Revizuiește-ți portofoliul la câteva luni, înlocuiește lucrările mai vechi cu piese mai puternice și păstrează datele de contact la zi. Dacă ai nevoie de un site de portofoliu, vezi serviciul meu de design UX/UI."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte proiecte ar trebui să includă un portofoliu?"),
+          p("Între șase și zece este un interval bun."),
+          h3("Să includ lucrări pentru clienți care nu mi-au plăcut?"),
+          p("Nu, dacă nu reprezintă calitatea cu care vrei să fii cunoscut."),
+          h3("Am nevoie de site sau e suficient un PDF?"),
+          p("Un site este cel mai bun pentru descoperire; un PDF este util pentru aplicații specifice."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "iq-fashion"], services: ["branding"] },
+  },
+  {
+    id: "working-with-a-freelance-designer",
+    slug: "colaborarea-cu-un-designer-freelance-briefuri-contracte-si-drepturi",
+    title: "Colaborarea cu un designer freelance: briefuri, contracte și drepturi de utilizare",
+    seoTitle: "Colaborarea cu un designer freelance: briefuri și drepturi",
+    description: "Cum obții maximum de la un designer freelance: scrierea unui brief, stabilirea sferei de lucru, înțelegerea drepturilor de utilizare și un feedback care mișcă proiectul înainte.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "O relație bună de lucru cu un designer freelance economisește timp și bani pentru ambele părți. Majoritatea problemelor vin din aceleași lipsuri: sfera neclară, drepturile neclare și feedbackul neclar. Puțină structură la început le previne.",
+    sections: [
+      {
+        id: "brief",
+        heading: "Începe cu un brief clar",
+        blocks: [
+          ul("Afacerea, publicul și scopul.", "Ce trebuie livrat și unde va fi folosit.", "Referințe care îți plac și care nu.", "Buget și termen.", "Cine ia decizia finală."),
+        ],
+      },
+      {
+        id: "sfera",
+        heading: "Stabilește sfera în scris",
+        blocks: [
+          p("Listează livrabilele, numărul de concepte, rundele de revizuire, formatele de fișiere și calendarul. Spune ce nu este inclus. Munca suplimentară poate fi ofertată separat."),
+        ],
+      },
+      {
+        id: "contract",
+        heading: "Folosește un contract simplu",
+        blocks: [
+          p("Un acord scurt, în scris, ar trebui să acopere sfera, prețul, programul de plată, calendarul, revizuirile, confidențialitatea și anularea. Protejează ambele părți. Pentru ceva complex, cere ajutorul unui avocat."),
+        ],
+      },
+      {
+        id: "drepturi",
+        heading: "Înțelege drepturile de utilizare",
+        blocks: [
+          p("Munca de design implică de obicei drepturi de autor și licențiere. Clarifică cui aparțin fișierele finale și ce ai voie să faci cu ele: unde, pentru cât timp, în ce medii. Multe acorduri transferă drepturile pentru utilizarea convenită după plata integrală. Trece-o în contract și verifică regulile din țara ta."),
+        ],
+      },
+      {
+        id: "feedback",
+        heading: "Dă feedback util",
+        blocks: [
+          ol("Adună toate comentariile într-un singur mesaj.", "Descrie problema, nu doar soluția.", "Leagă comentariile de scop.", "Păstrează mic numărul celor care decid."),
+        ],
+      },
+      {
+        id: "plata",
+        heading: "Plată și livrare",
+        blocks: [
+          ul("Un avans înainte de începerea lucrului este comun.", "Plătește etapele la timp.", "Primește fișierele sursă și exporturile așa cum s-a convenit."),
+          p("Dacă vrei să lucrezi cu mine, vezi serviciile mele și folosește formularul de contact."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât ar trebui să fie avansul?"),
+          p("Variază. O parte în avans este comună, restul la etape sau la livrare."),
+          h3("Pot refolosi designul oriunde?"),
+          p("Doar în limitele drepturilor convenite în contract."),
+          h3("Ce fac dacă nu-mi place primul concept?"),
+          p("Explică de ce, folosind briefului. Un designer bun va rafina sau va propune altă direcție."),
+        ],
+      },
+    ],
+    related: { projects: ["regata-print", "caterina-tomasso"], services: ["branding"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

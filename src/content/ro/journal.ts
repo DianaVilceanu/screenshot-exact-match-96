@@ -3779,6 +3779,350 @@ export const articles: Article[] = [
     ],
     related: { projects: ["nextlab-tech", "vibrary"], services: ["2d-animation"] },
   },
+  {
+    id: "brief-a-video-editor",
+    slug: "cum-faci-brief-unui-editor-video",
+    title: "Cum faci brief unui editor video ca să primești ce ți-ai imaginat",
+    seoTitle: "Cum faci brief unui editor video",
+    description: "Un brief clar economisește runde de revizuiri. Ce îi spui unui editor video: scop, public, referințe, format, materiale și procesul de feedback.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Majoritatea revizuirilor video vin din așteptări neclare, nu din montaj prost. Un brief bun durează douăzeci de minute de scris și poate economisi zile. Iată ce să incluzi.",
+    sections: [
+      {
+        id: "scop",
+        heading: "Scopul și publicul",
+        blocks: [
+          p("Spune ce trebuie să realizeze videoul și cine îl va urmări: să vândă un produs, să explice un proces, să promoveze un eveniment. Menționează unde va apărea, pentru că un Reel și un video pentru site se montează diferit."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Format și lungime",
+        blocks: [
+          ul("Raport de aspect: de exemplu vertical 9:16 pentru Reels.", "Lungimea țintă.", "Formate de livrare și termen.", "Subtitrări: da sau nu, și în ce limbă."),
+        ],
+      },
+      {
+        id: "referinte",
+        heading: "Referințe",
+        blocks: [
+          p("Trimite două sau trei videoclipuri care îți plac și spune ce îți place la fiecare: ritmul, culorile, tranzițiile, sunetul. Referințele comunică mai repede decât adjectivele. Împărtășește și ce nu vrei."),
+        ],
+      },
+      {
+        id: "materiale",
+        heading: "Materiale și brand",
+        blocks: [
+          ul("Filmări brute în dosare organizate.", "Logo, fonturi și coduri de culoare.", "Preferințe de muzică sau sunet, cu licențe.", "Scenariu sau mesaje cheie.", "Orice text care trebuie să apară exact cum e scris."),
+        ],
+      },
+      {
+        id: "structura",
+        heading: "Structură",
+        blocks: [
+          p("Dacă ai o structură aproximativă, împărtășește-o: cârlig, puncte principale, final. Dacă nu, cere-i editorului să propună una. Menționează îndemnul la acțiune."),
+        ],
+      },
+      {
+        id: "feedback",
+        heading: "Procesul de feedback",
+        blocks: [
+          ol("Stabiliți numărul de runde de revizuire.", "Adună feedbackul de la toți cei care decid într-un singur mesaj.", "Dă marcaje de timp și comentarii specifice.", "Spune mai întâi ce îți place, apoi ce să schimbe."),
+          p("Pentru reels și video de brand, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de detaliat ar trebui să fie un brief?"),
+          p("Suficient de detaliat cât să răspundă la scop, format, referințe și materiale. O pagină este de obicei suficientă."),
+          h3("Ar trebui să-i dau editorului libertate creativă?"),
+          p("Da, în limitele brandului și ale scopului. Editorii buni îmbunătățesc planul."),
+          h3("Câte runde de revizuire sunt normale?"),
+          p("Două runde sunt o bază comună, dar stabiliți-o din timp."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "farmacia-farmex"], services: ["content-creation"] },
+  },
+  {
+    id: "content-pillars",
+    slug: "piloni-de-continut-cum-planifici-continutul-pe-industrie",
+    title: "Piloni de conținut: cum planifici conținutul social media pentru industria ta",
+    seoTitle: "Piloni de conținut: planifică conținutul pe industrie",
+    description: "Pilonii de conținut sunt trei până la cinci teme recurente care organizează postările. Cum îi alegi, cu exemple pentru sănătate, mâncare, beauty și B2B.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "„Ce postăm azi?” este întrebarea care epuizează echipele mici. Pilonii de conținut răspund la ea din timp. Sunt o mână de teme recurente care ghidează ce publici, țin feedul echilibrat și fac planificarea mai rapidă.",
+    sections: [
+      {
+        id: "ce",
+        heading: "Ce este un pilon",
+        blocks: [
+          p("Un pilon este un subiect larg despre care brandul tău poate vorbi repetat din unghiuri diferite. Trei până la cinci sunt suficienți. Fiecare ar trebui să se lege de obiectivele tale și de ceva ce îi interesează pe cei din public."),
+        ],
+      },
+      {
+        id: "cum",
+        heading: "Cum îi alegi",
+        blocks: [
+          ol("Listează întrebările și grijile publicului.", "Listează cu ce vrei să fii cunoscut.", "Grupează subiectele în trei până la cinci teme.", "Verifică dacă fiecare pilon poate produce multe postări."),
+        ],
+      },
+      {
+        id: "sanatate",
+        heading: "Exemplu: sănătate și stomatologie",
+        blocks: [
+          ul("Educație: explică proceduri și prevenție.", "Echipă și încredere: prezintă oamenii.", "Rezultate și povești, cu permisiune.", "Informații practice: program, cum te programezi, la ce să te aștepți."),
+          p("Branduri precum Art Innova și Global Medical Health au nevoie de un echilibru calm și liniștitor între informație și încredere."),
+        ],
+      },
+      {
+        id: "mancare",
+        heading: "Exemplu: mâncare și beauty",
+        blocks: [
+          ul("Produs și detalii.", "Proces și ingrediente.", "Lifestyle și utilizare.", "Oferte și momente sezoniere."),
+        ],
+      },
+      {
+        id: "b2b",
+        heading: "Exemplu: B2B și tehnic",
+        blocks: [
+          ul("Proiecte și rezultate.", "Expertiză și explicații.", "Echipă și proces.", "Știri din industrie cu punctul tău de vedere."),
+        ],
+      },
+      {
+        id: "calendar",
+        heading: "Transformă pilonii într-un calendar",
+        blocks: [
+          p("Atribuie piloni zilelor sau săptămânilor, apoi umple-i cu postări specifice. Un ritm săptămânal simplu, cu o postare pe pilon, e ușor de ținut. Pentru ajutor cu un plan de conținut și un sistem de design, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câți piloni ar trebui să am?"),
+          p("Trei până la cinci."),
+          h3("Se pot schimba pilonii?"),
+          p("Da. Revizuiește-i în fiecare trimestru pe baza rezultatelor."),
+          h3("Limitează pilonii creativitatea?"),
+          p("Dau o structură. Creativitatea se întâmplă în interiorul ei."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "global-medical-health"], services: ["content-creation", "social-media-design"] },
+  },
+  {
+    id: "repurpose-content",
+    slug: "cum-refolosesti-continutul",
+    title: "Cum refolosești conținutul: scoate mai mult dintr-o singură idee",
+    seoTitle: "Cum refolosești conținutul: mai mult dintr-o idee",
+    description: "Refolosirea transformă o piesă de conținut în mai multe fără să te repeți. Un flux simplu, cu exemple pentru video, fotografii și articole.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Crearea de conținut de la zero în fiecare zi este epuizantă. Refolosirea înseamnă să iei o piesă puternică și să o adaptezi la alte formate și canale. Economisește timp și ajunge la oameni care preferă alte formate, fără să pară repetitiv când e făcută bine.",
+    sections: [
+      {
+        id: "principiu",
+        heading: "Principiul",
+        blocks: [
+          p("Pornește de la o piesă centrală, precum un proiect, un video sau un articol. Apoi întreabă-te cum poate fi arătată diferit pe fiecare canal: mai scurt, mai vizual, mai detaliat sau mai personal."),
+        ],
+      },
+      {
+        id: "video",
+        heading: "Dintr-un video",
+        blocks: [
+          ul("O versiune completă pentru site sau YouTube.", "O variantă verticală scurtă pentru Reels sau TikTok.", "Cadre statice pentru un caruzel.", "Citate ca postări text.", "Un Story din culise."),
+        ],
+      },
+      {
+        id: "proiect",
+        heading: "Dintr-un proiect",
+        blocks: [
+          p("Un proiect precum instalarea unui utilaj nou pentru KDT Romania poate deveni un studiu de caz, un caruzel foto, un video scurt, o postare LinkedIn despre rezultat și un Story cu echipa."),
+        ],
+      },
+      {
+        id: "articol",
+        heading: "Dintr-un articol",
+        blocks: [
+          ol("Transformă fiecare secțiune într-o postare sau un slide.", "Extrage un citat sau o statistică pe care o poți verifica.", "Creează un grafic de tip listă de verificare.", "Răspunde la întrebările din FAQ ca videoclipuri scurte."),
+        ],
+      },
+      {
+        id: "adapteaza",
+        heading: "Adaptează, nu copia",
+        blocks: [
+          p("Schimbă prima linie, formatul și îndemnul la acțiune pentru fiecare canal. Păstrează aspectul consecvent, dar evită să postezi exact același material peste tot."),
+        ],
+      },
+      {
+        id: "programeaza",
+        heading: "Programează și urmărește",
+        blocks: [
+          p("Împrăștie piesele pe săptămâni. Notează ce formate au cele mai bune rezultate. Dacă vrei ajutor la configurarea unui sistem de conținut, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Vor vedea oamenii același conținut de două ori?"),
+          p("Unii da, dar formatele și unghiurile diferite îl țin proaspăt. Majoritatea urmăritorilor nu văd tot."),
+          h3("Câte piese pot obține dintr-o idee?"),
+          p("Adesea cinci până la zece, în funcție de subiect."),
+          h3("Strică refolosirea calitatea?"),
+          p("Nu, dacă adaptezi cu grijă."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "nextlab-tech"], services: ["content-creation"] },
+  },
+  {
+    id: "flyer-design",
+    slug: "sfaturi-pentru-design-de-flyer-care-este-citit",
+    title: "Sfaturi pentru design de flyer: cum faci un flyer pe care oamenii chiar îl citesc",
+    seoTitle: "Sfaturi pentru design de flyer care este citit",
+    description: "Un flyer are doar câteva secunde. Cum construiești o ierarhie clară, cum alegi dimensiunea și hârtia și cum eviți greșelile care trimit flyerele direct la gunoi.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "Majoritatea flyerelor primesc o privire de o secundă sau două. În acel moment cititorul decide dacă îl păstrează. Un design bun de flyer nu înseamnă decor. Înseamnă un mesaj clar, o ierarhie puternică și un motiv să acționezi.",
+    sections: [
+      {
+        id: "scop",
+        heading: "Definește un singur scop",
+        blocks: [
+          p("Ce ar trebui să facă cititorul după ce vede flyerul: să viziteze, să sune, să scaneze, să revendice o ofertă? Un flyer, o acțiune principală."),
+        ],
+      },
+      {
+        id: "ierarhie",
+        heading: "Construiește o ierarhie",
+        blocks: [
+          ol("Un titlu care spune beneficiul sau oferta.", "O singură imagine sau grafică puternică.", "Text scurt de susținere.", "Un îndemn clar la acțiune cu date de contact."),
+          p("Pentru o brutărie precum Moș Ilie, o imagine apetisantă de produs cu o ofertă simplă funcționează mai bine decât o listă aglomerată cu tot ce e în meniu."),
+        ],
+      },
+      {
+        id: "lizibilitate",
+        heading: "Păstrează-l lizibil",
+        blocks: [
+          ul("Titlu mare, text de bază lizibil.", "Contrast mare între text și fundal.", "Cel mult două fonturi.", "Spațiu alb în jurul elementelor cheie."),
+        ],
+      },
+      {
+        id: "dimensiune",
+        heading: "Dimensiune și format",
+        blocks: [
+          p("A5 și A6 sunt dimensiuni practice pentru distribuire. A4 se potrivește afișelor și inserțiilor. Adaugă bleed, de obicei 3 mm, și ține textul în marginile sigure."),
+        ],
+      },
+      {
+        id: "hartie",
+        heading: "Hârtie și tipar",
+        blocks: [
+          p("Hârtia mai groasă pare mai valoroasă. Pentru fluturași distribuiți manual, o gramatură medie cu tipar bun este de obicei suficientă. Cere o probă înainte de un tiraj mare."),
+        ],
+      },
+      {
+        id: "masoara",
+        heading: "Fă-l măsurabil",
+        blocks: [
+          p("Adaugă un cod, un link unic sau o frază pe care clienții o menționează, ca să știi că flyerul a funcționat. Vezi serviciul meu de design pentru print pentru flyere potrivite brandului tău."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce dimensiune ar trebui să aibă un flyer?"),
+          p("A5 este cea mai comună pentru distribuire manuală."),
+          h3("Să includ un cod QR?"),
+          p("Doar dacă duce la ceva util pe mobil și îl tipărești destul de mare ca să poată fi scanat."),
+          h3("Cât text este prea mult?"),
+          p("Dacă nu poate fi înțeles în câteva secunde, este prea mult."),
+        ],
+      },
+    ],
+    related: { projects: ["mos-ilie", "global-medical-health"], services: ["printed-media"] },
+  },
+  {
+    id: "qr-codes-in-print",
+    slug: "coduri-qr-in-designul-de-print",
+    title: "Coduri QR în designul de print: dimensiune, plasare și greșeli de evitat",
+    seoTitle: "Coduri QR în designul de print: dimensiune și plasare",
+    description: "Un cod QR care nu se scanează este mai rău decât niciunul. Cât de mare ar trebui să fie, câtă zonă liberă are nevoie, unde îl pui și la ce trimiți.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
+    intro: "Codurile QR leagă tiparul de web, dar funcționează doar dacă oamenii le pot scana într-o secundă. Multe coduri tipărite eșuează din aceleași motive: prea mici, contrast slab, fără zonă liberă sau un link care nu duce nicăieri util.",
+    sections: [
+      {
+        id: "de-ce",
+        heading: "Dă oamenilor un motiv să scaneze",
+        blocks: [
+          p("Spune ce face codul, de exemplu „Vezi meniul”, „Fă o programare” sau „Urmărește videoul”. Un cod gol, fără explicații, este ignorat."),
+        ],
+      },
+      {
+        id: "dimensiune",
+        heading: "Dimensiune și contrast",
+        blocks: [
+          ul("Fă codul destul de mare ca să se scaneze de la distanța așteptată. Pe o carte de vizită, păstrează-l la o dimensiune care se scanează ușor și testează-l.", "Folosește cod închis pe fundal deschis, cu contrast puternic.", "Evită culorile inversate dacă nu le-ai testat.", "Nu întinde codul."),
+        ],
+      },
+      {
+        id: "zona",
+        heading: "Lasă o zonă liberă",
+        blocks: [
+          p("Un cod QR are nevoie de o margine goală în jur, adesea de aproximativ patru module. Nu pune text sau grafică în acea zonă."),
+        ],
+      },
+      {
+        id: "link",
+        heading: "Trimite la ceva adaptat mobilului",
+        blocks: [
+          ul("Pagina ar trebui să se încarce repede pe telefon.", "Folosește un link scurt și stabil, ca să fie codul mai simplu.", "Gândește-te la o pagină dedicată campaniilor de print, ca să poți măsura scanările.", "Verifică dacă linkul funcționează și după tipărire."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Integrează-l în compoziție",
+        blocks: [
+          p("Așază codul într-o locație consecventă, departe de pliuri și margini. Poți stila codul cu culorile brandului, dar testează cu atenție. Cărțile sau flyerele pentru o florărie precum Floraria Mariei pot trimite la un catalog sau la o pagină de comandă."),
+        ],
+      },
+      {
+        id: "testeaza",
+        heading: "Testează înainte să tipărești",
+        blocks: [
+          ol("Testează pe mai multe telefoane.", "Testează în lumină normală.", "Tipărește o probă la dimensiunea reală.", "Testează din nou după tipărire."),
+          p("Pentru materiale tipărite cu coduri QR funcționale, vezi serviciul meu de design pentru print."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de mare ar trebui să fie un cod QR?"),
+          p("Destul de mare cât să se scaneze confortabil. Testează la dimensiunea reală, pentru că dimensiunea potrivită depinde de distanță."),
+          h3("Pot pune un logo în mijloc?"),
+          p("Uneori, dar poate reduce fiabilitatea. Testează."),
+          h3("Să folosesc un cod QR dinamic?"),
+          p("Dacă vrei să schimbi destinația sau să măsori scanările, da."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech", "floraria-mariei"], services: ["printed-media"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

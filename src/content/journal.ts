@@ -3818,6 +3818,281 @@ export const articles: Article[] = [
     ],
     related: { projects: ["nextlab-tech", "vibrary"], services: ["2d-animation"] },
   },
+  {
+    id: "brief-a-video-editor",
+    slug: "how-to-brief-a-video-editor",
+    title: "How to Brief a Video Editor So You Get What You Imagined",
+    seoTitle: "How to Brief a Video Editor",
+    description: "A clear brief saves rounds of revisions. What to tell a video editor: goal, audience, references, format, assets and feedback process.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "Most video revisions come from unclear expectations, not from bad editing. A good brief takes twenty minutes to write and can save days. Here is what to include.",
+    sections: [
+      {
+        id: "goal",
+        heading: "The goal and the audience",
+        blocks: [
+          p("Say what the video must achieve and who will watch it: sell a product, explain a process, promote an event. Mention where it will appear, since a Reel and a website video are edited differently."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Format and length",
+        blocks: [
+          ul("Aspect ratio: for example vertical 9:16 for Reels.", "Target length.", "Delivery formats and deadline.", "Subtitles: yes or no, and in which language."),
+        ],
+      },
+      {
+        id: "references",
+        heading: "References",
+        blocks: [
+          p("Share two or three videos you like and say what you like about each: pace, colours, transitions, sound. References communicate faster than adjectives. Also share things you do not want."),
+        ],
+      },
+      {
+        id: "assets",
+        heading: "Assets and brand",
+        blocks: [
+          ul("Raw footage in organised folders.", "Logo, fonts and colour codes.", "Music or sound preferences, with licences.", "Script or key messages.", "Any text that must appear exactly as written."),
+        ],
+      },
+      {
+        id: "structure",
+        heading: "Structure",
+        blocks: [
+          p("If you have a rough structure, share it: hook, main points, ending. If not, ask the editor to propose one. Mention the call to action."),
+        ],
+      },
+      {
+        id: "feedback",
+        heading: "Feedback process",
+        blocks: [
+          ol("Agree on the number of revision rounds.", "Collect feedback from all decision makers into one message.", "Give timestamps and specific comments.", "Say what you like first, then what to change."),
+          p("For reels and brand video, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How detailed should a brief be?"),
+          p("Detailed enough to answer goal, format, references and assets. One page is usually enough."),
+          h3("Should I give the editor creative freedom?"),
+          p("Yes, within the brand and goal. Good editors improve on the plan."),
+          h3("How many revision rounds are normal?"),
+          p("Two rounds is a common baseline, but agree it in advance."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "farmacia-farmex"], services: ["content-creation"] },
+  },
+  {
+    id: "repurpose-content",
+    slug: "how-to-repurpose-content",
+    title: "How to Repurpose Content: Get More From One Idea",
+    seoTitle: "How to Repurpose Content: More From One Idea",
+    description: "Repurposing turns one piece of content into many without repeating yourself. A simple workflow with examples for video, photos and articles.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Creating content from scratch every day is exhausting. Repurposing means taking one strong piece and adapting it to other formats and channels. It saves time and reaches people who prefer different formats, without feeling repetitive when done well.",
+    sections: [
+      {
+        id: "principle",
+        heading: "The principle",
+        blocks: [
+          p("Start with one core piece, such as a project, a video or an article. Then ask how it can be shown differently on each channel: shorter, more visual, more detailed or more personal."),
+        ],
+      },
+      {
+        id: "video",
+        heading: "From one video",
+        blocks: [
+          ul("A full version for the website or YouTube.", "A short vertical cut for Reels or TikTok.", "Stills for a carousel.", "Quotes as text posts.", "A behind-the-scenes Story."),
+        ],
+      },
+      {
+        id: "project",
+        heading: "From one project",
+        blocks: [
+          p("A project such as a new machine installation for KDT Romania can become a case study, a photo carousel, a short video, a LinkedIn post about the result and a Story with the team."),
+        ],
+      },
+      {
+        id: "article",
+        heading: "From one article",
+        blocks: [
+          ol("Turn each section into a post or a slide.", "Extract a quote or a statistic you can verify.", "Create a checklist graphic.", "Answer questions in the FAQ as short videos."),
+        ],
+      },
+      {
+        id: "adapt",
+        heading: "Adapt, do not copy",
+        blocks: [
+          p("Change the first line, the format and the call to action for each channel. Keep the look consistent, but avoid posting the same exact asset everywhere."),
+        ],
+      },
+      {
+        id: "schedule",
+        heading: "Schedule and track",
+        blocks: [
+          p("Spread the pieces over weeks. Note which formats perform best. If you want help setting up a content system, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Will people see the same content twice?"),
+          p("Some will, but different formats and angles keep it fresh. Most followers do not see everything."),
+          h3("How many pieces can I get from one idea?"),
+          p("Often five to ten, depending on the topic."),
+          h3("Does repurposing hurt quality?"),
+          p("Not if you adapt carefully."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "nextlab-tech"], services: ["content-creation"] },
+  },
+  {
+    id: "flyer-design",
+    slug: "flyer-design-tips-that-get-read",
+    title: "Flyer Design Tips: How to Make a Flyer People Actually Read",
+    seoTitle: "Flyer Design Tips That Get Read",
+    description: "A flyer has seconds to work. How to build a clear hierarchy, choose size and paper, and avoid the mistakes that send flyers straight to the bin.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "Most flyers get a glance of a second or two. In that moment the reader decides whether to keep it. Good flyer design is not about decoration. It is about one clear message, a strong hierarchy and a reason to act.",
+    sections: [
+      {
+        id: "goal",
+        heading: "Define one goal",
+        blocks: [
+          p("What should the reader do after seeing the flyer: visit, call, scan, claim an offer? One flyer, one main action."),
+        ],
+      },
+      {
+        id: "hierarchy",
+        heading: "Build a hierarchy",
+        blocks: [
+          ol("A headline that states the benefit or the offer.", "A single strong image or graphic.", "Short supporting text.", "A clear call to action with contact details."),
+          p("For a bakery such as Moș Ilie, an appetising product image with a simple offer works better than a crowded list of everything on the menu."),
+        ],
+      },
+      {
+        id: "readability",
+        heading: "Keep it readable",
+        blocks: [
+          ul("Large headline, readable body text.", "High contrast between text and background.", "No more than two fonts.", "White space around key elements."),
+        ],
+      },
+      {
+        id: "size",
+        heading: "Size and format",
+        blocks: [
+          p("A5 and A6 are practical sizes for handing out. A4 suits posters and inserts. Add bleed, usually 3 mm, and keep text inside safe margins."),
+        ],
+      },
+      {
+        id: "paper",
+        heading: "Paper and print",
+        blocks: [
+          p("Heavier paper feels more valuable. For leaflets distributed by hand, a medium weight in good print quality is usually enough. Request a proof before a large run."),
+        ],
+      },
+      {
+        id: "measure",
+        heading: "Make it measurable",
+        blocks: [
+          p("Add a code, a unique link or a phrase customers mention, so you know the flyer worked. See my print design service for flyers that match your brand."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What size should a flyer be?"),
+          p("A5 is the most common for hand distribution."),
+          h3("Should I include a QR code?"),
+          p("Only if it leads to something useful on mobile, and print it large enough to scan."),
+          h3("How much text is too much?"),
+          p("If it cannot be understood in a few seconds, it is too much."),
+        ],
+      },
+    ],
+    related: { projects: ["mos-ilie", "global-medical-health"], services: ["printed-media"] },
+  },
+  {
+    id: "qr-codes-in-print",
+    slug: "qr-codes-in-print-design",
+    title: "QR Codes in Print Design: Size, Placement and Mistakes to Avoid",
+    seoTitle: "QR Codes in Print Design: Size and Placement",
+    description: "A QR code that does not scan is worse than none. How large it should be, how much empty space it needs, where to put it and what to link to.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "QR codes connect print to the web, but they only work if people can scan them in a second. Many printed codes fail for the same reasons: too small, too low contrast, no quiet space or a link that leads nowhere useful.",
+    sections: [
+      {
+        id: "why",
+        heading: "Give people a reason to scan",
+        blocks: [
+          p("Say what the code does, for example 'See the menu', 'Book an appointment' or 'Watch the video'. A bare code with no explanation gets ignored."),
+        ],
+      },
+      {
+        id: "size",
+        heading: "Size and contrast",
+        blocks: [
+          ul("Make the code large enough to scan from the expected distance. On a business card, keep it at a size that scans easily and test it.", "Use dark code on a light background, with strong contrast.", "Avoid inverted colours unless you have tested them.", "Do not stretch the code."),
+        ],
+      },
+      {
+        id: "quiet",
+        heading: "Leave a quiet zone",
+        blocks: [
+          p("A QR code needs an empty margin around it, often about four modules wide. Do not place text or graphics inside that zone."),
+        ],
+      },
+      {
+        id: "link",
+        heading: "Link to something mobile friendly",
+        blocks: [
+          ul("The page should load fast on a phone.", "Use a short, stable link, so the code is simpler.", "Consider a dedicated page for print campaigns, so you can measure scans.", "Check that the link still works after printing."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design it into the layout",
+        blocks: [
+          p("Place the code in a consistent location, away from folds and edges. You can style the code with brand colours, but test carefully. Cards or flyers for a florist like Floraria Mariei can link to a catalogue or order page."),
+        ],
+      },
+      {
+        id: "test",
+        heading: "Test before you print",
+        blocks: [
+          ol("Test on several phones.", "Test in normal lighting.", "Print a sample at real size.", "Test again after printing."),
+          p("For print materials with working QR codes, see my print design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How big should a QR code be?"),
+          p("Big enough to scan comfortably. Test at real size, since the right size depends on distance."),
+          h3("Can I put a logo in the middle?"),
+          p("Sometimes, but it can reduce reliability. Test it."),
+          h3("Should I use a dynamic QR code?"),
+          p("If you want to change the destination or measure scans, yes."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech", "floraria-mariei"], services: ["printed-media"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

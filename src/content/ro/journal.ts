@@ -2465,6 +2465,654 @@ export const articles: Article[] = [
     ],
     related: { projects: ["farmacia-farmex", "green-table"], services: ["content-creation", "content-creation"] },
   },
+  {
+    id: "instagram-image-sizes",
+    slug: "dimensiuni-instagram-postari-stories-reels-si-carusele",
+    title: "Dimensiuni pentru Instagram: postări, Stories, Reels și carusele",
+    seoTitle: "Dimensiuni Instagram pentru postări și Stories",
+    description: "Dimensiunile și rapoartele de aspect care funcționează pe Instagram pentru postări în feed, carusele, Stories și Reels, plus sfaturi de design ca textul să nu fie tăiat.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Nimic nu face un brand să pară neglijent mai repede decât un logo tăiat sau o postare neclară. Instagram acceptă mai multe formate, fiecare cu proporțiile lui. Iată dimensiunile în care să proiectezi, ca să arate conținutul exact cum ai intenționat.",
+    sections: [
+      {
+        id: "feed",
+        heading: "Postări în feed",
+        blocks: [
+          p("Feedul acceptă câteva rapoarte. Formatul portret 4:5, de 1080 x 1350 pixeli, ocupă cel mai mult spațiu pe ecran și este o alegere populară pentru branduri. Postările pătrate au 1080 x 1080 pixeli, iar cele orizontale 1080 x 566 pixeli."),
+          ul("Portret 4:5: 1080 x 1350 px.", "Pătrat 1:1: 1080 x 1080 px.", "Orizontal: 1080 x 566 px."),
+        ],
+      },
+      {
+        id: "carusel",
+        heading: "Carusele",
+        blocks: [
+          p("Într-un caruzel, raportul de aspect este stabilit de primul slide, iar celelalte îl urmează. Planifică tot setul într-o singură dimensiune. Proiectează fiecare slide să aibă sens singur și să-l tragă pe cel următor după el."),
+        ],
+      },
+      {
+        id: "stories",
+        heading: "Stories și Reels",
+        blocks: [
+          p("Stories și Reels folosesc formatul vertical 9:16, 1080 x 1920 pixeli. Reels pot dura până la trei minute."),
+          ul("Ține textul cheie și fețele departe de sus și de jos, unde se află interfața.", "Lasă margini laterale ca să nu se simtă înghesuit.", "Verifică previzualizarea pe un telefon real."),
+        ],
+      },
+      {
+        id: "grid",
+        heading: "Gândește-te la grid-ul profilului",
+        blocks: [
+          p("Postările din feed apar și ca grid în profil, care le taie. Ține conținutul important în zona centrală, ca o postare să se citească și în grid, și în feed."),
+        ],
+      },
+      {
+        id: "calitate",
+        heading: "Păstrează calitatea ridicată",
+        blocks: [
+          ol("Exportă la dimensiunea completă, nu mai mică.", "Folosește imagini clare, cu compresie bună.", "Evită textul minuscul care dispare pe ecrane mici.", "Păstrează o ierarhie clară: o idee pe postare."),
+          p("Dacă vrei un set consecvent de șabloane făcute la dimensiunile potrivite, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "nota",
+        heading: "O notă despre schimbări",
+        blocks: [
+          p("Platformele își schimbă formatele din când în când. Verifică paginile de ajutor Instagram înaintea unei producții mari și testează mereu pe telefon."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care este cea mai bună dimensiune pentru postările Instagram?"),
+          p("Formatul portret 4:5, de 1080 x 1350 pixeli, este o alegere bună pentru că folosește mai mult spațiu de ecran."),
+          h3("De ce îmi taie Instagram postările?"),
+          p("Pentru că formatul încărcat nu corespunde unui raport acceptat sau pentru că grid-ul profilului arată o decupare centrală."),
+          h3("Pot amesteca dimensiuni într-un caruzel?"),
+          p("Primul slide stabilește raportul, deci planifică toate slide-urile în același."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-stories-design",
+    slug: "cum-proiectezi-instagram-stories-pe-care-oamenii-le-vad",
+    title: "Cum proiectezi Instagram Stories pe care oamenii chiar le urmăresc",
+    seoTitle: "Cum proiectezi Instagram Stories urmărite",
+    description: "Stories sunt rapide. Învață să le proiectezi cu un prim cadru clar, zone sigure, text lizibil și un aspect consecvent pe care oamenii îl recunosc.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Un Story durează câteva secunde. Oamenii dau tap repede, deci designul trebuie să-și facă treaba aproape imediat. Asta nu înseamnă țipător. Înseamnă clar: o idee, text lizibil și un aspect imediat al tău.",
+    sections: [
+      {
+        id: "primul-cadru",
+        heading: "Câștigă primul cadru",
+        blocks: [
+          p("Primul cadru decide dacă îl vezi pe următorul. Începe cu o imagine clară sau o linie scurtă și îndrăzneață. Evită introducerile lungi."),
+        ],
+      },
+      {
+        id: "zone-sigure",
+        heading: "Respectă zonele sigure",
+        blocks: [
+          p("Stories au 1080 x 1920 pixeli. Elementele interfeței, precum numele profilului sus și bara de răspuns jos, acoperă o parte din cadru."),
+          ul("Ține textul și fețele departe de marginile de sus și de jos.", "Lasă margini pe laterale.", "Previzualizează pe un telefon real înainte să publici."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Fă textul lizibil",
+        blocks: [
+          ol("Folosește litere mari și scurte.", "Asigură un contrast puternic cu fundalul.", "Folosește unul sau două fonturi din brand.", "Limitează fiecare cadru la un mesaj."),
+        ],
+      },
+      {
+        id: "sistem",
+        heading: "Construiește un sistem de șabloane",
+        blocks: [
+          p("Creează trei sau patru șabloane de Story: un citat, un anunț, un cadru de produs, un sondaj. Refolosirea lor dă un aspect consecvent și economisește timp. Un brand de modă precum IQ Fashion poate folosi un cadru tipografic îndrăzneț lângă o imagine de lookbook, în timp ce un brand de beauty precum Divaz se poate sprijini pe culoare și produs."),
+        ],
+      },
+      {
+        id: "secvente",
+        heading: "Gândește în secvențe",
+        blocks: [
+          p("Un set de 3 până la 5 cadre spune o poveste mică: cârlig, detaliu, dovadă, îndemn la acțiune. Fiecare cadru ar trebui să funcționeze și singur."),
+        ],
+      },
+      {
+        id: "interactiv",
+        heading: "Folosește funcțiile interactive cu rost",
+        blocks: [
+          ul("Sondajele și întrebările invită la participare.", "Stickerele cu link ar trebui să ducă la ceva util.", "Highlights păstrează cele mai bune Stories disponibile."),
+          p("Pentru ajutor cu un sistem de Stories și social media, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce dimensiune au Instagram Stories?"),
+          p("1080 x 1920 pixeli, în format vertical 9:16."),
+          h3("Câte Stories ar trebui să postez?"),
+          p("Calitate înaintea cantității. Câteva cadre bine proiectate bat un derulat lung de cadre slabe."),
+          h3("Ar trebui Stories să semene cu feedul?"),
+          p("Ar trebui să pară înrudite: aceleași culori, fonturi și ton, chiar dacă formatul e diferit."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "divaz"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-captions",
+    slug: "cum-scrii-descrieri-instagram-care-suna-ca-tine",
+    title: "Cum scrii descrieri pentru Instagram care sună ca tine",
+    seoTitle: "Cum scrii descrieri Instagram care sună ca tine",
+    description: "O structură simplă pentru descrieri care sunt citite: o primă linie puternică, o idee, un pas următor clar și un ton care se potrivește brandului.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "O imagine bună atrage atenția. Descrierea transformă acea atenție în înțelegere și, uneori, în acțiune. Multe branduri tratează descrierile ca pe o idee de după și pierd șansa de a explica, a conecta sau a vinde. O structură simplă rezolvă cea mai mare parte.",
+    sections: [
+      {
+        id: "prima-linie",
+        heading: "Scrie prima linie pentru derulare",
+        blocks: [
+          p("Doar începutul unei descrieri se vede înainte să apese oamenii pe „mai mult”. Fă-l să conteze: o întrebare, un fapt surprinzător sau o promisiune clară. Evită deschideri precum „Salutare tuturor” care irosesc spațiul."),
+        ],
+      },
+      {
+        id: "o-idee",
+        heading: "Rămâi la o idee",
+        blocks: [
+          p("Fiecare postare ar trebui să spună un singur lucru. Dacă ai trei idei, ai trei postări. Un mesaj clar este mai ușor de citit și de ținut minte."),
+        ],
+      },
+      {
+        id: "structura",
+        heading: "O structură pe care o poți refolosi",
+        blocks: [
+          ol("Cârlig: prima linie.", "Valoare: informația, povestea sau sfatul.", "Dovadă sau detaliu: un exemplu, un număr pe care îl poți susține, un citat.", "Pasul următor: pune o întrebare, invită la salvare, trimite la un link."),
+        ],
+      },
+      {
+        id: "tonul",
+        heading: "Potrivește tonul brandului",
+        blocks: [
+          p("Citește descrierea cu voce tare. Sună ca brandul? Un studio de tatuaje precum Inklabs poate fi direct și expresiv, în timp ce un brand de mâncare sănătoasă precum Green Table poate fi cald și informativ. Consecvența contează mai mult decât isteția."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Fă-o ușor de citit",
+        blocks: [
+          ul("Folosește paragrafe scurte și rânduri goale.", "Evită zidurile de text.", "Adaugă emoji cu măsură, dacă se potrivesc tonului.", "Pune informațiile cheie la început."),
+        ],
+      },
+      {
+        id: "cta",
+        heading: "Folosește un îndemn clar la acțiune",
+        blocks: [
+          p("Spune oamenilor ce să facă: să salveze postarea, să răspundă la o întrebare, să viziteze linkul din bio. O acțiune clară bate trei vagi. Dacă ai nevoie de un sistem de conținut și design care să-ți susțină descrierile, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de lungă ar trebui să fie o descriere Instagram?"),
+          p("Cât are nevoie. Scurtă pentru postări simple, mai lungă pentru sfaturi și povești, mereu cu un început puternic."),
+          h3("Să scriu descrierile în română sau în engleză?"),
+          p("Scrie în limba publicului tău. Dacă servești ambele, alege-o pe cea principală și păstrează-o pe cealaltă consecventă."),
+          h3("Ajută emoji-urile?"),
+          p("Pot adăuga personalitate, dar doar dacă se potrivesc tonului tău."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "green-table"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "instagram-bio-and-highlights",
+    slug: "bio-poza-de-profil-si-coperti-highlights-instagram",
+    title: "Bio, poză de profil și coperți pentru Highlights pe Instagram: o listă pentru brand",
+    seoTitle: "Bio, poză de profil și coperți Highlights Instagram",
+    description: "Profilul tău de Instagram este vitrina ta. Cum scrii un bio clar, cum alegi o poză de profil care funcționează mică și cum proiectezi coperți pentru highlights care se potrivesc brandului.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "Înainte să-ți deruleze cineva postările, se uită la profil. În două secunde decide dacă ești relevant și de încredere. Un bio clar, o poză recognoscibilă și highlights ordonate fac decizia ușoară.",
+    sections: [
+      {
+        id: "poza",
+        heading: "Poza de profil",
+        blocks: [
+          p("Apare foarte mică și este decupată în cerc. Folosește semnul logoului sau o imagine simplă, cu contrast mare, și testeaz-o la dimensiune de miniatură. Detaliile fine și numele lungi dispar."),
+          ul("Centrează elementul important.", "Folosește aceeași poză pe fiecare platformă.", "Păstrează suficient contrast cu fundalul."),
+        ],
+      },
+      {
+        id: "nume",
+        heading: "Nume și handle",
+        blocks: [
+          p("Folosește numele brandului și adaugă un cuvânt-cheie în câmpul de nume dacă îi ajută pe oameni să te găsească, de exemplu categoria sau orașul. Păstrează handle-ul simplu și asemănător pe toate platformele."),
+        ],
+      },
+      {
+        id: "bio",
+        heading: "Bio",
+        blocks: [
+          ol("Spune ce faci și pentru cine.", "Adaugă o dovadă sau un element diferențiator.", "Include un îndemn la acțiune.", "Adaugă un link care duce undeva util."),
+          p("O clinică dentară poate menționa specialitatea și orașul; un brand de beauty poate menționa produsul și promisiunea. Fii concret."),
+        ],
+      },
+      {
+        id: "highlights",
+        heading: "Coperți pentru Highlights",
+        blocks: [
+          p("Highlights păstrează vizibile Stories importante: servicii, prețuri, recenzii, cum comanzi. Folosește un set consecvent de coperți: aceeași formă, o pictogramă simplă și etichete scurte. Potrivirea cu culorile brandului face profilul să pară intenționat."),
+        ],
+      },
+      {
+        id: "fixate",
+        heading: "Postări fixate",
+        blocks: [
+          p("Fixează până la trei postări care introduc brandul: cea mai bună lucrare, o ofertă, o explicație clară. Pentru ajutor cu un sistem de profil, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce dimensiune au copertile Highlights?"),
+          p("Folosesc formatul Story, 1080 x 1920 pixeli, dar se afișează ca un cerc, deci ține pictograma centrată."),
+          h3("Poza de profil ar trebui să fie fața mea sau logoul?"),
+          p("Pentru branduri personale, o față clară funcționează bine. Pentru companii, semnul logoului este alegerea mai sigură."),
+          h3("Cât de des ar trebui să-mi actualizez bio-ul?"),
+          p("Ori de câte ori se schimbă oferta și revizuiește-l la câteva luni."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "art-innova"], services: ["social-media-design", "branding"] },
+  },
+  {
+    id: "instagram-hashtags",
+    slug: "hashtaguri-instagram-mai-conteaza-si-cum-le-folosesti",
+    title: "Hashtaguri pe Instagram: mai contează și cum le folosești",
+    seoTitle: "Hashtaguri Instagram: mai contează?",
+    description: "Hashtagurile nu sunt reach magic, dar ajută în continuare la context și descoperire. Câte să folosești, cum le alegi și ce să eviți.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Sfaturile despre hashtaguri se schimbă în fiecare an, iar multe se contrazic. Punctul de vedere sensibil este modest: hashtagurile ajută la descrierea conținutului și pot adăuga ceva descoperire, dar nu înlocuiesc conținutul bun sau un profil clar. Iată cum le folosești fără să te gândești prea mult.",
+    sections: [
+      {
+        id: "rolul",
+        heading: "Ce fac de fapt hashtagurile",
+        blocks: [
+          p("Etichetează o postare cu un subiect. Instagram folosește subiecte, descrieri, imagini și multe alte semnale ca să înțeleagă despre ce este o postare și cui i-ar putea plăcea. Hashtagurile sunt un indiciu printre multe, nu un întrerupător pentru reach."),
+        ],
+      },
+      {
+        id: "cate",
+        heading: "Câte să folosești",
+        blocks: [
+          p("Nu există un număr magic. Un set mic, relevant, este suficient. Câteva care descriu cu adevărat postarea sunt mai bune decât un bloc lung de etichete generice."),
+        ],
+      },
+      {
+        id: "alege",
+        heading: "Cum le alegi",
+        blocks: [
+          ol("Începe cu ce este postarea: produsul, subiectul, stilul.", "Adaugă unul sau două pentru nișa sau locația ta.", "Adaugă un tag de brand dacă vrei o colecție de brand.", "Verifică ce arată tagul. Dacă e plin de conținut fără legătură, sari peste el."),
+        ],
+      },
+      {
+        id: "amesteca",
+        heading: "Amestecă specific și larg",
+        blocks: [
+          ul("Tagurile specifice atrag publicul potrivit, de exemplu un anumit material sau o tehnică.", "Tagurile largi sunt aglomerate și rareori duc la interacțiune.", "Un tag local poate ajuta o afacere locală precum un restaurant sau o clinică."),
+        ],
+      },
+      {
+        id: "evita",
+        heading: "Ce să eviți",
+        blocks: [
+          ul("Copierea aceluiași bloc pe fiecare postare.", "Taguri interzise sau de spam.", "Taguri fără legătură cu conținutul.", "Ascunderea tagurilor într-un mod care face descrierea dezordonată."),
+          p("Calitatea conținutului, designul clar și postarea constantă contează mult mai mult. Dacă vrei ajutor cu un sistem de conținut, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Hashtagurile merg în descriere sau în comentarii?"),
+          p("Oricare. Pune-le acolo unde păstrează descrierea curată și lizibilă."),
+          h3("Cum găsesc hashtaguri bune?"),
+          p("Uită-te ce folosesc conturi similare, caută taguri relevante și vezi care arată conținut lângă care ai vrea să fii."),
+          h3("Garantează hashtagurile reach?"),
+          p("Nu. Sunt un semnal mic printre multe."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "green-table"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-feed-layout",
+    slug: "cum-planifici-un-feed-instagram-coerent",
+    title: "Cum planifici un feed Instagram coerent (fără să devină plictisitor)",
+    seoTitle: "Cum planifici un feed Instagram coerent",
+    description: "Un feed coerent se recunoaște dintr-o privire. Cum alegi un sistem vizual, cum amesteci tipurile de postări și cum planifici fără ca toate să arate la fel.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Un feed coerent nu înseamnă că toate postările sunt identice. Înseamnă că cineva poate privi câteva postări și spune ale cui sunt. Recunoașterea aceea construiește încredere și vine din câteva decizii repetabile, nu din perfecțiune.",
+    sections: [
+      {
+        id: "sistem",
+        heading: "Alege un sistem vizual",
+        blocks: [
+          ul("O paletă de două până la patru culori.", "Unul sau două fonturi, folosite la fel.", "Un stil fotografic consecvent: lumină, unghiuri, editare.", "Câteva șabloane de compoziție pentru postările cu text."),
+          p("Aceste decizii sunt fundația. Restul sunt variații peste ea."),
+        ],
+      },
+      {
+        id: "amesteca",
+        heading: "Amestecă tipurile de postări cu intenție",
+        blocks: [
+          p("Alternează tipurile ca feedul să aibă ritm: produs, oameni, citat, culise, ofertă. Un brand de modă precum IQ Fashion poate alterna fotografii de lookbook cu postări tipografice; un brand de beauty precum Divaz poate alterna fotografii de produs cu grafice conduse de culoare."),
+        ],
+      },
+      {
+        id: "grid",
+        heading: "Gândește în grid, dar nu obsesiv",
+        blocks: [
+          p("Uită-te la grid-ul profilului la câteva postări. Verifică echilibrul: nu prea multe postări închise sau aglomerate la rând. Dar nu sacrifica mesajul pentru grid. Postările individuale trebuie să aibă sens în feed mai întâi."),
+        ],
+      },
+      {
+        id: "planifica",
+        heading: "Planifică cu o lună înainte",
+        blocks: [
+          ol("Alege subiectele și tipurile de postări.", "Pregătește șabloanele și fotografiază în loturi.", "Scrie descrierile dintr-o singură ședință.", "Programează și revizuiește planul săptămânal."),
+        ],
+      },
+      {
+        id: "revizuieste",
+        heading: "Revizuiește și ajustează",
+        blocks: [
+          p("Uită-te care postări primesc salvări, distribuiri și comentarii și fă mai multe din ele. Dacă vrei un sistem complet de șabloane pentru feed, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Am nevoie de un grid perfect?"),
+          p("Nu. Consecvența în culoare, tipografie și ton contează mai mult decât un aranjament de tip puzzle."),
+          h3("Câte șabloane am nevoie?"),
+          p("Patru până la șase acoperă majoritatea nevoilor."),
+          h3("Cât de des ar trebui să postez?"),
+          p("Destul de des ca să fii consecvent. Un program realist bate unul ambițios pe care nu îl poți menține."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "iq-fashion"], services: ["social-media-design"] },
+  },
+  {
+    id: "tiktok-vs-reels",
+    slug: "tiktok-vs-instagram-reels-pentru-branduri-mici",
+    title: "TikTok vs Instagram Reels: ce format de video scurt se potrivește brandului tău?",
+    seoTitle: "TikTok vs Instagram Reels pentru branduri mici",
+    description: "Ambele platforme împing video vertical scurt, dar publicul și obiceiurile diferă. Cum alegi și cum refolosești un video pe ambele fără să pari leneș.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Videoul vertical scurt nu mai este opțional pentru multe branduri. Întrebarea este unde îți pui efortul. TikTok și Instagram Reels arată similar, dar felul în care le folosesc oamenii diferă. Cel mai bun răspuns pentru un brand mic este de obicei practic, nu ideologic.",
+    sections: [
+      {
+        id: "similar",
+        heading: "Ce au în comun",
+        blocks: [
+          ul("Video vertical 9:16, 1080 x 1920 pixeli.", "Muzică, text suprapus și trenduri.", "Cârlige rapide în primele secunde."),
+          p("Pentru că formatul este același, un video bine făcut poate trăi adesea pe ambele."),
+        ],
+      },
+      {
+        id: "diferite",
+        heading: "Unde diferă",
+        blocks: [
+          p("Reels trăiesc în interiorul Instagram, așa că ajung la oameni care te urmăresc deja sau care răsfoiesc nișa ta și se leagă direct de profil, Stories și highlights. TikTok este construit în jurul descoperirii dintr-un flux de videoclipuri și recompensează divertismentul și personalitatea."),
+          ul("Instagram: legătură mai puternică cu un brand vizual și cu urmăritorii existenți.", "TikTok: mai puternic pentru descoperire și conținut informal, în stil creator."),
+        ],
+      },
+      {
+        id: "alege",
+        heading: "Cum alegi",
+        blocks: [
+          ol("Unde este deja publicul tău? Întreabă clienții.", "Ce platformă se potrivește conținutului pe care îl poți face constant?", "Unde trăiesc deja profilul și brandul tău?", "Începe cu una, fă-o bine, apoi extinde."),
+          p("Un brand vizual precum un studio de artă ca Inklabs poate găsi în Instagram o casă naturală, în timp ce o abordare mai jucăușă, bazată pe povești, poate prospera pe TikTok."),
+        ],
+      },
+      {
+        id: "refoloseste",
+        heading: "Refolosirea unui video",
+        blocks: [
+          p("Exportă o versiune curată, fără watermark. Ajustează descrierea, hashtagurile și prima linie pentru fiecare platformă. Ține textul departe de zonele interfeței pe ambele."),
+        ],
+      },
+      {
+        id: "calitate",
+        heading: "Ce contează pe ambele",
+        blocks: [
+          ul("Un prim cadru și un cârlig puternice.", "Audio clar sau text pe ecran pentru vizionare fără sunet.", "Un aspect consecvent pe care oamenii îl recunosc.", "Un punct clar: o idee pe video."),
+          p("Pentru ajutor cu video scurt și un sistem de conținut, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Pot posta același video pe ambele?"),
+          p("Da, dacă este exportat curat și adaptat cu o descriere potrivită."),
+          h3("Care este mai bună pentru afaceri locale?"),
+          p("Instagram se potrivește adesea mai bine, datorită legăturii cu clienții existenți și a instrumentelor de locație."),
+          h3("Cât de lungi ar trebui să fie videoclipurile scurte?"),
+          p("Cât să țină atenția. Scurt și clar câștigă de obicei."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "inklabs"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "linkedin-post-design",
+    slug: "design-postari-linkedin-pentru-branduri-b2b",
+    title: "Design de postări LinkedIn pentru branduri B2B și tehnice",
+    seoTitle: "Design postări LinkedIn pentru branduri B2B",
+    description: "Cum proiectezi postări, carusele și imagini de copertă pe LinkedIn care arată profesionist și clar, chiar și pentru subiecte tehnice sau de inginerie.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
+    intro: "LinkedIn este o platformă bazată pe text, dar elementele vizuale decid în continuare dacă cineva se oprește din derulat. Pentru brandurile B2B și tehnice, scopul nu este să fie țipătoare. Este să fie clare, credibile și recognoscibile. Iată cum proiectezi pentru ea.",
+    sections: [
+      {
+        id: "publicul",
+        heading: "Cunoaște publicul",
+        blocks: [
+          p("Oamenii de pe LinkedIn sunt în modul de lucru. Vor informații utile, expertiză credibilă și dovezi clare. Un stil vizual calm, precis și consecvent se potrivește acestei dispoziții."),
+        ],
+      },
+      {
+        id: "formate",
+        heading: "Formate care funcționează",
+        blocks: [
+          ul("Imagini singulare cu o afirmație clară.", "Postări de tip document sau caruzel care explică un proces pas cu pas.", "Video-uri scurte care arată un produs sau un proiect.", "O imagine de copertă puternică pe pagina companiei."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Principii de design",
+        blocks: [
+          ol("O idee pe imagine.", "Litere mari, lizibile, cu contrast puternic.", "O grilă și o paletă de culori consecvente din brand.", "Diagrame sau fotografii etichetate în loc de stoc decorativ."),
+          p("Pentru o companie de tehnologie precum NEXTLAB, diagramele curate și fotografiile de proiect funcționează mai bine decât decorul abstract. Pentru o firmă de consultanță în inginerie precum Selfconsulting, desenele și imaginile de proiect construiesc credibilitate."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Susține imaginea cu textul",
+        blocks: [
+          p("Primele rânduri ale postării poartă cârligul. Folosește paragrafe scurte și păstrează imaginea în acord cu ce promite textul."),
+        ],
+      },
+      {
+        id: "dovezi",
+        heading: "Arată dovezi",
+        blocks: [
+          ul("Proiecte și rezultate reale.", "Citate de la clienți, cu permisiune.", "Proces și culise."),
+          p("Dacă vrei ajutor cu o prezență profesionistă pe LinkedIn, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce dimensiune au imaginile LinkedIn?"),
+          p("Alegeri comune sunt imaginile pătrate sau portret. Verifică ghidul actual LinkedIn înainte de o producție mare și previzualizează pe telefon."),
+          h3("Funcționează caruselele pe LinkedIn?"),
+          p("Da, ca postări document. Se potrivesc explicațiilor pas cu pas."),
+          h3("Ar trebui postările B2B să fie formale?"),
+          p("Profesioniste, da. Plictisitoare, nu. Scopul este clar și uman."),
+        ],
+      },
+    ],
+    related: { projects: ["selfconsulting", "nextlab-tech"], services: ["social-media-design"] },
+  },
+  {
+    id: "facebook-local-business",
+    slug: "postari-facebook-pentru-afaceri-locale",
+    title: "Postări pe Facebook pentru o afacere locală: ce publici și cum le proiectezi",
+    seoTitle: "Postări Facebook pentru o afacere locală",
+    description: "Facebook este încă locul unde mulți clienți locali caută programul, ofertele și recenziile. Ce postezi, cum proiectezi și cum menții activă o pagină mică.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "Pentru multe afaceri locale, pagina de Facebook este încă locul unde clienții verifică programul, pun o întrebare sau citesc recenzii. Nu trebuie să postezi zilnic, dar ai nevoie de o pagină care pare vie și de încredere. Iată un plan practic.",
+    sections: [
+      {
+        id: "bazele",
+        heading: "Pune bazele corect",
+        blocks: [
+          ul("O poză de profil recognoscibilă și o imagine de copertă clară.", "Program, adresă și telefon corecte.", "O descriere scurtă a ce faci.", "Un buton pentru acțiunea principală, precum sună sau trimite mesaj."),
+        ],
+      },
+      {
+        id: "continut",
+        heading: "Ce postezi",
+        blocks: [
+          ol("Oferte și promoții sezoniere.", "Produse sau servicii noi.", "Culise și echipa.", "Povești ale clienților și recenzii, cu permisiune.", "Sfaturi utile legate de expertiza ta."),
+          p("O brutărie precum Moș Ilie poate arăta produse, articole sezoniere și oamenii din spate; un magazin optic precum Optica Tei poate explica alegerea lentilelor și sfaturi pentru ochi."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Proiectează pentru claritate",
+        blocks: [
+          p("Folosește șabloane consecvente, cu un titlu clar, oferta și data. Ține textul scurt pe imagine și pune detaliile în descriere."),
+        ],
+      },
+      {
+        id: "ritm",
+        heading: "Păstrează un ritm realist",
+        blocks: [
+          p("Două sau trei postări bune pe săptămână bat umplutura zilnică. Planifică o lună o dată și păstrează un interval săptămânal pentru răspunsuri la mesaje și comentarii."),
+        ],
+      },
+      {
+        id: "reclame",
+        heading: "Gândește-te la reclame pentru ofertele cheie",
+        blocks: [
+          p("Un buget mic plătit poate pune o ofertă importantă în fața oamenilor din apropiere. Folosește o imagine clară și un singur îndemn la acțiune. Vezi serviciul meu de reclame și campanii pentru ajutor."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Mai este Facebook util pentru afaceri locale?"),
+          p("Da, mai ales pentru a ajunge la clienții locali și pentru informații precum program și recenzii."),
+          h3("Ar trebui Facebookul să semene cu Instagramul?"),
+          p("Ar trebui să arate înrudite, dar fiecare poate avea nevoie de formate și descrieri diferite."),
+          h3("Cum gestionez recenziile?"),
+          p("Răspunde politicos și prompt, inclusiv la cele negative."),
+        ],
+      },
+    ],
+    related: { projects: ["mos-ilie", "optica-tei"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-templates",
+    slug: "sabloane-social-media-cum-construiesti-un-sistem",
+    title: "Șabloane pentru social media: cum construiești un sistem care economisește timp",
+    seoTitle: "Șabloane social media: un sistem care economisește timp",
+    description: "Un set mic de șabloane bine proiectate păstrează postările consecvente și reduce timpul de producție. Ce să incluzi și cum îl construiești.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
+    intro: "Dacă fiecare postare începe de la o pagină goală, brandul va aluneca, iar volumul de muncă va crește. Un sistem de șabloane rezolvă ambele. Nu trebuie să fie mare: o mână de compoziții bine proiectate acoperă cea mai mare parte din ce publică un brand.",
+    sections: [
+      {
+        id: "de-ce",
+        heading: "De ce funcționează șabloanele",
+        blocks: [
+          ul("Păstrează aspectul consecvent.", "Accelerează producția.", "Permit celor care nu sunt designeri să publice în stilul brandului.", "Fac ușoară schimbarea unui lucru într-un singur loc."),
+        ],
+      },
+      {
+        id: "care",
+        heading: "Ce șabloane construiești",
+        blocks: [
+          ol("Anunț sau noutate.", "Citat sau sfat.", "Evidențierea unui produs sau serviciu.", "Ofertă sau promoție.", "Fotografie cu text suprapus.", "Copertă și slide-uri interioare pentru caruzel.", "Cadre pentru Stories."),
+          p("O farmacie precum Farmex are nevoie de compoziții clare și liniștitoare pentru informații și oferte; un brand de beauty precum Divaz are nevoie de șabloane care pun în valoare culoarea și produsul."),
+        ],
+      },
+      {
+        id: "cum",
+        heading: "Cum le construiești",
+        blocks: [
+          ol("Stabilește grila, marginile și zonele sigure pentru fiecare dimensiune.", "Definește culorile, fonturile și dimensiunile textului.", "Creează zone flexibile pentru imagini care se decupează bine.", "Prevede spațiu pentru texte de lungimi diferite.", "Denumește clar straturile și câmpurile."),
+        ],
+      },
+      {
+        id: "unealta",
+        heading: "Alege unealta potrivită",
+        blocks: [
+          p("Folosește o unealtă pe care echipa ta o poate folosi cu adevărat: o aplicație de design pe care o cunoști sau un editor online cu kit de brand. Cel mai bun șablon este cel pe care oamenii îl vor folosi corect."),
+        ],
+      },
+      {
+        id: "intretine",
+        heading: "Întreține sistemul",
+        blocks: [
+          p("Revizuiește șabloanele la câteva luni, retrage-le pe cele nefolosite și adaugă-le pe cele cerute de echipă. Pentru un set de șabloane personalizat, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte șabloane am nevoie?"),
+          p("Patru până la opt acoperă majoritatea brandurilor."),
+          h3("Fac șabloanele feedul plictisitor?"),
+          p("Nu, dacă permit variație de imagine, culoare și compoziție în reguli clare."),
+          h3("Cine ar trebui să folosească șabloanele?"),
+          p("Oricine publică pentru brand, cu un ghid scurt despre cum."),
+        ],
+      },
+    ],
+    related: { projects: ["farmacia-farmex", "divaz"], services: ["social-media-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

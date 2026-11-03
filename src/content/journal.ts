@@ -2504,6 +2504,654 @@ export const articles: Article[] = [
     ],
     related: { projects: ["farmacia-farmex", "green-table"], services: ["content-creation", "content-creation"] },
   },
+  {
+    id: "instagram-image-sizes",
+    slug: "instagram-post-and-story-sizes",
+    title: "Instagram Image Sizes: Posts, Stories, Reels and Carousels",
+    seoTitle: "Instagram Image Sizes for Posts and Stories",
+    description: "The sizes and aspect ratios that work on Instagram for feed posts, carousels, Stories and Reels, plus the design tips that keep text from being cropped.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "Nothing makes a brand look careless faster than a cropped logo or a blurry post. Instagram supports several formats, and each one has its own proportions. Here are the sizes to design in, so your content looks the way you intended.",
+    sections: [
+      {
+        id: "feed",
+        heading: "Feed posts",
+        blocks: [
+          p("The feed supports a few ratios. The portrait 4:5 format, 1080 x 1350 pixels, takes up the most space on the screen and is a popular choice for brands. Square posts are 1080 x 1080 pixels, and landscape posts are 1080 x 566 pixels."),
+          ul("Portrait 4:5: 1080 x 1350 px.", "Square 1:1: 1080 x 1080 px.", "Landscape: 1080 x 566 px."),
+        ],
+      },
+      {
+        id: "carousel",
+        heading: "Carousels",
+        blocks: [
+          p("In a carousel, the aspect ratio is set by the first slide, so all other slides follow it. Plan the whole set in one size. Design each slide so that it makes sense alone, and so that the next one pulls people forward."),
+        ],
+      },
+      {
+        id: "stories",
+        heading: "Stories and Reels",
+        blocks: [
+          p("Stories and Reels use a vertical 9:16 format, 1080 x 1920 pixels. Reels can be up to three minutes long."),
+          ul("Keep the key text and faces away from the top and bottom, where the interface sits.", "Leave side margins so nothing feels crowded.", "Check the preview on a real phone."),
+        ],
+      },
+      {
+        id: "grid",
+        heading: "Think about the profile grid",
+        blocks: [
+          p("Your feed posts also appear as a grid in your profile, which crops them. Keep important content in the central area, so a post still reads in the grid and in the feed."),
+        ],
+      },
+      {
+        id: "quality",
+        heading: "Keep the quality high",
+        blocks: [
+          ol("Export at the full size, not smaller.", "Use sharp images with good compression.", "Avoid tiny text that disappears on small screens.", "Keep a clear hierarchy: one idea per post."),
+          p("If you want a consistent set of templates built to the right sizes, see my social media design service."),
+        ],
+      },
+      {
+        id: "note",
+        heading: "A note on changes",
+        blocks: [
+          p("Platforms change formats from time to time. Check Instagram's current help pages before a big production, and always test on a phone."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What is the best size for Instagram posts?"),
+          p("The portrait 4:5 format, 1080 x 1350 pixels, is a strong default because it uses more screen space."),
+          h3("Why does Instagram crop my posts?"),
+          p("Because the format you uploaded does not match one of the supported ratios, or because the profile grid shows a central crop."),
+          h3("Can I mix sizes in a carousel?"),
+          p("The first slide sets the ratio, so plan all slides in the same one."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-stories-design",
+    slug: "how-to-design-instagram-stories-that-get-watched",
+    title: "How to Design Instagram Stories That People Actually Watch",
+    seoTitle: "How to Design Instagram Stories People Watch",
+    description: "Stories are fast. Learn how to design them with a clear first frame, safe zones, readable text and a consistent look that people recognise.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "A Story lasts seconds. People tap through quickly, so the design has to do its job almost at once. That does not mean flashy. It means clear: one idea, readable text and a look that is instantly yours.",
+    sections: [
+      {
+        id: "first-frame",
+        heading: "Win the first frame",
+        blocks: [
+          p("The first frame decides whether the next one is seen. Start with a clear image or a short, bold line. Avoid long introductions."),
+        ],
+      },
+      {
+        id: "safe",
+        heading: "Respect the safe zones",
+        blocks: [
+          p("Stories are 1080 x 1920 pixels. Interface elements, such as the profile name at the top and the reply bar at the bottom, cover part of the frame."),
+          ul("Keep text and faces away from the top and bottom edges.", "Leave margins on the sides.", "Preview on a real phone before publishing."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Make text readable",
+        blocks: [
+          ol("Use large type, and keep it short.", "Ensure strong contrast with the background.", "Use one or two fonts from your brand.", "Limit each frame to one message."),
+        ],
+      },
+      {
+        id: "system",
+        heading: "Build a template system",
+        blocks: [
+          p("Create three or four Story templates: a quote, an announcement, a product frame, a poll. Reusing them gives a consistent look and saves time. A fashion brand like IQ Fashion can use a bold typographic frame next to a lookbook image, while a beauty brand like Divaz can lean on colour and product."),
+        ],
+      },
+      {
+        id: "sequence",
+        heading: "Think in sequences",
+        blocks: [
+          p("A set of 3 to 5 frames tells a small story: hook, detail, proof, call to action. Each frame should work if seen alone."),
+        ],
+      },
+      {
+        id: "interact",
+        heading: "Use interactive features with a purpose",
+        blocks: [
+          ul("Polls and questions invite participation.", "Link stickers should lead to something useful.", "Highlights keep the best Stories available."),
+          p("For help with a Story and social media system, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What size are Instagram Stories?"),
+          p("1080 x 1920 pixels, in a 9:16 vertical format."),
+          h3("How many Stories should I post?"),
+          p("Quality over quantity. A few well-designed frames beat a long scroll of weak ones."),
+          h3("Should Stories match my feed?"),
+          p("They should feel related: same colours, fonts and tone, even if the format is different."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "divaz"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-captions",
+    slug: "how-to-write-instagram-captions",
+    title: "How to Write Instagram Captions That Sound Like You",
+    seoTitle: "How to Write Instagram Captions That Sound Like You",
+    description: "A simple structure for captions that get read: a strong first line, one idea, a clear next step and a voice that matches your brand.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "A great image gets attention. The caption turns that attention into understanding, and sometimes into action. Many brands treat captions as an afterthought and lose the chance to explain, connect or sell. A simple structure fixes most of it.",
+    sections: [
+      {
+        id: "first-line",
+        heading: "Write the first line for the scroll",
+        blocks: [
+          p("Only the beginning of a caption shows before people tap 'more'. Make it count: a question, a surprising fact or a clear promise. Skip openings such as 'Hello everyone' that waste the space."),
+        ],
+      },
+      {
+        id: "one-idea",
+        heading: "Stick to one idea",
+        blocks: [
+          p("Each post should say one thing. If you have three ideas, you have three posts. A clear single message is easier to read and easier to remember."),
+        ],
+      },
+      {
+        id: "structure",
+        heading: "A structure you can reuse",
+        blocks: [
+          ol("Hook: the first line.", "Value: the information, story or tip.", "Proof or detail: an example, a number you can stand behind, a quote.", "Next step: ask a question, invite a save, point to a link."),
+        ],
+      },
+      {
+        id: "voice",
+        heading: "Match your brand voice",
+        blocks: [
+          p("Read your caption aloud. Does it sound like the brand? A tattoo studio like Inklabs may be direct and expressive, while a healthy food brand like Green Table may be warm and informative. Consistency matters more than cleverness."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Make it easy to read",
+        blocks: [
+          ul("Use short paragraphs and line breaks.", "Avoid walls of text.", "Add emojis sparingly, if they suit the voice.", "Put key information early."),
+        ],
+      },
+      {
+        id: "cta",
+        heading: "Use a clear call to action",
+        blocks: [
+          p("Tell people what to do: save the post, answer a question, visit the link in the bio. One clear action beats three vague ones. If you need a content and design system that supports your captions, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How long should an Instagram caption be?"),
+          p("As long as it needs to be. Short for simple posts, longer for tips and stories, always with a strong start."),
+          h3("Should I write captions in Romanian or English?"),
+          p("Write in the language of your audience. If you serve both, choose the primary one and keep the other consistent."),
+          h3("Do emojis help?"),
+          p("They can add personality, but only if they fit your voice."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "green-table"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "instagram-bio-and-highlights",
+    slug: "instagram-bio-profile-and-highlight-covers",
+    title: "Instagram Bio, Profile Picture and Highlight Covers: A Brand Checklist",
+    seoTitle: "Instagram Bio, Profile and Highlight Covers",
+    description: "Your Instagram profile is your shop window. How to write a clear bio, choose a profile picture that works small and design highlight covers that match your brand.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "Before anyone scrolls your posts, they look at your profile. In two seconds they decide whether you are relevant and trustworthy. A clear bio, a recognisable picture and tidy highlights make that decision easy.",
+    sections: [
+      {
+        id: "picture",
+        heading: "The profile picture",
+        blocks: [
+          p("It appears very small and is cropped to a circle. Use your logo mark or a simple, high contrast image, and test it at thumbnail size. Fine details and long names disappear."),
+          ul("Centre the important element.", "Use the same picture on every platform.", "Keep enough contrast with the background."),
+        ],
+      },
+      {
+        id: "name",
+        heading: "Name and handle",
+        blocks: [
+          p("Use your brand name, and add a keyword in the name field if it helps people find you, such as the category or the city. Keep the handle simple and similar across platforms."),
+        ],
+      },
+      {
+        id: "bio",
+        heading: "The bio",
+        blocks: [
+          ol("Say what you do and for whom.", "Add proof or a differentiator.", "Include a call to action.", "Add a link that leads somewhere useful."),
+          p("A dental clinic can state the specialty and the city; a beauty brand can state the product and the promise. Be concrete."),
+        ],
+      },
+      {
+        id: "highlights",
+        heading: "Highlight covers",
+        blocks: [
+          p("Highlights keep important Stories visible: services, prices, reviews, how to order. Use a consistent set of covers: same shape, a simple icon and short labels. Matching them to your brand colours makes the profile look intentional."),
+        ],
+      },
+      {
+        id: "pinned",
+        heading: "Pinned posts",
+        blocks: [
+          p("Pin up to three posts that introduce the brand: the best work, an offer, a clear explanation. For help with a profile system, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What size are highlight covers?"),
+          p("They use the Story format, 1080 x 1920 pixels, but display as a circle, so keep the icon centred."),
+          h3("Should my profile picture be my face or my logo?"),
+          p("For personal brands, a clear face works well. For companies, the logo mark is a safer choice."),
+          h3("How often should I update my bio?"),
+          p("Whenever your offer changes, and review it every few months."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "art-innova"], services: ["social-media-design", "branding"] },
+  },
+  {
+    id: "instagram-hashtags",
+    slug: "instagram-hashtags-do-they-still-matter",
+    title: "Instagram Hashtags: Do They Still Matter and How to Use Them",
+    seoTitle: "Instagram Hashtags: Do They Still Matter?",
+    description: "Hashtags are not magic reach, but they still help with context and discovery. How many to use, how to choose them and what to avoid.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Hashtag advice changes every year, and much of it is contradictory. The sensible view is modest: hashtags help describe your content and can add some discovery, but they do not replace good content or a clear profile. Here is how to use them without overthinking.",
+    sections: [
+      {
+        id: "role",
+        heading: "What hashtags actually do",
+        blocks: [
+          p("They label a post with a topic. Instagram uses topics, captions, images and many other signals to understand what a post is about and who might enjoy it. Hashtags are one clue among many, not a switch for reach."),
+        ],
+      },
+      {
+        id: "how-many",
+        heading: "How many to use",
+        blocks: [
+          p("There is no magic number. A small, relevant set is enough. A handful that truly describes the post is better than a long block of generic tags."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "How to choose them",
+        blocks: [
+          ol("Start with what the post is about: the product, the topic, the style.", "Add one or two for your niche or location.", "Add a brand tag if you want a branded collection.", "Check what the tag shows. If it is full of unrelated content, skip it."),
+        ],
+      },
+      {
+        id: "mix",
+        heading: "Mix specific and broad",
+        blocks: [
+          ul("Specific tags attract the right audience, such as a particular material or technique.", "Broad tags are crowded and rarely lead to engagement.", "A local tag can help a local business such as a restaurant or clinic."),
+        ],
+      },
+      {
+        id: "avoid",
+        heading: "What to avoid",
+        blocks: [
+          ul("Copying the same block on every post.", "Banned or spammy tags.", "Tags unrelated to the content.", "Hiding tags in a way that makes the caption messy."),
+          p("Content quality, clear design and consistent posting matter far more. If you want help with a content system, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Should hashtags go in the caption or the comments?"),
+          p("Either. Put them where they keep the caption clean and readable."),
+          h3("How do I find good hashtags?"),
+          p("Look at what similar accounts use, search relevant tags and see which ones show content you would like to sit next to."),
+          h3("Do hashtags guarantee reach?"),
+          p("No. They are one small signal among many."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "green-table"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-feed-layout",
+    slug: "how-to-plan-a-cohesive-instagram-feed",
+    title: "How to Plan a Cohesive Instagram Feed (Without Making It Boring)",
+    seoTitle: "How to Plan a Cohesive Instagram Feed",
+    description: "A cohesive feed is recognisable at a glance. How to choose a visual system, mix post types and plan ahead without every post looking the same.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "A cohesive feed does not mean every post is identical. It means someone can glance at a few posts and say whose they are. That recognition builds trust, and it comes from a few repeatable decisions, not from perfection.",
+    sections: [
+      {
+        id: "system",
+        heading: "Choose a visual system",
+        blocks: [
+          ul("A colour palette of two to four colours.", "One or two fonts, used the same way.", "A consistent photo style: light, angles, editing.", "A few layout templates for text posts."),
+          p("These decisions are the foundation. Everything else is variation on top."),
+        ],
+      },
+      {
+        id: "mix",
+        heading: "Mix post types on purpose",
+        blocks: [
+          p("Alternate between types so the feed has rhythm: product, people, quote, behind the scenes, offer. A fashion brand like IQ Fashion can alternate lookbook photos with typographic posts; a beauty brand like Divaz can alternate product shots with colour-led graphics."),
+        ],
+      },
+      {
+        id: "grid",
+        heading: "Think in the grid, but not obsessively",
+        blocks: [
+          p("Look at the profile grid every few posts. Check balance: not too many dark or busy posts in a row. But do not sacrifice the message for the grid. Individual posts must make sense in the feed first."),
+        ],
+      },
+      {
+        id: "plan",
+        heading: "Plan a month ahead",
+        blocks: [
+          ol("Choose the topics and the post types.", "Prepare templates and shoot the images in batches.", "Write captions in one sitting.", "Schedule and review the plan weekly."),
+        ],
+      },
+      {
+        id: "review",
+        heading: "Review and adjust",
+        blocks: [
+          p("Look at which posts get saves, shares and comments, and do more of them. If you want a complete template system for your feed, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a perfect grid?"),
+          p("No. Consistency in colour, type and tone matters more than a puzzle-like layout."),
+          h3("How many templates do I need?"),
+          p("Four to six cover most needs."),
+          h3("How often should I post?"),
+          p("Often enough to be consistent. A realistic schedule beats an ambitious one you cannot maintain."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "iq-fashion"], services: ["social-media-design"] },
+  },
+  {
+    id: "tiktok-vs-reels",
+    slug: "tiktok-vs-instagram-reels-for-small-brands",
+    title: "TikTok vs Instagram Reels: Which Short Video Format Fits Your Brand?",
+    seoTitle: "TikTok vs Instagram Reels for Small Brands",
+    description: "Both platforms push short vertical video, but the audiences and habits differ. How to choose, and how to reuse one video on both without looking lazy.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "Short vertical video is no longer optional for many brands. The question is where to put your effort. TikTok and Instagram Reels look similar, but the way people use them differs. The best answer for a small brand is usually practical, not ideological.",
+    sections: [
+      {
+        id: "similar",
+        heading: "What they share",
+        blocks: [
+          ul("Vertical 9:16 video, 1080 x 1920 pixels.", "Music, text overlays and trends.", "Quick hooks in the first seconds."),
+          p("Because the format is the same, a well-made video can often live on both."),
+        ],
+      },
+      {
+        id: "different",
+        heading: "Where they differ",
+        blocks: [
+          p("Reels live inside Instagram, so they reach people who already follow you or browse your niche, and they connect directly to your profile, Stories and highlights. TikTok is built around discovery from a feed of videos, and rewards entertainment and personality."),
+          ul("Instagram: stronger link to a visual brand and existing followers.", "TikTok: stronger for discovery and informal, creator-style content."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "How to choose",
+        blocks: [
+          ol("Where is your audience already? Ask customers.", "Which platform suits the content you can make regularly?", "Where does your profile and brand already live?", "Start with one, do it well, then expand."),
+          p("A visual brand such as an artist studio like Inklabs may find Instagram a natural home, while a more playful, story-led content approach might thrive on TikTok."),
+        ],
+      },
+      {
+        id: "reuse",
+        heading: "Reusing a video",
+        blocks: [
+          p("Export one clean version without watermarks. Adjust the caption, hashtags and first line for each platform. Keep text away from the interface areas on both."),
+        ],
+      },
+      {
+        id: "quality",
+        heading: "What matters on both",
+        blocks: [
+          ul("A strong first frame and hook.", "Clear audio or on-screen text for silent viewing.", "A consistent look that people recognise.", "A clear point: one idea per video."),
+          p("For help with short video and a content system, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Can I post the same video on both?"),
+          p("Yes, if it is exported cleanly and adapted with a fitting caption."),
+          h3("Which is better for local business?"),
+          p("Instagram often fits better, because of its link to existing customers and location tools."),
+          h3("How long should short videos be?"),
+          p("As long as they hold attention. Short and clear usually wins."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "inklabs"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "linkedin-post-design",
+    slug: "linkedin-post-design-for-b2b-brands",
+    title: "LinkedIn Post Design for B2B and Technical Brands",
+    seoTitle: "LinkedIn Post Design for B2B Brands",
+    description: "How to design LinkedIn posts, carousels and cover images that look professional and clear, even for technical or engineering subjects.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "LinkedIn is a text-first platform, but visuals still decide whether someone stops scrolling. For B2B and technical brands, the aim is not to be flashy. It is to be clear, credible and recognisable. Here is how to design for it.",
+    sections: [
+      {
+        id: "audience",
+        heading: "Know the audience",
+        blocks: [
+          p("People on LinkedIn are in a work mindset. They want useful information, credible expertise and clear proof. A visual style that is calm, precise and consistent suits that mood."),
+        ],
+      },
+      {
+        id: "formats",
+        heading: "Formats that work",
+        blocks: [
+          ul("Single images with one clear statement.", "Document or carousel posts that explain a process step by step.", "Short videos that show a product or a project.", "A strong cover image on the company page."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design principles",
+        blocks: [
+          ol("One idea per image.", "Large, readable type with strong contrast.", "A consistent grid and colour palette from your brand.", "Diagrams or labelled photos instead of decorative stock."),
+          p("For a technology company such as NEXTLAB, clean diagrams and project photos work better than abstract decoration. For an engineering consultancy such as Selfconsulting, drawings and project visuals build credibility."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Support the visual with the text",
+        blocks: [
+          p("The first lines of the post carry the hook. Use short paragraphs, and keep the image consistent with what the text promises."),
+        ],
+      },
+      {
+        id: "proof",
+        heading: "Show proof",
+        blocks: [
+          ul("Real projects and results.", "Quotes from clients, with permission.", "Process and behind-the-scenes."),
+          p("If you want help with a professional LinkedIn presence, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What size are LinkedIn images?"),
+          p("Common choices are square or portrait images. Check LinkedIn's current guidance before a large production and preview on a phone."),
+          h3("Do carousels work on LinkedIn?"),
+          p("Yes, as document posts. They suit step-by-step explanations."),
+          h3("Should B2B posts be formal?"),
+          p("Professional, yes. Dull, no. Clear and human is the aim."),
+        ],
+      },
+    ],
+    related: { projects: ["selfconsulting", "nextlab-tech"], services: ["social-media-design"] },
+  },
+  {
+    id: "facebook-local-business",
+    slug: "facebook-posts-for-local-business",
+    title: "Facebook Posts for a Local Business: What to Publish and How to Design It",
+    seoTitle: "Facebook Posts for a Local Business",
+    description: "Facebook is still where many local customers look for hours, offers and reviews. What to post, how to design it and how to keep a small page active.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "For many local businesses, the Facebook page is still where customers check opening hours, ask a question or read reviews. You do not need to post daily, but you need a page that looks alive and trustworthy. Here is a practical plan.",
+    sections: [
+      {
+        id: "basics",
+        heading: "Get the basics right",
+        blocks: [
+          ul("A recognisable profile picture and a clear cover image.", "Correct hours, address and phone number.", "A short description of what you do.", "A button for the main action, such as call or message."),
+        ],
+      },
+      {
+        id: "content",
+        heading: "What to post",
+        blocks: [
+          ol("Offers and seasonal promotions.", "New products or services.", "Behind the scenes and the team.", "Customer stories and reviews, with permission.", "Useful tips tied to your expertise."),
+          p("A bakery like Moș Ilie can show products, seasonal items and the people behind them; an optical shop like Optica Tei can explain lens choices and eye care tips."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design for clarity",
+        blocks: [
+          p("Use consistent templates with a clear headline, the offer and the date. Keep text short on the image, and put the details in the caption."),
+        ],
+      },
+      {
+        id: "rhythm",
+        heading: "Keep a realistic rhythm",
+        blocks: [
+          p("Two or three good posts a week beat daily filler. Plan a month at a time, and keep one weekly slot for answering messages and comments."),
+        ],
+      },
+      {
+        id: "ads",
+        heading: "Think about ads for key offers",
+        blocks: [
+          p("A small paid budget can put an important offer in front of nearby people. Use a clear image and a single call to action. See my ads and campaigns service for help."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Is Facebook still useful for local business?"),
+          p("Yes, especially for reaching local customers and for information such as hours and reviews."),
+          h3("Should my Facebook match Instagram?"),
+          p("They should look related, but each may need different formats and captions."),
+          h3("How do I handle reviews?"),
+          p("Reply politely and promptly, including to negative ones."),
+        ],
+      },
+    ],
+    related: { projects: ["mos-ilie", "optica-tei"], services: ["social-media-design"] },
+  },
+  {
+    id: "social-media-templates",
+    slug: "social-media-templates-system",
+    title: "Social Media Templates: How to Build a System That Saves Time",
+    seoTitle: "Social Media Templates: Build a Time-Saving System",
+    description: "A small set of well-designed templates keeps your posts consistent and cuts production time. What to include and how to build it.",
+    category: "social-media",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "If every post starts from a blank page, the brand will drift and the workload will grow. A template system fixes both. It does not need to be big: a handful of well-designed layouts covers most of what a brand publishes.",
+    sections: [
+      {
+        id: "why",
+        heading: "Why templates work",
+        blocks: [
+          ul("They keep the look consistent.", "They speed up production.", "They let non-designers publish on brand.", "They make it easy to change one thing in one place."),
+        ],
+      },
+      {
+        id: "which",
+        heading: "Which templates to build",
+        blocks: [
+          ol("Announcement or news.", "Quote or tip.", "Product or service highlight.", "Offer or promotion.", "Photo with caption overlay.", "Carousel cover and inner slides.", "Story frames."),
+          p("A pharmacy such as Farmex needs clear, reassuring layouts for information and offers; a beauty brand such as Divaz needs templates that show off colour and product."),
+        ],
+      },
+      {
+        id: "build",
+        heading: "How to build them",
+        blocks: [
+          ol("Set the grid, margins and safe zones for each size.", "Define colours, fonts and text sizes.", "Create flexible image areas that crop well.", "Build in space for varying text lengths.", "Name layers and fields clearly."),
+        ],
+      },
+      {
+        id: "tools",
+        heading: "Choose the right tool",
+        blocks: [
+          p("Use a tool your team can actually use: a design app you know, or an online editor with brand kits. The best template is the one people will use correctly."),
+        ],
+      },
+      {
+        id: "maintain",
+        heading: "Maintain the system",
+        blocks: [
+          p("Review templates every few months, retire ones that are not used and add ones the team asks for. For a custom template set, see my social media design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many templates do I need?"),
+          p("Four to eight cover most brands."),
+          h3("Will templates make my feed boring?"),
+          p("Not if they allow variation in image, colour and layout within clear rules."),
+          h3("Who should use the templates?"),
+          p("Anyone publishing for the brand, with a short guide on how."),
+        ],
+      },
+    ],
+    related: { projects: ["farmacia-farmex", "divaz"], services: ["social-media-design"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

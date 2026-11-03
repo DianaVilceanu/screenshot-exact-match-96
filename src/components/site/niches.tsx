@@ -27,7 +27,7 @@ export function NicheGrid() {
             <Reveal key={id} as="li" delay={i * 70} className={cn("lg:col-span-2", i >= 3 && "lg:col-span-3")}>
               <a
                 href={`${base}?niche=${id}`}
-                className="group relative flex h-full min-h-[22rem] flex-col justify-between overflow-hidden border border-border bg-card p-6 transition-colors duration-500 hover:border-foreground hover:bg-foreground hover:text-background md:p-8"
+                className="group relative flex h-full min-h-[22rem] flex-col justify-between overflow-hidden border border-foreground bg-foreground p-6 text-background transition-[transform,box-shadow] duration-500 hover:-translate-y-1 hover:shadow-[0_24px_40px_-24px_rgb(12_3_44/0.6)] md:p-8"
               >
                 <div className="flex items-start justify-between gap-4">
                   <span className="eyebrow text-accent">{String(i + 1).padStart(2, "0")}</span>
@@ -46,7 +46,7 @@ export function NicheGrid() {
                 </div>
                 <div>
                   <h3 className="display-sm">{c.names[id]}</h3>
-                  <p className="mt-3 text-sm leading-relaxed opacity-70">{c.blurbs[id]}</p>
+                  <p className="mt-3 min-h-[2.9rem] text-sm leading-relaxed opacity-70">{c.blurbs[id]}</p>
                   <p className="mt-5 text-sm font-medium underline-offset-4 group-hover:underline">{c.browse} →</p>
                 </div>
               </a>

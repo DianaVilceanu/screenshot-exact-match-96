@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dianamarriedesigns.com/sitemap.xml
+Sitemap: https://daringmuse.com/sitemap.xml

@@ -19,14 +19,14 @@ describe("contact notification", () => {
 
   it("skips silently when no API key is configured", async () => {
     const f = vi.fn();
-    expect(await sendNotification(contactSchema.parse(sample), {}, "owner@example.com", f as unknown as typeof fetch)).toBe(false);
+    expect(await sendNotification(contactSchema.parse(sample), {}, "owner@example.com", f as unknown as typeof fetch)).toEqual({ ok: false, reason: "no_api_key" });
     expect(f).not.toHaveBeenCalled();
   });
 
   it("posts to Resend with the reply-to set to the visitor", async () => {
     const f = vi.fn().mockResolvedValue(new Response("{}", { status: 200 }));
-    const ok = await sendNotification(contactSchema.parse(sample), { RESEND_API_KEY: "re_test" }, "owner@example.com", f as unknown as typeof fetch);
-    expect(ok).toBe(true);
+    const r = await sendNotification(contactSchema.parse(sample), { RESEND_API_KEY: "re_test" }, "owner@example.com", f as unknown as typeof fetch);
+    expect(r).toEqual({ ok: true });
     const [url, init] = f.mock.calls[0]!;
     expect(url).toBe("https://api.resend.com/emails");
     const body = JSON.parse((init as RequestInit).body as string);
@@ -35,9 +35,17 @@ describe("contact notification", () => {
     expect((init as RequestInit & { headers: Record<string, string> }).headers["Authorization"]).toBe("Bearer re_test");
   });
 
-  it("reports failure when Resend refuses", async () => {
-    const f = vi.fn().mockResolvedValue(new Response("nope", { status: 403 }));
-    expect(await sendNotification(contactSchema.parse(sample), { RESEND_API_KEY: "k" }, "o@e.com", f as unknown as typeof fetch)).toBe(false);
+  it("reports why Resend refused", async () => {
+    const f = vi.fn().mockResolvedValue(new Response(JSON.stringify({ message: "You can only send testing emails to your own email address" }), { status: 403 }));
+    const r = await sendNotification(contactSchema.parse(sample), { RESEND_API_KEY: "k" }, "o@e.com", f as unknown as typeof fetch);
+    expect(r).toMatchObject({ ok: false });
+    expect(r.ok === false && r.reason).toContain("resend_403");
+    expect(r.ok === false && r.reason).toContain("your own email");
+  });
+
+  it("reports a network failure without throwing", async () => {
+    const f = vi.fn().mockRejectedValue(new Error("boom"));
+    expect(await sendNotification(contactSchema.parse(sample), { RESEND_API_KEY: "k" }, "o@e.com", f as unknown as typeof fetch)).toEqual({ ok: false, reason: "network_error" });
   });
 
   it("rate limits after five submissions from one address", () => {

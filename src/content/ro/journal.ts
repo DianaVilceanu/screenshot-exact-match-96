@@ -3446,6 +3446,339 @@ export const articles: Article[] = [
     ],
     related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
   },
+  {
+    id: "what-is-art-direction",
+    slug: "ce-este-directia-artistica-si-de-ce-au-brandurile-nevoie-de-ea",
+    title: "Ce este direcția artistică și de ce au brandurile nevoie de ea",
+    seoTitle: "Ce este direcția artistică și de ce contează",
+    description: "Direcția artistică este persoana sau procesul care decide cum arată un brand în fotografii, video, design și compoziție. Ce face un director artistic și când ai nevoie de unul.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "Multe branduri au un designer, un fotograf și un editor video și totuși arată inconsecvent. Ce lipsește adesea este direcția artistică: cineva care stabilește ideea vizuală și se asigură că fiecare piesă o urmează.",
+    sections: [
+      {
+        id: "definitie",
+        heading: "Ce înseamnă direcția artistică",
+        blocks: [
+          p("Direcția artistică este conducerea creativă a unui proiect vizual. Decide conceptul, atmosfera, culorile, stilul imaginilor și cum lucrează toate împreună. Directorul artistic nu face neapărat fiecare material; îi ghidează pe cei care le fac."),
+        ],
+      },
+      {
+        id: "sarcini",
+        heading: "Ce face un director artistic",
+        blocks: [
+          ul("Traduce strategia de brand într-o idee vizuală.", "Construiește mood boarduri și referințe.", "Dă brief fotografilor, editorilor și designerilor.", "Verifică lucrările pentru consecvență și calitate.", "Păstrează aspectul coerent pe toate canalele."),
+        ],
+      },
+      {
+        id: "exemplu",
+        heading: "Un exemplu concret",
+        blocks: [
+          p("Pentru o campanie de modă precum IQ Fashion, direcția artistică decide paleta, stilizarea, încadrarea modelelor, cum apare tipografia pe postări și cum se simte videoul. Fără ea, aceleași haine ar putea arăta complet diferit în fiecare postare."),
+        ],
+      },
+      {
+        id: "cand",
+        heading: "Când ai nevoie de ea",
+        blocks: [
+          ol("Lansezi un brand sau o campanie.", "Mai mulți oameni creează conținut și aspectul alunecă.", "Vrei o imagine mai clară, mai premium.", "Lucrezi simultan cu foto, video și design."),
+        ],
+      },
+      {
+        id: "cum",
+        heading: "Cum funcționează într-un proiect",
+        blocks: [
+          ol("Descoperire: obiective, public, referințe.", "Concept: ideea vizuală și mood boardul.", "Ghid: reguli de paletă, tipografie, foto și video.", "Producție: brief și îndrumarea ședinței foto sau a designului.", "Revizuire: verificarea și ajustarea rezultatului."),
+          p("Dacă vrei ajutor cu o direcție vizuală pentru brandul tău, vezi serviciul meu de creare de conținut și direcție artistică."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Direcția artistică este același lucru cu designul grafic?"),
+          p("Nu tocmai. Designul grafic realizează materiale specifice. Direcția artistică stabilește ideea vizuală de ansamblu și ghidează toate materialele."),
+          h3("Au nevoie și brandurile mici de ea?"),
+          p("Da, într-o formă mai ușoară: un concept clar și reguli simple."),
+          h3("Poate aceeași persoană să facă ambele?"),
+          p("Adesea da, mai ales în echipe mici."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "kanoi"], services: ["content-creation"] },
+  },
+  {
+    id: "visual-storytelling",
+    slug: "storytelling-vizual-pentru-branduri",
+    title: "Storytelling vizual pentru branduri: cum spui o poveste cu imagini",
+    seoTitle: "Storytelling vizual pentru branduri",
+    description: "O poveste se ține minte mai ușor decât o listă de caracteristici. Cum folosești imaginile, secvența și designul pentru a spune povestea unui brand într-o postare, o campanie sau un site.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Oamenii țin minte poveștile mult după ce uită specificațiile. Storytelling-ul vizual înseamnă folosirea imaginilor, a ordinii și a designului ca cineva să simtă o poveste în câteva secunde. Funcționează pentru o postare, o campanie sau un întreg site.",
+    sections: [
+      {
+        id: "incepe",
+        heading: "Începe cu o idee",
+        blocks: [
+          p("Înainte să alegi imaginile, scrie povestea într-o propoziție. Ce se schimbă pentru persoană? O clinică dentară ar putea spune o poveste despre încredere, un brand de cosmetice despre un ritual, o companie tech despre învățatul prin construit."),
+        ],
+      },
+      {
+        id: "structura",
+        heading: "Folosește o structură simplă",
+        blocks: [
+          ol("Început: o situație sau o nevoie.", "Mijloc: produsul, serviciul sau punctul de cotitură.", "Sfârșit: rezultatul sau emoția."),
+          p("Într-un caruzel sau un video scurt, fiecare cadru poartă un pas."),
+        ],
+      },
+      {
+        id: "imagini",
+        heading: "Alege imagini care poartă sens",
+        blocks: [
+          ul("Oameni și gesturi, nu doar obiecte.", "Detalii de aproape care arată calitate.", "Lumină și culoare consecvente.", "Spațiu pentru text, ca imaginea și cuvintele să lucreze împreună."),
+          p("Pentru o identitate de cosmetice precum Fleurane, ilustrațiile cu ingrediente și texturile pot spune povestea produsului; pentru o clinică dentară precum Art Innova, fețele și expresiile transmit grijă."),
+        ],
+      },
+      {
+        id: "ritm",
+        heading: "Controlează ritmul",
+        blocks: [
+          p("Variază cadrele apropiate și largi, cele liniștite și cele aglomerate. Un ritm ține oamenii cu ochii pe conținut."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Lasă cuvintele să susțină, nu să repete",
+        blocks: [
+          p("Folosește text scurt pentru a adăuga ce imaginea nu poate arăta: un număr, un nume, o promisiune. Evită să repeți ce se vede deja."),
+        ],
+      },
+      {
+        id: "consecventa",
+        heading: "Păstrează un stil recognoscibil",
+        blocks: [
+          p("O poveste spusă într-un limbaj vizual consecvent construiește un brand. Vezi serviciul meu de creare de conținut și direcție artistică pentru ajutor în dezvoltarea unuia."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Am nevoie de buget mare?"),
+          p("Nu. O idee clară, lumină bună și un stil consecvent contează mai mult decât echipamentul."),
+          h3("Cât de lungă ar trebui să fie o poveste vizuală?"),
+          p("Cât are nevoie, adesea trei până la șapte cadre pentru social media."),
+          h3("Pot brandurile B2B să spună povești vizuale?"),
+          p("Da. Proiectele, oamenii și procesele sunt material puternic."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "fleurane"], services: ["content-creation"] },
+  },
+  {
+    id: "phone-product-photography",
+    slug: "fotografie-de-produs-cu-telefonul",
+    title: "Fotografie de produs cu telefonul: sfaturi simple care arată profesionist",
+    seoTitle: "Fotografie de produs cu telefonul: sfaturi simple",
+    description: "Poți face fotografii bune de produs cu un smartphone. Sfaturi despre lumină, fundal, unghiuri și editare care fac o mare diferență.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "Telefoanele moderne fac fotografii foarte bune. Ce desparte imaginile de produs amatoare de cele profesioniste este rareori camera. Este lumina, fundalul, încadrarea și consecvența. Acești pași simpli te duc departe.",
+    sections: [
+      {
+        id: "lumina",
+        heading: "Începe cu lumina",
+        blocks: [
+          ul("Fotografiază lângă o fereastră mare, cu lumină naturală blândă.", "Evită soarele direct, care creează umbre dure.", "Folosește un carton alb sau o placă de polistiren pentru a reflecta lumina în umbre.", "Oprește luminile artificiale amestecate care dau culori ciudate."),
+        ],
+      },
+      {
+        id: "fundal",
+        heading: "Alege un fundal curat",
+        blocks: [
+          p("O foaie simplă de hârtie sau o țesătură, ori o suprafață simplă, ține atenția pe produs. Pentru produse lucioase precum bijuteriile sau piesele de argint, ai grijă la reflexii: schimbă unghiul până când suprafața arată curată."),
+        ],
+      },
+      {
+        id: "camera",
+        heading: "Sfaturi pentru cameră",
+        blocks: [
+          ol("Curăță obiectivul.", "Folosește un trepied sau o suprafață stabilă.", "Atinge ecranul pentru a focaliza pe produs.", "Activează grila ca să ții liniile drepte.", "Fotografiază puțin mai larg și decupează mai târziu."),
+        ],
+      },
+      {
+        id: "unghiuri",
+        heading: "Fotografiază un set de unghiuri",
+        blocks: [
+          ul("Vedere din față.", "Vedere în trei sferturi.", "Flat lay de sus.", "Prim-plan cu detalii și textură.", "Produsul în folosire sau într-o scenă."),
+        ],
+      },
+      {
+        id: "editare",
+        heading: "Editează cu blândețe",
+        blocks: [
+          p("Ajustează luminozitatea, contrastul și balansul de alb ca să fie culoarea corectă. Evită filtrele puternice pe produse, pentru că clienții se așteaptă ca obiectul să arate la fel când ajunge. Folosește aceleași setări de editare pentru toate pozele."),
+        ],
+      },
+      {
+        id: "consecventa",
+        heading: "Păstrează setul consecvent",
+        blocks: [
+          p("Același fundal, aceeași lumină, aceleași unghiuri. Pentru un aspect premium precum Caterina Tomasso contează reținerea și uniformitatea. Pentru ajutor la construirea unui stil foto, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Am nevoie de lightbox?"),
+          p("Nu neapărat. O fereastră și un carton alb funcționează bine."),
+          h3("Ce rezoluție să exportez?"),
+          p("Suficient de mare pentru site și social media, fără compresie inutilă."),
+          h3("Să folosesc modul portret?"),
+          p("Uneori, dar verifică marginile. Pentru acuratețe, modul normal cu focalizare bună este adesea mai sigur."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "divaz"], services: ["content-creation"] },
+  },
+  {
+    id: "video-editing-basics",
+    slug: "bazele-editarii-video-pentru-social-media",
+    title: "Bazele editării video pentru social media: tăieturi, subtitrări și ritm",
+    seoTitle: "Bazele editării video pentru social media",
+    description: "Bazele editării video scurte pentru social media: structură, tăieturi, subtitrări, sunet și export, ca videoclipurile tale să arate curat și să țină atenția.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "O montare bună este în mare parte invizibilă. Elimină ce încetinește videoul, păstrează ritmul și clarifică mesajul. Nu ai nevoie de software avansat ca să începi, doar de câteva principii.",
+    sections: [
+      {
+        id: "structura",
+        heading: "Planifică structura",
+        blocks: [
+          ol("Cârlig în primele secunde.", "Un mesaj principal.", "Dovadă sau detaliu.", "Un final clar sau un îndemn la acțiune."),
+          p("Taie tot ce nu servește acea structură."),
+        ],
+      },
+      {
+        id: "taieturi",
+        heading: "Taie cu intenție",
+        blocks: [
+          ul("Taie tăcerile și ezitările.", "Taie pe mișcare pentru un flux fluid.", "Variază mărimea cadrelor ca să ții interesul.", "Păstrează fiecare cadru cât timp adaugă ceva."),
+        ],
+      },
+      {
+        id: "subtitrari",
+        heading: "Adaugă subtitrări",
+        blocks: [
+          p("Mulți oameni se uită fără sunet. Adaugă subtitrări lizibile, destul de mari pentru telefon și ținute departe de zonele interfeței. Păstrează-le corecte și potrivește fonturile și culorile brandului."),
+        ],
+      },
+      {
+        id: "sunet",
+        heading: "Ai grijă de sunet",
+        blocks: [
+          p("Sunetul clar contează mai mult decât se crede. Folosește o înregistrare curată a vocii sau muzică la volumul potrivit și asigură-te că muzica nu acoperă vorbirea."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Exportă pentru platformă",
+        blocks: [
+          p("Folosește vertical 9:16, 1080 x 1920 pixeli, pentru Reels, TikTok și Stories. Păstrează o margine sigură pentru text. Exportă în calitate bună, dar evită fișierele atât de mari încât se încarcă greu."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Fă-l să arate ca brandul tău",
+        blocks: [
+          p("Folosește cadre de intro, culori, litere și tranziții consecvente. Branduri precum Kanoi și Farmex câștigă din stiluri video recognoscibile, fiecare într-o altă atmosferă. Dacă vrei ajutor cu video și reels, vezi serviciul meu de creare de conținut."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce software să folosesc?"),
+          p("Orice editor pe care îl cunoști bine. Principiile sunt aceleași."),
+          h3("Cât de lungi ar trebui să fie videoclipurile scurte?"),
+          p("Suficient de scurte ca să țină atenția: adesea sub un minut pentru social media."),
+          h3("Am nevoie de muzică?"),
+          p("Nu întotdeauna. Designul sonor și vorbirea clară pot fi suficiente."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "farmacia-farmex"], services: ["content-creation"] },
+  },
+  {
+    id: "motion-vs-2d-animation",
+    slug: "motion-graphics-vs-animatie-2d",
+    title: "Motion graphics vs animație 2D: care e diferența și de care ai nevoie?",
+    seoTitle: "Motion graphics vs animație 2D: de care ai nevoie?",
+    description: "Termenii se suprapun, dar nu sunt identici. Cum diferă motion graphics și animația 2D, pentru ce e mai bună fiecare și cum alegi pentru proiectul tău.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
+    intro: "Clienții cer adesea „o animație” și înțeleg lucruri diferite. Uneori vor text și forme în mișcare pentru a explica un produs; alteori vor un personaj care merge și acționează. Sunt meșteșuguri diferite, cu costuri diferite.",
+    sections: [
+      {
+        id: "motion",
+        heading: "Motion graphics",
+        blocks: [
+          p("Motion graphics animă elemente grafice precum text, pictograme, grafice și forme. Sunt ideale pentru explicații, animații de logo, postări social media și prezentări de date."),
+          ul("Bune pentru explicarea ideilor și proceselor.", "Eficiente pentru conținut de brand și reclame.", "Funcționează bine cu o identitate vizuală definită."),
+        ],
+      },
+      {
+        id: "doua-d",
+        heading: "Animație 2D",
+        blocks: [
+          p("Animația 2D se concentrează pe personaje și scene desenate și animate cadru cu cadru sau cu păpuși cu schelet. Este cea mai bună pentru povești, conținut educativ și personaje care exprimă emoții."),
+          ul("Bună pentru conținut narativ și bazat pe personaje.", "Ia mai mult timp și planificare.", "Funcționează bine pentru educația copiilor și mascote de brand."),
+        ],
+      },
+      {
+        id: "suprapunere",
+        heading: "Unde se suprapun",
+        blocks: [
+          p("Multe proiecte le combină pe ambele: un personaj care merge printre grafice animate, de exemplu. Pentru conținut educativ precum lecțiile NEXTLAB, personajele și diagramele împreună ajută la înțelegere."),
+        ],
+      },
+      {
+        id: "alege",
+        heading: "Cum alegi",
+        blocks: [
+          ol("Care este scopul: să explici, să povestești sau să vinzi?", "Cine este publicul?", "Cât de lung ar trebui să fie?", "Care sunt bugetul și termenul?", "Ai un scenariu și o identitate vizuală?"),
+        ],
+      },
+      {
+        id: "proces",
+        heading: "Cum funcționează producția",
+        blocks: [
+          ol("Scenariu și storyboard.", "Cadre de stil și design.", "Animație.", "Sunet și muzică.", "Revizuire și export."),
+          p("Dacă ai nevoie de o animație 2D sau motion graphics, vezi serviciul meu de animație 2D."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care este mai ieftină?"),
+          p("Motion graphics sunt de obicei mai rapide decât animația cu personaje, dar depinde de detalii."),
+          h3("Cât de lung ar trebui să fie un explainer?"),
+          p("Unu până la două minute este o lungime bună pentru majoritatea subiectelor."),
+          h3("Am nevoie de scenariu mai întâi?"),
+          p("Da. Un scenariu clar face totul mai rapid și mai ieftin."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech", "vibrary"], services: ["2d-animation"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

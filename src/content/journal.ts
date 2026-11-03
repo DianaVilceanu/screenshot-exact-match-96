@@ -3485,6 +3485,339 @@ export const articles: Article[] = [
     ],
     related: { projects: ["divaz", "farmacia-farmex"], services: ["social-media-design"] },
   },
+  {
+    id: "what-is-art-direction",
+    slug: "what-is-art-direction-and-why-brands-need-it",
+    title: "What Is Art Direction and Why Brands Need It",
+    seoTitle: "What Is Art Direction and Why Brands Need It",
+    description: "Art direction is the person or process that decides how a brand looks across photos, video, design and layout. What an art director does and when you need one.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "Many brands have a designer, a photographer and a video editor, and still look inconsistent. What is missing is often art direction: someone who sets the visual idea and makes sure every piece follows it.",
+    sections: [
+      {
+        id: "definition",
+        heading: "What art direction means",
+        blocks: [
+          p("Art direction is the creative leadership of a visual project. It decides the concept, the mood, the colours, the style of images and how all of these work together. The art director does not necessarily make every asset; they guide the people who do."),
+        ],
+      },
+      {
+        id: "tasks",
+        heading: "What an art director does",
+        blocks: [
+          ul("Translates the brand strategy into a visual idea.", "Builds mood boards and references.", "Briefs photographers, editors and designers.", "Reviews work for consistency and quality.", "Keeps the look cohesive across channels."),
+        ],
+      },
+      {
+        id: "example",
+        heading: "A concrete example",
+        blocks: [
+          p("For a fashion campaign like IQ Fashion, art direction decides the palette, the styling, how models are framed, how typography appears on posts and how the video feels. Without it, the same clothes could look completely different in every post."),
+        ],
+      },
+      {
+        id: "when",
+        heading: "When you need it",
+        blocks: [
+          ol("You are launching a brand or a campaign.", "Several people create content and the look drifts.", "You want a clearer, more premium image.", "You work across photo, video and design at the same time."),
+        ],
+      },
+      {
+        id: "work",
+        heading: "How it works in a project",
+        blocks: [
+          ol("Discovery: goals, audience, references.", "Concept: the visual idea and mood board.", "Guidelines: palette, type, photo and video rules.", "Production: briefing and directing the shoot or design.", "Review: checking and adjusting the result."),
+          p("If you want help with a visual direction for your brand, see my content creation and art direction service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Is art direction the same as graphic design?"),
+          p("Not exactly. Graphic design makes specific assets. Art direction sets the overall visual idea and guides all assets."),
+          h3("Do small brands need it?"),
+          p("Yes, in a lighter form: a clear concept and simple rules."),
+          h3("Can the same person do both?"),
+          p("Often yes, especially in small teams."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "kanoi"], services: ["content-creation"] },
+  },
+  {
+    id: "visual-storytelling",
+    slug: "visual-storytelling-for-brands",
+    title: "Visual Storytelling for Brands: How to Tell a Story With Images",
+    seoTitle: "Visual Storytelling for Brands",
+    description: "A story is easier to remember than a list of features. How to use images, sequence and design to tell a brand story in a post, a campaign or a website.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "People remember stories long after they forget specifications. Visual storytelling means using images, order and design to let someone feel a story in seconds. It works for a single post, a campaign or a whole website.",
+    sections: [
+      {
+        id: "start",
+        heading: "Start with one idea",
+        blocks: [
+          p("Before choosing images, write the story in one sentence. What changes for the person? A dental clinic might tell a story about confidence, a cosmetics brand about a ritual, a tech company about learning by building."),
+        ],
+      },
+      {
+        id: "structure",
+        heading: "Use a simple structure",
+        blocks: [
+          ol("Beginning: a situation or a need.", "Middle: the product, service or turning point.", "End: the result or feeling."),
+          p("In a carousel or a short video, each frame carries one step."),
+        ],
+      },
+      {
+        id: "images",
+        heading: "Choose images that carry meaning",
+        blocks: [
+          ul("People and gestures, not only objects.", "Close details that show quality.", "Consistent light and colour.", "Space for text, so images and words work together."),
+          p("For a cosmetics identity like Fleurane, ingredient illustrations and texture can tell the story of the product; for a dental clinic like Art Innova, faces and expressions convey care."),
+        ],
+      },
+      {
+        id: "rhythm",
+        heading: "Control the rhythm",
+        blocks: [
+          p("Vary close and wide shots, quiet and busy frames. A rhythm keeps people looking."),
+        ],
+      },
+      {
+        id: "text",
+        heading: "Let words support, not repeat",
+        blocks: [
+          p("Use short text to add what the image cannot show: a number, a name, a promise. Avoid repeating what is already visible."),
+        ],
+      },
+      {
+        id: "consistency",
+        heading: "Keep a recognisable style",
+        blocks: [
+          p("A story told in a consistent visual language builds a brand. See my content creation and art direction service for help developing one."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a big budget?"),
+          p("No. A clear idea, good light and a consistent style matter more than equipment."),
+          h3("How long should a visual story be?"),
+          p("As long as it needs, often three to seven frames for social media."),
+          h3("Can B2B brands tell visual stories?"),
+          p("Yes. Projects, people and processes are strong material."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "fleurane"], services: ["content-creation"] },
+  },
+  {
+    id: "phone-product-photography",
+    slug: "product-photography-with-a-phone",
+    title: "Product Photography With a Phone: Simple Tips That Look Professional",
+    seoTitle: "Product Photography With a Phone: Simple Tips",
+    description: "You can take good product photos with a smartphone. Light, background, angles and editing tips that make a big difference.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "Modern phones take very good photos. What separates amateur from professional product images is rarely the camera. It is light, background, framing and consistency. These simple steps will take you far.",
+    sections: [
+      {
+        id: "light",
+        heading: "Start with light",
+        blocks: [
+          ul("Shoot near a large window, with soft daylight.", "Avoid direct sun that creates hard shadows.", "Use a white card or foam board to bounce light into shadows.", "Turn off mixed artificial lights that cast odd colours."),
+        ],
+      },
+      {
+        id: "background",
+        heading: "Choose a clean background",
+        blocks: [
+          p("A plain sheet of paper or fabric, or a simple surface, keeps attention on the product. For shiny products such as jewellery or silver pieces, take care with reflections: change the angle until the surface looks clean."),
+        ],
+      },
+      {
+        id: "camera",
+        heading: "Camera tips",
+        blocks: [
+          ol("Clean the lens.", "Use a tripod or a stable surface.", "Tap to focus on the product.", "Turn on the grid to keep lines straight.", "Shoot a bit wider and crop later."),
+        ],
+      },
+      {
+        id: "angles",
+        heading: "Shoot a set of angles",
+        blocks: [
+          ul("Front view.", "Three-quarter view.", "Top-down flat lay.", "Close-up of details and texture.", "The product in use or in a scene."),
+        ],
+      },
+      {
+        id: "edit",
+        heading: "Edit gently",
+        blocks: [
+          p("Adjust brightness, contrast and white balance so the colour is accurate. Avoid heavy filters on products, since customers expect the item to look the same when it arrives. Use the same editing settings for all photos."),
+        ],
+      },
+      {
+        id: "consistency",
+        heading: "Keep the set consistent",
+        blocks: [
+          p("Same background, same light, same angles. For a premium look like Caterina Tomasso, restraint and uniformity matter. For help building a photo style, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a lightbox?"),
+          p("Not necessarily. A window and a white card work well."),
+          h3("What resolution should I export?"),
+          p("High enough for your website and social media, without unnecessary compression."),
+          h3("Should I use portrait mode?"),
+          p("Sometimes, but check edges. For accuracy, a normal mode with good focus is often safer."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "divaz"], services: ["content-creation"] },
+  },
+  {
+    id: "video-editing-basics",
+    slug: "video-editing-basics-for-social-media",
+    title: "Video Editing Basics for Social Media: Cuts, Captions and Rhythm",
+    seoTitle: "Video Editing Basics for Social Media",
+    description: "The basics of editing short videos for social media: structure, cuts, captions, sound and export, so your videos look clean and hold attention.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-feed", alt: "Phone showing a blush pink Instagram grid, surrounded by beauty photos and a colour palette" },
+    intro: "Good editing is mostly invisible. It removes what slows the video down, keeps the rhythm and makes the message clear. You do not need advanced software to start, only a few principles.",
+    sections: [
+      {
+        id: "structure",
+        heading: "Plan the structure",
+        blocks: [
+          ol("Hook in the first seconds.", "One main message.", "Proof or detail.", "A clear ending or call to action."),
+          p("Cut anything that does not serve that structure."),
+        ],
+      },
+      {
+        id: "cuts",
+        heading: "Cut with intent",
+        blocks: [
+          ul("Trim silence and hesitation.", "Cut on movement for a smooth flow.", "Vary shot sizes to keep interest.", "Keep each shot as long as it adds something."),
+        ],
+      },
+      {
+        id: "captions",
+        heading: "Add captions",
+        blocks: [
+          p("Many people watch without sound. Add readable captions, large enough for a phone and kept away from interface areas. Keep them accurate, and match the brand fonts and colours."),
+        ],
+      },
+      {
+        id: "sound",
+        heading: "Take care of sound",
+        blocks: [
+          p("Clear audio matters more than people expect. Use clean voice recording or music with the right volume, and make sure the music does not hide speech."),
+        ],
+      },
+      {
+        id: "format",
+        heading: "Export for the platform",
+        blocks: [
+          p("Use vertical 9:16, 1080 x 1920 pixels, for Reels, TikTok and Stories. Keep a safe margin for text. Export in good quality, but avoid files so large they upload slowly."),
+        ],
+      },
+      {
+        id: "brand",
+        heading: "Make it look like your brand",
+        blocks: [
+          p("Use consistent intro frames, colours, type and transitions. Brands such as Kanoi and Farmex benefit from recognisable video styles, each in a different mood. If you want help with video and reels, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What software should I use?"),
+          p("Any editor you know well. The principles are the same."),
+          h3("How long should a short video be?"),
+          p("Short enough to keep attention: often under a minute for social media."),
+          h3("Do I need music?"),
+          p("Not always. Sound design and clear speech can be enough."),
+        ],
+      },
+    ],
+    related: { projects: ["kanoi", "farmacia-farmex"], services: ["content-creation"] },
+  },
+  {
+    id: "motion-vs-2d-animation",
+    slug: "motion-graphics-vs-2d-animation",
+    title: "Motion Graphics vs 2D Animation: What Is the Difference and Which Do You Need?",
+    seoTitle: "Motion Graphics vs 2D Animation: Which Do You Need?",
+    description: "The terms overlap, but they are not identical. How motion graphics and 2D animation differ, what each is best for and how to choose for your project.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "Clients often ask for 'an animation' and mean different things. Sometimes they want moving text and shapes to explain a product; other times they want a character that walks and acts. These are different crafts with different costs.",
+    sections: [
+      {
+        id: "motion",
+        heading: "Motion graphics",
+        blocks: [
+          p("Motion graphics animate graphic elements such as text, icons, charts and shapes. They are ideal for explainers, logo animations, social media posts and data presentations."),
+          ul("Good for explaining ideas and processes.", "Efficient for branded content and ads.", "Works well with a defined visual identity."),
+        ],
+      },
+      {
+        id: "two-d",
+        heading: "2D animation",
+        blocks: [
+          p("2D animation focuses on characters and scenes drawn and animated frame by frame or with rigged puppets. It is best for stories, educational content and characters that express emotion."),
+          ul("Good for narrative and character-led content.", "Takes more time and planning.", "Works well for children's education and brand mascots."),
+        ],
+      },
+      {
+        id: "overlap",
+        heading: "Where they overlap",
+        blocks: [
+          p("Many projects combine both: a character that walks through animated charts, for example. For educational content like NEXTLAB lessons, characters and diagrams together help understanding."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "How to choose",
+        blocks: [
+          ol("What is the goal: explain, tell a story or sell?", "Who is the audience?", "How long should it be?", "What is the budget and timeline?", "Do you have a script and a visual identity?"),
+        ],
+      },
+      {
+        id: "process",
+        heading: "How production works",
+        blocks: [
+          ol("Script and storyboard.", "Style frames and design.", "Animation.", "Sound and music.", "Review and export."),
+          p("If you need a 2D animation or motion graphics, see my 2D animation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Which is cheaper?"),
+          p("Motion graphics are usually quicker than character animation, but it depends on the details."),
+          h3("How long should an explainer be?"),
+          p("One to two minutes is a good length for most topics."),
+          h3("Do I need a script first?"),
+          p("Yes. A clear script makes everything else faster and cheaper."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech", "vibrary"], services: ["2d-animation"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

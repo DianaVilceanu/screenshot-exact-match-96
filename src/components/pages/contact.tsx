@@ -43,8 +43,20 @@ export function ContactPage() {
     setErrors({});
     setStatus("sending");
     const d = parsed.data;
-    const { error } = await supabase.from("contact_messages").insert({ name: d.name, email: d.email, project_type: d.project_type, budget: d.budget || null, message: d.message });
-    setStatus(error ? "error" : "sent");
+    // The server route saves the message and emails it to the site owner. If it cannot be reached at all, save straight to the table so nothing is lost.
+    let ok = false;
+    try {
+      const res = await fetch("/api/contact", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(d) });
+      ok = res.ok;
+      // 5xx from the route means nothing was saved, and 404/405 means the route is not deployed: save directly in both cases.
+      if (res.status === 404 || res.status === 405 || res.status >= 500) throw new Error("no api");
+    } catch {
+      if (!ok) {
+        const { error } = await supabase.from("contact_messages").insert({ name: d.name, email: d.email, project_type: d.project_type, budget: d.budget || null, message: d.message });
+        ok = !error;
+      }
+    }
+    setStatus(ok ? "sent" : "error");
   }
 
   const field = "w-full border-b border-input bg-transparent py-3 text-lg outline-none transition-colors focus:border-foreground aria-[invalid=true]:border-destructive";

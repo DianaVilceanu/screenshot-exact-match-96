@@ -14,4 +14,4 @@
 - Text wrapped in [SQUARE BRACKETS] in content is an unverified placeholder and renders with a dashed placeholder frame; never replace it with invented facts.
 - Draft projects (`draft: true`) and articles with `publishedAt: null` are noindexed and excluded from `/sitemap.xml`.
 - Case studies switch look via `data-theme` token blocks in `src/styles.css`, not per-component colors.
-- Contact form inserts into the `contact_messages` table (insert-only for visitors).
+- Contact form posts to `/api/contact` (`src/routes/api.contact.ts`), which saves into `contact_messages` and emails the owner through Resend (secrets: `RESEND_API_KEY`, optional `CONTACT_FROM`, `CONTACT_TO`). If the route is unreachable the form falls back to a direct insert (insert-only for visitors).

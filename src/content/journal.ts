@@ -1470,6 +1470,1040 @@ export const articles: Article[] = [
     ],
     related: { projects: ["nextlab-tech"], services: ["2d-animation", "content-creation"] },
   },
+  {
+    id: "how-to-pair-fonts-for-a-brand",
+    slug: "how-to-pair-fonts-for-a-brand",
+    title: "How to Pair Fonts for a Brand: A Simple System That Always Works",
+    seoTitle: "How to Pair Fonts for a Brand",
+    description: "Font pairing without guesswork: how many fonts to use, which combinations work, and how to test them on real layouts and on a phone.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "Choosing fonts is one of those jobs that looks easy until you try it. Two fonts that each look great on their own can fight each other on the same page. The good news is that font pairing follows a few simple rules, and once you know them you can pair type for almost any brand in minutes.",
+    sections: [
+      {
+        id: "start-with-the-role",
+        heading: "Start with the job each font has to do",
+        blocks: [
+          p("Before you browse a font library, decide what each typeface is for. A brand usually needs one font that speaks (headlines, the logo, big statements) and one that works quietly (paragraphs, captions, prices, legal text). A single family with several weights can do both, and that is often the safest start."),
+          p("On the Green Table web design I paired a rounded, friendly display face for headlines with a plain, highly readable sans-serif for everything functional. The display font carries the personality, the second one just gets out of the way."),
+        ],
+      },
+      {
+        id: "how-many",
+        heading: "How many fonts is enough",
+        blocks: [
+          p("Two is the number that works for almost everyone. Three is the limit, and only if the third has a very specific role, such as a handwritten accent used once per layout. More than three and the brand starts to look like a ransom note."),
+          ul("One headline font with character.", "One text font that stays readable at small sizes on a phone.", "Optionally, one accent font used rarely."),
+        ],
+      },
+      {
+        id: "pairing-rules",
+        heading: "Four pairings that rarely fail",
+        blocks: [
+          ol("Serif headline with a clean sans-serif text. A classic, elegant combination, used for Caterina Tomasso with a refined headline face and a simple body font.", "Sans-serif headline with a serif text, for a more editorial feel.", "One family in two weights, such as bold for headlines and regular for text. Impossible to get wrong.", "A geometric sans with a humanist sans: they share structure but differ in warmth."),
+          p("The common thread is contrast with a reason. If two fonts are almost the same but not quite, the difference looks like a mistake. Make them clearly different or clearly the same family."),
+        ],
+      },
+      {
+        id: "test-it",
+        heading: "Test the pair where it will live",
+        blocks: [
+          ul("Set a real headline, a paragraph, a price and a caption, not placeholder text.", "Look at it on a phone, at the real size, in bright light.", "Check that numbers, accents and special characters exist in both fonts. Romanian diacritics such as ă, ș and ț are a classic trap.", "Check the licence: some free fonts do not allow commercial use or embedding on a website."),
+          p("If a font is missing characters your language needs, drop it, however beautiful it is. A brand that cannot spell its own customers' names has a problem."),
+        ],
+      },
+      {
+        id: "write-it-down",
+        heading: "Write the rules down",
+        blocks: [
+          p("Once you have a pair, write down which font is used where, in what sizes and weights, and how much space goes between lines. Three sentences are enough. This is the part of a brand book that saves the most time later."),
+          p("If you want help choosing typography as part of a complete identity, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Can I use the same font for everything?"),
+          p("Yes. One well-chosen family with several weights is a safe and elegant choice, especially for small brands."),
+          h3("Are free fonts good enough?"),
+          p("Many are excellent. Check the licence for commercial use and for use on websites and apps, and make sure the font supports your language."),
+          h3("Should my logo font match my brand font?"),
+          p("Not necessarily, but they should not clash. Many brands use a custom logotype and a related, simpler font for everything else."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "green-table"], services: ["branding"] },
+  },
+  {
+    id: "logo-file-formats-explained",
+    slug: "logo-file-formats-explained-svg-png-pdf-ai",
+    title: "Logo File Formats Explained: SVG, PNG, PDF, AI and When to Use Each",
+    seoTitle: "Logo File Formats Explained: SVG, PNG, PDF",
+    description: "Which logo file to use where: SVG for web, PNG for transparent images, PDF and AI for print and editing, plus what to ask your designer to deliver.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "After a logo project you usually receive a folder full of files with names like logo_final_v3.ai and logo-white.png. It is not obvious which one to put on your website, which one to send to the printer and which one to keep safe. This guide explains the common formats in plain language, so you always grab the right file.",
+    sections: [
+      {
+        id: "vector-vs-raster",
+        heading: "Vector and raster: the one idea you need",
+        blocks: [
+          p("Vector files (SVG, AI, EPS, PDF) describe a logo with lines and shapes, so they can be scaled to any size, from a pen to a billboard, without losing sharpness. Raster files (PNG, JPG) are made of pixels, so they have a fixed size and look soft if you enlarge them."),
+          p("Your master logo should always exist as a vector. Everything else can be exported from it."),
+        ],
+      },
+      {
+        id: "svg",
+        heading: "SVG: the best choice for websites",
+        blocks: [
+          p("SVG is a vector format that browsers understand. It stays crisp on every screen, is usually very small in file size and can change colour with a line of code. Use it for the logo in your site header and footer."),
+          ul("Great for logos and icons, not for photos.", "Check that text in the logo has been converted to outlines, so fonts do not change.", "Keep a copy of the SVG for the dark and light versions."),
+        ],
+      },
+      {
+        id: "png",
+        heading: "PNG: when you need transparency",
+        blocks: [
+          p("PNG is a raster format that supports a transparent background. It is the right choice for placing a logo over a photo, for presentations, and for platforms that do not accept SVG, such as many social media and email tools."),
+          ul("Export at a large size (for example 2000 pixels wide) so it stays sharp.", "Keep versions for light and dark backgrounds.", "Do not use a PNG for print if you can use a vector."),
+        ],
+      },
+      {
+        id: "pdf-ai-eps",
+        heading: "PDF, AI and EPS: print and editing",
+        blocks: [
+          p("A vector PDF is the easiest file to send to a printer, and almost any program can open it. AI is the editable Adobe Illustrator file: keep it as your master for future changes. EPS is an older vector format that some printers and sign makers still ask for."),
+          p("When a printer asks for the logo, send a vector PDF unless they request something else. If you are not sure, ask for their file specification."),
+        ],
+      },
+      {
+        id: "jpg",
+        heading: "JPG: usually not for logos",
+        blocks: [
+          p("JPG compresses images and cannot be transparent, so a logo saved as JPG sits in a white box on any coloured background. It is fine for sending a quick preview, but not for real use."),
+        ],
+      },
+      {
+        id: "what-to-ask",
+        heading: "What to ask your designer to deliver",
+        blocks: [
+          ol("The master logo in AI or another editable vector file.", "SVG and vector PDF versions.", "PNG versions with a transparent background, in full colour, black and white.", "Versions for light and dark backgrounds.", "The icon or small version, and a version for social media profile pictures."),
+          p("If you are working on a new identity, ask for this full package up front. It saves a lot of back and forth later."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Can I turn a PNG logo into a vector?"),
+          p("It can be redrawn or traced, but traced results are often rough. A proper redraw by a designer is much better."),
+          h3("Which format should I upload to Instagram?"),
+          p("A PNG or JPG at a high resolution, since the platform does not use vectors for profile pictures."),
+          h3("Why does my logo look blurry on my website?"),
+          p("It is usually a small raster file stretched too large. Replace it with an SVG or a larger PNG."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "fleurane"], services: ["branding"] },
+  },
+  {
+    id: "what-makes-a-good-logo",
+    slug: "what-makes-a-good-logo-7-principles",
+    title: "What Makes a Good Logo? 7 Principles to Check Before You Approve It",
+    seoTitle: "What Makes a Good Logo? 7 Principles",
+    description: "A good logo is simple, memorable and works everywhere. Seven principles you can use to judge a logo before you sign off on it.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "Most people judge a logo by whether they like it. That is a start, but a logo has to do a lot more than look nice. It has to be recognised in a tiny profile picture, read on a dark background and still work in one colour. These seven checks help you decide if a logo is really good, not just pretty.",
+    sections: [
+      {
+        id: "simple",
+        heading: "1. It is simple enough to remember",
+        blocks: [
+          p("The logos people remember have a clear shape and few details. A test: try to draw it from memory after seeing it once. If you cannot, it is probably too complicated."),
+          p("Simplicity does not mean boring. The Inklabs logo is built from a bold wordmark and a small diamond-dotted letter i. It is simple, and unmistakable."),
+        ],
+      },
+      {
+        id: "scalable",
+        heading: "2. It works at any size",
+        blocks: [
+          p("Shrink the logo to the size of a profile picture and a favicon. Then enlarge it to fit a banner. If details disappear or fine lines vanish, a simpler version is needed for small uses."),
+          ul("Check at about 32 pixels wide.", "Check on a printed business card.", "Make sure there is a compact icon version for tight spaces."),
+        ],
+      },
+      {
+        id: "colour-independent",
+        heading: "3. It works in one colour",
+        blocks: [
+          p("A good logo still works in black or white only. You will need that version for stamps, engraving, a fax-like photocopy, or a small print job. If the logo depends on a gradient to be understood, it is fragile."),
+          p("Also check the logo on light, dark and photographic backgrounds."),
+        ],
+      },
+      {
+        id: "fits",
+        heading: "4. It fits the business, not the trend",
+        blocks: [
+          p("A logo for a premium fashion boutique does not need the same energy as a logo for a press-on nail brand. Check that the shape, type and colour suit the audience. IQ Fashion needed a refined, restrained look. That would be wrong for a playful brand."),
+          p("Be wary of fashionable effects. Trends age fast, while a timeless shape stays useful for years."),
+        ],
+      },
+      {
+        id: "distinct",
+        heading: "5. It is distinct from competitors",
+        blocks: [
+          p("Put your logo next to three competitors. Can you tell them apart in two seconds? If you can swap the names and nothing changes, the logo does not do its job."),
+        ],
+      },
+      {
+        id: "versatile",
+        heading: "6. It is versatile",
+        blocks: [
+          ul("Horizontal and stacked versions.", "A symbol on its own and a wordmark on its own.", "Light and dark versions.", "A shape that can be used in patterns and on social media."),
+          p("Versatility is what makes the logo a tool, not just a picture."),
+        ],
+      },
+      {
+        id: "legible",
+        heading: "7. It is legible",
+        blocks: [
+          p("If the logo includes a name, make sure it can be read quickly, in every size. Very thin or decorative letters can look pretty and fail when printed small. Check how the letters behave at the smallest size you will use. If you want a second opinion on a logo, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Should a logo include an icon?"),
+          p("Not necessarily. A strong wordmark can be enough. An icon is useful for small spaces such as profile pictures."),
+          h3("How many colours should a logo have?"),
+          p("Usually one to three. Fewer colours are easier to reproduce and remember."),
+          h3("Can I design my own logo?"),
+          p("You can, but a logo is the visible core of your brand. A professional can help you avoid common problems such as poor scaling and unclear shapes."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "iq-fashion"], services: ["branding"] },
+  },
+  {
+    id: "brand-voice-and-tone-of-voice",
+    slug: "brand-voice-and-tone-of-voice-how-to-define-yours",
+    title: "Brand Voice and Tone of Voice: How to Define Yours (With Examples)",
+    seoTitle: "Brand Voice and Tone of Voice: How to Define",
+    description: "A clear brand voice makes every post, caption and email sound like the same business. How to define yours in three steps, with examples.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "You can recognise some brands by their writing alone, even with the logo hidden. That is brand voice at work. It is the personality of how a business speaks, and when it is consistent, customers trust it more. Here is a simple way to define yours, even if you are a one-person business.",
+    sections: [
+      {
+        id: "voice-vs-tone",
+        heading: "Voice and tone: what is the difference",
+        blocks: [
+          p("Voice is the constant personality of the brand: warm, direct, playful, expert. Tone is how that voice adapts to the situation. A brand can be friendly in a giveaway post and calm and serious when it discusses a delay or a safety instruction."),
+          p("Think of a person: the voice is who they are, the tone changes between a party and a meeting."),
+        ],
+      },
+      {
+        id: "step-one",
+        heading: "Step 1: choose three words",
+        blocks: [
+          p("Pick three adjectives that describe how the brand should sound, and write a sentence for each about what it means in practice. For Inklabs, the voice is a mix of rebellious and reliable: bold and a bit cheeky when it talks about style, clear and calm when it talks about skin safety."),
+          ul("Friendly, but not childish.", "Expert, but not stiff.", "Confident, but not arrogant."),
+        ],
+      },
+      {
+        id: "step-two",
+        heading: "Step 2: write do and do not rules",
+        blocks: [
+          p("For each word, give an example of what to write and what to avoid. This is what makes the voice usable by someone else."),
+          ul("Do use short sentences. Do not use corporate jargon.", "Do address the reader as you. Do not hide behind we are pleased to announce.", "Do use humour lightly. Do not joke about customer problems."),
+        ],
+      },
+      {
+        id: "step-three",
+        heading: "Step 3: test it on real texts",
+        blocks: [
+          p("Rewrite three existing captions, a product description and a thank-you email using the rules. Read them aloud. If they sound like the brand, keep going. If they feel forced, adjust the words."),
+          p("Different channels can stretch the tone: more relaxed on social media, more formal in a quote. The voice stays the same."),
+        ],
+      },
+      {
+        id: "keep-it-consistent",
+        heading: "Keep it consistent in every channel",
+        blocks: [
+          ul("Use the same voice in captions, website text, emails and packaging.", "Share the guide with everyone who writes for the brand.", "Include a few model phrases and a few banned ones.", "Review it once a year as the brand grows."),
+          p("A voice guide can be one page. For KDT Romania, an industrial brand, the posts stay clear, practical and focused on results, even when the topic is technical. If you want a voice and visual style that work together, see my content creation service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do small businesses need a brand voice?"),
+          p("Yes. It makes writing faster, because you know how you sound, and it makes the brand easier to recognise."),
+          h3("How long should a voice guide be?"),
+          p("One page is enough: three words, do and do not rules, and a few examples."),
+          h3("Can the voice change over time?"),
+          p("Yes, as the brand evolves. Change it on purpose and update the guide, instead of drifting."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "kdt-romania"], services: ["content-creation", "branding"] },
+  },
+  {
+    id: "how-to-make-a-brand-mood-board",
+    slug: "how-to-make-a-brand-mood-board",
+    title: "How to Make a Brand Mood Board That Actually Guides the Design",
+    seoTitle: "How to Make a Brand Mood Board",
+    description: "A mood board is a decision tool, not a collage. How to collect references, find the pattern and turn it into colours, type and style.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "A mood board is often treated as decoration at the start of a project. Done properly, it is one of the most useful tools in branding: a way to agree on a direction before anyone spends hours designing. Here is how to build one that guides the work, using the same approach I follow in identity projects.",
+    sections: [
+      {
+        id: "what-it-is",
+        heading: "What a mood board is for",
+        blocks: [
+          p("A mood board gathers visual references that show how a brand should feel: colours, textures, photography, typography, shapes. Its job is to make a vague idea such as soft, glossy and accessible into something everyone can see and discuss."),
+          p("For the Divaz identity, the board brought together rose and berry tones, glossy product photography and soft, rounded shapes. That gave the whole project a shared language before any logo was drawn."),
+        ],
+      },
+      {
+        id: "collect",
+        heading: "Collect widely, then narrow down",
+        blocks: [
+          ul("Gather 30 to 50 images quickly, without overthinking.", "Include photography, packaging, interiors, textures, typography and colour swatches.", "Look outside your industry. Fashion, architecture and food can inspire a cosmetics brand.", "Save the source of each image."),
+          p("Pinterest, Behance and your own photos are all good sources."),
+        ],
+      },
+      {
+        id: "find-the-pattern",
+        heading: "Find the pattern",
+        blocks: [
+          p("Lay everything out and ask what repeats. Is it warm light? A restrained palette? Rounded shapes? Heavy contrast? Remove images that do not fit, even if you love them, until a clear direction appears."),
+          p("Then write three words that describe it, such as soft, glossy and accessible. These words become the test for every later decision."),
+        ],
+      },
+      {
+        id: "translate",
+        heading: "Translate the board into decisions",
+        blocks: [
+          ol("Colours: pick a palette from the images and write the codes.", "Typography: choose fonts that match the mood, such as elegant serif or friendly rounded sans.", "Imagery: describe the light, background and framing for photos.", "Graphic elements: note the shapes, patterns and details that recur.", "Rules: list what the brand will never do."),
+        ],
+      },
+      {
+        id: "present",
+        heading: "Present it so people can react",
+        blocks: [
+          p("A good board is clear at a glance: one large image, a palette, two or three type samples and a few words. Show it to the client or your team and ask what feels right and what feels off. Reactions to a board are cheaper than reactions to a finished logo."),
+        ],
+      },
+      {
+        id: "after",
+        heading: "Use it after the project too",
+        blocks: [
+          p("Keep the board with the brand guidelines. When you create a new campaign, check it against the board. If you want a mood board and a full identity built around it, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a mood board for a small project?"),
+          p("A small one helps. Even a dozen images and a palette can prevent weeks of misunderstanding."),
+          h3("Is a mood board the same as a brand book?"),
+          p("No. The mood board explores the direction. The brand book documents the final rules."),
+          h3("What tools can I use?"),
+          p("Pinterest, Figma, Canva or simply a folder of images. The tool matters less than the thinking."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "fleurane"], services: ["branding"] },
+  },
+  {
+    id: "when-to-rebrand",
+    slug: "when-to-rebrand-and-how-to-do-it",
+    title: "When to Rebrand and How to Do It Without Losing Your Customers",
+    seoTitle: "When to Rebrand and How to Do It Well",
+    description: "Not every business needs a rebrand. How to tell when it is time, the difference between a refresh and a full redesign, and how to roll it out safely.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "iq-cover", alt: "Hands holding a blush shirt dress on a hanger beside a rail of terracotta clothes" },
+    intro: "A rebrand is exciting and risky in equal measure. Done at the right moment, it can lift a business that has outgrown its look. Done for the wrong reasons, it throws away years of recognition. Before you change anything, ask a few honest questions.",
+    sections: [
+      {
+        id: "signs",
+        heading: "Signs that it is time",
+        blocks: [
+          ul("The business has changed: new audience, new services, or a different positioning.", "The identity looks dated next to competitors and customers mention it.", "Your materials look inconsistent because the system was never complete.", "The logo does not work in digital contexts such as small profile pictures.", "A merger, a new owner, or a new market makes the old identity wrong."),
+          p("The reason should be strategic. 'We are bored of it' is rarely a good reason, because the audience takes much longer than you do to get tired of a brand."),
+        ],
+      },
+      {
+        id: "refresh-vs-redesign",
+        heading: "Refresh or full redesign",
+        blocks: [
+          p("A refresh keeps what people recognise, such as the name, the main colour or the basic logo shape, and improves what is weak. A redesign changes the identity more deeply. In most cases a careful refresh gives most of the benefit with far less risk."),
+          p("Ask which parts of the brand customers already associate with you. Keep those, and change the rest."),
+        ],
+      },
+      {
+        id: "audit",
+        heading: "Start with an audit",
+        blocks: [
+          ol("Collect everything the brand currently publishes.", "Note what works, what is inconsistent and what is missing.", "Talk to a few customers about how they see the brand.", "Define what the new identity must achieve."),
+          p("An audit often shows that the problem is consistency, not design. In that case a clear system and templates may be all you need."),
+        ],
+      },
+      {
+        id: "plan-the-rollout",
+        heading: "Plan the rollout",
+        blocks: [
+          ul("List every place the brand appears: website, social profiles, packaging, signage, emails, invoices.", "Decide the order: digital is fastest, print and signage take longer.", "Prepare the new templates before you announce anything.", "Use a transition period if the change is large."),
+        ],
+      },
+      {
+        id: "tell-people",
+        heading: "Tell your customers the story",
+        blocks: [
+          p("Explain the change in a short, positive post: why you are evolving and what stays the same. People accept change when they understand it. Avoid deleting your old content, since it keeps your history and search visibility."),
+          p("If you are considering a brand refresh, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How often should a brand be refreshed?"),
+          p("There is no fixed schedule. Review the identity every few years, and refresh only when something has changed or no longer works."),
+          h3("Will a rebrand hurt my SEO?"),
+          p("It can, if URLs, names and metadata change carelessly. Keep redirects, update titles and descriptions, and keep your website structure where possible."),
+          h3("How long does a rebrand take?"),
+          p("A small refresh can take weeks. A full identity with rollout takes months."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "kanoi"], services: ["branding"] },
+  },
+  {
+    id: "how-to-name-a-brand",
+    slug: "how-to-name-a-brand-checklist",
+    title: "How to Name a Brand: A Practical Checklist for Choosing a Business Name",
+    seoTitle: "How to Name a Brand: A Practical Checklist",
+    description: "A good brand name is easy to say, spell and remember, and available where it matters. A step-by-step checklist for choosing and checking a name.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "A name is the first piece of your brand that anyone meets, and the hardest to change later. The good news is that choosing one does not have to be a flash of genius. It can be a process, with clear criteria and a few checks that save you from expensive mistakes.",
+    sections: [
+      {
+        id: "define",
+        heading: "Start with what the name must do",
+        blocks: [
+          p("Write down who the name is for, what the business promises and how it should feel. A name for a playful nail brand has a different job from a name for a dental clinic. Keep that sentence in front of you while you brainstorm."),
+          p("Divaz is a good example: short, glamorous, easy to say in any language and fitting for a beauty brand."),
+        ],
+      },
+      {
+        id: "types",
+        heading: "Types of names",
+        blocks: [
+          ul("Descriptive: says what you do (clear, but hard to protect and stand out).", "Evocative: suggests a feeling or idea, such as Inklabs.", "Invented: a new word, memorable but needing more brand building.", "Founder name: personal and trusted, but harder to sell later.", "Acronym: short, but meaningless to newcomers."),
+        ],
+      },
+      {
+        id: "brainstorm",
+        heading: "Brainstorm widely",
+        blocks: [
+          p("Write 50 names without judging. Combine words, try other languages, play with sounds. Then cut the list using the criteria."),
+          ul("Easy to say and spell, including on the phone.", "Short enough to fit on a logo and a profile name.", "No awkward meaning in languages you plan to sell in.", "Distinct from competitors."),
+        ],
+      },
+      {
+        id: "check",
+        heading: "Check availability before you fall in love",
+        blocks: [
+          ol("Search the name on Google: who else uses it, and in what field?", "Check the domain name and plausible variations.", "Check the social media handles on the platforms you will use.", "Search trademark databases in your country and the EU for similar names in your category.", "Say it aloud, write it, and ask five people to spell it after hearing it once."),
+          p("Trademark searches are worth doing with a professional if the brand is important. A name you cannot use is expensive."),
+        ],
+      },
+      {
+        id: "test",
+        heading: "Test with real people",
+        blocks: [
+          p("Show a short list to a handful of people in your target audience. Ask what they imagine when they hear each name. The goal is not to vote, but to see whether the name creates the feeling you want."),
+        ],
+      },
+      {
+        id: "next",
+        heading: "After you choose",
+        blocks: [
+          p("Register the domain and handles quickly, consider a trademark, and let the identity follow the name. If you need help with naming and a visual identity together, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Should a business name include keywords?"),
+          p("It can help clarity, but a unique name is easier to protect and remember. Many brands combine a distinctive name with a descriptive line."),
+          h3("Is it a problem if the domain is taken?"),
+          p("Not always. You can add a word or choose a different extension, but avoid names that are confusingly close to another brand."),
+          h3("Can I change my brand name later?"),
+          p("Yes, but it costs time and recognition. It is much cheaper to choose carefully at the start."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "divaz"], services: ["branding"] },
+  },
+  {
+    id: "brand-positioning-statement",
+    slug: "brand-positioning-statement-template-and-examples",
+    title: "Brand Positioning Statement: A Simple Template (With Examples)",
+    seoTitle: "Brand Positioning Statement: Template and Examples",
+    description: "A positioning statement tells people who you serve, what you offer and why you are different. A fill-in-the-blank template with worked examples.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "If you struggle to explain what makes your business different, your design and your content will struggle too. A positioning statement is a short, internal sentence that fixes that. It is not a slogan, but it guides every slogan, post and design decision that follows.",
+    sections: [
+      {
+        id: "what",
+        heading: "What a positioning statement is",
+        blocks: [
+          p("It is a one or two sentence description of who your brand is for, what category you compete in, the main benefit you offer and the reason to believe it. It is written for your team and your designer, not for the public."),
+          p("Without it, every decision is opinion. With it, you can ask whether a design, a caption or an offer fits the position."),
+        ],
+      },
+      {
+        id: "template",
+        heading: "The template",
+        blocks: [
+          p("For [target audience] who [need or problem], [brand] is the [category] that [main benefit], because [reason to believe]."),
+          ol("Audience: be specific. 'Women in their thirties who want elegant christening gifts' is better than 'women'.", "Need: the problem or desire, in their words.", "Category: the frame of reference people understand.", "Benefit: the most important result, in one idea.", "Reason to believe: proof, such as materials, expertise or method."),
+        ],
+      },
+      {
+        id: "example-one",
+        heading: "Example: a silver gift boutique",
+        blocks: [
+          p("For parents and gift-givers who want something lasting for a christening, Caterina Tomasso is the online boutique of sterling silver that turns a gift into a keepsake, because every piece is made in 925 silver and presented in a premium way."),
+          p("From that sentence the visual direction follows: refined, silver, calm and high end, with a lot of white space."),
+        ],
+      },
+      {
+        id: "example-two",
+        heading: "Example: an industrial machinery company",
+        blocks: [
+          p("For furniture and woodworking manufacturers who lose time moving boards by hand, KDT Romania is the machinery partner that automates the workshop, because it provides the machines and the training that deliver results."),
+          p("Here the content leans on proof and practical results, not on decoration."),
+        ],
+      },
+      {
+        id: "test",
+        heading: "Test your statement",
+        blocks: [
+          ul("Could a competitor say the same sentence? If yes, make it more specific.", "Is the benefit real and provable?", "Does it help you say no to some ideas?", "Can the team repeat it from memory?"),
+        ],
+      },
+      {
+        id: "use",
+        heading: "Use it every day",
+        blocks: [
+          p("Put the statement at the start of the brand guidelines and in every brief. Review it once a year. If you would like help finding your position and turning it into a visual identity, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Is a positioning statement the same as a slogan?"),
+          p("No. It is an internal tool. A slogan can come from it but is written for customers."),
+          h3("How long should it be?"),
+          p("One or two sentences. If it needs more, the idea is not clear yet."),
+          h3("Do small businesses need one?"),
+          p("Yes. A clear position saves time and money in every later choice."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "caterina-tomasso"], services: ["branding", "content-creation"] },
+  },
+  {
+    id: "brand-audit-checklist",
+    slug: "brand-consistency-audit-checklist",
+    title: "Brand Consistency Audit: A 10-Point Checklist You Can Do in an Afternoon",
+    seoTitle: "Brand Consistency Audit: A 10-Point Checklist",
+    description: "Check whether your brand looks the same everywhere with this 10-point audit: logo, colours, fonts, photos, tone and templates across every channel.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-mistakes", alt: "Pink and navy brand collage with swatches, a coffee cup, a price tag and shapes" },
+    intro: "Brands rarely become inconsistent on purpose. They drift: a new post here, a quick flyer there, a different shade of blue in the invoice. An audit shows you how far you have drifted, and it takes one afternoon. Here is the checklist I use with clients before we change a single design.",
+    sections: [
+      {
+        id: "collect",
+        heading: "First, put everything in one place",
+        blocks: [
+          p("Gather screenshots or files from every place the brand appears: website, social profiles and the last 20 posts, newsletters, business cards, packaging, invoices, signage, email signatures. Print them or lay them out in a grid. Patterns and problems show up immediately."),
+        ],
+      },
+      {
+        id: "ten",
+        heading: "The 10 checks",
+        blocks: [
+          ol("Logo: is it always the same version, in correct proportions and with clear space?", "Colours: are the shades identical everywhere, with codes written down?", "Typography: are the same fonts used for the same jobs?", "Photography: do the images share light, style and quality?", "Graphic elements: do patterns, icons and frames follow one style?", "Layouts: do posts and documents use the same grids and templates?", "Tone of voice: do captions, emails and the website sound like one author?", "Quality: are images sharp, texts proofread and files in the right size?", "Contact details: are the phone, address and links the same everywhere?", "Profiles: are names, photos, bios and highlights aligned across platforms?"),
+          p("Score each check from one to three. Anything below two is a priority."),
+        ],
+      },
+      {
+        id: "read",
+        heading: "Read the results",
+        blocks: [
+          ul("Mostly strong with a few weak points: fix them and write the rules.", "Inconsistency in several areas: the brand needs a clear system and templates.", "Strong consistency but a dated look: consider a refresh, not a redesign.", "Different looks per channel: decide what must stay constant and what can vary."),
+        ],
+      },
+      {
+        id: "fix",
+        heading: "Fix in the right order",
+        blocks: [
+          ol("Create or update a one-page guide: logo, colours, fonts and tone.", "Build templates for the formats you use most.", "Update the high-visibility places first: website, social profiles, email signature.", "Replace print materials as they run out, not all at once."),
+        ],
+      },
+      {
+        id: "keep",
+        heading: "Make it a habit",
+        blocks: [
+          p("Repeat the audit every six months, or after a big campaign. A short review keeps the system alive. If you would like help creating the system, see my branding and social media design services."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How often should I audit my brand?"),
+          p("Once or twice a year is enough, and after any big change in the business."),
+          h3("Who should do the audit?"),
+          p("Someone close to the brand and someone fresh. An outside view often sees things you no longer notice."),
+          h3("What if every channel looks different?"),
+          p("Start by choosing the one that represents the brand best, then align the others to it."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "iq-fashion"], services: ["branding", "social-media-design"] },
+  },
+  {
+    id: "logo-design-process",
+    slug: "logo-design-process-step-by-step",
+    title: "The Logo Design Process: What Happens Step by Step",
+    seoTitle: "The Logo Design Process, Step by Step",
+    description: "From brief to final files: what actually happens during a logo project, how long each stage takes and how you can help it go well.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "Many clients imagine logo design as a designer disappearing for a week and coming back with the perfect mark. In practice, a good logo is the result of a series of steps, and your input at each one decides how good the result is. Here is what really happens, so you know what to expect and when to speak up.",
+    sections: [
+      {
+        id: "one",
+        heading: "1. Brief and discovery",
+        blocks: [
+          p("We start with questions: who the business serves, what it promises, who the competitors are, where the logo will appear. This stage sets the direction, and it saves the most time later. I often ask clients to send three brands they like and three they do not, with reasons."),
+        ],
+      },
+      {
+        id: "two",
+        heading: "2. Research and moodboard",
+        blocks: [
+          p("I look at the market, collect visual references and build a mood board. This is where words such as warm, precise or playful become shapes, colours and type. It is also where we agree what the logo must not look like."),
+        ],
+      },
+      {
+        id: "three",
+        heading: "3. Sketching and concepts",
+        blocks: [
+          p("Ideas begin on paper, quickly and in large numbers. The strongest become digital concepts, usually two or three directions. Each is shown in context: on a profile picture, on a package, on a dark background."),
+          ul("A concept is a direction, not a finished logo.", "Feedback at this stage is about fit and feeling, not details.", "It is normal to combine elements from different directions."),
+        ],
+      },
+      {
+        id: "four",
+        heading: "4. Feedback and refinement",
+        blocks: [
+          p("After you choose a direction, it is refined: proportions, spacing, kerning, colour. Small changes matter a lot at this stage. Collect feedback from the people who decide and send it in one message."),
+          ol("Say what works first.", "Describe the problem, not the solution.", "Use the goal as the measure: does it feel premium enough, clear enough?"),
+        ],
+      },
+      {
+        id: "five",
+        heading: "5. Testing",
+        blocks: [
+          p("The logo is tested at small and large sizes, in one colour, on photographs and on mock-ups. This is where weaknesses appear and get fixed, such as fine lines that vanish in small sizes."),
+        ],
+      },
+      {
+        id: "six",
+        heading: "6. Final files and guidelines",
+        blocks: [
+          p("The final package includes the logo in vector and raster formats, colour versions, the icon version and, often, guidelines. For identity projects such as Fleurane, the logo goes on to become part of labels, packaging and print."),
+          p("If you are planning a logo, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How long does logo design take?"),
+          p("From a couple of weeks for a simple logo to several weeks for a full identity, depending on feedback speed."),
+          h3("How many concepts will I see?"),
+          p("Usually two or three strong directions, so you can choose rather than compare dozens."),
+          h3("What do I need to prepare?"),
+          p("A clear idea of your audience, three brands you like, three you do not, and where the logo will be used."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "fleurane"], services: ["branding"] },
+  },
+  {
+    id: "brand-strategy-small-business",
+    slug: "brand-strategy-for-small-business",
+    title: "Brand Strategy for a Small Business: Where to Start With a Small Budget",
+    seoTitle: "Brand Strategy for Small Business: Where to Start",
+    description: "A small business does not need a huge strategy document. Five decisions that give your brand direction, and the order to make them in.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "Brand strategy sounds like something for big companies with big budgets. In reality, a small business needs it even more, because every euro has to work harder. The good news is that a useful strategy fits on a single page. These are the five decisions it should answer.",
+    sections: [
+      {
+        id: "audience",
+        heading: "1. Who exactly are you for?",
+        blocks: [
+          p("Describe one core customer in detail: age range is not enough. What do they want, what worries them, where do they spend time? A dental clinic like Art Innova speaks differently to a parent than to a cosmetic patient."),
+          p("Trying to appeal to everyone usually means appealing to no one."),
+        ],
+      },
+      {
+        id: "promise",
+        heading: "2. What do you promise?",
+        blocks: [
+          p("Choose one main benefit and make it believable. It can be speed, expertise, warmth, price or quality, but it should be something you can deliver every time."),
+        ],
+      },
+      {
+        id: "difference",
+        heading: "3. What makes you different?",
+        blocks: [
+          ul("Something you do that competitors do not.", "A way of working that customers notice.", "A story or background that is genuinely yours."),
+          p("For a consulting firm such as Selfconsulting, the difference might be a mix of engineering and architecture know-how. Name it clearly and repeat it."),
+        ],
+      },
+      {
+        id: "personality",
+        heading: "4. How should the brand feel?",
+        blocks: [
+          p("Pick three words for the personality and avoid contradictions. These words guide the logo, colours, photos and the way you write. Reliable, calm and precise lead to a very different look than bold, loud and playful."),
+        ],
+      },
+      {
+        id: "channels",
+        heading: "5. Where will people meet you?",
+        blocks: [
+          p("Choose the two or three channels that matter most and do them well, instead of being everywhere. For local services this may be a good website, a Google profile and one social platform."),
+        ],
+      },
+      {
+        id: "after",
+        heading: "Turn the strategy into assets",
+        blocks: [
+          ol("Write the five answers on one page.", "Create a simple visual identity that expresses them.", "Build templates for the most common materials.", "Review once a year."),
+          p("If you want help turning these decisions into a consistent identity, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Does a small business really need a brand strategy?"),
+          p("Yes, but a short one. A page of clear decisions is more useful than a long document nobody reads."),
+          h3("What comes first, the logo or the strategy?"),
+          p("Strategy. A logo without direction is decoration."),
+          h3("How much does it cost?"),
+          p("It depends on who helps you. You can do a lot yourself with the five questions above, then bring in a designer for the identity."),
+        ],
+      },
+    ],
+    related: { projects: ["selfconsulting", "art-innova"], services: ["branding"] },
+  },
+  {
+    id: "brand-archetypes",
+    slug: "brand-personality-and-archetypes-explained",
+    title: "Brand Personality and Archetypes: How to Give Your Brand a Character",
+    seoTitle: "Brand Personality and Archetypes Explained",
+    description: "Archetypes are a handy tool for describing a brand's character. How to use them, with a few honest cautions, and how personality shapes design.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-stand-out", alt: "Pink and navy collage with an engraved scorpion, an ink bottle, a halftone eye and a flower" },
+    intro: "Brands that feel like a person are easier to remember and to trust. Archetypes, a framework popularised from Jungian psychology, are a quick way to describe that character. They are not a science, but as a thinking tool they help a team agree on how the brand should look, speak and behave.",
+    sections: [
+      {
+        id: "what",
+        heading: "What an archetype is",
+        blocks: [
+          p("An archetype is a recognisable type of character, such as the caregiver, the explorer, the rebel or the sage. Brand frameworks use around a dozen of them. Each suggests a mood, a tone of voice and a set of visual choices."),
+        ],
+      },
+      {
+        id: "examples",
+        heading: "A few archetypes in practice",
+        blocks: [
+          ul("Caregiver: warm, protective, soft colours and rounded shapes. Suits healthcare and family brands.", "Sage: expert, calm, clear. Suits consulting, education and engineering.", "Creator: imaginative, expressive. Suits design, art and fashion.", "Ruler: premium, authoritative, refined. Suits luxury and high-end services.", "Jester: playful, bright, informal. Suits entertainment and youth brands."),
+          p("A beauty brand like Divaz can lean on glamour and confidence, while an industrial company like KDT Romania benefits from the reliability of the sage or ruler."),
+        ],
+      },
+      {
+        id: "choose",
+        heading: "How to choose",
+        blocks: [
+          ol("Write three words that describe how you want customers to feel.", "Match them to one main archetype and, optionally, a secondary one.", "Check that it fits your real behaviour, not only your aspirations.", "Ask whether competitors have chosen the same one."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "From character to design",
+        blocks: [
+          p("Once the character is clear, design choices become easier."),
+          ul("Colour: warm or cool, saturated or muted.", "Typography: soft and rounded, or sharp and structured.", "Imagery: candid and human, or polished and minimal.", "Voice: friendly and conversational, or formal and exact."),
+        ],
+      },
+      {
+        id: "careful",
+        heading: "A few cautions",
+        blocks: [
+          p("Archetypes simplify. Real brands are more nuanced, and customers do not think in categories. Use the framework to start the conversation, not to replace research with your audience."),
+        ],
+      },
+      {
+        id: "next",
+        heading: "Put it to work",
+        blocks: [
+          p("Write the archetype and the three personality words at the top of your brand guidelines. If you want help turning personality into a visual identity, see my branding service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("How many archetypes can a brand have?"),
+          p("One main and at most one secondary. More than that blurs the character."),
+          h3("Are archetypes scientifically proven?"),
+          p("They are a popular framework, not a measured science. Treat them as a creative tool."),
+          h3("Can personality change over time?"),
+          p("Yes, slowly. Changes should feel like growth, not a different brand."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "kdt-romania"], services: ["branding"] },
+  },
+  {
+    id: "business-card-design",
+    slug: "business-card-design-tips",
+    title: "Business Card Design: What to Include, Sizes and Mistakes to Avoid",
+    seoTitle: "Business Card Design: What to Include and Avoid",
+    description: "A business card is still a useful first impression. What to put on it, standard sizes, readability rules and the mistakes that make cards forgettable.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-identity", alt: "Pink collage of a halftone classical face, a sketch on paper and a hand holding a pen" },
+    intro: "Business cards are small, and that is exactly why they are tricky: every element has to earn its place. A good card is quick to read, easy to keep and a true preview of the brand. Here is what to include and what to avoid.",
+    sections: [
+      {
+        id: "size",
+        heading: "Size and format",
+        blocks: [
+          p("In Europe the common business card size is 85 x 55 mm. Using the standard size means the card fits wallets and card holders. Unusual formats can stand out, but only if they remain practical. Add 3 mm bleed on each side for printing, and keep important text at least 3 to 4 mm from the edge."),
+        ],
+      },
+      {
+        id: "content",
+        heading: "What to include",
+        blocks: [
+          ul("Name and role.", "Company name and logo.", "One main phone number and one email.", "Website.", "Address, only if clients visit you.", "A QR code, only if it leads somewhere useful."),
+          p("Skip anything that does not help someone contact you. Five social handles on a tiny card are noise."),
+        ],
+      },
+      {
+        id: "hierarchy",
+        heading: "Hierarchy and readability",
+        blocks: [
+          ol("Make the name the first thing people read.", "Keep contact lines in a clean, aligned block.", "Use text no smaller than about 7 to 8 pt.", "Leave generous white space.", "Make sure there is enough contrast between text and background."),
+        ],
+      },
+      {
+        id: "design",
+        heading: "Design decisions",
+        blocks: [
+          p("Use the brand's colours, fonts and visual language. A card for a tech company like NEXTLAB can be graphic and bold, while an industrial company card may favour restraint and clarity. Two sides give you extra space: use the back for a pattern, a message or the logo, not for more small text."),
+        ],
+      },
+      {
+        id: "finish",
+        heading: "Paper and finish",
+        blocks: [
+          p("Weight and texture shape the first impression. A thicker uncoated paper feels premium, while special finishes such as spot varnish or foil should be used sparingly. See my guide to paper and finishes for more detail."),
+        ],
+      },
+      {
+        id: "mistakes",
+        heading: "Common mistakes",
+        blocks: [
+          ul("Too much text.", "Low-contrast type on busy backgrounds.", "Missing bleed, so white edges appear after cutting.", "Low-resolution logos.", "QR codes too small to scan."),
+          p("If you need cards that match your identity, see my print design service."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("What is the standard business card size?"),
+          p("In Europe, 85 x 55 mm is the common size."),
+          h3("Do I still need business cards?"),
+          p("Yes, for meetings, events and local business. A good card is remembered and kept."),
+          h3("Should I put a photo on the card?"),
+          p("Only if your work is personal, such as real estate or consulting, and the photo is of good quality."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech", "kdt-romania"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "stationery-set",
+    slug: "brand-stationery-set-what-you-need",
+    title: "Brand Stationery: What a Complete Set Includes and What You Can Skip",
+    seoTitle: "Brand Stationery: What a Complete Set Includes",
+    description: "Letterhead, envelopes, cards, folders, stickers: which stationery pieces actually matter for a small brand, and how to keep them consistent.",
+    category: "graphic-design",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-fonts", alt: "Typography collage: a large serif A and a lowercase a on pink, with stars and torn paper" },
+    intro: "A stationery set is the small print family of a brand: the pieces that sit on desks, travel in envelopes and arrive with parcels. Not every business needs all of them. The right set is the one you use, designed as a unit.",
+    sections: [
+      {
+        id: "core",
+        heading: "The core pieces",
+        blocks: [
+          ul("Business card.", "Letterhead for formal documents.", "Envelope, if you post documents.", "Email signature, the digital twin of the letterhead.", "Invoice and offer template."),
+          p("These make the brand look professional in everyday contact, and cost little to set up once the identity exists."),
+        ],
+      },
+      {
+        id: "extras",
+        heading: "Useful extras by business type",
+        blocks: [
+          ul("Folders and presentation pockets for consultants.", "Thank-you cards and stickers for online shops.", "Tissue paper and a branded box for gift boutiques such as Caterina Tomasso.", "Notebooks and pens as client gifts."),
+        ],
+      },
+      {
+        id: "system",
+        heading: "Design it as a system",
+        blocks: [
+          ol("Choose one layout grid and reuse it.", "Place the logo and contact details in the same positions across pieces.", "Use two or three brand colours, not all of them everywhere.", "Keep paper and finish consistent."),
+          p("Consistency is what makes a small set feel designed rather than assembled."),
+        ],
+      },
+      {
+        id: "print",
+        heading: "Prepare files for print",
+        blocks: [
+          ul("Use CMYK for print, with the right bleed.", "Convert text to outlines or embed fonts.", "Request a test print or proof before a large run.", "Ask for paper samples when the feel matters."),
+        ],
+      },
+      {
+        id: "digital",
+        heading: "Do not forget the digital version",
+        blocks: [
+          p("Letterhead and invoices are usually sent as PDFs. Make sure the template is editable for you and exports cleanly. See my print design and branding services for complete sets."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a full stationery set?"),
+          p("No. Start with the business card, a letterhead or document template and an email signature."),
+          h3("What size is standard letterhead?"),
+          p("A4 is standard in Europe."),
+          h3("Should stationery use the same paper as the cards?"),
+          p("It helps. Matching paper and finish makes the set feel unified."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "selfconsulting"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "brand-photography-guidelines",
+    slug: "brand-photography-guidelines",
+    title: "Brand Photography Guidelines: How to Keep Your Photos Consistent",
+    seoTitle: "Brand Photography Guidelines for Consistent Photos",
+    description: "Photos make or break a brand's look. How to write simple photography guidelines so every image on your website and social media feels like the same brand.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "journal-premium", alt: "Pink collage with a rose lip gloss, raspberries, blueberries, a petal and halftone lips" },
+    intro: "You can have a perfect logo and still look inconsistent if every photo is lit, framed and edited differently. Photography guidelines fix that. They do not need to be long. A page or two with clear examples is enough for anyone who takes photos for your brand.",
+    sections: [
+      {
+        id: "why",
+        heading: "Why guidelines help",
+        blocks: [
+          p("Different photographers, phones and seasons produce different looks. Guidelines let anyone, from you to a freelancer, produce images that sit together in a feed or on a website."),
+        ],
+      },
+      {
+        id: "elements",
+        heading: "What to define",
+        blocks: [
+          ul("Light: soft daylight, studio light, or moody and dark.", "Colour: warm, cool, natural, or a controlled palette.", "Composition: close-ups, flat lays, centred or off-centre, how much empty space.", "Backgrounds and props: clean surfaces, textures, real environments.", "People: candid or posed, diverse, expressions, clothing.", "Editing: contrast, saturation, grain, and filters to use or avoid."),
+        ],
+      },
+      {
+        id: "do-dont",
+        heading: "Add do and do not examples",
+        blocks: [
+          p("Show three images that are right and three that are wrong. Examples teach faster than adjectives. For a food brand such as Green Table, the guideline might be fresh, bright and natural; for a pharma brand like Farmex, clean, precise and trustworthy."),
+        ],
+      },
+      {
+        id: "shot-list",
+        heading: "Create a shot list",
+        blocks: [
+          ol("Hero images for websites.", "Product shots on clean backgrounds.", "Detail shots.", "Lifestyle or in-use images.", "People and behind-the-scenes."),
+          p("A list makes every shoot productive and guarantees you have the right variety."),
+        ],
+      },
+      {
+        id: "maintain",
+        heading: "Keep it alive",
+        blocks: [
+          ul("Store approved images in one folder.", "Name files clearly.", "Review the guidelines when the brand evolves."),
+          p("If you would like help setting the visual direction for your photos and content, see my art direction and content creation services."),
+        ],
+      },
+      {
+        id: "faq",
+        heading: "Frequently asked questions",
+        blocks: [
+          h3("Do I need a professional photographer?"),
+          p("For key images, yes. For everyday content, good guidelines let a smartphone do a lot."),
+          h3("How many photos do I need for a launch?"),
+          p("Enough to cover the shot list, plus extras for later use. Quality matters more than number."),
+          h3("Can stock photos fit a brand?"),
+          p("Yes, if chosen and edited to match the guidelines. Avoid obvious clichés."),
+        ],
+      },
+    ],
+    related: { projects: ["farmacia-farmex", "green-table"], services: ["content-creation", "content-creation"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

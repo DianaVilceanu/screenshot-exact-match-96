@@ -237,6 +237,1200 @@ export const articles: Article[] = [
     ],
     related: { projects: ["divaz", "iq-fashion"], services: ["content-creation", "branding"] },
   },
+  {
+    id: "how-much-does-a-brand-identity-cost",
+    slug: "cat-costa-o-identitate-vizuala",
+    title: "Cât costă o identitate vizuală? Pentru ce plătești, de fapt",
+    seoTitle: "Cât costă o identitate vizuală? Ghid de preț",
+    description: "Prețurile pentru identitate vizuală diferă mult. Iată ce influențează costul, ce include o ofertă corectă și cum compari designerii fără să ghicești.",
+    category: "graphic-design",
+    publishedAt: "2026-10-20",
+    cover: { key: "journal-mistakes", alt: "Colaj de brand în roz și bleumarin, cu mostre de culoare, un pahar de cafea, o etichetă și forme" },
+    intro: "Întreabă trei designeri cât costă o identitate vizuală și vei primi trei răspunsuri foarte diferite. Nu pentru că ar minți cineva, ci pentru că „identitate vizuală” poate însemna un logo cu două culori sau un sistem complet, cu ghid de brand, șabloane și ambalaje. Ghidul de mai jos explică ce mută prețul, ca să poți compara ofertele cum trebuie.",
+    sections: [
+      {
+        id: "pentru-ce-platesti",
+        heading: "Pentru ce plătești, de fapt",
+        blocks: [
+          p("Un logo este un fișier. O identitate vizuală este un set de decizii care te ajută să arăți la fel peste tot: pe Instagram, pe o cutie, pe o carte de vizită, pe site. Cu cât sunt luate mai multe dintre aceste decizii pentru tine și testate în mai multe situații, cu atât este mai mult de muncă în spatele prețului final."),
+          p("Când am construit identitatea pentru Caterina Tomasso, un magazin online de argint sterling, logoul a fost cea mai mică parte. Cea mai mare parte a muncii a mers în paletă, tipografie, regulile de fotografie și într-un manual de brand care se asigură că fiecare postare și fiecare ambalaj viitor păstrează același aer."),
+        ],
+      },
+      {
+        id: "ce-influenteaza-pretul",
+        heading: "Cele cinci lucruri care influențează prețul",
+        blocks: [
+          ol("Amploarea: doar logo, logo plus culori și fonturi sau un sistem complet, cu șabloane și ghid.", "Cercetarea: discuția cu tine, analiza concurenței și stabilirea unei poziționări cer timp real și sunt ceea ce desparte un brand de o imagine frumoasă.", "Numărul de runde: două runde de modificări și modificări nelimitate sunt promisiuni foarte diferite.", "Utilizarea: un brand care trăiește doar pe social media costă mai puțin de proiectat decât unul care are nevoie și de ambalaje, print și firme.", "Experiența: un designer care a mai rezolvat o problemă ca a ta lucrează mai repede și greșește mai puțin, iar greșelile costă."),
+          p("Observă că nimic din listă nu ține de cât a durat desenarea logoului. Clienții presupun adesea că plătesc desenul. De fapt plătesc gândirea care face desenul corect."),
+        ],
+      },
+      {
+        id: "ce-include-o-oferta-corecta",
+        heading: "Ce ar trebui să includă o ofertă corectă",
+        blocks: [
+          p("O ofertă serioasă este detaliată. Dacă primești un singur număr și o linie de descriere, cere mai multe detalii înainte să spui da. Ar trebui să găsești cel puțin:"),
+          ul("Livrabilele enumerate unul câte unul (logo principal, logo secundar, pictogramă, paletă de culori, fonturi, ghid de brand, șabloane).", "Formatele de fișiere pe care le primești, inclusiv fișiere vectoriale pe care le poți mări oricât.", "Câte concepte vei vedea și câte runde de modificări sunt incluse.", "Termenul de livrare și ce se întâmplă dacă feedbackul vine târziu.", "Cui aparțin fișierele finale și ce drepturi de utilizare primești."),
+        ],
+      },
+      {
+        id: "ieftin-vs-scump",
+        heading: "De ce varianta ieftină costă adesea mai mult mai târziu",
+        blocks: [
+          p("Un preț foarte mic înseamnă, de obicei, un logo din șablon, nicio strategie și fișiere pe care nu le poți folosi cum trebuie. Apoi plătești încă o dată peste un an ca să îl refaci sau rămâi cu o identitate care nu funcționează niciodată bine pe ecranul telefonului sau pe o cutie tipărită."),
+          p("Și invers: scump nu înseamnă automat potrivit pentru tine. O afacere mică locală are rar nevoie de un manual de patruzeci de pagini. Are nevoie de un logo clar, două sau trei culori, două fonturi și câteva șabloane pe care să le folosească cu adevărat în fiecare săptămână."),
+        ],
+      },
+      {
+        id: "cum-compari-ofertele",
+        heading: "Cum compari ofertele fără să te pierzi",
+        blocks: [
+          p("Scrie ce trebuie să facă identitatea în următorii doi ani. Va apărea pe ambalaje? Pe un site? Pe mașini? Apoi cere fiecărui designer o ofertă pentru exact lista aceea. Ofertele devin comparabile doar când răspund la aceeași întrebare."),
+          p("Uită-te în portofoliu după lucrări care rezolvă o problemă asemănătoare, nu doar după lucrări frumoase. Citește cum vorbește designerul despre proiecte. Dacă fiecare studiu de caz este doar o galerie de imagini, fără nicio explicație a gândirii din spate, cumperi la noroc."),
+        ],
+      },
+      {
+        id: "cum-arata-un-proiect-obisnuit",
+        heading: "Cum arată un proiect obișnuit",
+        blocks: [
+          p("Majoritatea proiectelor de identitate urmează același drum. Mai întâi vine etapa de descoperire, în care discutăm despre afacere, public și concurență. Apoi vin conceptele: direcții pentru logo, culoare și tipografie. După ce alegi o direcție, aceasta este rafinată, aplicată pe câteva exemple reale și, în final, împachetată în fișiere și, dacă e nevoie, într-un ghid."),
+          p("Un proiect pentru o afacere mică se poate face în câteva săptămâni. Un brand care are nevoie de ambalaje, un sistem complet pentru social media și materiale tipărite durează mai mult, pentru că fiecare aplicație trebuie proiectată și testată. Rapid și bun se pot împreuna; ieftin, rapid și temeinic, nu."),
+        ],
+      },
+      {
+        id: "cum-scoti-mai-mult-din-buget",
+        heading: "Cum scoți mai mult din buget",
+        blocks: [
+          ul("Pregătește un brief scurt înainte de prima discuție: cui vinzi, trei branduri pe care le admiri și trei care nu îți plac.", "Adună exemple reale de locuri unde va apărea brandul, ca designerul să testeze identitatea unde trebuie.", "Cere un plan în etape: identitatea de bază acum, aplicațiile suplimentare mai târziu, când afacerea crește.", "Dă feedback într-un singur mesaj pe rundă, nu bucată cu bucată. Câștigi ore bune de ambele părți."),
+          p("Dacă vrei să vezi cum arată în practică un proces complet de identitate, uită-te la serviciul meu de branding și la proiectele de mai jos. Iar dacă încă nu știi exact de ce ai nevoie, e un punct de plecare foarte bun pentru o discuție."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât durează o identitate vizuală?"),
+          p("Pentru o afacere mică, o identitate de bază durează, de obicei, câteva săptămâni, în funcție de cât de repede revine feedbackul. Sistemele mai mari, cu ambalaje, print și șabloane, durează mai mult."),
+          h3("Pot plăti în rate?"),
+          p("Da, și este frecvent. O împărțire obișnuită este un avans înainte de start și restul la livrare sau în pași legați de etape. Stabiliți asta în scris."),
+          h3("Am nevoie de logo înainte de site sau de social media?"),
+          p("Ai nevoie cel puțin de o identitate simplă mai întâi. Dacă construiești un site sau un feed pe un logo provizoriu, vei reface multă muncă mai târziu."),
+          h3("Cui aparține logoul după proiect?"),
+          p("Ar trebui să fie scris în contract. În majoritatea cazurilor, clientul primește drepturi depline asupra fișierelor finale după plata integrală a proiectului."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "fleurane"], services: ["branding"] },
+  },
+  {
+    id: "logo-vs-brand-identity-vs-branding",
+    slug: "logo-identitate-vizuala-branding-diferente",
+    title: "Logo, identitate vizuală și branding: care este diferența?",
+    seoTitle: "Logo, identitate vizuală și branding",
+    description: "Logoul, identitatea vizuală și brandingul nu sunt același lucru. Explicația pe înțelesul tuturor, cu exemple, și ce are nevoie afacerea ta mai întâi.",
+    category: "graphic-design",
+    publishedAt: "2026-10-21",
+    cover: { key: "journal-identity", alt: "Colaj roz cu un chip clasic în semitonuri, o schiță pe hârtie și o mână care ține un stilou" },
+    intro: "Mulți folosesc „logo”, „identitate vizuală” și „branding” ca și cum ar fi același cuvânt. Nu sunt, iar confuzia duce la briefuri care ratează miezul și la bugete care ajung în locul greșit. Iată o metodă simplă prin care le poți deosebi.",
+    sections: [
+      {
+        id: "logoul",
+        heading: "Logoul: o singură piesă din puzzle",
+        blocks: [
+          p("Un logo este un semn care identifică o afacere. Poate fi un logotip (doar numele, într-un anumit font), un simbol sau amândouă. Rolul lui este recunoașterea: când cineva îl vede, știe cine vorbește."),
+          p("Un logo singur nu face un brand. Un logo bun pus peste culori la întâmplare, fonturi la întâmplare și poze la întâmplare dă totuși un feed dezordonat."),
+        ],
+      },
+      {
+        id: "identitatea-vizuala",
+        heading: "Identitatea vizuală: sistemul din ce vezi",
+        blocks: [
+          p("Identitatea vizuală înseamnă tot ce se poate vedea: logoul, paleta de culori, fonturile, stilul de fotografie și de ilustrație, formele și modelele, felul în care sunt construite compozițiile. Este jumătatea vizibilă a brandului, gândită ca să arate la fel în orice loc în care apare."),
+          p("Inklabs este un exemplu bun. Identitatea lui se sprijină pe galben, negru și o voce tipografică foarte directă. Poți scoate logoul dintr-o postare și tot o recunoști ca Inklabs, iar acesta este adevăratul test al unei identități."),
+          ul("Logoul și variantele lui", "Paleta de culori și felul în care se combină culorile", "Tipografia: fontul pentru titluri și cel pentru text", "Imagini: fotografie, ilustrație, pictograme", "Elemente grafice: modele, chenare, stickere", "Reguli de compoziție și șabloane"),
+        ],
+      },
+      {
+        id: "brandingul",
+        heading: "Brandingul: tabloul complet",
+        blocks: [
+          p("Brandingul este procesul și practica mai largă de a construi ce cred și ce simt oamenii despre o afacere. Include identitatea vizuală, dar și numele, tonul vocii, felul în care sunt tratați clienții, calitatea produsului și promisiunea pe care o face firma."),
+          p("Brandingul nu se termină niciodată. Identitatea se poate livra ca un set de fișiere. Brandingul continuă de fiecare dată când un client interacționează cu tine."),
+        ],
+      },
+      {
+        id: "un-mod-simplu-sa-retii",
+        heading: "Un mod simplu să reții",
+        blocks: [
+          p("Gândește-te la o persoană. Logoul este semnătura ei. Identitatea vizuală este hainele, freza și ținuta. Brandingul este reputația: ce spun oamenii despre ea după ce iese din cameră."),
+        ],
+      },
+      {
+        id: "confuzii-frecvente",
+        heading: "Trei confuzii frecvente",
+        blocks: [
+          ul("„Avem nevoie de un brand nou” înseamnă adesea „avem nevoie de un logo nou”. Verifică ce nu merge cu adevărat înainte să schimbi tot.", "Un logo frumos, fără reguli în spate, creează un feed inconsecvent, pentru că fiecare designer îl interpretează diferit.", "Un rebranding nu este mereu necesar. Uneori un set clar de reguli pentru identitatea existentă rezolvă problema."),
+          p("Dacă nu ești sigur care dintre ele ți se aplică, pune ultimele zece postări una lângă alta. Dacă par să aparțină aceluiași loc, probabil ai o identitate. Dacă par venite din cinci locuri diferite, ai un logo și niște obiceiuri."),
+        ],
+      },
+      {
+        id: "de-care-ai-nevoie-intai",
+        heading: "De care ai nevoie mai întâi?",
+        blocks: [
+          p("Dacă abia începi, nu te grăbi să pornești de la logo. Începe cu două întrebări: pentru cine este și ce vrem să simtă? Răspunsurile modelează identitatea, iar identitatea face apoi logoul ușor de proiectat."),
+          ul("Afacere nouă: o identitate mică (logo, paletă, două fonturi) și câteva șabloane.", "Afacere cu logo, dar cu un aspect inconsecvent: un sistem de identitate propriu-zis și un ghid.", "Afacere consacrată care pare depășită: o împrospătare, păstrând ce recunosc deja oamenii.", "Afacere care crește spre canale noi: extinderea sistemului către ambalaje, print și social media."),
+          p("Dacă nu știi care dintre ele ți se potrivește, pagina mea de branding explică cum abordez de obicei fiecare caz."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Este suficient un logo pentru o afacere mică?"),
+          p("La început, un logo clar plus două culori și un font pot fi suficiente. De îndată ce postezi regulat sau tipărești ceva, vei vrea ceva mai multă structură."),
+          h3("Care e diferența dintre identitate vizuală și ghid de brand?"),
+          p("Identitatea este setul de elemente vizuale. Ghidul este documentul care explică cum să le folosești corect."),
+          h3("Pot face branding fără designer?"),
+          p("Poți face părți din el, precum definirea publicului și a tonului vocii. Identitatea vizuală este locul unde un designer economisește cel mai mult timp și evită greșelile costisitoare."),
+        ],
+      },
+    ],
+    related: { projects: ["inklabs", "divaz"], services: ["branding"] },
+  },
+  {
+    id: "how-to-choose-brand-colours",
+    slug: "cum-alegi-culorile-brandului",
+    title: "Cum alegi culorile brandului tău (fără clișee)",
+    seoTitle: "Cum alegi culorile brandului",
+    description: "Alegerea culorilor unui brand nu ține doar de gust. O metodă practică pentru o paletă potrivită publicului, funcțională peste tot și ușor de recunoscut.",
+    category: "graphic-design",
+    publishedAt: "2026-10-22",
+    cover: { key: "divaz-cover", alt: "Cutii roz Divaz cu unghii false cu gel instant, în mai multe nuanțe" },
+    intro: "Majoritatea sfaturilor despre culorile unui brand spun că albastrul înseamnă încredere și roșul înseamnă energie. Nu e greșit, dar nici foarte util. Culoarea funcționează în context, în combinație și prin repetiție. Iată metoda pe care o folosesc când construiesc o paletă pentru un brand.",
+    sections: [
+      {
+        id: "porneste-de-la-emotie",
+        heading: "Pornește de la emoție, nu de la culoare",
+        blocks: [
+          p("Înainte să deschizi un selector de culori, scrie trei cuvinte pentru cum ar trebui să se simtă oamenii când văd brandul. Pentru Divaz, un brand de unghii press-on, cuvintele au fost blând, lucios și accesibil. Ele au indicat repede spre roz pudrat, trandafiriu și un berry adânc pentru contrast."),
+          p("Dacă pornești de la o culoare care îți place, ajungi să aperi o preferință personală. Dacă pornești de la o emoție, poți testa fiecare variantă în raport cu ea."),
+        ],
+      },
+      {
+        id: "uita-te-la-piata",
+        heading: "Uită-te la piață, apoi alege-ți golul",
+        blocks: [
+          p("Adună zece concurenți și vezi ce culori se repetă. Dacă fiecare farmacie folosește același verde și fiecare cabinet stomatologic același albastru, ai două opțiuni: te încadrezi și pari de încredere sau ieși în evidență într-un mod care rămâne credibil."),
+          p("Pentru Art Innova Dentalmed am păstrat un turcoaz liniștit, care transmite în continuare curățenie, dar am folosit valuri line și mult spațiu alb, ca să pară mai prietenos decât albastrul clinic obișnuit."),
+        ],
+      },
+      {
+        id: "construieste-o-paleta-mica",
+        heading: "Construiește o paletă mică, pe care o poți folosi",
+        blocks: [
+          p("O paletă cu opt culori arată grozav într-o prezentare și se destramă în viața reală. Majoritatea brandurilor funcționează cel mai bine cu această structură:"),
+          ul("O culoare dominantă, cu care oamenii să te asocieze.", "O culoare de sprijin, care aduce contrast sau căldură.", "Un accent folosit cu zgârcenie, pentru butoane, prețuri și evidențieri.", "Una sau două neutre pentru fundaluri și text, pentru că negrul pur și albul pur arată rar rafinat."),
+          p("Folosește culoarea dominantă pe mai mult de jumătate din ce publici. Această repetiție construiește recunoașterea."),
+        ],
+      },
+      {
+        id: "testeaza-in-conditii-reale",
+        heading: "Testează în condiții reale",
+        blocks: [
+          p("O culoare care arată bine pe monitor se poate comporta altfel în alte locuri. Înainte să te hotărăști, verifică paleta în aceste situații:"),
+          ul("Pe ecranul telefonului, la luminozitate mică și afară.", "Tipărită pe hârtie și pe o cutie, unde culorile devin adesea mai șterse.", "Ca text pe un fundal colorat, ca să verifici contrastul și lizibilitatea.", "Lângă fotografii reale cu produsul tău."),
+          p("Contrastul contează mai mult decât crede lumea. Dacă accentul tău nu se poate citi pe fundal, ascunzi tocmai lucrul pe care vrei să îl vadă oamenii, de exemplu prețul sau butonul."),
+        ],
+      },
+      {
+        id: "greseli-frecvente-de-culoare",
+        heading: "Greșelile de culoare pe care le văd cel mai des",
+        blocks: [
+          ul("Alegerea unei culori pentru că e în trend, apoi schimbarea ei anul viitor.", "Folosirea unei nuanțe diferite din aceeași culoare în fiecare loc.", "Text deschis pe fundal deschis, pentru că pare elegant.", "Prea multe culori de accent, așa că nimic nu iese în evidență.", "Neverificarea felului în care arată culoarea în modul întunecat sau pe un monitor ieftin."),
+          p("Cele mai multe se rezolvă cu același obicei: notează paleta o singură dată și folosește doar ce este notat."),
+        ],
+      },
+      {
+        id: "noteaza-regulile",
+        heading: "Notează regulile",
+        blocks: [
+          p("Dă fiecărei culori un nume și codurile ei (HEX pentru ecran, CMYK pentru tipar). Apoi adaugă două reguli simple: ce culoare se folosește pentru fundaluri și care pentru evidențieri. THS Organic folosește o lume de culoare pentru fiecare produs, chihlimbar pentru imunitate, negru și maro pentru păr și coral pentru piele, legate de un singur logo. Reguli ca acestea păstrează o gamă coerentă pe măsură ce crește."),
+          p("În final, dă-i timp. O paletă devine culoarea unui brand prin repetiție, nu prin primul design. Dacă vrei ajutor ca să transformi o paletă într-o identitate completă, vezi serviciul meu de branding."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Câte culori ar trebui să aibă un brand?"),
+          p("De obicei trei până la cinci: una dominantă, una de sprijin, un accent și una sau două neutre."),
+          h3("Să folosesc negru în paletă?"),
+          p("Adesea da, ca neutră pentru text. Pentru fundaluri, un bleumarin sau un maro foarte închis poate arăta mai blând și mai rafinat decât negrul pur."),
+          h3("Am nevoie de culori Pantone?"),
+          p("Contează când reproducerea exactă a culorii este critică, de exemplu la ambalaje. Pentru majoritatea utilizărilor în social media și web, ajung valorile HEX și CMYK."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "ths-organic"], services: ["branding"] },
+  },
+  {
+    id: "what-is-a-brand-book-and-do-you-need-one",
+    slug: "ce-este-un-brand-book-si-ai-nevoie-de-unul",
+    title: "Ce este un brand book (ghid de brand) și ai nevoie de unul?",
+    seoTitle: "Ce este un brand book?",
+    description: "Un brand book păstrează logoul, culorile și fonturile consecvente. Află ce conține un ghid de brand și cum îl pot folosi în practică afacerile mici.",
+    category: "graphic-design",
+    publishedAt: "2026-10-23",
+    cover: { key: "journal-fonts", alt: "Colaj tipografic: un A mare cu serife și un a mic pe roz, cu steluțe și hârtie ruptă" },
+    intro: "Un brand book pare ceva ce au doar companiile mari. În realitate, este cel mai practic lucru pe care îl primești după un proiect de branding, pentru că transformă un design frumos în ceva ce tu și echipa ta puteți folosi corect în continuare. Articolul explică ce conține și cum poate arăta pentru un brand mic.",
+    sections: [
+      {
+        id: "ce-este",
+        heading: "Ce este un brand book",
+        blocks: [
+          p("Un brand book, numit și ghid de brand, este un document care explică cum arată și cum sună un brand. Răspunde la întrebări înainte să fie puse: ce culori folosim, unde se așază logoul, cum arată pozele, cum scriem o descriere."),
+          p("Scopul nu este să limiteze creativitatea. Este să se asigure că, atunci când un colaborator, un angajat sau o tipografie lucrează cu brandul tău, nu trebuie să ghicească."),
+        ],
+      },
+      {
+        id: "ce-contine",
+        heading: "Ce conține",
+        blocks: [
+          ul("Povestea brandului și poziționarea, în câteva propoziții sincere.", "Logoul, variantele lui și spațiul liber din jurul lui.", "Ce nu se face cu logoul: întins, recolorat, pus pe imagini aglomerate.", "Paleta de culori cu valori HEX, RGB și CMYK.", "Tipografia: ce fonturi, pentru ce și în ce mărimi.", "Stilul de fotografie și de ilustrație, cu exemple bune și proaste.", "Elemente grafice precum modele, pictograme și chenare.", "Exemple de aplicații reale: postări, cărți de vizită, ambalaje.", "Tonul vocii, cu câteva fraze de probă."),
+          p("Brand book-ul pe care l-am proiectat pentru Caterina Tomasso acoperă exact asta: simbolul cu balerina și logotipul, paleta argintiu și nude de balerină, tipografia, texturile și șabloanele pentru social media. Are nouă pagini, pentru că atât are nevoie brandul."),
+        ],
+      },
+      {
+        id: "cine-are-nevoie",
+        heading: "Cine are nevoie, de fapt",
+        blocks: [
+          p("Dacă mai mult de o persoană creează conținut pentru brand, ai nevoie de un ghid. La fel dacă lucrezi cu designeri externi, tipografii sau agenții. Este util și dacă plănuiești să crești spre canale noi, pentru că oprește brandul să se strice de fiecare dată când se adaugă ceva."),
+          p("Un fondator care postează singur tot poate începe cu o variantă mai ușoară: o fișă de o pagină cu logoul, culorile, fonturile și două sau trei exemple de compoziție."),
+        ],
+      },
+      {
+        id: "cum-il-faci-util",
+        heading: "Cum îl faci util, nu decorativ",
+        blocks: [
+          ul("Păstrează-l scurt. Un ghid pe care nu îl citește nimeni e mai rău decât unul scurt pe care îl urmează oamenii.", "Arată, nu doar spune. Un exemplu real valorează cât un paragraf de reguli.", "Include resursele descărcabile: fișierele logoului, fonturile și șabloanele.", "Scrie-l pe înțelesul tuturor, ca și cum un coleg nou l-ar citi în prima zi.", "Actualizează-l când se schimbă brandul și datează fiecare versiune."),
+        ],
+      },
+      {
+        id: "un-exemplu-mic",
+        heading: "Un exemplu mic de regulă utilă",
+        blocks: [
+          p("O regulă bună este concretă. „Folosește logoul cu respect” nu spune nimic. „Păstrează în jurul logoului un spațiu liber egal cu înălțimea literei M și nu îl pune niciodată pe poze unde contrastul scade sub limita de lizibilitate” este ceva ce un om poate urma."),
+          p("Regulile concrete sunt și mai ușor de verificat. Când iese o postare nouă, oricine o poate compara cu ghidul și poate vedea dacă i se potrivește."),
+        ],
+      },
+      {
+        id: "folosirea-dupa-proiect",
+        heading: "Folosirea lui după terminarea proiectului",
+        blocks: [
+          p("Trimite brand book-ul tuturor celor care ating brandul și menționează-l la integrarea colegilor noi. Ține o copie a șabloanelor editabile într-un folder comun. O dată pe trimestru, pune ultimele zece postări lângă ghid și verifică dacă încă se potrivesc."),
+          p("Dacă plănuiești o identitate nouă, cere un ghid printre livrabile. Eu îl includ în proiectele mele de branding, dimensionat după ce are nevoie fiecare brand."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de lung ar trebui să fie un brand book?"),
+          p("Cât are nevoie și nu mai mult. Pentru o afacere mică, de obicei sunt suficiente între cinci și cincisprezece pagini."),
+          h3("Ce format e cel mai bun?"),
+          p("PDF-ul este cel mai comun. Pentru echipe, o pagină online sau un fișier de design partajat poate fi mai ușor de actualizat."),
+          h3("Brand book-ul este același lucru cu un ghid de stil?"),
+          p("Termenii se suprapun. Un ghid de stil se concentrează adesea pe reguli vizuale, în timp ce un brand book poate include și poveste, valori și ton al vocii."),
+        ],
+      },
+    ],
+    related: { projects: ["caterina-tomasso", "inklabs"], services: ["branding"] },
+  },
+  {
+    id: "packaging-design-premium-look",
+    slug: "design-de-ambalaje-cum-faci-un-produs-sa-para-premium",
+    title: "Design de ambalaje: cum faci un produs să pară premium",
+    seoTitle: "Design de ambalaje premium: sfaturi",
+    description: "Ambalajul premium înseamnă mici alegeri disciplinate. Iată detaliile care fac produsele de skincare, cadourile și alimentele să pară că valorează mai mult.",
+    category: "graphic-design",
+    publishedAt: "2026-10-24",
+    cover: { key: "caterina-cover", alt: "Două piese lucioase aurii, o zaharniță cu capac și o cană, pe un raft de lemn, în lumină caldă razantă" },
+    intro: "Ambalajul este adesea primul lucru pe care îl atinge cu adevărat un client și decide în câteva secunde dacă produsul pare obișnuit sau special. Vestea bună: premium nu înseamnă materiale scumpe sau design strident. Vine, de obicei, dintr-o mână de alegeri disciplinate. Iată cum le abordez în proiecte precum gama de skincare Fleurane.",
+    sections: [
+      {
+        id: "porneste-de-la-locul-unde-se-vede",
+        heading: "Pornește de la locul unde va fi văzut",
+        blocks: [
+          p("Ambalajul trăiește în locuri diferite: un raft, o poză din magazinul online, o cutie de curier, o pungă cadou. Fiecare cere alt nivel de detaliu. Un produs vândut online trebuie să se citească clar ca miniatură. Un produs de pe raft concurează cu zeci de altele, la o distanță de braț."),
+          p("Înainte să proiectezi, notează cele trei situații în care oamenii vor întâlni ambalajul și testează fiecare decizie în raport cu ele."),
+        ],
+      },
+      {
+        id: "sobrietatea",
+        heading: "Sobrietatea este ceea ce pare scump",
+        blocks: [
+          p("Ambalajele premium folosesc aproape întotdeauna mai puține elemente: un nume clar, o frază cu beneficiul, mult spațiu gol. Cu cât adaugi mai multe pretenții, insigne și pictograme, cu atât ambalajul pare mai mult un produs la reducere."),
+          p("Pentru gama de îngrijire Fleurane, eticheta este construită în jurul unui arc care încadrează logoul, a unui model fin de molecule în auriu, care sugerează ingredientele active, și a unor nume de produse clare. Restul rămâne discret."),
+        ],
+      },
+      {
+        id: "culoare-si-finisaje",
+        heading: "Culoare și finisaje",
+        blocks: [
+          ul("Folosește două sau trei culori și păstrează-le consecvente la toate produsele din gamă.", "Detaliile metalice, precum folia aurie pe o etichetă, adaugă valoare, dar folosește-le pe elemente mici: o linie, un logo, un model.", "Un finisaj mat pare, de obicei, mai rafinat decât unul foarte lucios.", "Un capac colorat este o cale ieftină de a da întregii game o semnătură."),
+          p("Întreabă mereu tipografia ce finisaje oferă cu adevărat înainte să proiectezi cu ele în minte. Un efect frumos pe care nu îl poți produce este doar o dezamăgire."),
+        ],
+      },
+      {
+        id: "tipografia",
+        heading: "Tipografia face jumătate din muncă",
+        blocks: [
+          p("Pe o etichetă mică, textul trebuie să poarte brandul. Alege un font cu serife sau fără, cu personalitate, pentru numele produsului și unul foarte clar, simplu, pentru ingrediente și instrucțiuni. Lasă numele să respire și nu lăsa niciodată textul legal să îi facă concurență."),
+          p("Ține minte că informațiile obligatorii nu sunt opționale la cosmetice și alimente: lista INCI, greutatea, modul de folosire, lotul și codul de bare. Proiectează compoziția pentru ele de la început, nu le înghesui la final."),
+        ],
+      },
+      {
+        id: "o-gama-nu-un-produs",
+        heading: "Proiectează o gamă, nu un singur produs",
+        blocks: [
+          p("Dacă plănuiești să vinzi mai mult de un produs, proiectează întâi sistemul. Decide ce este la fel pe fiecare ambalaj (chenarul, poziția logoului, tipografia) și ce se schimbă (culoarea, numele, o pictogramă mică). Astfel, un client căruia îi place primul produs îl recunoaște imediat pe al doilea."),
+          p("Același mod de gândire a ajutat la proiectul Caterina Tomasso, unde fiecare piesă de argint, cutie și card urmează aceeași paletă și structură."),
+        ],
+      },
+      {
+        id: "greseli-de-evitat",
+        heading: "Greșeli de ambalaj care ieftinesc un produs",
+        blocks: [
+          ul("Prea multe fonturi și prea multe culori pe o singură etichetă.", "Text atât de mic încât nu se poate citi dintr-o privire.", "Logouri și imagini cu rezoluție mică, care ies neclare la tipar.", "Ignorarea spatelui ambalajului, unde se uită clienții mai departe.", "Alegerea unui finisaj fără să fi văzut o mostră fizică."),
+          p("Observă că niciuna nu cere un buget mai mare ca să fie corectată. Cer disciplină și o probă de tipar."),
+        ],
+      },
+      {
+        id: "prototipul",
+        heading: "Fă un prototip înainte să tipărești",
+        blocks: [
+          ol("Tipărește eticheta pe hârtie obișnuită și înfășoar-o pe un recipient real.", "Verifică mărimea celui mai mic text la distanță de braț.", "Privește ambalajul lângă cele ale concurenților, pe o masă sau pe un raft.", "Fotografiază-l așa cum o vei face pentru magazinul tău online.", "Abia apoi trimite fișierele la tipografie, cu bleed și profilul de culoare corect."),
+          p("Dacă lucrezi la ambalajul unei game noi, uită-te la lucrările mele de print și ambalaje și scrie-mi oricând."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât costă design-ul de ambalaje?"),
+          p("Depinde de numărul de produse, de structura ambalajului și de câte variante sunt necesare. O singură etichetă este mult mai simplă decât o cutie completă, cu mai multe fețe."),
+          h3("Ce fișiere are nevoie tipografia?"),
+          p("De obicei un PDF gata de tipar, cu bleed, semne de tăiere, mod de culoare corect și fonturi încorporate sau transformate în contururi. Cere fișa tehnică a tipografiei înainte să începi."),
+          h3("Pot schimba ambalajul mai târziu?"),
+          p("Da, dar schimbarea unui sistem este mult mai grea decât extinderea lui. Un sistem flexibil, gândit de la început, economisește efort când gama crește."),
+        ],
+      },
+    ],
+    related: { projects: ["fleurane", "caterina-tomasso"], services: ["printed-media", "branding"] },
+  },
+  {
+    id: "instagram-carousel-design-tips",
+    slug: "design-caruseluri-instagram-sfaturi",
+    title: "Design pentru caruseluri Instagram: 9 sfaturi pentru slide-uri pe care oamenii le derulează",
+    seoTitle: "Design caruseluri Instagram: 9 sfaturi",
+    description: "Sfaturi practice pentru designul caruselelor de Instagram: slide-ul de copertă, mărimea textului, ordinea slide-urilor și apelul final, cu exemple reale.",
+    category: "social-media",
+    publishedAt: "2026-10-25",
+    cover: { key: "journal-feed", alt: "Telefon cu o grilă de Instagram în roz pudrat, înconjurat de fotografii beauty și o paletă de culori" },
+    intro: "Un carusel îți dă ceva ce o postare simplă nu poate: loc ca să explici. Este formatul pe care îl folosesc cel mai des pentru servicii, tutoriale și tot ce are nevoie de un pic de raționament. Dar un carusel funcționează doar dacă oamenii derulează, deci fiecare slide trebuie să îl merite pe următorul. Iată cele nouă reguli la care revin în fiecare proiect.",
+    sections: [
+      {
+        id: "slide-ul-de-coperta",
+        heading: "1. Tratează primul slide ca pe o reclamă",
+        blocks: [
+          p("Majoritatea oamenilor vor vedea doar slide-ul unu. El trebuie să promită ceva concret: o întrebare, un număr, o afirmație surprinzătoare. Pentru Art Innova Dentalmed, coperta unui carusel întreabă pur și simplu „Cum știi că a venit timpul unui consult stomatologic?”. Pregătește răspunsul fără să îl dea."),
+          p("Pune logoul mic și titlul mare. Dacă coperta nu se citește la mărimea unei miniaturi, refă-o."),
+        ],
+      },
+      {
+        id: "o-idee-pe-slide",
+        heading: "2. O idee pe slide",
+        blocks: [
+          p("Când un slide încearcă să spună trei lucruri, cititorul nu reține niciunul. Împarte conținutul până când fiecare slide are o singură idee. Mai bine opt slide-uri ușoare decât cinci grele."),
+        ],
+      },
+      {
+        id: "marimea-textului",
+        heading: "3. Scrie pentru un telefon ținut la distanță de braț",
+        blocks: [
+          ul("Titluri: cât de mari permite compoziția.", "Text de bază: niciodată mai mic decât poți citi pe telefon fără zoom.", "Cel mult 30–40 de cuvinte pe slide.", "Contrast puternic între text și fundal, mai ales peste fotografii."),
+        ],
+      },
+      {
+        id: "un-sistem-vizual-clar",
+        heading: "4. Folosește un sistem vizual care se repetă",
+        blocks: [
+          p("Un șablon consecvent face caruselul să pară un singur obiect. Pentru contul Selfconsulting, de inginerie și arhitectură, caruselele au în comun un fundal verde închis, un verde mentă pentru evidențieri, grafică din linii subțiri și logoul în același colț. Cititorii simt seria înainte să o citească."),
+        ],
+      },
+      {
+        id: "ghideaza-derularea",
+        heading: "5. Dă oamenilor un motiv să deruleze",
+        blocks: [
+          p("Ajută indiciile vizuale: o săgeată, un numărător de slide-uri, un element care trece de pe un slide pe altul sau o frază vizibil neterminată la margine. Caruselele de servicii ale Art Innova folosesc trei săgeți mici pe copertă tocmai pentru asta."),
+        ],
+      },
+      {
+        id: "usor-de-scanat",
+        heading: "6. Fă fiecare slide ușor de scanat",
+        blocks: [
+          p("Folosește liste cu elemente scurte, pune în evidență cuvintele-cheie și păstrează alinierea consecventă. Cineva ar trebui să înțeleagă slide-ul în două secunde și să se bucure mai mult dacă îl citește complet."),
+        ],
+      },
+      {
+        id: "ordonea-povestea",
+        heading: "7. Ordonează slide-urile ca pe o poveste",
+        blocks: [
+          ol("Coperta: întrebarea sau promisiunea.", "Contextul: de ce contează.", "Ideile principale, câte una pe slide.", "Un rezumat sau un exemplu.", "Un slide de final cu un singur apel la acțiune."),
+        ],
+      },
+      {
+        id: "ultimul-slide",
+        heading: "8. Încheie cu o singură acțiune",
+        blocks: [
+          p("Ultimul slide este locul unde oamenii decid ce fac mai departe. Alege o acțiune: salvează, trimite, programează-te, intră pe site. Dacă ceri cinci lucruri, nu primești niciunul."),
+        ],
+      },
+      {
+        id: "idei-de-caruseluri",
+        heading: "Idei de caruseluri care merg pentru majoritatea brandurilor",
+        blocks: [
+          ul("O serie mit versus realitate, ca la contul KDT Romania.", "Un ghid pas cu pas pentru un proces pe care clienții tăi îl găsesc confuz.", "O listă de întrebări de pus înainte să cumperi produsul sau serviciul tău.", "O explicație „care este diferența dintre X și Y”.", "Un înainte și după sau o listă de verificare pe care oamenii vor vrea să o salveze."),
+          p("Alege o temă la care ai răspuns deja în mesajele clienților. E dovada că oamenii o vor."),
+        ],
+      },
+      {
+        id: "testeaza-si-repeta",
+        heading: "9. Vezi ce funcționează, apoi repetă",
+        blocks: [
+          p("Uită-te la ce caruseluri sunt salvate și distribuite, nu doar apreciate. Salvările înseamnă, de obicei, conținut util. Apoi repetă structura cu o temă nouă. Dacă vrei caruseluri proiectate ca sistem pentru brandul tău, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce dimensiune ar trebui să aibă un carusel Instagram?"),
+          p("Formatul portret 4:5, de 1080 pe 1350 de pixeli, ocupă cel mai mult loc în feed și merge de obicei bine. Pătratul de 1080 pe 1080 funcționează și el."),
+          h3("Câte slide-uri ar trebui să aibă un carusel?"),
+          p("Câte cere ideea. Majoritatea caruselelor utile au între cinci și zece slide-uri. Nu umple degeaba."),
+          h3("Textul să fie în imagine sau în descriere?"),
+          p("Pune conținutul principal în slide-uri și folosește descrierea pentru context, cuvinte-cheie și apel la acțiune."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "selfconsulting"], services: ["social-media-design"] },
+  },
+  {
+    id: "instagram-reels-for-small-businesses",
+    slug: "reels-instagram-pentru-afaceri-mici",
+    title: "Reels pe Instagram pentru afaceri mici: cum le plănuiești, filmezi și editezi",
+    seoTitle: "Reels Instagram pentru afaceri mici",
+    description: "Un flux simplu pentru Reels pe Instagram: alegi o idee, scrii un hook, filmezi vertical, adaugi subtitrări și ții un ritm. Cu exemple de la branduri reale.",
+    category: "social-media",
+    publishedAt: "2026-10-26",
+    cover: { key: "journal-stand-out", alt: "Colaj roz și bleumarin cu un scorpion gravat, o călimară, un ochi în semitonuri și o floare" },
+    intro: "Reels sunt cea mai simplă cale prin care un brand mic ajunge la oameni care încă nu îl urmăresc și formatul care îi sperie cel mai mult pe mulți proprietari. Secretul este să nu le mai privești ca pe producții și să le tratezi ca pe idei scurte, repetabile. Iată fluxul pe care îl folosesc când montez Reels pentru branduri precum Farmacia Farmex și THS Organic.",
+    sections: [
+      {
+        id: "alege-o-idee",
+        heading: "Alege o singură idee pe Reel",
+        blocks: [
+          p("Un Reel funcționează când răspunde la o singură întrebare sau arată un singur lucru. O farmacie poate arăta cum se folosește un produs. Un brand de mâncare sau wellness poate arăta turnatul, desfacerea pachetului sau rutina de dimineață. Evită să explici tot brandul în treizeci de secunde."),
+          p("Ține o listă permanentă cu întrebările pe care le pun clienții tăi cu adevărat. Fiecare este un Reel."),
+        ],
+      },
+      {
+        id: "hookul",
+        heading: "Scrie primele trei secunde primele",
+        blocks: [
+          p("Majoritatea oamenilor decid aproape instant dacă rămân. Începe cu partea interesantă: rezultatul, momentul surprinzător, întrebarea. Nu cu logoul, nu cu „salut tuturor”."),
+          ul("Arată rezultatul final, apoi cum ai ajuns la el.", "Deschide cu o întrebare clară pe care și-o pune publicul tău.", "Începe din mijlocul acțiunii.", "Pune mesajul principal pe ecran, ca text mare."),
+        ],
+      },
+      {
+        id: "filmeaza-vertical",
+        heading: "Filmează vertical și păstrează-l simplu",
+        blocks: [
+          ul("Filmează în 9:16, la 1080 pe 1920, ca să nu fie nevoie de decupări mai târziu.", "Folosește lumina naturală de lângă o fereastră ori de câte ori poți.", "Ține telefonul stabil: un trepied mic bate orice filtru.", "Filmează fiecare cadru puțin mai mult decât ai nevoie, ca editorul să aibă loc.", "Prinde un sunet curat: vorbește aproape de microfon și evită locurile zgomotoase."),
+        ],
+      },
+      {
+        id: "subtitrarile",
+        heading: "Subtitrările nu sunt opționale",
+        blocks: [
+          p("Mulți oameni se uită fără sunet. Subtitrările îi țin lângă tine și îi ajută și pe cei care preferă să citească. Evidențiază cuvântul-cheie din fiecare rând cu o culoare a brandului, cum fac la Reels-urile THS Organic, ca ochii să urmărească mesajul."),
+          p("Așază subtitrările departe de marginea de jos, unde interfața le acoperă, și păstrează cel mult două rânduri."),
+        ],
+      },
+      {
+        id: "ritmul",
+        heading: "Montează pentru ritm",
+        blocks: [
+          p("Taie pe mișcare, scoate orice pauză care nu adaugă sens și schimbă cadrul la fiecare două-patru secunde. Adaugă o bucată scurtă de muzică sau un sunet care susține starea și ține vocea clar deasupra."),
+          p("Privește Reel-ul pe telefon, o dată cu sunet și o dată fără. Dacă povestea merge în ambele feluri, ai unul bun."),
+        ],
+      },
+      {
+        id: "idei-cu-care-sa-incepi",
+        heading: "Idei de Reels cu care să începi",
+        blocks: [
+          ul("Răspunde la o întrebare a unui client în mai puțin de treizeci de secunde.", "Arată cum se face, se ambalează sau se folosește produsul.", "Prezintă un om din echipă și ce face.", "Compară sincer două opțiuni și spune cui i se potrivește fiecare.", "Arată rezultatul unui mic experiment, precum mierea în ceai sau o rutină de o săptămână."),
+          p("Dacă nu ai idei, parcurge mesajele și comentariile. Oamenii îți spun ce vor să știe."),
+        ],
+      },
+      {
+        id: "fa-o-serie",
+        heading: "Transformă Reels-urile într-o serie",
+        blocks: [
+          p("Același grafic de deschidere, același tip de subtitrări și același cadru final fac Reels-urile tale să fie recunoscute ca o familie. Îl și produc mai repede pe următorul. Dacă vrei ajutor la montaj și la un aspect consecvent pentru Reels, uită-te la serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de lung ar trebui să fie un Reel?"),
+          p("Cât cere ideea. Multe Reels bune au între cincisprezece și patruzeci și cinci de secunde. Taie tot ce nu adaugă sens."),
+          h3("Am nevoie de o cameră profesională?"),
+          p("Nu. Un telefon modern, lumină bună și mâini stabile sunt suficiente. Calitatea sunetului și montajul contează mai mult decât camera."),
+          h3("Cât de des ar trebui să postez Reels?"),
+          p("O dată sau de două ori pe săptămână este un ritm bun și sustenabil pentru o afacere mică."),
+        ],
+      },
+    ],
+    related: { projects: ["ths-organic", "farmacia-farmex"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "social-media-content-calendar",
+    slug: "cum-planifici-un-calendar-de-continut-social-media",
+    title: "Cum planifici un calendar de conținut pentru social media pe care chiar îl poți ține",
+    seoTitle: "Calendar de conținut social media",
+    description: "Un calendar de conținut care rezistă în viața reală: piloni de conținut, un ritm săptămânal, o rutină lunară și loc pentru ce se întâmplă pe parcurs.",
+    category: "social-media",
+    publishedAt: "2026-10-27",
+    cover: { key: "journal-premium", alt: "Colaj roz cu un luciu de buze rose, zmeură, afine, o petală și buze în semitonuri" },
+    intro: "Majoritatea calendarelor de conținut mor în săptămâna a treia. Sunt prea ambițioase, prea rigide sau prea complicate. Un calendar bun este un sistem mic pe care îl poți susține într-o zi aglomerată. Aceasta este abordarea pe care o folosesc când planific conținut pentru branduri cu campanii lunare, precum Divaz și Kanoi.",
+    sections: [
+      {
+        id: "incepe-cu-pilonii",
+        heading: "Începe cu trei sau patru piloni de conținut",
+        blocks: [
+          p("Un pilon este un tip de conținut care servește un scop. Pentru un brand de beauty pot fi produsele, tutorialele, ofertele și culisele. Pentru o afacere de servicii pot fi postările educative, dovezile, ofertele și echipa."),
+          p("Pilonii te opresc să te întrebi în fiecare dimineață „ce postăm azi?”. Întrebarea devine „care pilon urmează?”."),
+        ],
+      },
+      {
+        id: "alege-un-ritm",
+        heading: "Alege un ritm pe care îl poți ține",
+        blocks: [
+          p("Trei postări bune pe săptămână bat șapte făcute în grabă. Hotărăște câte postări de feed, story-uri și Reels poți produce cinstit și scrie asta. E ușor să adaugi mai târziu; e demoralizant să rămâi în urmă."),
+          ul("La început: 2–3 postări de feed și câteva story-uri pe săptămână.", "În creștere: 3–4 postări de feed, 1–2 Reels și story-uri zilnice.", "Săptămâni de campanie: adaugă o explozie scurtă de conținut, apoi revino la ritmul obișnuit."),
+        ],
+      },
+      {
+        id: "planifica-luna",
+        heading: "Planifică luna dintr-o singură ședință",
+        blocks: [
+          ol("Listează datele care contează: sărbători, reduceri, lansări, zile de conștientizare relevante pentru tine.", "Așază mai întâi cea mai mare campanie sau ofertă.", "Umple locurile rămase rotind pilonii.", "Scrie un titlu de lucru scurt pentru fiecare postare, nu toată descrierea.", "Marchează postările care au nevoie de ședință foto, de design sau de video."),
+          p("Campaniile sezoniere pentru Divaz, de la Galentine's Day la trendurile de unghii de sărbători, funcționează pentru că au fost puse în calendar cu săptămâni înainte să fie necesare."),
+        ],
+      },
+      {
+        id: "lucreaza-in-serie",
+        heading: "Lucrează în serie",
+        blocks: [
+          p("Să proiectezi zece postări într-o după-amiază e mult mai rapid decât să proiectezi una pe zi, pentru că mintea rămâne în același șablon și în aceeași lume vizuală. Fă la fel cu fotografiile și cu videoclipurile: filmează pentru toată luna într-o singură ședință."),
+        ],
+      },
+      {
+        id: "lasa-loc-pentru-ce-se-intampla",
+        heading: "Lasă loc pentru ce se întâmplă",
+        blocks: [
+          p("Păstrează liberă cam o cincime din calendar pentru noutăți, reacții, întrebările clienților și lucrurile care merg bine. Un calendar care nu se poate îndoi va fi abandonat prima dată când se întâmplă ceva neașteptat."),
+        ],
+      },
+      {
+        id: "instrumente",
+        heading: "Instrumente pe care le poți folosi",
+        blocks: [
+          p("Un calendar nu are nevoie de software special. Un tabel partajat sau o tablă simplă, cu coloane pentru idee, în lucru, gata și publicat, este suficient. Adaugă coloane pentru pilon, format, dată și responsabil."),
+          p("Cel mai bun instrument este cel pe care echipa ta îl va deschide cu adevărat în fiecare săptămână. Dacă un instrument adaugă fricțiune, treci la ceva mai simplu."),
+        ],
+      },
+      {
+        id: "revizuieste",
+        heading: "Revizuiește o dată pe lună",
+        blocks: [
+          p("La sfârșitul lunii, notează ce postări au fost salvate, distribuite sau au adus mesaje și care au fost ignorate. Mută tipurile câștigătoare mai devreme și rărește restul. Un calendar este o ciornă pe care o îmbunătățești mereu. Dacă vrei un sistem de conținut și designuri construite în jurul lui, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cu cât timp înainte ar trebui să planific?"),
+          p("O lună este un orizont bun. Planifică campaniile mari cu câteva săptămâni mai devreme, ca designul și producția să nu fie făcute în grabă."),
+          h3("Ce fac dacă nu am timp să postez zilnic?"),
+          p("Postează mai puțin, dar păstrează ritmul. Consecvența contează mai mult decât volumul."),
+          h3("Să programez postările dinainte?"),
+          p("Da, când poți. Programarea îți permite să lucrezi în serie și totuși să păstrezi un ritm constant, dar verifică regulat contul pentru comentarii."),
+        ],
+      },
+    ],
+    related: { projects: ["divaz", "kanoi"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "social-media-for-clinics-and-dental-practices",
+    slug: "social-media-pentru-clinici-si-cabinete-stomatologice",
+    title: "Social media pentru clinici și cabinete stomatologice: ghid practic",
+    seoTitle: "Social media pentru clinici medicale",
+    description: "Cum pot folosi clinicile, cabinetele stomatologice și opticile social media pentru a câștiga încredere: ce postezi, cum proiectezi și ce greșeli eviți.",
+    category: "social-media",
+    publishedAt: "2026-10-28",
+    cover: { key: "artinnova-cover", alt: "Medic stomatolog cu mănuși albastre care examinează o pacientă zâmbitoare, cu oglinda și sonda" },
+    intro: "Pacienții aleg o clinică cu ochii cu mult înainte să intre pe ușă. O prezență calmă, clară și consecventă pe social media le spune că vor fi pe mâini bune. Dar sănătatea este un domeniu sensibil, deci ce funcționează pentru un brand de adidași nu funcționează aici. Acestea sunt principiile pe care le urmez în proiectele pentru Art Innova Dentalmed, Global Medical Health, Optica Tei și Dr. Kurbe Clinic.",
+    sections: [
+      {
+        id: "increderea-inainte-de-vanzare",
+        heading: "Construiește încrederea înainte să vinzi",
+        blocks: [
+          p("Oamenii sunt îngrijorați pentru sănătatea lor. Postările care explică, liniștesc și arată echipa fac mai mult decât promoțiile constante. Pentru Art Innova, o serie de caruseluri explică fiecare serviciu pe înțelesul tuturor, de la stomatologia generală la implantologie, ca pacientul să știe la ce să se aștepte înainte să se programeze."),
+        ],
+      },
+      {
+        id: "ce-postezi",
+        heading: "Ce postezi",
+        blocks: [
+          ul("Postări educative care răspund la întrebări reale, precum cum funcționează lentilele progresive sau când mergi la dentist.", "Prezentarea medicilor și a echipei, ideal în videoclipuri scurte.", "Explicații despre proceduri și tehnologie, spuse simplu.", "Zile de conștientizare și urări sezoniere, care arată că o clinică este făcută din oameni.", "Oferte clare, precum prețul primei vizite, cu exact ce include."),
+          p("Explicația Optica Tei despre diferența dintre oftalmolog și optometrist este un model bun: o întrebare pe care oamenii și-o pun cu adevărat, cu răspuns în câteva slide-uri prietenoase."),
+        ],
+      },
+      {
+        id: "design-pentru-calm",
+        heading: "Proiectează pentru calm și claritate",
+        blocks: [
+          p("Designul pentru sănătate trebuie să pară curat și ordonat. Folosește mult spațiu alb, o paletă sobră și text mare, lizibil. Valurile turcoaz de la Art Innova și sistemul alb cu turcoaz de la Global Medical Health păstrează un subiect clinic apropiat, fără să îl facă rece."),
+          p("Alege atent fotografiile. Pozele de stoc cu zâmbete prea perfecte par adesea false. Fotografiile reale cu clinica, aparatura și echipa construiesc mai multă încredere, iar vizualurile 3D sau ilustrațiile bune pot umple golurile."),
+        ],
+      },
+      {
+        id: "lasa-medicii-sa-vorbeasca",
+        heading: "Lasă medicii să vorbească",
+        blocks: [
+          p("Videoclipurile scurte în care un medic explică o singură temă sunt printre cele mai valoroase lucruri pe care le poate publica o clinică. Arată deodată expertiza și personalitatea. La Global Medical Health, Reels-urile subtitrate permit medicilor să explice screeningul și depistarea precoce pe înțelesul tuturor, ceea ce funcționează chiar și fără sunet."),
+        ],
+      },
+      {
+        id: "fii-atent-la-afirmatii",
+        heading: "Fii atent la afirmații și la confidențialitate",
+        blocks: [
+          ul("Nu publica niciodată poze sau povești ale pacienților fără acord scris.", "Evită să promiți rezultate sau să garantezi un deznodământ.", "Verifică regulile colegiului profesional și reglementările locale privind publicitatea medicală.", "Precizează clar că informațiile online nu înlocuiesc un consult."),
+        ],
+      },
+      {
+        id: "o-structura-lunara-simpla",
+        heading: "O structură lunară simplă pentru o clinică",
+        blocks: [
+          ol("Un carusel educativ despre un serviciu.", "Un scurt videoclip cu un medic care răspunde la o întrebare.", "O postare care prezintă un om din echipă.", "O postare sezonieră sau de zi de conștientizare.", "O ofertă clară, cu prețul și ce include.", "Story-uri cu clinica, aparatura și viața de zi cu zi."),
+          p("Este suficient ca să menții contul activ, util și de încredere, fără să copleșești o echipă ocupată."),
+        ],
+      },
+      {
+        id: "consecventa-si-programare",
+        heading: "Fii consecvent și ușor de programat",
+        blocks: [
+          p("Fă mereu următorul pas evident: un număr de telefon, o adresă, un link de programare. Postările GMH se încheie cu adresele clinicii și ale spitalului și un număr de telefon, mereu în același loc. Consecvența este un semn de siguranță, exact ce caută pacienții. Dacă vrei un aspect de social media pentru cabinetul tău, vezi serviciul meu de design pentru social media."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Poate o clinică să arate poze înainte și după?"),
+          p("Doar cu acordul scris al pacientului și în regulile colegiului profesional. Multe clinici preferă conținut educativ care evită subiectul."),
+          h3("Instagram sau Facebook e mai bun pentru un cabinet medical?"),
+          p("Depinde de pacienții tăi. Multe clinici le folosesc pe amândouă, Facebook ajungând la un public mai în vârstă, iar Instagram la unul mai tânăr."),
+          h3("Cum gestionez comentariile negative?"),
+          p("Răspunde politicos și invită persoana să continue în privat. Nu împărtăși niciodată detalii despre pacienți în public."),
+        ],
+      },
+    ],
+    related: { projects: ["art-innova", "global-medical-health"], services: ["social-media-design", "content-creation"] },
+  },
+  {
+    id: "how-to-write-a-design-brief",
+    slug: "cum-scrii-un-brief-de-design-pentru-un-designer-grafic",
+    title: "Cum scrii un brief de design care îți aduce lucrări mai bune de la un designer grafic",
+    seoTitle: "Cum scrii un brief de design",
+    description: "Un brief bun economisește timp și bani. Iată întrebările la care răspunzi, un șablon simplu și greșelile care duc la modificări fără sfârșit.",
+    category: "content-creation",
+    publishedAt: "2026-10-29",
+    cover: { key: "farmex-cover", alt: "Stetoscop lângă blistere și pastile, pe fundal verde salvie" },
+    intro: "Când un proiect merge prost, motivul rareori este designul. De obicei este un brief prea vag sau unul care s-a schimbat pe parcurs. Un brief clar durează o oră de scris și poate economisi săptămâni de modificări. Aceasta este structura pe care o cer clienților și pe care o folosesc eu însămi când scriu briefuri pentru propriile lucrări.",
+    sections: [
+      {
+        id: "de-ce-conteaza-un-brief",
+        heading: "De ce contează un brief",
+        blocks: [
+          p("Un brief este o înțelegere comună despre ce trebuie să realizeze lucrarea. Îi permite designerului să rezolve problema ta, nu s-o ghicească, și îți dă un reper cu care măsori rezultatul. „O să știu când o să văd” este cea mai scumpă propoziție din design."),
+        ],
+      },
+      {
+        id: "intrebarile",
+        heading: "Întrebările la care răspunzi",
+        blocks: [
+          ol("Cine ești și ce vinzi? Două propoziții, pe înțelesul tuturor.", "Pentru cine este? Descrie persoana, nu doar o categorie demografică.", "Care este scopul? Mai multe cereri, o lansare, un rebranding, recunoaștere la un târg?", "Unde va fi folosit? Social media, print, ambalaje, un site?", "Ce ar trebui să gândească sau să simtă oamenii când îl văd?", "Ce trebuie să conțină? Logo, text, prețuri, informații legale.", "Ce îți place și ce nu? Trei exemple din fiecare, cu motive.", "Care sunt termenul și bugetul?"),
+          p("Pentru o companie precum KDT Romania, care vinde utilaje pentru prelucrarea lemnului, un brief bun ar spune cine sunt cumpărătorii, ce dovezi contează pentru ei (rezultate, prezența la târguri, instruiri) și unde vor apărea postările. Asta modelează imediat tonul și compoziția."),
+        ],
+      },
+      {
+        id: "fii-concret",
+        heading: "Fii concret despre problemă, nu despre soluție",
+        blocks: [
+          p("„Fă logoul mai mare” este o soluție. „Oamenii nu pot citi numele brandului pe mobil” este o problemă. Descrie problema și lasă designerul să propună remedierea, pentru că poate știe una mai bună."),
+        ],
+      },
+      {
+        id: "referintele",
+        heading: "Adu referințe, cu explicații",
+        blocks: [
+          p("Exemplele sunt foarte utile, dar doar dacă explici ce îți place la ele. „Îmi plac culorile”, „îmi place cât spațiu alb este” sau „îmi place cât de direct e titlul” îi spune unui designer mult mai mult decât un folder cu imagini la întâmplare."),
+        ],
+      },
+      {
+        id: "feedbackul",
+        heading: "Gândește cum va funcționa feedbackul",
+        blocks: [
+          ul("Hotărăște cine are ultimul cuvânt și adună părerile într-un singur mesaj.", "Dă feedback despre scop („nu pare destul de premium”), nu doar despre detalii.", "Spune ce funcționează, ca să nu fie schimbat din greșeală.", "Stabilește de la început numărul de runde de modificări."),
+        ],
+      },
+      {
+        id: "greseli-care-duc-la-modificari-fara-sfarsit",
+        heading: "Greșeli care duc la modificări fără sfârșit",
+        blocks: [
+          ul("Schimbarea scopului la jumătatea proiectului.", "Feedback de la cinci oameni, în cinci mesaje separate.", "Cererea unui lucru „modern” fără să spui ce înseamnă.", "Omiterea publicului, așa că deciziile se iau pe baza gustului personal.", "Lăsarea conținutului esențial, precum prețurile sau textul legal, pentru ultima rundă."),
+          p("Cele mai multe cicluri de modificări nu țin de calitatea designului. Țin de informații care au ajuns prea târziu."),
+        ],
+      },
+      {
+        id: "un-sablon-scurt",
+        heading: "Un șablon scurt pe care îl poți copia",
+        blocks: [
+          p("Despre noi: două propoziții. Public: un paragraf. Scop: o propoziție. Livrabile și formate: o listă. Ton: trei adjective. De inclus și de evitat: două liste scurte. Termen și buget: câte o linie. Dacă le poți completa pe toate, ai deja un brief mai bun decât majoritatea. Dacă vrei să îl discutăm pe al tău, te ajut cu plăcere."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de lung ar trebui să fie un brief de design?"),
+          p("Una sau două pagini sunt suficiente pentru majoritatea proiectelor. Claritatea contează mai mult decât lungimea."),
+          h3("Ce fac dacă nu știu ce vreau?"),
+          p("Spune asta și descrie problema. Un designer bun te va ajuta să definești direcția, dar un scurt apel de descoperire ajută mult."),
+          h3("Să includ bugetul în brief?"),
+          p("Da. Îi permite designerului să propună amploarea potrivită, nu să ghicească. Un interval este suficient."),
+        ],
+      },
+    ],
+    related: { projects: ["kdt-romania", "iq-fashion"], services: ["branding", "content-creation"] },
+  },
+  {
+    id: "canva-vs-hiring-a-graphic-designer",
+    slug: "canva-sau-designer-grafic-cand-alegi-fiecare",
+    title: "Canva sau designer grafic: când are sens fiecare",
+    seoTitle: "Canva sau designer grafic?",
+    description: "Canva e bun pentru unele lucruri și un risc pentru altele. O comparație sinceră cu un designer profesionist și momentul în care merită să treci la el.",
+    category: "content-creation",
+    publishedAt: "2026-10-30",
+    cover: { key: "iq-cover", alt: "Mâini care țin o rochie-cămașă roz pudrat pe umeraș, lângă un stender cu haine în nuanțe de teracotă" },
+    intro: "Sunt designer, deci te-ai aștepta să spun că nu trebuie folosit niciodată Canva. Nu o voi spune, pentru că e cu adevărat util. Întrebarea reală este ce treabă trebuie făcută. Pentru unele sarcini Canva este exact potrivit, pentru altele te costă pe nesimțite clienți. Iată cum decizi.",
+    sections: [
+      {
+        id: "ce-face-bine-canva",
+        heading: "Ce face bine Canva",
+        blocks: [
+          ul("Grafice rapide, de moment, precum un afiș de eveniment sau un anunț simplu.", "Prezentări și documente interne.", "Adaptarea unui design existent în dimensiuni noi.", "Modificări făcute de o echipă care trebuie să schimbe text și date fără designer."),
+          p("Dacă ai un set bun de șabloane, Canva este un instrument excelent pentru a le folosi în fiecare săptămână."),
+        ],
+      },
+      {
+        id: "unde-nu-ajunge",
+        heading: "Unde nu ajunge",
+        blocks: [
+          p("Canva îți dă mii de machete gata făcute, la fel ca altor mii de afaceri. Dacă folosești aceleași șabloane ca ale concurenților, arăți ca ei. Un șablon nu poate decide cine ești, ce te face diferit sau cum ar trebui să se simtă un întreg feed."),
+          ul("Nu creează o strategie de brand sau o identitate distinctivă.", "Logourile făcute din elemente de stoc nu sunt adesea exclusive și pot fi greu de protejat.", "Culorile, fonturile și spațierea alunecă în timp, fără reguli clare.", "Proiectele complexe, precum ambalajele, fișierele de tipar și sistemele mari, cer unelte și know-how profesionist."),
+        ],
+      },
+      {
+        id: "cand-angajezi-un-designer",
+        heading: "Când e momentul să angajezi un designer",
+        blocks: [
+          ol("Lansezi un brand și ai nevoie de o identitate cu adevărat a ta.", "Vrei un feed coerent, nu doar postări bune luate separat.", "Tipărești ceva, iar pregătirea fișierelor contează.", "Marketingul tău crește, iar aspectul începe să alunece.", "Concurezi pe o piață unde designul semnalează calitate, precum moda sau beauty."),
+          p("Pentru IQ Fashion, un boutique de modă premium, limbajul vizual trebuia să pară rafinat și consecvent în postări, bannere și newslettere. Asta este un sistem de design, nu un șablon."),
+        ],
+      },
+      {
+        id: "o-varianta-hibrida",
+        heading: "O variantă hibridă care funcționează bine",
+        blocks: [
+          p("Multe branduri folosesc ambele. Un designer creează identitatea, șabloanele cheie și regulile brandului. Echipa folosește apoi Canva sau o unealtă similară ca să producă conținutul de zi cu zi în aceste limite. Costurile rămân mici, iar aspectul consecvent."),
+          p("Dacă alegi varianta aceasta, cere ca șabloanele să fie livrate în unealta pe care o folosește echipa ta, împreună cu un ghid scurt despre ce se poate schimba și ce nu."),
+        ],
+      },
+      {
+        id: "intrebari-de-pus-inainte-sa-decizi",
+        heading: "Întrebări pe care să ți le pui înainte să decizi",
+        blocks: [
+          ul("Va fi văzut de clienți sau doar intern?", "Am nevoie să dureze ani sau o săptămână?", "Am deja o identitate și șabloane de la care să pornesc?", "Costul de a părea generic este mai mare decât cel al unui designer?", "Voi avea nevoie de fișiere de tipar sau de ambalaje?"),
+          p("Răspunsurile te vor îndrepta, de obicei, clar într-o direcție."),
+        ],
+      },
+      {
+        id: "cum-decizi",
+        heading: "Cum decizi",
+        blocks: [
+          p("Întreabă-te: dacă un client ar vedea asta lângă alți trei concurenți, ar ști totuși că suntem noi? Dacă răspunsul sincer este nu, e momentul să investești în design. Dacă sarcina este scurtă și internă, Canva ajunge. Orice ai alege, fii consecvent. Poți vedea cum abordez identitatea și social media în serviciile mele."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Pot folosi Canva pentru logo?"),
+          p("Poți, dar logourile făcute din elemente de stoc pot să nu fie unice pentru tine, iar fișierele pot fi limitate. Pentru un brand pe care vrei să îl crești, un logo custom este o alegere mai sigură."),
+          h3("Este Canva bun pentru social media?"),
+          p("Da, pentru a produce postări de zi cu zi dintr-un set de șabloane. Este mai puțin potrivit pentru crearea sistemului vizual în sine."),
+          h3("Cât costă un designer față de Canva?"),
+          p("Canva costă un abonament mic, în timp ce un designer înseamnă un cost de proiect. Comparația este mai corectă dacă numeri timpul pe care îl petreci și consecvența pe care o câștigi."),
+        ],
+      },
+    ],
+    related: { projects: ["iq-fashion", "kanoi"], services: ["branding", "social-media-design"] },
+  },
+  {
+    id: "food-and-wellness-brand-design",
+    slug: "idei-de-design-si-continut-pentru-branduri-de-mancare-si-wellness",
+    title: "Idei de design și conținut pentru branduri de mâncare și wellness",
+    seoTitle: "Design pentru branduri de mâncare",
+    description: "Cum pot arăta apetisant și de încredere online brandurile de mâncare, mese sănătoase și wellness: culoare, fotografie, produs și conținut care vinde.",
+    category: "content-creation",
+    publishedAt: "2026-10-31",
+    cover: { key: "ilie-cover", alt: "Brutăriță zâmbitoare, cu mănuși negre, care pune fursecuri din borcane de sticlă într-o pungă de hârtie" },
+    intro: "Brandurile de mâncare și wellness trăiesc sau mor din poftă și încredere. Oamenii trebuie să își dorească produsul și să creadă în el, adesea înainte să îl fi gustat sau încercat. Este în același timp o problemă de design și una de conținut. Acestea sunt ideile la care revin când lucrez cu Moș Ilie, THS Organic și Green Table.",
+    sections: [
+      {
+        id: "da-i-o-personalitate",
+        heading: "Dă-i brandului o personalitate care are gustul produsului",
+        blocks: [
+          p("Un brand de patiserie tradițională ar trebui să pară cald și nostalgic, așa cum sunt construite vizualurile Moș Ilie în jurul produselor tradiționale românești făcute manual. Un brand de livrare de mese sănătoase ar trebui să pară proaspăt și vesel, motiv pentru care Green Table folosește verde închis cu lime aprins și litere rotunjite, prietenoase. Culoarea și tipografia sunt primul gust pe care îl simt oamenii."),
+        ],
+      },
+      {
+        id: "fotografia",
+        heading: "Fotografia este jumătate din vânzare",
+        blocks: [
+          ul("Folosește lumină naturală, caldă, și evită blițul dur.", "Filmează de aproape: textura, aburul, picăturile și firimiturile spun mai mult decât o farfurie din depărtare.", "Arată produsul folosit: miere turnată în ceai, un plic desfăcut, o cutie pe o masă de bucătărie.", "Păstrează fundalurile simple, ca produsul să rămână eroul.", "Retușează ușor. Mâncarea prea prelucrată pare artificială."),
+          p("În conținutul THS Organic, fotografiile macro cu miere fac mare parte din muncă înainte să apară vreun text."),
+        ],
+      },
+      {
+        id: "explica-beneficiul",
+        heading: "Explică beneficiul într-o singură linie",
+        blocks: [
+          p("Brandurile de wellness explică adesea prea mult. Alege o promisiune clară pe produs, precum întărirea imunității, îngrijirea părului sau calmarea pielii, și fă-o titlu. Apoi susține-o cu două sau trei puncte scurte, nu cu un paragraf."),
+        ],
+      },
+      {
+        id: "semnale-de-incredere",
+        heading: "Arată semnale de încredere, cu sinceritate",
+        blocks: [
+          ul("Ingredientele și de unde provin.", "Ambalaj clar, care spune ce este și ce nu este produsul.", "Oameni reali care folosesc produsul, cu acordul lor.", "Comparații corecte și factuale, nu agresive.", "Certificări pe care le deții cu adevărat, niciodată inventate."),
+        ],
+      },
+      {
+        id: "continut-care-vinde",
+        heading: "Conținut care funcționează în această nișă",
+        blocks: [
+          ol("Rețete și moduri de folosire a produsului.", "Culisele: unde și de către cine este făcut.", "Rutine înainte și după, prezentate realist.", "Reels scurte cu desfăcutul pachetelor și gustarea.", "Oferte sezoniere și pachete."),
+        ],
+      },
+      {
+        id: "etichete-si-afirmatii",
+        heading: "Etichete și afirmații: păstrează-le cinstite",
+        blocks: [
+          p("Mâncarea și wellness-ul sunt domenii reglementate. Afirmațiile despre sănătate trebuie susținute și formulate atent, iar listele de ingrediente trebuie să fie corecte. Proiectează ambalajul și postările ca informațiile obligatorii să fie ușor de citit și cere sfatul unui specialist dacă nu ești sigur de formulare."),
+          p("Limbajul cinstit câștigă și încredere. „Făcut din miere și extracte din plante” este mai bun decât o promisiune vagă pe care nu o poate verifica nimeni."),
+        ],
+      },
+      {
+        id: "pastreaza-gama-coerenta",
+        heading: "Păstrează coerentă o gamă care crește",
+        blocks: [
+          p("Dacă adaugi produse, dă fiecăruia un loc în sistem, de exemplu propria culoare de accent, păstrând la fel logoul, compoziția și stilul fotografiei. Așa poate crește un brand de la un produs la cinci fără să devină confuz. Dacă construiești un brand de mâncare sau wellness, uită-te la lucrările mele pentru acești clienți."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce culori funcționează pentru un brand de mâncare?"),
+          p("Tonurile calde precum chihlimbarul, roșul și portocaliul stimulează pofta, în timp ce verdele sugerează prospețime și sănătate. Alegerea potrivită depinde de produs și de public."),
+          h3("Am nevoie de fotografie profesională de mâncare?"),
+          p("Face o mare diferență, dar o configurație curată cu telefonul și lumină naturală poate funcționa bine pentru social media. Pentru ambalaje și site, fotografiile profesionale merită."),
+          h3("Cât de des ar trebui să posteze un brand de mâncare?"),
+          p("De trei-patru ori pe săptămână, combinând rețete, fotografii de produs, Reels și oferte, este un ritm realist."),
+        ],
+      },
+    ],
+    related: { projects: ["mos-ilie", "ths-organic", "green-table"], services: ["content-creation", "social-media-design"] },
+  },
+  {
+    id: "what-a-small-business-website-needs",
+    slug: "ce-trebuie-sa-aiba-o-pagina-de-prezentare-ca-sa-converteasca",
+    title: "Ce trebuie să aibă o pagină de prezentare ca să transforme vizitatorii în clienți",
+    seoTitle: "Ce trebuie să aibă o landing page",
+    description: "Șapte lucruri de care are nevoie orice landing page: promisiune clară, dovezi, buton vizibil, design rapid pe mobil și altele, cu lecții din proiecte UX/UI.",
+    category: "graphic-design",
+    publishedAt: "2026-11-01",
+    cover: { key: "greentable-cover", alt: "Ingrediente proaspete și sănătoase pe o masă albă din lemn: somon, avocado, sparanghel, roșii, ouă, nuci și fructe de pădure" },
+    intro: "O pagină de prezentare are o singură treabă: să le fie ușor oamenilor potriviți să facă următorul pas. Majoritatea paginilor care nu funcționează nu sunt urâte. Sunt confuze. După ce am proiectat interfețe pentru o florărie online, o companie de tipar, un brand de mese sănătoase și o platformă educațională, văd mereu aceleași șapte lucruri care despart paginile care funcționează de cele care nu.",
+    sections: [
+      {
+        id: "o-promisiune-clara",
+        heading: "1. O promisiune pe care oamenii o înțeleg în cinci secunde",
+        blocks: [
+          p("Primul ecran trebuie să răspundă la trei întrebări: ce este, pentru cine este și de ce ar trebui să-mi pese. Pagina de start Green Table se deschide cu „Fresh, Organic, Delivered to Your Door”. Nimeni nu trebuie să deruleze ca să înțeleagă oferta."),
+        ],
+      },
+      {
+        id: "o-actiune-principala",
+        heading: "2. O singură acțiune principală",
+        blocks: [
+          p("Alege cel mai important pas, precum cumpără, programează-te, cere o ofertă sau încearcă, și fă-l cel mai puternic element de pe pagină. Acțiunile secundare trebuie să arate clar secundare. Pe pagina de start Green Table, butonul plin „Try it” conduce, iar „Contact Sales” stă lângă el, mai discret, doar cu contur."),
+        ],
+      },
+      {
+        id: "dovezi",
+        heading: "3. Dovezi că ești real",
+        blocks: [
+          ul("Recenzii și evaluări, cu nume reale când se poate.", "Logouri ale clienților sau partenerilor.", "Fotografii cu echipa, produsul sau atelierul.", "Studii de caz scurte sau rezultate.", "Garanții, condiții de livrare și retur, spuse pe șleau."),
+        ],
+      },
+      {
+        id: "detaliile-practice",
+        heading: "4. Detaliile practice, ușor de găsit",
+        blocks: [
+          p("Prețul, livrarea, mărimile, ce este inclus, cât durează: acestea decid cumpărăturile. Paginile de produs Regata listează detaliile tehnice, formatele de fișiere acceptate și modalitățile de plată în blocuri clare, pentru că exact asta vrea să știe un client de tipar înainte să comande."),
+        ],
+      },
+      {
+        id: "mai-intai-pe-telefon",
+        heading: "5. Proiectată mai întâi pentru telefon",
+        blocks: [
+          p("Majoritatea vizitatorilor vor intra de pe telefon. Folosește zone mari de atingere, text lizibil fără zoom, un meniu scurt și formulare cu cât mai puține câmpuri. Verifică pagina cu o mână, în picioare, pe o conexiune lentă."),
+        ],
+      },
+      {
+        id: "viteza-si-simplitatea",
+        heading: "6. Rapidă, simplă și calmă",
+        blocks: [
+          ul("Comprimă imaginile și evită videoclipurile grele care pornesc singure.", "Limitează fonturile la două familii.", "Folosește mult spațiu alb ca acțiunea principală să iasă în evidență.", "Scoate tot ce nu ajută vizitatorul să se decidă."),
+        ],
+      },
+      {
+        id: "test-de-cinci-secunde",
+        heading: "Un test de cinci secunde",
+        blocks: [
+          p("Arată pagina cuiva timp de cinci secunde, apoi ascunde-o și pune trei întrebări: ce este, pentru cine este, ce ai face mai departe? Dacă ezită la oricare, pagina are nevoie de muncă. Nu costă nimic și este cea mai rapidă cale să îți vezi pagina cu ochi noi."),
+        ],
+      },
+      {
+        id: "accesibilitatea",
+        heading: "7. Accesibilă tuturor",
+        blocks: [
+          p("Un contrast suficient, etichete clare, texte de butoane cu sens și stări de focus bune ajută pe orice vizitator, nu doar pe cei cu dizabilități. De obicei ajută și motoarele de căutare să înțeleagă pagina."),
+          p("Dacă vrei un site sau o interfață de aplicație proiectată după aceste principii, vezi serviciul meu de design UX/UI și proiectele de mai jos."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Care e diferența dintre o landing page și un site?"),
+          p("O landing page are un scop și o singură acțiune. Un site are multe pagini și servește mai multe scopuri."),
+          h3("Cât de lungă ar trebui să fie o landing page?"),
+          p("Cât îi trebuie ca să răspundă la întrebările vizitatorului, și nu mai mult. Pentru oferte simple merge o pagină scurtă. Pentru decizii scumpe sau complexe, o pagină mai lungă, cu dovezi și detalii, funcționează mai bine."),
+          h3("Am nevoie de designer pentru o landing page?"),
+          p("Un designer ajută cel mai mult când pagina trebuie să construiască încredere și să ghideze alegerile. Pentru o pagină simplă, un șablon bun cu texte îngrijite poate fi suficient."),
+        ],
+      },
+    ],
+    related: { projects: ["green-table", "regata-print", "floraria-mariei"], services: ["ux-ui-design"] },
+  },
+  {
+    id: "how-to-prepare-files-for-print",
+    slug: "cum-pregatesti-fisierele-pentru-tipar-bleed-cmyk-rezolutie",
+    title: "Cum pregătești fișierele pentru tipar: bleed, CMYK și rezoluție explicate",
+    seoTitle: "Cum pregătești fișierele pentru tipar",
+    description: "Fișierele pentru tipar greșesc din aceleași câteva motive. Află ce înseamnă bleed, CMYK, rezoluție și fonturi și cum verifici un fișier înainte de tipografie.",
+    category: "graphic-design",
+    publishedAt: "2026-11-02",
+    cover: { key: "regata-cover", alt: "Doi designeri, văzuți de sus, care aleg culori de pe mostre tipărite, la o cafea" },
+    intro: "Nimic nu e mai frustrant decât un design care arată perfect pe ecran și ajunge de la tipografie cu margini albe, culori șterse sau text neclar. Aproape toate problemele de tipar vin din aceeași mână de cauze și fiecare poate fi evitată. Aceasta este lista pe care o folosesc înainte să trimit la tipar cărți de vizită, vouchere, pliante și calendare.",
+    sections: [
+      {
+        id: "porneste-de-la-dimensiunea-exacta",
+        heading: "Pornește de la dimensiunea exactă",
+        blocks: [
+          p("Setează documentul la dimensiunea finală din primul minut: A4, A6, o carte de vizită, un afiș. Redimensionarea ulterioară duce la imagini neclare și margini stângace. Cere tipografiei șablonul lor, dacă au unul."),
+        ],
+      },
+      {
+        id: "bleed",
+        heading: "Bleed: marginea în plus care previne liniile albe",
+        blocks: [
+          p("Hârtia se taie cu o mică marjă de eroare. Dacă fundalul tău se oprește exact la margine, poate apărea o linie albă subțire. Bleed-ul rezolvă asta extinzând fundalul și imaginile dincolo de dimensiunea finală, de obicei cu 3 mm pe fiecare parte."),
+          ul("Adaugă 3 mm de bleed, cu excepția cazului în care tipografia spune altceva.", "Extinde fundalurile și pozele până la marginea de bleed.", "Păstrează textul important și logourile într-o marjă de siguranță, la 4–5 mm de tăietură."),
+          p("Calendarul de perete GMH proiectat de mine a fost livrat cu bleed și semne de tăiere, ca tipografia să îl poată tăia curat."),
+        ],
+      },
+      {
+        id: "modul-de-culoare",
+        heading: "CMYK vs RGB",
+        blocks: [
+          p("Ecranele amestecă lumină (RGB). Imprimantele amestecă cerneală (CMYK). Culorile foarte vii de pe ecran, mai ales albastrul, verdele și neonul intens, nu pot fi reproduse întotdeauna cu cerneală. Dacă proiectezi în RGB și convertești la final, culorile pot ieși mai șterse."),
+          ul("Creează proiectele de tipar în CMYK de la început.", "Întreabă tipografia ce profil de culoare folosește.", "Pentru culorile brandului, definește o valoare CMYK sau Pantone în ghidul de brand.", "Cere o probă de culoare dacă acuratețea contează, de exemplu la ambalaje sau la un logo."),
+        ],
+      },
+      {
+        id: "rezolutia",
+        heading: "Rezoluția: 300 dpi la dimensiunea reală",
+        blocks: [
+          p("Imaginile au nevoie de circa 300 dpi la dimensiunea la care se tipăresc. O poză care arată clar la 1000 de pixeli lățime pe ecran va fi prea mică pentru un pliant A4. Nu mări pur și simplu o imagine mică: va arăta fadă. Caută o variantă originală mai mare."),
+        ],
+      },
+      {
+        id: "fonturi-si-text",
+        heading: "Fonturi, text și negru",
+        blocks: [
+          ul("Convertește textul în contururi sau încorporează fonturile la exportul PDF.", "Evită textul mai mic de aproximativ 6 pt și fii atent cu textul deschis pe fundal închis.", "Pentru textul negru, folosește negru pur (doar K), nu un amestec de patru cerneluri.", "Folosește rich black doar pentru suprafețe mari negre și cere tipografiei valorile recomandate."),
+        ],
+      },
+      {
+        id: "lista-finala",
+        heading: "O listă finală înainte să trimiți",
+        blocks: [
+          ul("Dimensiunea finală și orientarea sunt corecte.", "Bleed-ul și semnele de tăiere sunt incluse, dacă sunt cerute.", "Toate imaginile au 300 dpi la dimensiunea reală.", "Culorile sunt în CMYK, iar textul negru este negru pur.", "Fonturile sunt încorporate sau transformate în contururi.", "Codurile QR, numerele de telefon și ortografia au fost verificate.", "Ai confirmarea tipografiei pentru format și cantitate."),
+          p("Dacă tipărești ceva important, comandă mai întâi o singură probă. Costă puțin față de un tiraj întreg care are o greșeală."),
+        ],
+      },
+      {
+        id: "export-si-verificare",
+        heading: "Exportă și verifică",
+        blocks: [
+          ol("Exportă un PDF în presetarea tipografiei, de exemplu PDF/X-4 sau cea pe care o primești.", "Include semnele de tăiere și bleed-ul, dacă sunt cerute.", "Deschide PDF-ul și mărește ca să verifici textul, marginile și imaginile.", "Verifică ortografia, numerele de telefon și codurile QR. Scanează codul QR cu un telefon."),
+          p("Fă asta o dată și păstrează setările ca șablon. Dacă ai nevoie de ajutor la pregătirea fișierelor de tipar sau la proiectarea materialelor tipărite, vezi lucrările mele de design de print."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Ce înseamnă bleed la tipar?"),
+          p("Bleed-ul este zona suplimentară de fundal care depășește linia de tăiere, ca să nu apară margini albe după tăiere."),
+          h3("De ce arată culorile tipărite altfel decât pe ecran?"),
+          p("Ecranele folosesc lumină, iar imprimantele cerneală, deci culorile vii pot ieși mai șterse la tipar. Proiectarea în CMYK și comandarea unei probe ajută."),
+          h3("Ce rezoluție am nevoie pentru tipar?"),
+          p("Aproximativ 300 dpi la dimensiunea finală tipărită. O rezoluție mai mică arată fadă sau pixelată."),
+        ],
+      },
+    ],
+    related: { projects: ["global-medical-health", "caterina-tomasso"], services: ["printed-media"] },
+  },
+  {
+    id: "explainer-animation-for-business-and-education",
+    slug: "animatie-2d-explicativa-pentru-business-si-educatie",
+    title: "Animație 2D explicativă pentru business și educație: când funcționează și cum o planifici",
+    seoTitle: "Animație 2D explicativă: ghid",
+    description: "Animațiile explicative fac ideile complicate simple. Află când este animația 2D formatul potrivit, cum scrii scenariul și cum planifici producția.",
+    category: "content-creation",
+    publishedAt: "2026-11-03",
+    cover: { key: "nextlab-cover", alt: "Mâini în mănuși care folosesc un multimetru pentru a testa o placă de bază într-un laborator de electronică" },
+    intro: "Unele idei sunt greu de explicat într-un paragraf: cum funcționează un algoritm, ce include un studiu de fezabilitate, de ce o platformă economisește timp profesorilor. O animație 2D scurtă le poate face clare într-un minut. Timp de trei ani am lucrat in house la NEXTLAB.TECH, unde animațiile au purtat lecțiile unui proiect de informatică și robotică. Iată ce am învățat despre când funcționează formatul și cum îl planifici.",
+    sections: [
+      {
+        id: "cand-functioneaza",
+        heading: "Când este animația 2D alegerea potrivită",
+        blocks: [
+          ul("Subiectul este abstract sau invizibil, precum software, date, procese sau memorie.", "Trebuie să explici același lucru multor oameni, iar și iar.", "Filmarea este nepractică sau scumpă.", "Vrei un ton prietenos, cu personaje și umor.", "Publicul învață, deci claritatea contează mai mult decât spectaculosul."),
+          p("În educație este deosebit de bună: un personaj care vorbește elevului, o scenă care arată un exemplu din viața de zi cu zi și o diagramă simplă pot transforma un concept dificil în ceva familiar."),
+        ],
+      },
+      {
+        id: "un-singur-mesaj",
+        heading: "Începe cu un singur mesaj",
+        blocks: [
+          p("Decide singurul lucru pe care ar trebui să îl înțeleagă sau să îl facă privitorul la final. O animație trebuie să aibă o idee. Dacă ai cinci, fă cinci videoclipuri scurte. În lecțiile noastre, un clip despre algoritmi folosește ca exemplu o rețetă de smoothie: oricine înțelege pașii dintr-o rețetă, deci ideea de algoritm ajunge fără efort."),
+        ],
+      },
+      {
+        id: "scrie-scenariul",
+        heading: "Scrie scenariul pentru ureche",
+        blocks: [
+          ul("Folosește propoziții scurte și cuvinte simple.", "Deschide cu o întrebare sau o situație familiară.", "Dă un exemplu înainte de definiție.", "Încheie cu un rezumat scurt, precum „Deci reține!” din lecțiile noastre.", "Citește-l cu voce tare și taie tot ce sună a manual."),
+          p("Un minut de vorbire înseamnă aproximativ 130–150 de cuvinte. Rămâi la asta și nu va trebui să grăbești imaginile."),
+        ],
+      },
+      {
+        id: "storyboard",
+        heading: "Fă storyboard înainte să animi",
+        blocks: [
+          p("Un storyboard este un rând de cadre simple care arată ce e pe ecran la fiecare propoziție. Este cel mai ieftin loc în care găsești greșeli. Marchează unde apare textul, unde intră personajele și ce se schimbă de la o scenă la alta."),
+        ],
+      },
+      {
+        id: "design-si-animatie",
+        heading: "Păstrează designul simplu și consecvent",
+        blocks: [
+          ol("Alege un set mic de personaje și o paletă clară de culori.", "Folosește un stil de ilustrație consecvent în toate scenele.", "Animă doar ce susține mesajul: o evidențiere, o tranziție, o săgeată desenată.", "Ține textul mare și pe ecran destul cât să poată fi citit de două ori.", "Adaugă subtitrări, ca videoclipul să meargă fără sunet și în săli de clasă zgomotoase."),
+        ],
+      },
+      {
+        id: "ce-influenteaza-timpul-si-efortul",
+        heading: "Ce influențează timpul și efortul",
+        blocks: [
+          ul("Durata videoclipului.", "Numărul de personaje și de scene.", "Cantitatea de ilustrație custom necesară.", "Complexitatea mișcării.", "Cât de repede sunt aprobate feedbackul și scenariul."),
+          p("O animație scurtă, bine planificată, se poate face mult mai repede decât una lungă, cu idei care se schimbă. Scenariul și storyboardul sunt locul unde economisești cel mai mult timp."),
+        ],
+      },
+      {
+        id: "sunet-si-revizuire",
+        heading: "Sunet și revizuire",
+        blocks: [
+          p("O voce clară contează mai mult decât muzica. Ține muzica încet și simplă și lasă mici pauze după replicile importante. Testează videoclipul cu cineva care nu știe nimic despre subiect. Dacă îți poate explica înapoi, funcționează."),
+          p("Poți vedea exemple de animații explicative pe pagina serviciului de animație 2D și în proiectul NEXTLAB.TECH."),
+        ],
+      },
+      {
+        id: "intrebari-frecvente",
+        heading: "Întrebări frecvente",
+        blocks: [
+          h3("Cât de lung ar trebui să fie un videoclip explicativ?"),
+          p("Unul sau două minute funcționează pentru majoritatea subiectelor. Lecțiile mai lungi se împart mai bine în mai multe părți scurte."),
+          h3("Am nevoie de voce off?"),
+          p("O voce clară ajută înțelegerea, mai ales în educație. Subtitrările permit videoclipului să funcționeze fără sunet."),
+          h3("Se poate folosi animația pentru lecții în alte limbi decât engleza?"),
+          p("Da. Ține textul de pe ecran separat de ilustrație, ca să fie ușor de tradus, așa cum am făcut pentru lecțiile în limba română."),
+        ],
+      },
+    ],
+    related: { projects: ["nextlab-tech"], services: ["2d-animation", "content-creation"] },
+  },
 ];
 
 export const getArticle = (slug: string) => articles.find((a) => a.slug === slug);

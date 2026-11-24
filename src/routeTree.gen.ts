@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as StudioRouteImport } from './routes/studio'
 import { Route as ApiContactRouteImport } from './routes/api.contact'
 import { Route as EnIndexRouteImport } from './routes/en.index'
 import { Route as EnContactRouteImport } from './routes/en.contact'
@@ -27,6 +28,17 @@ import { Route as ServicesIndexRouteImport } from './routes/services.index'
 import { Route as ServicesSlugRouteImport } from './routes/services.$slug'
 import { Route as ServiciiIndexRouteImport } from './routes/servicii.index'
 import { Route as ServiciiSlugRouteImport } from './routes/servicii.$slug'
+import { Route as StudioIndexRouteImport } from './routes/studio.index'
+import { Route as StudioAnalyticsRouteImport } from './routes/studio.analytics'
+import { Route as StudioCalendarRouteImport } from './routes/studio.calendar'
+import { Route as StudioExperimentsRouteImport } from './routes/studio.experiments'
+import { Route as StudioIdeasRouteImport } from './routes/studio.ideas'
+import { Route as StudioImportRouteImport } from './routes/studio.import'
+import { Route as StudioNotWorkingRouteImport } from './routes/studio.not-working'
+import { Route as StudioReportsRouteImport } from './routes/studio.reports'
+import { Route as StudioSettingsRouteImport } from './routes/studio.settings'
+import { Route as StudioTrendsRouteImport } from './routes/studio.trends'
+import { Route as StudioWorkingRouteImport } from './routes/studio.working'
 import { Route as EnJournalIndexRouteImport } from './routes/en.journal.index'
 import { Route as EnJournalSlugRouteImport } from './routes/en.journal.$slug'
 import { Route as EnPortfolioIndexRouteImport } from './routes/en.portfolio.index'
@@ -35,6 +47,8 @@ import { Route as EnServicesIndexRouteImport } from './routes/en.services.index'
 import { Route as EnServicesSlugRouteImport } from './routes/en.services.$slug'
 import { Route as JournalCategoryCategoryRouteImport } from './routes/journal.category.$category'
 import { Route as JurnalCategorieCategoryRouteImport } from './routes/jurnal.categorie.$category'
+import { Route as StudioBrandsIndexRouteImport } from './routes/studio.brands.index'
+import { Route as StudioBrandsBrandIdRouteImport } from './routes/studio.brands.$brandId'
 import { Route as EnJournalCategoryCategoryRouteImport } from './routes/en.journal.category.$category'
 
 const IndexRoute = IndexRouteImport.update({
@@ -50,6 +64,11 @@ const ContactRoute = ContactRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StudioRoute = StudioRouteImport.update({
+  id: '/studio',
+  path: '/studio',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApiContactRoute = ApiContactRouteImport.update({
@@ -127,6 +146,61 @@ const ServiciiSlugRoute = ServiciiSlugRouteImport.update({
   path: '/servicii/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StudioIndexRoute = StudioIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioAnalyticsRoute = StudioAnalyticsRouteImport.update({
+  id: '/analytics',
+  path: '/analytics',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioCalendarRoute = StudioCalendarRouteImport.update({
+  id: '/calendar',
+  path: '/calendar',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioExperimentsRoute = StudioExperimentsRouteImport.update({
+  id: '/experiments',
+  path: '/experiments',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioIdeasRoute = StudioIdeasRouteImport.update({
+  id: '/ideas',
+  path: '/ideas',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioImportRoute = StudioImportRouteImport.update({
+  id: '/import',
+  path: '/import',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioNotWorkingRoute = StudioNotWorkingRouteImport.update({
+  id: '/not-working',
+  path: '/not-working',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioReportsRoute = StudioReportsRouteImport.update({
+  id: '/reports',
+  path: '/reports',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioSettingsRoute = StudioSettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioTrendsRoute = StudioTrendsRouteImport.update({
+  id: '/trends',
+  path: '/trends',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioWorkingRoute = StudioWorkingRouteImport.update({
+  id: '/working',
+  path: '/working',
+  getParentRoute: () => StudioRoute,
+} as any)
 const EnJournalIndexRoute = EnJournalIndexRouteImport.update({
   id: '/en/journal/',
   path: '/en/journal/',
@@ -167,6 +241,16 @@ const JurnalCategorieCategoryRoute = JurnalCategorieCategoryRouteImport.update({
   path: '/jurnal/categorie/$category',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StudioBrandsIndexRoute = StudioBrandsIndexRouteImport.update({
+  id: '/brands/',
+  path: '/brands/',
+  getParentRoute: () => StudioRoute,
+} as any)
+const StudioBrandsBrandIdRoute = StudioBrandsBrandIdRouteImport.update({
+  id: '/brands/$brandId',
+  path: '/brands/$brandId',
+  getParentRoute: () => StudioRoute,
+} as any)
 const EnJournalCategoryCategoryRoute =
   EnJournalCategoryCategoryRouteImport.update({
     id: '/en/journal/category/$category',
@@ -178,6 +262,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/studio': typeof StudioRouteWithChildren
   '/api/contact': typeof ApiContactRoute
   '/en/contact': typeof EnContactRoute
   '/journal/$slug': typeof JournalSlugRoute
@@ -186,6 +271,16 @@ export interface FileRoutesByFullPath {
   '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/servicii/$slug': typeof ServiciiSlugRoute
+  '/studio/analytics': typeof StudioAnalyticsRoute
+  '/studio/calendar': typeof StudioCalendarRoute
+  '/studio/experiments': typeof StudioExperimentsRoute
+  '/studio/ideas': typeof StudioIdeasRoute
+  '/studio/import': typeof StudioImportRoute
+  '/studio/not-working': typeof StudioNotWorkingRoute
+  '/studio/reports': typeof StudioReportsRoute
+  '/studio/settings': typeof StudioSettingsRoute
+  '/studio/trends': typeof StudioTrendsRoute
+  '/studio/working': typeof StudioWorkingRoute
   '/en/': typeof EnIndexRoute
   '/journal/': typeof JournalIndexRoute
   '/jurnal/': typeof JurnalIndexRoute
@@ -193,14 +288,17 @@ export interface FileRoutesByFullPath {
   '/portofoliu/': typeof PortofoliuIndexRoute
   '/services/': typeof ServicesIndexRoute
   '/servicii/': typeof ServiciiIndexRoute
+  '/studio/': typeof StudioIndexRoute
   '/en/journal/$slug': typeof EnJournalSlugRoute
   '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
   '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
   '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/studio/brands/$brandId': typeof StudioBrandsBrandIdRoute
   '/en/journal/': typeof EnJournalIndexRoute
   '/en/portfolio/': typeof EnPortfolioIndexRoute
   '/en/services/': typeof EnServicesIndexRoute
+  '/studio/brands/': typeof StudioBrandsIndexRoute
   '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRoutesByTo {
@@ -215,6 +313,16 @@ export interface FileRoutesByTo {
   '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/servicii/$slug': typeof ServiciiSlugRoute
+  '/studio/analytics': typeof StudioAnalyticsRoute
+  '/studio/calendar': typeof StudioCalendarRoute
+  '/studio/experiments': typeof StudioExperimentsRoute
+  '/studio/ideas': typeof StudioIdeasRoute
+  '/studio/import': typeof StudioImportRoute
+  '/studio/not-working': typeof StudioNotWorkingRoute
+  '/studio/reports': typeof StudioReportsRoute
+  '/studio/settings': typeof StudioSettingsRoute
+  '/studio/trends': typeof StudioTrendsRoute
+  '/studio/working': typeof StudioWorkingRoute
   '/en': typeof EnIndexRoute
   '/journal': typeof JournalIndexRoute
   '/jurnal': typeof JurnalIndexRoute
@@ -222,14 +330,17 @@ export interface FileRoutesByTo {
   '/portofoliu': typeof PortofoliuIndexRoute
   '/services': typeof ServicesIndexRoute
   '/servicii': typeof ServiciiIndexRoute
+  '/studio': typeof StudioIndexRoute
   '/en/journal/$slug': typeof EnJournalSlugRoute
   '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
   '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
   '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/studio/brands/$brandId': typeof StudioBrandsBrandIdRoute
   '/en/journal': typeof EnJournalIndexRoute
   '/en/portfolio': typeof EnPortfolioIndexRoute
   '/en/services': typeof EnServicesIndexRoute
+  '/studio/brands': typeof StudioBrandsIndexRoute
   '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRoutesById {
@@ -237,6 +348,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/studio': typeof StudioRouteWithChildren
   '/api/contact': typeof ApiContactRoute
   '/en/contact': typeof EnContactRoute
   '/journal/$slug': typeof JournalSlugRoute
@@ -245,6 +357,16 @@ export interface FileRoutesById {
   '/portofoliu/$slug': typeof PortofoliuSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
   '/servicii/$slug': typeof ServiciiSlugRoute
+  '/studio/analytics': typeof StudioAnalyticsRoute
+  '/studio/calendar': typeof StudioCalendarRoute
+  '/studio/experiments': typeof StudioExperimentsRoute
+  '/studio/ideas': typeof StudioIdeasRoute
+  '/studio/import': typeof StudioImportRoute
+  '/studio/not-working': typeof StudioNotWorkingRoute
+  '/studio/reports': typeof StudioReportsRoute
+  '/studio/settings': typeof StudioSettingsRoute
+  '/studio/trends': typeof StudioTrendsRoute
+  '/studio/working': typeof StudioWorkingRoute
   '/en/': typeof EnIndexRoute
   '/journal/': typeof JournalIndexRoute
   '/jurnal/': typeof JurnalIndexRoute
@@ -252,14 +374,17 @@ export interface FileRoutesById {
   '/portofoliu/': typeof PortofoliuIndexRoute
   '/services/': typeof ServicesIndexRoute
   '/servicii/': typeof ServiciiIndexRoute
+  '/studio/': typeof StudioIndexRoute
   '/en/journal/$slug': typeof EnJournalSlugRoute
   '/en/portfolio/$slug': typeof EnPortfolioSlugRoute
   '/en/services/$slug': typeof EnServicesSlugRoute
   '/journal/category/$category': typeof JournalCategoryCategoryRoute
   '/jurnal/categorie/$category': typeof JurnalCategorieCategoryRoute
+  '/studio/brands/$brandId': typeof StudioBrandsBrandIdRoute
   '/en/journal/': typeof EnJournalIndexRoute
   '/en/portfolio/': typeof EnPortfolioIndexRoute
   '/en/services/': typeof EnServicesIndexRoute
+  '/studio/brands/': typeof StudioBrandsIndexRoute
   '/en/journal/category/$category': typeof EnJournalCategoryCategoryRoute
 }
 export interface FileRouteTypes {
@@ -268,6 +393,7 @@ export interface FileRouteTypes {
     | '/'
     | '/contact'
     | '/sitemap.xml'
+    | '/studio'
     | '/api/contact'
     | '/en/contact'
     | '/journal/$slug'
@@ -276,6 +402,16 @@ export interface FileRouteTypes {
     | '/portofoliu/$slug'
     | '/services/$slug'
     | '/servicii/$slug'
+    | '/studio/analytics'
+    | '/studio/calendar'
+    | '/studio/experiments'
+    | '/studio/ideas'
+    | '/studio/import'
+    | '/studio/not-working'
+    | '/studio/reports'
+    | '/studio/settings'
+    | '/studio/trends'
+    | '/studio/working'
     | '/en/'
     | '/journal/'
     | '/jurnal/'
@@ -283,14 +419,17 @@ export interface FileRouteTypes {
     | '/portofoliu/'
     | '/services/'
     | '/servicii/'
+    | '/studio/'
     | '/en/journal/$slug'
     | '/en/portfolio/$slug'
     | '/en/services/$slug'
     | '/journal/category/$category'
     | '/jurnal/categorie/$category'
+    | '/studio/brands/$brandId'
     | '/en/journal/'
     | '/en/portfolio/'
     | '/en/services/'
+    | '/studio/brands/'
     | '/en/journal/category/$category'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -305,6 +444,16 @@ export interface FileRouteTypes {
     | '/portofoliu/$slug'
     | '/services/$slug'
     | '/servicii/$slug'
+    | '/studio/analytics'
+    | '/studio/calendar'
+    | '/studio/experiments'
+    | '/studio/ideas'
+    | '/studio/import'
+    | '/studio/not-working'
+    | '/studio/reports'
+    | '/studio/settings'
+    | '/studio/trends'
+    | '/studio/working'
     | '/en'
     | '/journal'
     | '/jurnal'
@@ -312,20 +461,24 @@ export interface FileRouteTypes {
     | '/portofoliu'
     | '/services'
     | '/servicii'
+    | '/studio'
     | '/en/journal/$slug'
     | '/en/portfolio/$slug'
     | '/en/services/$slug'
     | '/journal/category/$category'
     | '/jurnal/categorie/$category'
+    | '/studio/brands/$brandId'
     | '/en/journal'
     | '/en/portfolio'
     | '/en/services'
+    | '/studio/brands'
     | '/en/journal/category/$category'
   id:
     | '__root__'
     | '/'
     | '/contact'
     | '/sitemap.xml'
+    | '/studio'
     | '/api/contact'
     | '/en/contact'
     | '/journal/$slug'
@@ -334,6 +487,16 @@ export interface FileRouteTypes {
     | '/portofoliu/$slug'
     | '/services/$slug'
     | '/servicii/$slug'
+    | '/studio/analytics'
+    | '/studio/calendar'
+    | '/studio/experiments'
+    | '/studio/ideas'
+    | '/studio/import'
+    | '/studio/not-working'
+    | '/studio/reports'
+    | '/studio/settings'
+    | '/studio/trends'
+    | '/studio/working'
     | '/en/'
     | '/journal/'
     | '/jurnal/'
@@ -341,14 +504,17 @@ export interface FileRouteTypes {
     | '/portofoliu/'
     | '/services/'
     | '/servicii/'
+    | '/studio/'
     | '/en/journal/$slug'
     | '/en/portfolio/$slug'
     | '/en/services/$slug'
     | '/journal/category/$category'
     | '/jurnal/categorie/$category'
+    | '/studio/brands/$brandId'
     | '/en/journal/'
     | '/en/portfolio/'
     | '/en/services/'
+    | '/studio/brands/'
     | '/en/journal/category/$category'
   fileRoutesById: FileRoutesById
 }
@@ -356,6 +522,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContactRoute: typeof ContactRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  StudioRoute: typeof StudioRouteWithChildren
   ApiContactRoute: typeof ApiContactRoute
   EnContactRoute: typeof EnContactRoute
   JournalSlugRoute: typeof JournalSlugRoute
@@ -403,6 +570,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/studio': {
+      id: '/studio'
+      path: '/studio'
+      fullPath: '/studio'
+      preLoaderRoute: typeof StudioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/contact': {
@@ -510,6 +684,83 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiciiSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/studio/': {
+      id: '/studio/'
+      path: '/'
+      fullPath: '/studio/'
+      preLoaderRoute: typeof StudioIndexRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/analytics': {
+      id: '/studio/analytics'
+      path: '/analytics'
+      fullPath: '/studio/analytics'
+      preLoaderRoute: typeof StudioAnalyticsRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/calendar': {
+      id: '/studio/calendar'
+      path: '/calendar'
+      fullPath: '/studio/calendar'
+      preLoaderRoute: typeof StudioCalendarRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/experiments': {
+      id: '/studio/experiments'
+      path: '/experiments'
+      fullPath: '/studio/experiments'
+      preLoaderRoute: typeof StudioExperimentsRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/ideas': {
+      id: '/studio/ideas'
+      path: '/ideas'
+      fullPath: '/studio/ideas'
+      preLoaderRoute: typeof StudioIdeasRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/import': {
+      id: '/studio/import'
+      path: '/import'
+      fullPath: '/studio/import'
+      preLoaderRoute: typeof StudioImportRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/not-working': {
+      id: '/studio/not-working'
+      path: '/not-working'
+      fullPath: '/studio/not-working'
+      preLoaderRoute: typeof StudioNotWorkingRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/reports': {
+      id: '/studio/reports'
+      path: '/reports'
+      fullPath: '/studio/reports'
+      preLoaderRoute: typeof StudioReportsRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/settings': {
+      id: '/studio/settings'
+      path: '/settings'
+      fullPath: '/studio/settings'
+      preLoaderRoute: typeof StudioSettingsRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/trends': {
+      id: '/studio/trends'
+      path: '/trends'
+      fullPath: '/studio/trends'
+      preLoaderRoute: typeof StudioTrendsRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/working': {
+      id: '/studio/working'
+      path: '/working'
+      fullPath: '/studio/working'
+      preLoaderRoute: typeof StudioWorkingRouteImport
+      parentRoute: typeof StudioRoute
+    }
     '/en/journal/': {
       id: '/en/journal/'
       path: '/en/journal'
@@ -566,6 +817,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof JurnalCategorieCategoryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/studio/brands/': {
+      id: '/studio/brands/'
+      path: '/brands'
+      fullPath: '/studio/brands/'
+      preLoaderRoute: typeof StudioBrandsIndexRouteImport
+      parentRoute: typeof StudioRoute
+    }
+    '/studio/brands/$brandId': {
+      id: '/studio/brands/$brandId'
+      path: '/brands/$brandId'
+      fullPath: '/studio/brands/$brandId'
+      preLoaderRoute: typeof StudioBrandsBrandIdRouteImport
+      parentRoute: typeof StudioRoute
+    }
     '/en/journal/category/$category': {
       id: '/en/journal/category/$category'
       path: '/en/journal/category/$category'
@@ -576,10 +841,46 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface StudioRouteChildren {
+  StudioAnalyticsRoute: typeof StudioAnalyticsRoute
+  StudioCalendarRoute: typeof StudioCalendarRoute
+  StudioExperimentsRoute: typeof StudioExperimentsRoute
+  StudioIdeasRoute: typeof StudioIdeasRoute
+  StudioImportRoute: typeof StudioImportRoute
+  StudioNotWorkingRoute: typeof StudioNotWorkingRoute
+  StudioReportsRoute: typeof StudioReportsRoute
+  StudioSettingsRoute: typeof StudioSettingsRoute
+  StudioTrendsRoute: typeof StudioTrendsRoute
+  StudioWorkingRoute: typeof StudioWorkingRoute
+  StudioIndexRoute: typeof StudioIndexRoute
+  StudioBrandsBrandIdRoute: typeof StudioBrandsBrandIdRoute
+  StudioBrandsIndexRoute: typeof StudioBrandsIndexRoute
+}
+
+const StudioRouteChildren: StudioRouteChildren = {
+  StudioAnalyticsRoute: StudioAnalyticsRoute,
+  StudioCalendarRoute: StudioCalendarRoute,
+  StudioExperimentsRoute: StudioExperimentsRoute,
+  StudioIdeasRoute: StudioIdeasRoute,
+  StudioImportRoute: StudioImportRoute,
+  StudioNotWorkingRoute: StudioNotWorkingRoute,
+  StudioReportsRoute: StudioReportsRoute,
+  StudioSettingsRoute: StudioSettingsRoute,
+  StudioTrendsRoute: StudioTrendsRoute,
+  StudioWorkingRoute: StudioWorkingRoute,
+  StudioIndexRoute: StudioIndexRoute,
+  StudioBrandsBrandIdRoute: StudioBrandsBrandIdRoute,
+  StudioBrandsIndexRoute: StudioBrandsIndexRoute,
+}
+
+const StudioRouteWithChildren =
+  StudioRoute._addFileChildren(StudioRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContactRoute: ContactRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  StudioRoute: StudioRouteWithChildren,
   ApiContactRoute: ApiContactRoute,
   EnContactRoute: EnContactRoute,
   JournalSlugRoute: JournalSlugRoute,

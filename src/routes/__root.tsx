@@ -4,6 +4,7 @@ import {
   Link,
   createRootRouteWithContext,
   useRouter,
+  useRouterState,
   HeadContent,
   Scripts,
   type ErrorComponentProps,
@@ -81,7 +82,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Daring Muse | Graphic Designer & Art Director" },
-      { name: "description", content: "Portfolio of Diana Vîlceanu: branding, social media design and art direction." },
+      {
+        name: "description",
+        content: "Portfolio of Diana Vîlceanu: branding, social media design and art direction.",
+      },
       { name: "author", content: "Diana Vîlceanu" },
       { name: "theme-color", content: "#0c032c" },
     ],
@@ -123,11 +127,24 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
+  // The social media Command Center is a private app with its own shell: no site header/footer.
+  if (pathname === "/studio" || pathname.startsWith("/studio/")) {
+    return (
+      <QueryClientProvider client={queryClient}>
+        <Outlet />
+      </QueryClientProvider>
+    );
+  }
 
   return (
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-background focus:px-4 focus:py-2">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-background focus:px-4 focus:py-2"
+      >
         <SkipLabel />
       </a>
       <SiteHeader />

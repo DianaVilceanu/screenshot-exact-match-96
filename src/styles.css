@@ -130,6 +130,83 @@
   --muted: oklch(0.92 0.015 250);
 }
 
+/* Social Media Command Center (/studio): dark green, off-white, muted neutrals.
+   Applied on <html> while the studio is mounted so portals (dialogs, sheets) inherit it. */
+[data-theme="studio"] {
+  --radius: 8px;
+  --background: #f5f3ed;
+  --foreground: #16231d;
+  --card: #fffdf9;
+  --card-foreground: #16231d;
+  --popover: #fffdf9;
+  --popover-foreground: #16231d;
+  --primary: #1d3b2f;
+  --primary-foreground: #f5f3ed;
+  --secondary: #e8ebe3;
+  --secondary-foreground: #16231d;
+  --muted: #ecebe4;
+  --muted-foreground: #5b655f;
+  --accent: #dde6dc;
+  --accent-foreground: #16231d;
+  --border: rgb(22 35 29 / 11%);
+  --input: rgb(22 35 29 / 20%);
+  --ring: #2f6b4f;
+  --placeholder: #a97a00;
+  --sidebar-bg: #17302a;
+  --sidebar-fg: #e6ece6;
+  --sidebar-muted: #9fb3a8;
+  --good: #2f7d4f;
+  --warn: #a97a00;
+  --bad: #b4452c;
+  --series-1: #0f7d5c;
+  --series-2: #2f6fd6;
+  --series-3: #d6582c;
+  --series-4: #a64ea3;
+  --series-5: #a97a00;
+  --grid: rgb(22 35 29 / 8%);
+}
+[data-theme="studio"][data-mode="dark"] {
+  --background: #0f1512;
+  --foreground: #e7ebe5;
+  --card: #151d19;
+  --card-foreground: #e7ebe5;
+  --popover: #151d19;
+  --popover-foreground: #e7ebe5;
+  --primary: #9cc9ae;
+  --primary-foreground: #0f1512;
+  --secondary: #1d2722;
+  --secondary-foreground: #e7ebe5;
+  --muted: #1b2420;
+  --muted-foreground: #9aa69f;
+  --accent: #22302a;
+  --accent-foreground: #e7ebe5;
+  --border: rgb(231 235 229 / 11%);
+  --input: rgb(231 235 229 / 20%);
+  --ring: #6fb08b;
+  --placeholder: #c99512;
+  --sidebar-bg: #0b100d;
+  --sidebar-fg: #e6ece6;
+  --sidebar-muted: #8fa398;
+  --good: #5fb37f;
+  --warn: #c99512;
+  --bad: #e0693d;
+  --series-1: #25a07a;
+  --series-2: #4f8ae8;
+  --series-3: #e0693d;
+  --series-4: #c46bc0;
+  --series-5: #b8890f;
+  --grid: rgb(231 235 229 / 8%);
+  color-scheme: dark;
+}
+[data-theme="studio"] ::selection {
+  background: #cfe0d4;
+  color: #16231d;
+}
+@media print {
+  [data-theme="studio"] .no-print { display: none !important; }
+  [data-theme="studio"] .print-full { margin: 0 !important; padding: 0 !important; }
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
